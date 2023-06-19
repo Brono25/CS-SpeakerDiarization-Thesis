@@ -6,15 +6,16 @@
 #PBS -M b.ashford@student.unsw.edu.au
 #PBS -m ae
 #PBS -j oe
-#PBS -o /home/z5146619/katana/output_rttm
+#PBS -o /home/z5146619/katana/pbs_output
 
 # load necessary modules
 module load ffmpeg || exit 1
 
 cd $PBS_O_WORKDIR
 
-DEST_PATH_ENG="/home/z5146619/data/eng_wav"
-DEST_PATH_SPA="/home/z5146619/data/spa_wav"
+SCRATCH="/srv/scratch/z5146619"
+DEST_PATH_ENG="$SCRATCH/data/eng_wav"
+DEST_PATH_SPA="$SCRATCH/data/spa_wav"
 
 for file in /home/z5146619/data/eng_mp3/* ; do
     ext="${file##*.}"
