@@ -1,0 +1,18 @@
+Agent pid 2150202
+Identity added: /home/z5146619/.ssh/github (b.ashford@student.unsw.edu.au)
+torchvision is not available - cannot save figures
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.0.3. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint --file ../.cache/torch/pyannote/models--pyannote--segmentation/snapshots/c4c8ceafcbb3a7a280c2d357aee9fbc9b0be7f9b/pytorch_model.bin`
+Running on device: cuda
+Model was trained with pyannote.audio 0.0.1, yours is 2.1.1. Bad things might happen unless you revert pyannote.audio to 0.x.
+Model was trained with torch 1.10.0+cu102, yours is 2.0.1+cu117. Bad things might happen unless you revert torch to 1.x.
+Traceback (most recent call last):
+  File "/home/z5146619/katana/diarization.py", line 27, in <module>
+    diarization = pipeline(file_path)
+  File "/home/z5146619/environments/pyannote-env/lib/python3.10/site-packages/pyannote/audio/core/pipeline.py", line 325, in __call__
+    return self.apply(file, **kwargs)
+  File "/home/z5146619/environments/pyannote-env/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_diarization.py", line 491, in apply
+    embeddings = self.get_embeddings(
+  File "/home/z5146619/environments/pyannote-env/lib/python3.10/site-packages/pyannote/audio/pipelines/speaker_diarization.py", line 329, in get_embeddings
+    waveform_batch = torch.vstack(waveforms)
+RuntimeError: Sizes of tensors must match except in dimension 0. Expected size 80000 but got size 78773 for tensor number 22 in the list.
+cp: cannot stat '/scratch/pbs.4547044.kman.restech.unsw.edu.au/my_output': No such file or directory
