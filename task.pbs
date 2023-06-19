@@ -18,11 +18,6 @@ source /home/z5146619/environments/pyannote-env/bin/activate
 cd $PBS_O_WORKDIR
 
 # run your python script
-python diarization.py "$HOME/data/eng_mp3/zeledon02.mp3"
-
-# copy any results back to your home directory if needed
-cp -r $TMPDIR/my_output /home/z1234567/results
-
-
+python diarization.py "/home/z5146619/katana-sync/herring01.wav"
 
 
