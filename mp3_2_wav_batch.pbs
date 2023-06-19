@@ -14,8 +14,8 @@ module load ffmpeg || exit 1
 cd $PBS_O_WORKDIR
 
 SCRATCH="/srv/scratch/z5146619"
-DEST_PATH_ENG="$SCRATCH/data/eng_wav"
-DEST_PATH_SPA="$SCRATCH/data/spa_wav"
+DEST_PATH_ENG="$SCRATCH/eng_wav"
+DEST_PATH_SPA="$SCRATCH/spa_wav"
 
 for file in /home/z5146619/data/eng_mp3/* ; do
     ext="${file##*.}"
