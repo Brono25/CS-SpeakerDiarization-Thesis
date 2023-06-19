@@ -1,0 +1,1010 @@
+Processing /home/z5146619/data/eng_mp3/herring01.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xbfa240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring01.mp3':
+  Duration: 00:32:18.52, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring01.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring01.mp3
+Processing /home/z5146619/data/eng_mp3/herring02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1d26240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring02.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:42.06, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring02.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring02.mp3
+Processing /home/z5146619/data/eng_mp3/herring03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xdbc240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring03.mp3':
+  Duration: 00:31:37.09, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring03.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring03.mp3
+Processing /home/z5146619/data/eng_mp3/herring05.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x16aa240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring05.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:27:10.54, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring05.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring05.mp3
+Processing /home/z5146619/data/eng_mp3/herring06.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1bad240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring06.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:28:14.88, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring06.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring06.mp3
+Processing /home/z5146619/data/eng_mp3/herring07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x965240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring07.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:24:53.03, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring07.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring07.mp3
+Processing /home/z5146619/data/eng_mp3/herring08.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x183d240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring08.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:29:43.88, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring08.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring08.mp3
+Processing /home/z5146619/data/eng_mp3/herring09.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2246240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring09.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:32:39.95, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring09.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring09.mp3
+Processing /home/z5146619/data/eng_mp3/herring10.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x25f1240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring10.mp3':
+  Duration: 00:30:11.54, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring10.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring10.mp3
+Processing /home/z5146619/data/eng_mp3/herring11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1420240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring11.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:31:00.26, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring11.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring11.mp3
+Processing /home/z5146619/data/eng_mp3/herring12.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1da4240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring12.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:33:07.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring12.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring12.mp3
+Processing /home/z5146619/data/eng_mp3/herring13.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xb54240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring13.mp3':
+  Duration: 00:29:53.72, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring13.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring13.mp3
+Processing /home/z5146619/data/eng_mp3/herring14.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1b3f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring14.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:04.60, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring14.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring14.mp3
+Processing /home/z5146619/data/eng_mp3/herring15.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2319240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring15.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:29:53.70, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring15.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring15.mp3
+Processing /home/z5146619/data/eng_mp3/herring16.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x13b7240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring16.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:51.09, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring16.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring16.mp3
+Processing /home/z5146619/data/eng_mp3/herring17.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1db2240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring17.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:29:58.51, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/herring17.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/herring17.mp3
+Processing /home/z5146619/data/eng_mp3/maria01.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x12e6240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria01.mp3':
+  Duration: 00:15:02.24, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria01.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria01.mp3
+Processing /home/z5146619/data/eng_mp3/maria02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1a7e240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria02.mp3':
+  Duration: 00:01:42.40, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria02.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria02.mp3
+Processing /home/z5146619/data/eng_mp3/maria04.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1cbd240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria04.mp3':
+  Duration: 00:17:22.52, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria04.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria04.mp3
+Processing /home/z5146619/data/eng_mp3/maria07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x15ec240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria07.mp3':
+  Duration: 00:04:35.04, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria07.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria07.mp3
+Processing /home/z5146619/data/eng_mp3/maria10.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2530240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria10.mp3':
+  Duration: 00:17:32.63, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria10.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria10.mp3
+Processing /home/z5146619/data/eng_mp3/maria16.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x242f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria16.mp3':
+  Duration: 02:41:36.99, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria16.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria16.mp3
+Processing /home/z5146619/data/eng_mp3/maria18.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1e46240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria18.mp3':
+  Duration: 01:38:40.13, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria18.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria18.mp3
+Processing /home/z5146619/data/eng_mp3/maria19.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x238c240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria19.mp3':
+  Duration: 00:53:58.45, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria19.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria19.mp3
+Processing /home/z5146619/data/eng_mp3/maria20.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xded240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria20.mp3':
+  Duration: 00:31:50.18, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria20.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria20.mp3
+Processing /home/z5146619/data/eng_mp3/maria24.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x126a240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria24.mp3':
+  Duration: 00:41:40.23, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria24.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria24.mp3
+Processing /home/z5146619/data/eng_mp3/maria27.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xfe4240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria27.mp3':
+  Duration: 01:22:55.26, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria27.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria27.mp3
+Processing /home/z5146619/data/eng_mp3/maria30.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1e64240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria30.mp3':
+  Duration: 00:59:58.65, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria30.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria30.mp3
+Processing /home/z5146619/data/eng_mp3/maria31.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xb8f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria31.mp3':
+  Duration: 01:45:40.94, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/maria31.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/maria31.mp3
+Processing /home/z5146619/data/eng_mp3/sastre03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2652240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre03.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:43:02.26, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre03.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre03.mp3
+Processing /home/z5146619/data/eng_mp3/sastre04.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xcab240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre04.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:31:26.80, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre04.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre04.mp3
+Processing /home/z5146619/data/eng_mp3/sastre06.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xf1b240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre06.mp3':
+  Duration: 00:30:20.16, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre06.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre06.mp3
+Processing /home/z5146619/data/eng_mp3/sastre07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x167a240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre07.mp3':
+  Duration: 00:29:58.22, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre07.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre07.mp3
+Processing /home/z5146619/data/eng_mp3/sastre08.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xc6f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre08.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:33:20.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre08.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre08.mp3
+Processing /home/z5146619/data/eng_mp3/sastre09.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x96c240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre09.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:40:02.15, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre09.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre09.mp3
+Processing /home/z5146619/data/eng_mp3/sastre10.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x8ba240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre10.mp3':
+  Duration: 00:39:25.49, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre10.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre10.mp3
+Processing /home/z5146619/data/eng_mp3/sastre11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xadc240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre11.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:40:25.34, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre11.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre11.mp3
+Processing /home/z5146619/data/eng_mp3/sastre12.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xb58240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre12.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:58.77, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre12.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre12.mp3
+Processing /home/z5146619/data/eng_mp3/sastre13.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xa6b240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre13.mp3':
+  Duration: 00:29:42.65, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/sastre13.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/sastre13.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x92f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon02.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:26:53.93, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon02.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon02.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x22b9240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon03.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:25.29, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon03.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon03.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon04.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2414240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon04.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:21:48.90, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon04.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon04.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon06.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1a7d240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon06.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:26.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon06.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon06.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon08.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x188c240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon08.mp3':
+  Duration: 00:37:53.41, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon08.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon08.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon09.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xd62240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon09.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:51.67, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon09.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon09.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xbd0240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon11.mp3':
+  Duration: 00:30:43.20, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon11.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon11.mp3
+Processing /home/z5146619/data/eng_mp3/zeledon13.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1cb5240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon13.mp3':
+  Duration: 00:34:42.93, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/eng_wav/zeledon13.wav: No such file or directory
+Failed to convert /home/z5146619/data/eng_mp3/zeledon13.mp3
+Processing /home/z5146619/data/spa_mp3/herring02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2508240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring02.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:42.06, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/spa_wav/herring02.wav: No such file or directory
+Failed to convert /home/z5146619/data/spa_mp3/herring02.mp3
+Processing /home/z5146619/data/spa_mp3/herring03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x166b240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring03.mp3':
+  Duration: 00:31:37.09, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+/srv/scratch/z5146619/data/spa_wav/herring03.wav: No such file or directory
+Failed to convert /home/z5146619/data/spa_mp3/herring03.mp3
+Processing /home/z5146619/data/spa_mp3/herring05.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x22c2240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring05.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:27:10.54, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/spa_wav/herring05.wav: No such file or directory
+Failed to convert /home/z5146619/data/spa_mp3/herring05.mp3
+Processing /home/z5146619/data/spa_mp3/herring11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x243d240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring11.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:31:00.26, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/spa_wav/herring11.wav: No such file or directory
+Failed to convert /home/z5146619/data/spa_mp3/herring11.mp3
+Processing /home/z5146619/data/spa_mp3/herring12.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xaf9240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring12.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:33:07.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/spa_wav/herring12.wav: No such file or directory
+Failed to convert /home/z5146619/data/spa_mp3/herring12.mp3
+Processing /home/z5146619/data/spa_mp3/herring14.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x18c4240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring14.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:04.60, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+/srv/scratch/z5146619/data/spa_wav/herring14.wav: No such file or directory
+Failed to convert /home/z5146619/data/spa_mp3/herring14.mp3
