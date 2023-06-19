@@ -1,4 +1,13 @@
 
+
+
+# audio files
+*.wav
+*.mp3
+*.mp4
+*.mov
+
+
 package-lock.json
 node_modules
 build
