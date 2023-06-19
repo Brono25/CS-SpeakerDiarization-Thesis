@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#PBS -N diarization test
+#PBS -N diarization_test
 #PBS -l select=1:ncpus=4:ngpus=1:mem=16gb
 #PBS -l walltime=01:00:00
 #PBS -M b.ashford@student.unsw.edu.au
