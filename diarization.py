@@ -27,7 +27,7 @@ if len(sys.argv) > 1:
     diarization = pipeline(file_path)
 
     # Dump the diarization output to disk using RTTM format
-    with open(f"{file_name}_output.rttm", "w") as rttm:
+    with open(f"output_rttm/{file_name}_output.rttm", "w") as rttm:
         diarization.write_rttm(rttm)
 else:
     print("Please provide the file path as a command-line argument.")
