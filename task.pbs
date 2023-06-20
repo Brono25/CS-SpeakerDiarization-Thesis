@@ -18,6 +18,18 @@ source /home/z5146619/environments/pyannote-env/bin/activate
 cd $PBS_O_WORKDIR
 
 # run your python script
+
+DATA_PATH='/srv/scratch/z5146619/'
+
+for wav_file in "${DATA_PATH}/eng_wav/"* "${DATA_PATH}/spa_wav/"*; do
+
+	echo
+
+done
+
+
+
+
 python diarization.py "/home/z5146619/katana-sync/herring01.wav"
 
 
