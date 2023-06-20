@@ -1,0 +1,1636 @@
+Processing /home/z5146619/data/eng_mp3/herring01.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x159e240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring01.mp3':
+  Duration: 00:32:18.52, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring01.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   72448kB time=00:07:01.04 bitrate=1409.6kbits/s speed= 842x    size=  144896kB time=00:14:01.56 bitrate=1410.5kbits/s speed= 842x    size=  218368kB time=00:21:08.24 bitrate=1410.5kbits/s speed= 845x    size=  291840kB time=00:28:14.27 bitrate=1411.1kbits/s speed= 847x    size=  333941kB time=00:32:18.49 bitrate=1411.2kbits/s speed= 848x    
+video:0kB audio:333940kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000023%
+Processing /home/z5146619/data/eng_mp3/herring06.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x9c1240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring06.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:28:14.88, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring06.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66048kB time=00:06:23.71 bitrate=1410.1kbits/s speed= 767x    size=  133376kB time=00:12:54.92 bitrate=1410.0kbits/s speed= 775x    size=  199680kB time=00:19:19.47 bitrate=1410.8kbits/s speed= 773x    size=  265984kB time=00:25:44.04 bitrate=1411.2kbits/s speed= 772x    size=  291969kB time=00:28:14.85 bitrate=1411.2kbits/s speed= 773x    
+video:0kB audio:291969kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000031%
+Processing /home/z5146619/data/eng_mp3/herring07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xff1240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring07.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:24:53.03, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring07.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66304kB time=00:06:24.96 bitrate=1410.9kbits/s speed= 770x    size=  132608kB time=00:12:51.03 bitrate=1408.9kbits/s speed= 771x    size=  199424kB time=00:19:18.42 bitrate=1410.3kbits/s speed= 772x    size=  257198kB time=00:24:53.00 bitrate=1411.2kbits/s speed= 777x    
+video:0kB audio:257198kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000035%
+Processing /home/z5146619/data/eng_mp3/herring08.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1fd7240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring08.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:29:43.88, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring08.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66560kB time=00:06:27.42 bitrate=1407.4kbits/s speed= 775x    size=  134144kB time=00:12:59.99 bitrate=1408.9kbits/s speed= 780x    size=  201984kB time=00:19:33.55 bitrate=1410.0kbits/s speed= 782x    size=  269824kB time=00:26:07.24 bitrate=1410.4kbits/s speed= 784x    size=  307301kB time=00:29:43.84 bitrate=1411.2kbits/s speed= 784x    
+video:0kB audio:307300kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000029%
+Processing /home/z5146619/data/eng_mp3/herring09.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xe4c240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring09.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:32:39.95, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring09.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   66560kB time=00:06:26.42 bitrate=1411.0kbits/s speed= 773x    size=  133888kB time=00:12:58.29 bitrate=1409.3kbits/s speed= 778x    size=  201984kB time=00:19:32.53 bitrate=1411.2kbits/s speed= 782x    size=  269824kB time=00:26:07.19 bitrate=1410.4kbits/s speed= 784x    size=  337631kB time=00:32:39.91 bitrate=1411.2kbits/s speed= 784x    
+video:0kB audio:337630kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000027%
+Processing /home/z5146619/data/eng_mp3/herring10.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x69e240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring10.mp3':
+  Duration: 00:30:11.54, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring10.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   72960kB time=00:07:04.54 bitrate=1407.8kbits/s speed= 849x    size=  150016kB time=00:14:31.10 bitrate=1410.8kbits/s speed= 871x    size=  224512kB time=00:21:44.52 bitrate=1409.9kbits/s speed= 870x    size=  300288kB time=00:29:04.01 bitrate=1410.5kbits/s speed= 872x    size=  312066kB time=00:30:11.51 bitrate=1411.2kbits/s speed= 872x    
+video:0kB audio:312066kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000024%
+Processing /home/z5146619/data/eng_mp3/herring13.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xbde240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring13.mp3':
+  Duration: 00:29:53.72, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring13.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   76032kB time=00:07:21.88 bitrate=1409.5kbits/s speed= 884x    size=  159488kB time=00:15:26.58 bitrate=1410.0kbits/s speed= 927x    size=  235520kB time=00:22:47.69 bitrate=1410.7kbits/s speed= 912x    size=  308997kB time=00:29:53.69 bitrate=1411.2kbits/s speed= 914x    
+video:0kB audio:308997kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000025%
+Processing /home/z5146619/data/eng_mp3/herring15.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x14c2240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring15.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:29:53.70, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring15.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   67072kB time=00:06:29.51 bitrate=1410.6kbits/s speed= 779x    size=  135168kB time=00:13:04.87 bitrate=1410.8kbits/s speed= 785x    size=  203264kB time=00:19:40.86 bitrate=1410.1kbits/s speed= 787x    size=  271872kB time=00:26:18.57 bitrate=1410.9kbits/s speed= 789x    size=  308993kB time=00:29:53.67 bitrate=1411.2kbits/s speed= 790x    
+video:0kB audio:308992kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000029%
+Processing /home/z5146619/data/eng_mp3/herring16.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2508240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring16.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:51.09, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring16.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   66048kB time=00:06:24.39 bitrate=1407.6kbits/s speed= 769x    size=  132864kB time=00:12:52.20 bitrate=1409.5kbits/s speed= 772x    size=  199680kB time=00:19:19.34 bitrate=1411.0kbits/s speed= 773x    size=  267008kB time=00:25:50.02 bitrate=1411.2kbits/s speed= 775x    size=  318879kB time=00:30:51.06 bitrate=1411.2kbits/s speed= 776x    
+video:0kB audio:318879kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000028%
+Processing /home/z5146619/data/eng_mp3/herring17.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x8c6240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/herring17.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:29:58.51, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/herring17.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   67328kB time=00:06:31.41 bitrate=1409.1kbits/s speed= 783x    size=  135680kB time=00:13:08.24 bitrate=1410.1kbits/s speed= 788x    size=  204288kB time=00:19:46.82 bitrate=1410.1kbits/s speed= 791x    size=  272896kB time=00:26:24.48 bitrate=1410.9kbits/s speed= 792x    size=  309821kB time=00:29:58.47 bitrate=1411.2kbits/s speed= 793x    
+video:0kB audio:309820kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000029%
+Processing /home/z5146619/data/eng_mp3/maria01.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1c84240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria01.mp3':
+  Duration: 00:15:02.24, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria01.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   82176kB time=00:07:58.40 bitrate=1407.1kbits/s speed= 957x    size=  155426kB time=00:15:02.21 bitrate=1411.2kbits/s speed=1.01e+03x    
+video:0kB audio:155426kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000049%
+Processing /home/z5146619/data/eng_mp3/maria02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1fce240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria02.mp3':
+  Duration: 00:01:42.40, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria02.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   17640kB time=00:01:42.37 bitrate=1411.6kbits/s speed= 962x    
+video:0kB audio:17640kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000432%
+Processing /home/z5146619/data/eng_mp3/maria04.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xf45240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria04.mp3':
+  Duration: 00:17:22.52, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria04.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   83968kB time=00:08:07.91 bitrate=1409.8kbits/s speed= 976x    size=  170240kB time=00:16:29.44 bitrate=1409.5kbits/s speed= 989x    size=  179591kB time=00:17:22.49 bitrate=1411.2kbits/s speed= 982x    
+video:0kB audio:179590kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000042%
+Processing /home/z5146619/data/eng_mp3/maria07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x18e2240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria07.mp3':
+  Duration: 00:04:35.04, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria07.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   47381kB time=00:04:35.01 bitrate=1411.3kbits/s speed= 895x    
+video:0kB audio:47380kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000161%
+Processing /home/z5146619/data/eng_mp3/maria10.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xc9f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria10.mp3':
+  Duration: 00:17:32.63, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria10.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   83456kB time=00:08:05.22 bitrate=1409.0kbits/s speed= 970x    size=  171776kB time=00:16:37.38 bitrate=1410.9kbits/s speed= 997x    size=  181332kB time=00:17:32.60 bitrate=1411.2kbits/s speed= 998x    
+video:0kB audio:181332kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000042%
+Processing /home/z5146619/data/eng_mp3/maria16.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xbc4240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria16.mp3':
+  Duration: 02:41:36.99, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria16.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   98304kB time=00:09:31.27 bitrate=1409.7kbits/s speed=1.14e+03x    size=  199680kB time=00:19:19.41 bitrate=1410.9kbits/s speed=1.16e+03x    size=  303104kB time=00:29:20.88 bitrate=1410.1kbits/s speed=1.17e+03x    size=  406016kB time=00:39:17.39 bitrate=1410.9kbits/s speed=1.18e+03x    size=  510976kB time=00:49:27.61 bitrate=1410.5kbits/s speed=1.19e+03x    size=  617728kB time=00:59:47.13 bitrate=1410.7kbits/s speed=1.2e+03x    size=  721152kB time=01:09:46.72 bitrate=1411.1kbits/s speed=1.2e+03x    size=  822272kB time=01:19:33.64 bitrate=1411.1kbits/s speed=1.19e+03x    size=  924672kB time=01:29:28.08 bitrate=1411.1kbits/s speed=1.19e+03x    size= 1032192kB time=01:39:52.15 bitrate=1411.1kbits/s speed=1.2e+03x    size= 1138944kB time=01:50:11.53 bitrate=1411.2kbits/s speed=1.2e+03x    size= 1242880kB time=02:00:15.38 bitrate=1411.1kbits/s speed=1.2e+03x    size= 1350400kB time=02:10:39.55 bitrate=1411.1kbits/s speed=1.21e+03x    size= 1457664kB time=02:21:02.75 bitrate=1411.0kbits/s speed=1.21e+03x    size= 1565696kB time=02:31:29.69 bitrate=1411.1kbits/s speed=1.21e+03x    size= 1661440kB time=02:40:46.02 bitrate=1411.0kbits/s speed=1.21e+03x    size= 1670459kB time=02:41:36.96 bitrate=1411.2kbits/s speed=1.2e+03x    
+video:0kB audio:1670458kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000005%
+Processing /home/z5146619/data/eng_mp3/maria18.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xafb240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria18.mp3':
+  Duration: 01:38:40.13, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria18.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   81408kB time=00:07:53.54 bitrate=1408.3kbits/s speed= 947x    size=  177920kB time=00:17:14.18 bitrate=1409.3kbits/s speed=1.03e+03x    size=  260608kB time=00:25:13.66 bitrate=1410.4kbits/s speed=1.01e+03x    size=  343040kB time=00:33:11.62 bitrate=1411.0kbits/s speed= 996x    size=  425984kB time=00:41:14.24 bitrate=1410.4kbits/s speed= 990x    size=  509696kB time=00:49:19.15 bitrate=1411.0kbits/s speed= 986x    size=  592640kB time=00:57:20.71 bitrate=1411.0kbits/s speed= 983x    size=  675840kB time=01:05:24.06 bitrate=1410.9kbits/s speed= 981x    size=  758016kB time=01:13:21.55 bitrate=1410.8kbits/s speed= 978x    size=  841216kB time=01:21:24.29 bitrate=1410.9kbits/s speed= 977x    size=  924160kB time=01:29:26.17 bitrate=1410.8kbits/s speed= 976x    size= 1007872kB time=01:37:30.69 bitrate=1411.2kbits/s speed= 975x    size= 1019835kB time=01:38:40.10 bitrate=1411.2kbits/s speed= 975x    
+video:0kB audio:1019835kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000007%
+Processing /home/z5146619/data/eng_mp3/maria19.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x159c240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria19.mp3':
+  Duration: 00:53:58.45, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria19.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   97536kB time=00:09:27.48 bitrate=1408.0kbits/s speed=1.13e+03x    size=  194816kB time=00:18:52.19 bitrate=1409.6kbits/s speed=1.13e+03x    size=  296448kB time=00:28:40.89 bitrate=1411.2kbits/s speed=1.15e+03x    size=  395264kB time=00:38:14.72 bitrate=1411.1kbits/s speed=1.15e+03x    size=  498176kB time=00:48:12.82 bitrate=1410.8kbits/s speed=1.16e+03x    size=  557874kB time=00:53:58.42 bitrate=1411.2kbits/s speed=1.15e+03x    
+video:0kB audio:557874kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000014%
+Processing /home/z5146619/data/eng_mp3/maria20.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x14df240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria20.mp3':
+  Duration: 00:31:50.18, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria20.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   94464kB time=00:09:08.91 bitrate=1409.8kbits/s speed=1.1e+03x    size=  191744kB time=00:18:33.26 bitrate=1411.0kbits/s speed=1.11e+03x    size=  297472kB time=00:28:47.16 bitrate=1410.9kbits/s speed=1.15e+03x    size=  329058kB time=00:31:50.15 bitrate=1411.2kbits/s speed=1.15e+03x    
+video:0kB audio:329058kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000023%
+Processing /home/z5146619/data/eng_mp3/maria24.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x13d3240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria24.mp3':
+  Duration: 00:41:40.23, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria24.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   93952kB time=00:09:06.42 bitrate=1408.5kbits/s speed=1.09e+03x    size=  189440kB time=00:18:19.91 bitrate=1410.9kbits/s speed=1.1e+03x    size=  283392kB time=00:27:25.19 bitrate=1411.1kbits/s speed=1.1e+03x    size=  384000kB time=00:37:09.47 bitrate=1411.0kbits/s speed=1.11e+03x    size=  430704kB time=00:41:40.20 bitrate=1411.2kbits/s speed=1.11e+03x    
+video:0kB audio:430704kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000018%
+Processing /home/z5146619/data/eng_mp3/maria27.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x7de240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria27.mp3':
+  Duration: 01:22:55.26, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria27.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=  103936kB time=00:10:04.42 bitrate=1408.7kbits/s speed=1.21e+03x    size=  211712kB time=00:20:30.10 bitrate=1409.9kbits/s speed=1.23e+03x    size=  317952kB time=00:30:46.04 bitrate=1410.9kbits/s speed=1.23e+03x    size=  412160kB time=00:39:53.83 bitrate=1410.5kbits/s speed=1.2e+03x    size=  509440kB time=00:49:17.84 bitrate=1410.9kbits/s speed=1.18e+03x    size=  604416kB time=00:58:29.62 bitrate=1410.8kbits/s speed=1.17e+03x    size=  706560kB time=01:08:22.29 bitrate=1411.0kbits/s speed=1.17e+03x    size=  804608kB time=01:17:51.39 bitrate=1411.0kbits/s speed=1.17e+03x    size=  857066kB time=01:22:55.22 bitrate=1411.2kbits/s speed=1.17e+03x    
+video:0kB audio:857066kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000009%
+Processing /home/z5146619/data/eng_mp3/maria30.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1e12240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria30.mp3':
+  Duration: 00:59:58.65, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria30.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   98304kB time=00:09:32.05 bitrate=1407.7kbits/s speed=1.14e+03x    size=  189952kB time=00:18:23.93 bitrate=1409.6kbits/s speed=1.1e+03x    size=  284416kB time=00:27:31.61 bitrate=1410.7kbits/s speed=1.1e+03x    size=  380160kB time=00:36:46.92 bitrate=1411.1kbits/s speed=1.1e+03x    size=  476928kB time=00:46:09.73 bitrate=1410.6kbits/s speed=1.11e+03x    size=  575232kB time=00:55:40.53 bitrate=1410.6kbits/s speed=1.11e+03x    size=  619925kB time=00:59:58.62 bitrate=1411.2kbits/s speed=1.12e+03x    
+video:0kB audio:619924kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000012%
+Processing /home/z5146619/data/eng_mp3/maria31.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1a51240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/maria31.mp3':
+  Duration: 01:45:40.94, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/maria31.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   98560kB time=00:09:32.21 bitrate=1411.0kbits/s speed=1.14e+03x    size=  205312kB time=00:19:51.83 bitrate=1411.2kbits/s speed=1.19e+03x    size=  311808kB time=00:30:10.05 bitrate=1411.2kbits/s speed=1.21e+03x    size=  412160kB time=00:39:53.10 bitrate=1410.9kbits/s speed=1.2e+03x    size=  517632kB time=00:50:04.86 bitrate=1411.2kbits/s speed=1.2e+03x    size=  625152kB time=01:00:30.08 bitrate=1410.8kbits/s speed=1.21e+03x    size=  728576kB time=01:10:30.71 bitrate=1410.8kbits/s speed=1.21e+03x    size=  835840kB time=01:20:52.45 bitrate=1411.1kbits/s speed=1.21e+03x    size=  942336kB time=01:31:10.30 bitrate=1411.2kbits/s speed=1.22e+03x    size= 1039616kB time=01:40:34.96 bitrate=1411.2kbits/s speed=1.21e+03x    size= 1092326kB time=01:45:40.91 bitrate=1411.2kbits/s speed=1.2e+03x    
+video:0kB audio:1092326kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000007%
+Processing /home/z5146619/data/eng_mp3/sastre03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xf87240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre03.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:43:02.26, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre03.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   67328kB time=00:06:32.20 bitrate=1406.3kbits/s speed= 784x    size=  135936kB time=00:13:10.02 bitrate=1409.6kbits/s speed= 790x    size=  204800kB time=00:19:49.17 bitrate=1410.8kbits/s speed= 793x    size=  272384kB time=00:26:21.60 bitrate=1410.8kbits/s speed= 791x    size=  340992kB time=00:33:00.34 bitrate=1410.6kbits/s speed= 792x    size=  409856kB time=00:39:40.48 bitrate=1410.4kbits/s speed= 793x    size=  444834kB time=00:43:02.23 bitrate=1411.2kbits/s speed= 794x    
+video:0kB audio:444834kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000020%
+Processing /home/z5146619/data/eng_mp3/sastre04.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1b7b240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre04.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:31:26.80, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre04.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66560kB time=00:06:27.39 bitrate=1407.5kbits/s speed= 775x    size=  134144kB time=00:12:59.02 bitrate=1410.6kbits/s speed= 779x    size=  201728kB time=00:19:31.22 bitrate=1411.0kbits/s speed= 781x    size=  269312kB time=00:26:03.92 bitrate=1410.7kbits/s speed= 782x    size=  325031kB time=00:31:26.77 bitrate=1411.2kbits/s speed= 783x    
+video:0kB audio:325030kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000028%
+Processing /home/z5146619/data/eng_mp3/sastre06.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1733240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre06.mp3':
+  Duration: 00:30:20.16, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre06.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   71424kB time=00:06:55.81 bitrate=1407.1kbits/s speed= 832x    size=  144128kB time=00:13:56.64 bitrate=1411.2kbits/s speed= 837x    size=  216832kB time=00:20:58.71 bitrate=1411.2kbits/s speed= 839x    size=  290816kB time=00:28:09.54 bitrate=1410.1kbits/s speed= 845x    size=  313551kB time=00:30:20.13 bitrate=1411.2kbits/s speed= 844x    
+video:0kB audio:313551kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000024%
+Processing /home/z5146619/data/eng_mp3/sastre07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x142f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre07.mp3':
+  Duration: 00:29:58.22, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre07.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   72960kB time=00:07:04.33 bitrate=1408.5kbits/s speed= 849x    size=  146688kB time=00:14:12.19 bitrate=1410.1kbits/s speed= 852x    size=  220928kB time=00:21:23.84 bitrate=1409.7kbits/s speed= 856x    size=  295424kB time=00:28:34.93 bitrate=1411.2kbits/s speed= 857x    size=  309771kB time=00:29:58.19 bitrate=1411.2kbits/s speed= 857x    
+video:0kB audio:309771kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000025%
+Processing /home/z5146619/data/eng_mp3/sastre08.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1ec4240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre08.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:33:20.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre08.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66816kB time=00:06:29.19 bitrate=1406.4kbits/s speed= 778x    size=  134400kB time=00:13:01.40 bitrate=1409.0kbits/s speed= 781x    size=  202496kB time=00:19:36.37 bitrate=1410.1kbits/s speed= 784x    size=  270592kB time=00:26:10.79 bitrate=1411.2kbits/s speed= 785x    size=  338432kB time=00:32:45.60 bitrate=1410.5kbits/s speed= 786x    size=  344538kB time=00:33:20.01 bitrate=1411.2kbits/s speed= 786x    
+video:0kB audio:344538kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000026%
+Processing /home/z5146619/data/eng_mp3/sastre09.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1d5c240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre09.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:40:02.15, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre09.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66560kB time=00:06:26.40 bitrate=1411.1kbits/s speed= 773x    size=  133888kB time=00:12:57.22 bitrate=1411.2kbits/s speed= 777x    size=  201728kB time=00:19:32.08 bitrate=1409.9kbits/s speed= 781x    size=  269312kB time=00:26:04.55 bitrate=1410.1kbits/s speed= 782x    size=  337408kB time=00:32:39.54 bitrate=1410.6kbits/s speed= 784x    size=  405248kB time=00:39:12.97 bitrate=1410.9kbits/s speed= 784x    size=  413807kB time=00:40:02.11 bitrate=1411.2kbits/s speed= 784x    
+video:0kB audio:413806kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000022%
+Processing /home/z5146619/data/eng_mp3/sastre10.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x158d240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre10.mp3':
+  Duration: 00:39:25.49, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre10.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   73472kB time=00:07:07.41 bitrate=1408.2kbits/s speed= 855x    size=  147200kB time=00:14:14.72 bitrate=1410.8kbits/s speed= 855x    size=  220928kB time=00:21:23.03 bitrate=1410.6kbits/s speed= 855x    size=  294656kB time=00:28:31.88 bitrate=1410.0kbits/s speed= 856x    size=  370176kB time=00:35:49.95 bitrate=1410.5kbits/s speed= 860x    size=  407493kB time=00:39:25.46 bitrate=1411.2kbits/s speed= 861x    
+video:0kB audio:407493kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000019%
+Processing /home/z5146619/data/eng_mp3/sastre11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xd55240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre11.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:40:25.34, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre11.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   66048kB time=00:06:24.65 bitrate=1406.6kbits/s speed= 769x    size=  133120kB time=00:12:53.98 bitrate=1409.0kbits/s speed= 774x    size=  200960kB time=00:19:27.67 bitrate=1409.9kbits/s speed= 778x    size=  268544kB time=00:25:59.22 bitrate=1410.9kbits/s speed= 780x    size=  336128kB time=00:32:31.97 bitrate=1410.7kbits/s speed= 781x    size=  403712kB time=00:39:04.85 bitrate=1410.4kbits/s speed= 782x    size=  417803kB time=00:40:25.31 bitrate=1411.2kbits/s speed= 782x    
+video:0kB audio:417802kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000022%
+Processing /home/z5146619/data/eng_mp3/sastre12.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x109a240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre12.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:58.77, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre12.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   66304kB time=00:06:26.19 bitrate=1406.4kbits/s speed= 772x    size=  133888kB time=00:12:57.22 bitrate=1411.2kbits/s speed= 777x    size=  201472kB time=00:19:30.20 bitrate=1410.4kbits/s speed= 780x    size=  269312kB time=00:26:03.58 bitrate=1411.0kbits/s speed= 782x    size=  320202kB time=00:30:58.74 bitrate=1411.2kbits/s speed= 782x    
+video:0kB audio:320202kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000028%
+Processing /home/z5146619/data/eng_mp3/sastre13.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xd33240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/sastre13.mp3':
+  Duration: 00:29:42.65, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/sastre13.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   73472kB time=00:07:07.46 bitrate=1408.0kbits/s speed= 855x    size=  147712kB time=00:14:17.88 bitrate=1410.5kbits/s speed= 858x    size=  222208kB time=00:21:31.04 bitrate=1410.0kbits/s speed= 861x    size=  296960kB time=00:28:44.55 bitrate=1410.6kbits/s speed= 862x    size=  307089kB time=00:29:42.62 bitrate=1411.2kbits/s speed= 862x    
+video:0kB audio:307089kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000025%
+Processing /home/z5146619/data/eng_mp3/zeledon02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x167d240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon02.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:26:53.93, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon02.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   67328kB time=00:06:31.15 bitrate=1410.0kbits/s speed= 782x    size=  135936kB time=00:13:09.34 bitrate=1410.8kbits/s speed= 789x    size=  204544kB time=00:19:48.07 bitrate=1410.4kbits/s speed= 792x    size=  273408kB time=00:26:27.20 bitrate=1411.1kbits/s speed= 794x    size=  278024kB time=00:26:53.89 bitrate=1411.2kbits/s speed= 794x    
+video:0kB audio:278024kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000032%
+Processing /home/z5146619/data/eng_mp3/zeledon03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xb63240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon03.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:25.29, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon03.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66304kB time=00:06:25.22 bitrate=1410.0kbits/s speed= 770x    size=  133376kB time=00:12:55.23 bitrate=1409.4kbits/s speed= 775x    size=  201216kB time=00:19:28.06 bitrate=1411.2kbits/s speed= 779x    size=  268288kB time=00:25:58.04 bitrate=1410.6kbits/s speed= 779x    size=  314433kB time=00:30:25.25 bitrate=1411.2kbits/s speed= 779x    
+video:0kB audio:314433kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000029%
+Processing /home/z5146619/data/eng_mp3/zeledon04.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xe86240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon04.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:21:48.90, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon04.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   66560kB time=00:06:26.71 bitrate=1410.0kbits/s speed= 773x    size=  134656kB time=00:13:01.89 bitrate=1410.8kbits/s speed= 782x    size=  202496kB time=00:19:35.64 bitrate=1411.0kbits/s speed= 784x    size=  225477kB time=00:21:48.86 bitrate=1411.2kbits/s speed= 784x    
+video:0kB audio:225477kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000040%
+Processing /home/z5146619/data/eng_mp3/zeledon06.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x18b3240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon06.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:26.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon06.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   66560kB time=00:06:27.29 bitrate=1407.9kbits/s speed= 775x    size=  134144kB time=00:12:59.41 bitrate=1409.9kbits/s speed= 779x    size=  201728kB time=00:19:32.11 bitrate=1409.9kbits/s speed= 781x    size=  269568kB time=00:26:04.83 bitrate=1411.2kbits/s speed= 782x    size=  314564kB time=00:30:26.01 bitrate=1411.2kbits/s speed= 782x    
+video:0kB audio:314564kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000029%
+Processing /home/z5146619/data/eng_mp3/zeledon08.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1c7f240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon08.mp3':
+  Duration: 00:37:53.41, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon08.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   72448kB time=00:07:01.06 bitrate=1409.5kbits/s speed= 842x    size=  144896kB time=00:14:01.14 bitrate=1411.2kbits/s speed= 841x    size=  216832kB time=00:20:59.52 bitrate=1410.3kbits/s speed= 840x    size=  288768kB time=00:27:57.13 bitrate=1410.5kbits/s speed= 839x    size=  360448kB time=00:34:52.51 bitrate=1411.1kbits/s speed= 837x    size=  391631kB time=00:37:53.38 bitrate=1411.2kbits/s speed= 837x    
+video:0kB audio:391630kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000019%
+Processing /home/z5146619/data/eng_mp3/zeledon09.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x16cd240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon09.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:51.67, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon09.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   64000kB time=00:06:12.06 bitrate=1409.1kbits/s speed= 744x    size=  129792kB time=00:12:33.68 bitrate=1410.7kbits/s speed= 754x    size=  195840kB time=00:18:57.94 bitrate=1409.8kbits/s speed= 759x    size=  262144kB time=00:25:22.99 bitrate=1410.0kbits/s speed= 761x    size=  318978kB time=00:30:51.63 bitrate=1411.2kbits/s speed= 762x    
+video:0kB audio:318978kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000028%
+Processing /home/z5146619/data/eng_mp3/zeledon11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x782240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon11.mp3':
+  Duration: 00:30:43.20, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon11.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   70656kB time=00:06:51.11 bitrate=1407.9kbits/s speed= 822x    size=  142080kB time=00:13:45.46 bitrate=1410.0kbits/s speed= 825x    size=  215296kB time=00:20:50.03 bitrate=1410.9kbits/s speed= 833x    size=  287488kB time=00:27:49.56 bitrate=1410.6kbits/s speed= 835x    size=  317520kB time=00:30:43.17 bitrate=1411.2kbits/s speed= 835x    
+video:0kB audio:317520kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000024%
+Processing /home/z5146619/data/eng_mp3/zeledon13.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x142a240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/eng_mp3/zeledon13.mp3':
+  Duration: 00:34:42.93, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/eng_wav/zeledon13.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   69888kB time=00:06:47.06 bitrate=1406.5kbits/s speed= 814x    size=  141056kB time=00:13:39.30 bitrate=1410.4kbits/s speed= 819x    size=  212992kB time=00:20:37.26 bitrate=1410.2kbits/s speed= 825x    size=  284928kB time=00:27:35.37 bitrate=1410.0kbits/s speed= 828x    size=  356864kB time=00:34:32.16 bitrate=1410.8kbits/s speed= 829x    size=  358817kB time=00:34:42.89 bitrate=1411.2kbits/s speed= 829x    
+video:0kB audio:358816kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000021%
+Processing /home/z5146619/data/spa_mp3/herring02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0xf8b240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring02.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:42.06, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/herring02.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   63232kB time=00:06:08.32 bitrate=1406.4kbits/s speed= 737x    size=  128512kB time=00:12:26.47 bitrate=1410.3kbits/s speed= 746x    size=  194304kB time=00:18:48.07 bitrate=1411.0kbits/s speed= 752x    size=  260096kB time=00:25:10.16 bitrate=1410.9kbits/s speed= 755x    size=  317322kB time=00:30:42.02 bitrate=1411.2kbits/s speed= 757x    
+video:0kB audio:317322kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000028%
+Processing /home/z5146619/data/spa_mp3/herring03.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2087240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring03.mp3':
+  Duration: 00:31:37.09, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/herring03.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   70656kB time=00:06:50.51 bitrate=1410.0kbits/s speed= 821x    size=  140800kB time=00:13:37.99 bitrate=1410.1kbits/s speed= 818x    size=  209920kB time=00:20:18.58 bitrate=1411.2kbits/s speed= 812x    size=  280064kB time=00:27:06.30 bitrate=1410.7kbits/s speed= 813x    size=  326804kB time=00:31:37.06 bitrate=1411.2kbits/s speed= 813x    
+video:0kB audio:326804kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000023%
+Processing /home/z5146619/data/spa_mp3/herring05.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x185e240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring05.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:27:10.54, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/herring05.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   64000kB time=00:06:11.51 bitrate=1411.2kbits/s speed= 743x    size=  129280kB time=00:12:31.90 bitrate=1408.5kbits/s speed= 752x    size=  195328kB time=00:18:53.94 bitrate=1411.1kbits/s speed= 756x    size=  260608kB time=00:25:12.93 bitrate=1411.1kbits/s speed= 756x    size=  280886kB time=00:27:10.51 bitrate=1411.2kbits/s speed= 757x    
+video:0kB audio:280886kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000032%
+Processing /home/z5146619/data/spa_mp3/herring11.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1adc240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring11.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:31:00.26, start: 0.000000, bitrate: 191 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/herring11.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   64256kB time=00:06:14.04 bitrate=1407.3kbits/s speed= 748x    size=  129792kB time=00:12:34.23 bitrate=1409.7kbits/s speed= 754x    size=  196096kB time=00:18:59.59 bitrate=1409.6kbits/s speed= 760x    size=  262144kB time=00:25:22.44 bitrate=1410.6kbits/s speed= 761x    size=  320459kB time=00:31:00.23 bitrate=1411.2kbits/s speed= 761x    
+video:0kB audio:320458kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000028%
+Processing /home/z5146619/data/spa_mp3/herring12.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x2443240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring12.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:33:07.04, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/herring12.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   62464kB time=00:06:03.18 bitrate=1409.0kbits/s speed= 726x    size=  126208kB time=00:12:13.83 bitrate=1408.9kbits/s speed= 734x    size=  191488kB time=00:18:32.37 bitrate=1410.2kbits/s speed= 742x    size=  256512kB time=00:24:49.76 bitrate=1410.5kbits/s speed= 745x    size=  321536kB time=00:31:07.10 bitrate=1410.8kbits/s speed= 747x    size=  342297kB time=00:33:07.00 bitrate=1411.2kbits/s speed= 747x    
+video:0kB audio:342297kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000026%
+Processing /home/z5146619/data/spa_mp3/herring14.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x13d9240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/herring14.mp3':
+  Metadata:
+    genre           : Blues
+  Duration: 00:30:04.60, start: 0.000000, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/herring14.wav':
+  Metadata:
+    IGNR            : Blues
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   64512kB time=00:06:15.64 bitrate=1406.9kbits/s speed= 751x    size=  130816kB time=00:12:39.61 bitrate=1410.8kbits/s speed= 760x    size=  197376kB time=00:19:07.16 bitrate=1409.5kbits/s speed= 765x    size=  264192kB time=00:25:34.79 bitrate=1410.1kbits/s speed= 767x    size=  310869kB time=00:30:04.56 bitrate=1411.2kbits/s speed= 768x    
+video:0kB audio:310869kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000029%
+Processing /home/z5146619/data/spa_mp3/maria21.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/maria21.mp3':
+  Metadata:
+    encoded_by      : Amadeus Pro
+  Duration: 00:05:33.32, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : LAME3.98r
+    Side data:
+      replaygain: track gain - -1.300000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/maria21.wav':
+  Metadata:
+    ITCH            : Amadeus Pro
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - -1.300000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   57409kB time=00:05:33.24 bitrate=1411.3kbits/s speed=1.02e+03x    
+video:0kB audio:57409kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000167%
+Processing /home/z5146619/data/spa_mp3/maria40.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/maria40.mp3':
+  Metadata:
+    encoded_by      : Amadeus Pro
+  Duration: 02:25:46.95, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : LAME3.98r
+    Side data:
+      replaygain: track gain - 12.800000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/maria40.wav':
+  Metadata:
+    ITCH            : Amadeus Pro
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 12.800000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   86016kB time=00:08:19.33 bitrate=1411.2kbits/s speed= 999x    size=  172032kB time=00:16:39.96 bitrate=1409.3kbits/s speed=1e+03x    size=  262912kB time=00:25:27.51 bitrate=1410.0kbits/s speed=1.02e+03x    size=  353536kB time=00:34:13.14 bitrate=1410.6kbits/s speed=1.03e+03x    size=  446464kB time=00:43:11.97 bitrate=1411.1kbits/s speed=1.04e+03x    size=  538112kB time=00:52:05.02 bitrate=1410.6kbits/s speed=1.04e+03x    size=  629504kB time=01:00:54.58 bitrate=1411.1kbits/s speed=1.04e+03x    size=  718592kB time=01:09:32.67 bitrate=1410.8kbits/s speed=1.04e+03x    size=  810240kB time=01:18:23.89 bitrate=1411.1kbits/s speed=1.05e+03x    size=  901632kB time=01:27:15.27 bitrate=1410.8kbits/s speed=1.05e+03x    size=  997120kB time=01:36:28.29 bitrate=1411.2kbits/s speed=1.05e+03x    size= 1093120kB time=01:45:46.31 bitrate=1411.0kbits/s speed=1.06e+03x    size= 1188096kB time=01:54:57.58 bitrate=1411.1kbits/s speed=1.06e+03x    size= 1283072kB time=02:04:08.50 bitrate=1411.1kbits/s speed=1.06e+03x    size= 1381376kB time=02:13:40.29 bitrate=1410.9kbits/s speed=1.07e+03x    size= 1482496kB time=02:23:26.06 bitrate=1411.2kbits/s speed=1.08e+03x    size= 1506787kB time=02:25:46.86 bitrate=1411.2kbits/s speed=1.08e+03x    
+video:0kB audio:1506787kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000006%
+Processing /home/z5146619/data/spa_mp3/sastre01.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/sastre01.mp3':
+  Duration: 00:33:52.64, start: 0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : LAME3.98r
+    Side data:
+      replaygain: track gain - 10.000000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/sastre01.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 10.000000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   65280kB time=00:06:20.08 bitrate=1407.0kbits/s speed= 760x    size=  131840kB time=00:12:46.53 bitrate=1409.0kbits/s speed= 767x    size=  199424kB time=00:19:17.66 bitrate=1411.2kbits/s speed= 772x    size=  266752kB time=00:25:48.51 bitrate=1411.2kbits/s speed= 774x    size=  333824kB time=00:32:18.99 bitrate=1410.4kbits/s speed= 776x    size=  350143kB time=00:33:52.56 bitrate=1411.2kbits/s speed= 776x    
+video:0kB audio:350143kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000022%
+Processing /home/z5146619/data/spa_mp3/sastre02.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/sastre02.mp3':
+  Duration: 00:41:00.81, start: 0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : LAME3.98r
+    Side data:
+      replaygain: track gain - 0.300000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/sastre02.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 0.300000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   65536kB time=00:06:20.44 bitrate=1411.2kbits/s speed= 761x    size=  132096kB time=00:12:47.24 bitrate=1410.4kbits/s speed= 767x    size=  199424kB time=00:19:18.66 bitrate=1410.0kbits/s speed= 772x    size=  266240kB time=00:25:46.55 bitrate=1410.3kbits/s speed= 773x    size=  333568kB time=00:32:17.34 bitrate=1410.5kbits/s speed= 775x    size=  400896kB time=00:38:47.69 bitrate=1410.9kbits/s speed= 776x    size=  423903kB time=00:41:00.73 bitrate=1411.2kbits/s speed= 776x    
+video:0kB audio:423902kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000018%
+Processing /home/z5146619/data/spa_mp3/sastre05.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+[mp3 @ 0x1d81240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/sastre05.mp3':
+  Duration: 00:29:03.15, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/sastre05.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       5kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   72960kB time=00:07:03.65 bitrate=1410.8kbits/s speed= 847x    size=  149760kB time=00:14:30.08 bitrate=1410.0kbits/s speed= 870x    size=  225024kB time=00:21:46.95 bitrate=1410.4kbits/s speed= 871x    size=  299008kB time=00:28:56.82 bitrate=1410.3kbits/s speed= 868x    size=  300285kB time=00:29:03.12 bitrate=1411.2kbits/s speed= 868x    
+video:0kB audio:300285kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000025%
+Processing /home/z5146619/data/spa_mp3/zeledon01.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/zeledon01.mp3':
+  Metadata:
+    encoder         : LAME 64bits version 3.100 (http://lame.sf.net)
+    TLEN            : 1778900
+  Duration: 00:29:38.94, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - 10.300000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/zeledon01.wav':
+  Metadata:
+    TLEN            : 1778900
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 10.300000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   74752kB time=00:07:14.10 bitrate=1410.6kbits/s speed= 863x    size=  150784kB time=00:14:35.88 bitrate=1410.3kbits/s speed= 873x    size=  227072kB time=00:21:59.31 bitrate=1410.0kbits/s speed= 878x    size=  303360kB time=00:29:21.17 bitrate=1411.1kbits/s speed= 879x    size=  306444kB time=00:29:38.88 bitrate=1411.2kbits/s speed= 879x    
+video:0kB audio:306443kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000025%
+Processing /home/z5146619/data/spa_mp3/zeledon05.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/zeledon05.mp3':
+  Duration: 00:23:41.35, start: 0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : LAME3.98r
+    Side data:
+      replaygain: track gain - 7.100000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/zeledon05.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 7.100000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    size=   65280kB time=00:06:19.48 bitrate=1409.2kbits/s speed= 759x    size=  132096kB time=00:12:47.68 bitrate=1409.6kbits/s speed= 768x    size=  199424kB time=00:19:17.64 bitrate=1411.2kbits/s speed= 772x    size=  244839kB time=00:23:41.27 bitrate=1411.2kbits/s speed= 773x    
+video:0kB audio:244838kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000031%
+Processing /home/z5146619/data/spa_mp3/zeledon07.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/zeledon07.mp3':
+  Metadata:
+    encoder         : LAME 64bits version 3.100 (http://lame.sf.net)
+    TLEN            : 1820931
+  Duration: 00:30:20.97, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - 4.000000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/zeledon07.wav':
+  Metadata:
+    TLEN            : 1820931
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 4.000000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   74752kB time=00:07:14.10 bitrate=1410.6kbits/s speed= 868x    size=  152064kB time=00:14:43.80 bitrate=1409.5kbits/s speed= 884x    size=  228864kB time=00:22:09.89 bitrate=1409.8kbits/s speed= 886x    size=  306176kB time=00:29:37.73 bitrate=1410.9kbits/s speed= 889x    size=  313684kB time=00:30:20.91 bitrate=1411.2kbits/s speed= 889x    
+video:0kB audio:313684kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000024%
+Processing /home/z5146619/data/spa_mp3/zeledon14.mp3
+ffmpeg version 4.4.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 12.2.0 (Spack GCC)
+  configuration: --prefix=/apps/z_install_tree/linux-rocky8-ivybridge/gcc-12.2.0/ffmpeg-4.4.1-3aw55tas6qbg3wzngubrpshc3kys7dvh --enable-pic --cc=/srv/apps/spack/lib/spack/env/gcc/gcc --cxx=/srv/apps/spack/lib/spack/env/gcc/g++ --disable-libxcb --disable-libxcb-shape --disable-libxcb-shm --disable-libxcb-xfixes --disable-xlib --disable-libfontconfig --disable-libfreetype --disable-libfribidi --enable-bzlib --enable-gpl --enable-libmp3lame --disable-libopenjpeg --enable-libopus --enable-libspeex --enable-libvorbis --disable-libvpx --enable-libx264 --disable-avresample --disable-nonfree --disable-openssl --enable-shared --enable-version3 --enable-libzmq --disable-libssh --disable-libwebp --disable-lzma --enable-libsnappy --disable-sdl2 --disable-libaom
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, mp3, from '/home/z5146619/data/spa_mp3/zeledon14.mp3':
+  Duration: 00:33:01.88, start: 0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : LAME3.98r
+    Side data:
+      replaygain: track gain - 11.900000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/srv/scratch/z5146619/spa_wav/zeledon14.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+    Side data:
+      replaygain: track gain - 11.900000, track peak - unknown, album gain - unknown, album peak - unknown, 
+size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   64256kB time=00:06:14.17 bitrate=1406.8kbits/s speed= 748x    size=  130048kB time=00:12:36.32 bitrate=1408.6kbits/s speed= 756x    size=  196864kB time=00:19:02.80 bitrate=1411.2kbits/s speed= 762x    size=  263424kB time=00:25:29.23 bitrate=1411.1kbits/s speed= 765x    size=  329728kB time=00:31:54.64 bitrate=1410.8kbits/s speed= 766x    size=  341400kB time=00:33:01.80 bitrate=1411.2kbits/s speed= 766x    
+video:0kB audio:341399kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000022%
+Cgroup memsw limit exceeded: 
