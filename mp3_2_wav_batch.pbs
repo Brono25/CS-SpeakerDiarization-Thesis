@@ -17,6 +17,24 @@ SCRATCH="/srv/scratch/z5146619"
 DEST_PATH_ENG="$SCRATCH/eng_wav"
 DEST_PATH_SPA="$SCRATCH/spa_wav"
 
+
+directory1="/srv/scratch/z5146619/eng_wav"
+directory2="/srv/scratch/z5146619/spa_wav"
+
+# Check and create directory1 if needed
+if [ ! -d "$directory1" ]; then
+    mkdir  "$directory1"
+fi
+
+# Check and create directory2 if needed
+if [ ! -d "$directory2" ]; then
+    mkdir  "$directory2"
+fi
+
+
+
+
+
 for file in /home/z5146619/data/eng_mp3/* ; do
     ext="${file##*.}"
     ext="${ext,,}"
