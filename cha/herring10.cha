@@ -1,0 +1,2946 @@
+@UTF8
+@PID:	11312/t-00000019-1
+@Begin
+@Languages:	eng, spa
+@Participants:	PAI Paige Adult, SAR Sarah Adult, OSE non_participant Adult
+@ID:	spa, eng|Miami|PAI|33;|female|||Adult|||
+@ID:	spa, eng|Miami|SAR|34;|female|||Adult|||
+@ID:	spa, eng|Miami|OSE|||||Adult|||
+@Situation:	Informal conversation between two co-workers at their
+	workplace
+@Date:	26-MAR-2008
+@Transcriber:	M. Carmen Parafita Couto, Bangor University. Initial
+	translation by M. Carmen Parafita Couto
+@Comment:	Researcher: Jon Russell Herring, Bangor University
+@Time Duration:	00:33:52
+@Media:	herring10, audio
+*PAI:	oh <now that I> [/] now that I remember antes@s de@s que@s se@s
+	me@s olvide@s . 6_2949
+%mor:	co|oh adv|now pro:rel|that pro:sub|I v|remember L2|antes L2|de
+	L2|que L2|se L2|me L2|olvide .
+%gra:	1|0|INCROOT 2|1|JCT 3|5|LINK 4|5|SUBJ 5|2|CMOD 6|5|OBJ 7|6|CONJ
+	8|7|COORD 9|8|POSTMOD 10|9|NJCT 11|10|POBJ 12|1|PUNCT
+%eng:	oh, now that I remember, before I forget
+*PAI:	this lady from the school . 2926_4882
+%mor:	det:dem|this n|lady prep|from det:art|the n|school .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*SAR:	m:hm . 4870_5364
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	<she told me> [/] she told me that she bought the subway passes (.)
+	for the whole year . 5204_9424
+%mor:	pro:sub|she v|tell&PAST pro:obj|me pro:rel|that pro:sub|she
+	v|buy&PAST det:art|the sub#n|way v|pass-3S prep|for det:art|the
+	adj|whole n|year .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|6|LINK 5|6|SUBJ 6|3|CMOD 7|8|DET 8|9|SUBJ
+	9|6|COMP 10|9|JCT 11|13|DET 12|13|MOD 13|10|POBJ 14|2|PUNCT
+*SAR:	subway passes to where to New_York ? 9384_11073
+%mor:	sub#n|way v|pass-3S prep|to pro:rel|where inf|to n:prop|New_York ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|LINK 5|6|INF 6|3|POBJ 7|2|PUNCT
+*PAI:	to New_York it's forty bucks . 11053_12962
+%mor:	inf|to n:prop|New_York pro:per|it~cop|be&3S det:num|forty n|buck-PL
+	.
+%gra:	1|2|INF 2|4|SUBJ 3|4|SUBJ 4|0|ROOT 5|6|QUANT 6|4|PRED 7|4|PUNCT
+*SAR:	yeah but you know what she bought I told you she bought that pass .
+	13706_17171
+%mor:	co|yeah conj|but pro:per|you v|know pro:int|what pro:sub|she
+	v|buy&PAST pro:sub|I v|tell&PAST pro:per|you pro:sub|she v|buy&PAST
+	adv|that n|pass .
+%gra:	1|9|COM 2|4|LINK 3|4|SUBJ 4|9|CJCT 5|7|LINK 6|7|SUBJ 7|4|COMP 8|9|SUBJ
+	9|0|ROOT 10|9|OBJ 11|12|SUBJ 12|9|COMP 13|14|JCT 14|12|OBJ 15|9|PUNCT
+*PAI:	which one ? 17150_19507
+%mor:	pro:rel|which pro:indef|one ?
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*SAR:	+< it's a special pass that they give . 17150_19507
+%mor:	pro:per|it~cop|be&3S det:art|a adj|special n|pass pro:rel|that
+	pro:sub|they v|give .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|8|LINK 7|8|SUBJ 8|5|CMOD
+	9|2|PUNCT
+*SAR:	&-um . 19507_21196
+*SAR:	it's a special pass . 21128_23746
+%mor:	pro:per|it~cop|be&3S det:art|a adj|special n|pass .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*SAR:	it's called something and it gives you also discounts to certain
+	museums (.) in New_York . 23723_28895
+%mor:	pro:per|it~aux|be&3S part|call-PASTP pro:indef|something coord|and
+	pro:per|it v|give-3S pro:per|you adv|also n|discount-PL prep|to
+	adj|certain n|museum-PL prep|in n:prop|New_York .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|7|LINK 6|7|SUBJ 7|3|CJCT 8|7|OBJ
+	9|7|JCT 10|9|POBJ 11|10|NJCT 12|13|MOD 13|11|POBJ 14|13|NJCT 15|14|POBJ
+	16|3|PUNCT
+*SAR:	it's like a +... 28883_30781
+%mor:	pro:per|it~cop|be&3S conj|like det:art|a +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*PAI:	but for the whole year ? 30781_32053
+%mor:	conj|but prep|for det:art|the adj|whole n|year ?
+%gra:	1|0|INCROOT 2|1|JCT 3|5|DET 4|5|MOD 5|2|POBJ 6|1|PUNCT
+*SAR:	&~y yeah con@s ese@s pase@s <you can> [//] you know you can use it
+	and <you can> [//] you have certain discounts . 32061_38465
+%mor:	co|yeah L2|con L2|ese L2|pase pro:per|you v|know pro:per|you
+	mod|can v|use pro:per|it coord|and pro:per|you v|have adj|certain
+	n|discount-PL .
+%gra:	1|6|COM 2|6|LINK 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|9|SUBJ 8|9|AUX
+	9|6|COMP 10|9|OBJ 11|13|LINK 12|13|SUBJ 13|6|CJCT 14|15|MOD 15|13|OBJ
+	16|6|PUNCT
+%eng:	yeah, with this pass you can, you know, you can use it and you have
+	certain discounts .
+*SAR:	but (.) it comes out more expensive doesn't it . 38407_42428
+%mor:	conj|but pro:per|it v|come-3S adv|out adv|more adj|expensive
+	mod|do&3S~neg|not pro:per|it .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|JCT 6|3|JCT 7|9|AUX 8|7|NEG
+	9|6|OBJ 10|3|PUNCT
+*PAI:	I don't know she says she can use it up and down as many times as
+	she wants . 42368_45774
+%mor:	pro:sub|I mod|do~neg|not v|know pro:sub|she v|say-3S pro:sub|she
+	mod|can v|use pro:per|it adv|up coord|and adv|down prep|as qn|many
+	n|time-PL conj|as pro:sub|she v|want-3S .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|SUBJ 6|4|COMP 7|9|SUBJ 8|9|AUX
+	9|4|COMP 10|9|OBJ 11|9|JCT 12|9|CONJ 13|12|COORD 14|16|COORD 15|16|QUANT
+	16|13|POBJ 17|19|LINK 18|19|SUBJ 19|16|CJCT 20|4|PUNCT
+*SAR:	+< like I would &~h +... 42372_43731
+%mor:	conj|like pro:sub|I mod|will&COND +...
+%gra:	1|3|LINK 2|3|SUBJ 3|0|INCROOT 4|3|PUNCT
+*SAR:	was she gonna give it to you ? 45751_47324
+%mor:	cop|be&PAST&13S pro:sub|she part|go-PRESP~inf|to v|give pro:per|it
+	prep|to pro:per|you ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|7|POBJ
+	9|1|PUNCT
+*PAI:	I wonder if it has a picture . 47312_48794
+%mor:	pro:sub|I v|wonder comp|if pro:per|it aux|have&3S det:art|a
+	n|picture .
+%gra:	1|2|SUBJ 2|0|ROOT 3|7|LINK 4|7|SUBJ 5|7|AUX 6|7|DET 7|2|COMP 8|2|PUNCT
+*PAI:	I should ask her . 48783_50054
+%mor:	pro:sub|I mod|should v|ask pro:obj|her .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*SAR:	I don't know . 49680_50887
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*SAR:	I don't know (be)cause I saw that . 50835_53598
+%mor:	pro:sub|I mod|do~neg|not v|know conj|because pro:sub|I v|see&PAST
+	comp|that .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|LINK 6|7|SUBJ 7|4|COMP 8|7|OBJ
+	9|4|PUNCT
+*SAR:	they talk about it . 53551_54335
+%mor:	pro:sub|they v|talk prep|about pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*SAR:	it's called something . 54341_55496
+%mor:	pro:per|it~aux|be&3S part|call-PASTP pro:indef|something .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*SAR:	it's like a [/] a supersaver I don't know what . 55484_59942
+%mor:	pro:per|it~cop|be&3S conj|like det:art|a n|supersaver pro:sub|I
+	mod|do~neg|not v|know pro:int|what .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|9|SUBJ 7|9|AUX 8|7|NEG
+	9|5|CMOD 10|9|OBJ 11|2|PUNCT
+*SAR:	and I was like why do they keep on referencing this ? 59928_62075
+%mor:	coord|and pro:sub|I cop|be&PAST&13S prep|like pro:int|why mod|do
+	pro:sub|they v|keep adv|on part|reference-PRESP pro:dem|this ?
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|8|JCT 6|8|AUX 7|8|SUBJ 8|4|CPOBJ
+	9|8|JCT 10|8|XJCT 11|10|OBJ 12|3|PUNCT
+*SAR:	I wonder what it is . 62041_64537
+%mor:	pro:sub|I v|wonder pro:int|what pro:per|it cop|be&3S .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|2|PUNCT
+*PAI:	+< but she just told me as in subway only . 62041_64519
+%mor:	conj|but pro:sub|she adv|just v|tell&PAST pro:obj|me adv|as prep|in
+	sub#n|way adv|only .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|JCT 8|7|POBJ
+	9|8|JCT 10|4|PUNCT
+*SAR:	yes for the subway . 64505_65469
+%mor:	co|yes prep|for det:art|the sub#n|way .
+%gra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*SAR:	<it's for the> [//] it's [/] it's for that . 65445_67506
+%mor:	pro:per|it~cop|be&3S prep|for pro:dem|that .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*SAR:	but there may be something different that she bought . 67492_69878
+%mor:	conj|but adv|there mod|may cop|be pro:indef|something adj|different
+	comp|that pro:sub|she v|buy&PAST .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PRED 6|5|PRED 7|9|LINK 8|9|SUBJ
+	9|6|CMOD 10|4|PUNCT
+*SAR:	because this one serves as [//] <as a> [/] as a thing for the
+	subway . 69861_73731
+%mor:	conj|because det:dem|this pro:indef|one v|serve-3S prep|as
+	det:art|a n|thing prep|for det:art|the sub#n|way .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|JCT
+	9|10|DET 10|8|POBJ 11|4|PUNCT
+*SAR:	but it also gives you if you have that card sometimes you can get
+	into certain museums and things like that . 73708_79691
+%mor:	conj|but pro:per|it adv|also v|give-3S pro:per|you conj|if
+	pro:per|you v|have det:dem|that n|card adv|sometimes pro:per|you
+	mod|can v|get prep|into adj|certain n|museum-PL coord|and n|thing-PL
+	prep|like pro:dem|that .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|OBJ 6|8|LINK 7|8|SUBJ 8|4|CJCT
+	9|10|DET 10|8|OBJ 11|14|JCT 12|14|SUBJ 13|14|AUX 14|8|COMP 15|14|JCT
+	16|17|MOD 17|15|POBJ 18|14|CONJ 19|18|COORD 20|19|NJCT 21|20|POBJ 22|4|PUNCT
+*SAR:	pero@s bueno@s I checked out the prize and I was like if we are
+	just gonna use +/. 79659_85351
+%mor:	L2|pero L2|bueno pro:sub|I v|check-PAST prep|out det:art|the
+	n|prize coord|and pro:sub|I cop|be&PAST&13S prep|like conj|if
+	pro:sub|we aux|be&PRES adv|just part|go-PRESP~inf|to v|use +/.
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|10|LINK
+	9|10|SUBJ 10|4|CJCT 11|10|JCT 12|16|LINK 13|16|SUBJ 14|16|AUX 15|16|JCT
+	16|11|CPOBJ 17|18|INF 18|16|COMP 19|4|PUNCT
+%eng:	but well, I checked out the prize and I was, like, if we are just
+	gonna use it
+*PAI:	+< she told me she paid forty two dollars or forty dollars or
+	something like that . 82396_85653
+%mor:	pro:sub|she v|tell&PAST pro:obj|me pro:sub|she v|pay&PAST
+	det:num|forty det:num|two n|dollar-PL coord|or det:num|forty
+	n|dollar-PL coord|or pro:indef|something prep|like pro:dem|that .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|SUBJ 5|2|COMP 6|8|QUANT 7|8|QUANT 8|5|OBJ
+	9|8|CONJ 10|11|QUANT 11|9|COORD 12|11|CONJ 13|12|COORD 14|13|NJCT
+	15|14|POBJ 16|2|PUNCT
+*SAR:	It's like using the metro here (.) and you buy the annual pass it
+	comes out cheaper . 85644_89550
+%mor:	n:prop|It~cop|be&3S v|like part|use-PRESP det:art|the adj|metro
+	adv|here coord|and pro:per|you v|buy det:art|the n|annual n|pass
+	pro:per|it v|come-3S adv|out adj|cheap-CP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|CPRED 4|3|COMP 5|6|DET 6|4|OBJ 7|6|JCT 8|10|LINK
+	9|10|SUBJ 10|6|CMOD 11|13|DET 12|13|MOD 13|10|OBJ 14|15|SUBJ 15|10|COMP
+	16|17|JCT 17|15|JCT 18|2|PUNCT
+*SAR:	xxx . 89543_95264
+*PAI:	+< xxx . 89543_95264
+*SAR:	[- spa] ay yo sabía . 95246_96291
+%mor:	co|ay=ay pro:sub|yo=I v|sabe-13S&PAS=know .
+%eng:	oh, I know
+*PAI:	[- spa] ay Dios mío [=! laugh] . 96291_98433
+%mor:	co|ay=ay n:prop|Dios pro:pos|mío-MASC=mine .
+%eng:	oh my God
+*SAR:	[- spa] tú eres de madre . 98421_99518
+%mor:	pro:sub|tú=you cop|se-2S&PRES=be prep|de=of n|madre&f=mother .
+%eng:	you're so good
+*PAI:	that was Katherine Hart by the way . 99059_101085
+%mor:	pro:dem|that cop|be&PAST&13S n:prop|Katherine n:prop|Hart prep|by
+	det:art|the n|way .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|NAME 4|2|PRED 5|4|NJCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*SAR:	&=laugh . 101067_101961
+*PAI:	&=laugh . 101067_101961
+*SAR:	whoever wants to know . 101920_103366
+%mor:	pro:int|whoever v|want-3S inf|to v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*SAR:	the xxx [=! laugh] . 103366_107502
+%mor:	det:art|the .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	&=laugh . 103366_107502
+*PAI:	[- spa] qué vergüenza ! 107486_109396
+%mor:	pro:int|qué=what n|vergüenza&f=shame !
+%eng:	what a shame !
+*SAR:	[- spa] yo sabía . 109374_111667
+%mor:	pro:sub|yo=I v|sabe-13S&PAS=know .
+%eng:	I know .
+*PAI:	+< I'm gonna kill her . 109374_111667
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|kill pro:obj|her .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|PUNCT
+*SAR:	&=laugh . 111655_115782
+*PAI:	[- spa] xxx [=! laugh] . 111655_115782
+*PAI:	[- spa] y él los oy(e) [=! laugh] . 115776_117204
+%mor:	coord|y=and pro:sub|él&m=he pro:obj|él&m-PL=he v|oí-3S&PRES=hear .
+%eng:	and he listens to them .
+*SAR:	eh ? 117163_117813
+%mor:	co|eh ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	[- spa] él los escucha . 117802_118899
+%mor:	pro:sub|él&m=he pro:obj|él&m-PL=he v|escucha-3S&PRES=listen .
+%eng:	he listens to them .
+*SAR:	[- spa] ahora me mandaron un +... 118898_120639
+%mor:	adv|ahora=now pro:obj|me=me v|manda-3P&PRET=order det:art|un&m=one
+	+...
+%eng:	now they're booking me a ...
+*SAR:	tú@s por_fin@s did you book (.) the hotel (.) for September ? 120728_123781
+%mor:	L2|tú L2|por_fin mod|do&PAST pro:per|you n|book det:art|the n|hotel
+	prep|for n:prop|September ?
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|INCROOT 6|7|DET 7|5|OBJ 8|7|NJCT
+	9|8|POBJ 10|5|PUNCT
+%eng:	in the end did you book the hotel for September ?
+*PAI:	+< no . 122806_124002
+%mor:	co|no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	[- spa] porque me mandaron ahora un special@s el Western de
+	Times_Square in@s one@s seventy@s nine@s . 123985_129227
+%mor:	conj|porque=because pro:obj|me=me v|manda-3P&PRET=order
+	adv|ahora=now det:art|un&m=one L2|special det:art|el&MASC&SG=the
+	n:prop|Western prep|de=of n:prop|Times_Square L2|in L2|one
+	L2|seventy L2|nine .
+%eng:	because now they're booking me a special, the Times Square [Best]
+	Western in one seventy-nine
+*SAR:	but they only have one day in September . 129215_131717
+%mor:	conj|but pro:sub|they adv|only v|have det:num|one n|day prep|in
+	n:prop|September .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|6|QUANT 6|4|OBJ 7|6|NJCT 8|7|POBJ
+	9|4|PUNCT
+*PAI:	one day ? 131715_134768
+%mor:	det:num|one n|day ?
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*SAR:	+< one day . 131715_134768
+%mor:	det:num|one n|day .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*SAR:	[- spa] Paige yo no sabía que a María la estaban recording@s
+	también . 134794_141069
+%mor:	n:prop|Paige pro:sub|yo=I adv|no=no v|sabe-13S&PAS=know
+	pro:rel|que=that aprep|a=to n:prop|María pro:obj|la&f=she
+	aux|esta-3P&PAS=be L2|recording adv|también=also .
+%eng:	Paige, I didn't know that they were recording María as well .
+%com:	you can hear other conversation in background
+*PAI:	+< eh . 140438_141152
+%mor:	co|eh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	[- spa] que a María la estaban recording@s también . 141127_142963
+%mor:	pro:rel|que=that aprep|a=to n:prop|María pro:obj|la&f=she
+	aux|esta-3P&PAS=be L2|recording adv|también=also .
+%eng:	that María has been recording as well .
+*PAI:	+< María is on all day . 142875_144326
+%mor:	n:prop|María cop|be&3S prep|on qn|all n|day .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|QUANT 5|3|POBJ 6|2|PUNCT
+*SAR:	yeah I saw her with that thing . 144301_145590
+%mor:	co|yeah pro:sub|I v|see&PAST det:poss|her prep|with det:dem|that
+	n|thing .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*SAR:	I thought it was her I_Pod . 145561_146455
+%mor:	pro:sub|I v|think&PAST pro:per|it cop|be&PAST&13S det:poss|her
+	n:prop|I_Pod .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|DET 6|4|PRED 7|2|PUNCT
+*SAR:	and I go +"/. 146449_146780
+%mor:	coord|and pro:sub|I v|go +"/.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	+" what kind of I_Pod is that ? 146774_147720
+%mor:	pro:int|what n|kind prep|of n:prop|I_Pod cop|be&3S pro:dem|that ?
+%gra:	1|2|MOD 2|5|SUBJ 3|2|NJCT 4|3|POBJ 5|0|ROOT 6|5|PRED 7|5|PUNCT
+*SAR:	and then mi(ré)@s [/] miré@s bien@s . 147714_148935
+%mor:	coord|and adv:tem|then L2|miré L2|bien .
+%gra:	1|0|INCROOT 2|1|COORD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+%eng:	and then I looked more closely .
+*SAR:	[- spa] y dije +"/. 148929_149318
+%mor:	coord|y=and v|deci-1S&PRET=say +"/.
+%eng:	and I said .
+*SAR:	+" [- spa] no ella debe estar haciendo otra cosa . 149318_150659
+%mor:	adv|no=no pro:sub|ella=she v|debe-3S&PRES=must inf|esta-INF=be
+	ger|hace-PROG=do det:indef|otro-FEM=other v|cose-13S&SUB&PRES=sew .
+%eng:	no, she ought to be doing something else .
+*PAI:	+< yeah because her sister does no@s sé@s qué@s cosa@s . 150059_153635
+%mor:	co|yeah conj|because det:poss|her n|sister mod|do&3S L2|no L2|sé
+	L2|qué L2|cosa .
+%gra:	1|6|COM 2|6|LINK 3|4|DET 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|PRED 8|7|CONJ
+	9|8|COORD 10|6|PUNCT
+%eng:	yeah, because her sister does I don't know what .
+*SAR:	yeah he explained it to me that she's doing a more extensive one .
+	153567_155960
+%mor:	co|yeah pro:sub|he v|explain-PAST pro:per|it prep|to pro:obj|me
+	comp|that pro:sub|she~aux|be&3S part|do-PRESP det:art|a adv|more
+	adj|extensive pro:indef|one .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|10|LINK 8|10|SUBJ
+	9|10|AUX 10|3|COMP 11|14|DET 12|13|JCT 13|14|MOD 14|10|OBJ 15|3|PUNCT
+*SAR:	hers is thirty hours . 155954_157440
+%mor:	pro:poss|hers cop|be&3S det:num|thirty n|hour-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|PRED 5|2|PUNCT
+*PAI:	wow . 157264_159348
+%mor:	co|wow .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	+< she has to be recorded or something . 157264_159406
+%mor:	pro:sub|she aux|have&3S inf|to aux|be part|record-PASTP coord|or
+	pro:indef|something .
+%gra:	1|5|SUBJ 2|5|AUX 3|5|INF 4|5|AUX 5|0|ROOT 6|5|CONJ 7|6|COORD 8|5|PUNCT
+*PAI:	imagínate@s tú@s (.) thirty hours . 159375_163508
+%mor:	L2|imagínate L2|tú det:num|thirty n|hour-PL .
+%gra:	1|4|MOD 2|4|MOD 3|4|QUANT 4|0|INCROOT 5|4|PUNCT
+%eng:	just imagine, thirty hours .
+*PAI:	she's been at it for a long time too . 163470_165298
+%mor:	pro:sub|she~cop|be&3S cop|be&PASTP prep|at pro:per|it prep|for
+	det:art|a adj|long n|time adv|too .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|JCT 5|4|POBJ 6|3|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|9|NJCT 11|2|PUNCT
+*PAI:	imagínate@s thirty hours is almost a week with it . 165275_168166
+%mor:	L2|imagínate det:num|thirty n|hour-PL cop|be&3S adv|almost
+	det:art|a n|week prep|with pro:per|it .
+%gra:	1|4|LINK 2|3|QUANT 3|4|SUBJ 4|0|ROOT 5|7|JCT 6|7|DET 7|4|PRED 8|7|NJCT
+	9|8|POBJ 10|4|PUNCT
+%eng:	imagine: thirty hours is almost a week with it .
+*SAR:	so what eh bueno@s so I went to go check for you . 168120_173756
+%mor:	adv|so pro:int|what co|eh L2|bueno conj|so pro:sub|I v|go&PAST
+	inf|to v|go n|check prep|for pro:per|you .
+%gra:	1|2|JCT 2|4|LINK 3|4|COM 4|0|ROOT 5|7|LINK 6|7|SUBJ 7|4|CJCT 8|9|INF
+	9|7|COMP 10|9|OBJ 11|9|JCT 12|11|POBJ 13|4|PUNCT
+%eng:	so what, oh well, so I went to check for you .
+*SAR:	and they only have one day in [/] in [/] in September that you can
+	get discount . 173744_177382
+%mor:	coord|and pro:sub|they adv|only v|have det:num|one n|day prep|in
+	n:prop|September pro:rel|that pro:per|you mod|can v|get n|discount .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|6|QUANT 6|4|JCT 7|4|JCT 8|7|POBJ
+	9|12|LINK 10|12|SUBJ 11|12|AUX 12|8|CMOD 13|12|OBJ 14|4|PUNCT
+*PAI:	I'm just gonna go and +... 179385_180859
+%mor:	pro:sub|I~aux|be&1S adv|just part|go-PRESP~inf|to v|go coord|and
+	+...
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|6|INF 6|4|COMP 7|6|CONJ 8|4|PUNCT
+*PAI:	[- spa] pero que tengo que esperar a [/] (.) a coger el dinero ese
+	en mayo . 180575_186443
+%mor:	conj|pero=but pro:rel|que=that v|tene-1S&PRES=have pro:rel|que=that
+	inf|espera-INF=wait aprep|a=to inf|coge-INF=take
+	det:art|el&MASC&SG=the n|dinero&m=coin det:dem|ese=that prep|en=in
+	n|mayo&m=May .
+%eng:	but, that I have to wait to get that money in May .
+*SAR:	[- spa] qué dinero ? 186380_189340
+%mor:	pro:int|qué=what n|dinero&m=coin ?
+%eng:	what money ?
+*PAI:	[- spa] el dinero ese que nos van a dar with@s the@s taxes@s . 189294_192173
+%mor:	det:art|el&MASC&SG=the n|dinero&m=coin det:dem|ese=that
+	pro:rel|que=that pro:obj|nos=us v|i-3P&PRES=go aprep|a=to
+	inf|da-INF=give L2|with L2|the L2|taxes .
+%eng:	that money that they're going to give with the taxes .
+*SAR:	oh okay . 192121_193369
+%mor:	co|oh co|okay .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*PAI:	and I'm still four months ahead . 193381_197113
+%mor:	coord|and pro:sub|I~cop|be&1S adv|still det:num|four n|month-PL
+	adv|ahead .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|6|QUANT 6|3|PRED 7|6|NJCT
+	8|3|PUNCT
+*SAR:	yeah . 197047_197650
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	eh I mean how much &~ero it'll probably go up yeah second month to
+	the first . 197630_201961
+%mor:	co|eh pro:sub|I v|mean pro:int|how adv|much pro:per|it~mod|will
+	adv|probable&dadj-LY v|go adv|up co|yeah adj|second n|month prep|to
+	det:art|the adj|first .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|9|JCT 6|9|SUBJ 7|9|AUX 8|9|JCT
+	9|3|COMP 10|9|JCT 11|9|COM 12|13|MOD 13|9|JCT 14|9|JCT 15|16|DET 16|14|POBJ
+	17|3|PUNCT
+*PAI:	[- spa] tengo un dolor de cabeza (.) de perros . 201925_208483
+%mor:	v|tene-1S&PRES=have det:art|un&m=one n|dolor&m=pain prep|de=of
+	n|cabeza&f=head prep|de=of n|perro-MASC-PL=dog .
+%eng:	I have a splitting headache .
+*SAR:	what did you eat yesterday que@s te@s cayó@s mal@s ? 208421_210860
+%mor:	pro:int|what mod|do&PAST pro:per|you v|eat adv:tem|yesterday L2|que
+	L2|te L2|cayó L2|mal ?
+%gra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|JCT 7|6|OM 8|7|OM 9|8|OM
+	10|4|PUNCT
+%eng:	what did you eat yesterday that made you ill ?
+*PAI:	+< I went to Publix yesterday night . 209827_211336
+%mor:	pro:sub|I v|go&PAST prep|to n:prop|Publix adv:tem|yesterday n|night
+	.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|MOD 5|6|MOD 6|3|POBJ 7|2|PUNCT
+*PAI:	and I did some shopping . 211028_212589
+%mor:	coord|and pro:sub|I v|do&PAST qn|some n:gerund|shop-PRESP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|3|PUNCT
+*PAI:	y@s (.) I didn't wanna cook . 212589_215491
+%mor:	L2|y pro:sub|I mod|do&PAST~neg|not v|want~inf|to v|cook .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|7|INF 7|5|COMP 8|5|PUNCT
+%eng:	and I didn't want to cook .
+*SAR:	okay . 215481_217582
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	+< so I made xxx that's turkey and stuffing (.) and macaroni and
+	cheese . 216532_224605
+%mor:	co|so pro:sub|I v|make&PAST comp|that~aux|be&3S n|turkey coord|and
+	part|stuff-PRESP coord|and n|macaroni coord|and n|cheese .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|SUBJ 5|6|AUX 6|3|OBJ 7|6|CONJ 8|7|COORD
+	9|8|CONJ 10|9|COORD 11|10|CONJ 12|11|COORD 13|3|PUNCT
+*SAR:	[- spa] yo no sé por qué tú comes macaroni_and_cheese@s si tú sabes
+	que te va a caer mal . 224569_229004
+%mor:	pro:sub|yo=I adv|no=no v|sabe-1S&PRES=know prep|por=for
+	pro:int|qué=what pro:sub|tú=you v|come-2S&PRES=eat
+	L2|macaroni_and_cheese conj|si=if pro:sub|tú=you v|sabe-2S&PRES=know
+	pro:rel|que=that pro:obj|te=you v|i-3S&PRES=go aprep|a=to
+	inf|cae-INF=fall adv|mal=badly .
+%eng:	I don't know why you eat macaroni and cheese if you know that
+	you're going to feel ill .
+*SAR:	[- spa] siempre te cae mal . 228991_230837
+%mor:	adv|siempre=always pro:obj|te=you v|cae-3S&PRES=fall adv|mal=badly
+	.
+%eng:	you always get ill .
+*PAI:	no no no something something happened something that chicken . 230803_235651
+%mor:	co|no co|no co|no pro:indef|something pro:indef|something
+	v|happen-PAST pro:indef|something adv|that n|chicken .
+%gra:	1|6|COM 2|3|COM 3|6|COM 4|6|LINK 5|6|SUBJ 6|0|ROOT 7|6|OBJ 8|6|JCT
+	9|8|POBJ 10|6|PUNCT
+*SAR:	chicken but what's wrong with the chicken ? 235654_237906
+%mor:	n|chicken conj|but pro:int|what~cop|be&3S adj|wrong prep|with
+	det:art|the n|chicken ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|SUBJ 4|2|COORD 5|4|PRED 6|5|JCT 7|8|DET
+	8|6|POBJ 9|1|PUNCT
+*PAI:	+< the [/] the turkey I don't know me@s dio@s un@s asco@s . 236456_238772
+%mor:	det:art|the n|turkey pro:sub|I mod|do~neg|not v|know L2|me L2|dio
+	L2|un L2|asco .
+%gra:	1|2|DET 2|6|SUBJ 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|OBJ 8|7|POSTMOD
+	9|8|CONJ 10|9|COORD 11|6|PUNCT
+%eng:	the turkey, I don't know, it gave me a turn .
+*SAR:	+< but what kind of turkey was it ? 238556_240240
+%mor:	conj|but pro:int|what n|kind prep|of n|turkey cop|be&PAST&13S
+	pro:per|it ?
+%gra:	1|6|LINK 2|3|MOD 3|6|SUBJ 4|3|NJCT 5|4|POBJ 6|0|ROOT 7|6|PRED 8|6|PUNCT
+*PAI:	desmenuzado@s con@s stuffing todo@s mezclado@s . 240216_242817
+%mor:	L2|desmenuzado L2|con n:gerund|stuff-PRESP L2|todo L2|mezclado .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|OBJ 4|3|JCT 5|4|POBJ 6|1|PUNCT
+%eng:	shredded, with stuffing, everything mixed together .
+*SAR:	you got that at Publix . 242803_244082
+%mor:	pro:per|you v|get&PAST comp|that prep|at n:prop|Publix .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|NJCT 5|4|POBJ 6|2|PUNCT
+*PAI:	yeah . 244047_244500
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	sounds good . 244454_245411
+%mor:	v|sound-3S adj|good .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*PAI:	it did . 245381_245845
+%mor:	pro:per|it v|do&PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*PAI:	it looked good . 245862_246686
+%mor:	pro:per|it cop|look-PAST adj|good .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*SAR:	y@s no@s te@s dio@s asco@s or something . 246699_249927
+%mor:	L2|y L2|no L2|te L2|dio L2|asco coord|or pro:indef|something .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|1|PUNCT
+%eng:	and it didn't make you feel sick or something .
+*SAR:	don't throw up now . 249764_251291
+%mor:	mod|do~neg|not v|throw adv|up adv|now .
+%gra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|JCT 5|3|JCT 6|3|PUNCT
+*SAR:	(be)cause then I gotta go with you +/. 251022_253536
+%mor:	conj|because adv:tem|then pro:sub|I mod|got~inf|to v|go prep|with
+	pro:per|you +/.
+%gra:	1|6|LINK 2|6|JCT 3|6|SUBJ 4|6|AUX 5|6|INF 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|6|PUNCT
+*PAI:	&=laugh . 253504_254392
+*SAR:	to the bathroom . 254375_255350
+%mor:	prep|to det:art|the n|+n|bath+n|room .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*SAR:	<and I don't wanna be> [=! laughs] . 255296_259573
+%mor:	coord|and pro:sub|I mod|do~neg|not v|want~inf|to cop|be .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|7|INF 7|5|COMP 8|5|PUNCT
+*SAR:	no thank you . 259564_260574
+%mor:	co|no v|thank pro:per|you .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*PAI:	pero@s my god . 260519_262899
+%mor:	L2|pero det:poss|my n|god .
+%gra:	1|0|INCROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+%eng:	but my God .
+*PAI:	&=sigh it's hot . 262856_266577
+%mor:	pro:per|it~cop|be&3S adj|hot .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*SAR:	xxx found that thing <for the> [/] for the wine thing expensive . 266552_271748
+%mor:	v|find&PAST comp|that n|thing prep|for det:art|the n|wine n|thing
+	adj|expensive .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|POBJ 4|3|NJCT 5|7|DET 6|7|MOD 7|4|POBJ 8|7|POSTMOD
+	9|1|PUNCT
+*PAI:	fifty dollars . 271754_273060
+%mor:	det:num|fifty n|dollar-PL .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*SAR:	fifty dollars . 273025_274018
+%mor:	det:num|fifty n|dollar-PL .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*PAI:	xxx for two hours it's twenty five bucks an hour . 273973_276719
+%mor:	prep|for det:num|two n|hour-PL pro:per|it~cop|be&3S det:num|twenty
+	det:num|five n|buck-PL det:art|a n|hour .
+%gra:	1|5|JCT 2|3|QUANT 3|1|POBJ 4|5|SUBJ 5|0|ROOT 6|8|QUANT 7|8|QUANT
+	8|5|PRED 9|10|DET 10|8|OBJ 11|5|PUNCT
+*PAI:	unless you drink like a fish it's [/] it's good to go . 276689_279173
+%mor:	conj|unless pro:per|you v|drink prep|like det:art|a n|fish
+	pro:per|it~cop|be&3S adj|good inf|to v|go .
+%gra:	1|3|LINK 2|3|SUBJ 3|8|CJCT 4|3|JCT 5|6|DET 6|4|POBJ 7|8|SUBJ 8|0|ROOT
+	9|8|PRED 10|11|INF 11|9|XMOD 12|8|PUNCT
+*SAR:	he's like xxx I would wanna go . 279137_281703
+%mor:	pro:sub|he~cop|be&3S conj|like pro:sub|I mod|will&COND
+	v|want~inf|to v|go .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|2|CJCT 7|8|INF 8|6|COMP
+	9|2|PUNCT
+*SAR:	pero@s there's a whole bunch of restaurants participating . 281696_284668
+%mor:	L2|pero pro:exist|there~cop|be&3S det:art|a adj|whole n|bunch
+	prep|of n|restaurant-PL part|participate-PRESP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|6|NJCT 8|7|POBJ
+	9|6|XMOD 10|3|PUNCT
+%eng:	but there's a whole bunch of restaurants participating .
+*SAR:	what I wanted to ask Adelina was +/. 284673_286834
+%mor:	pro:int|what pro:sub|I v|want-PAST inf|to v|ask n:prop|Adelina
+	cop|be&PAST&13S +/.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|7|SUBJ 7|5|COMP 8|3|PUNCT
+*PAI:	is that the one that they was doing in Coral_Gables that they
+	closed it down ? 286811_289632
+%mor:	cop|be&3S comp|that det:art|the pro:indef|one pro:rel|that
+	pro:sub|they aux|be&PAST&13S part|do-PRESP prep|in
+	n:prop|Coral_Gables pro:rel|that pro:sub|they v|close-PAST
+	pro:per|it adv|down ?
+%gra:	1|0|ROOT 2|1|PRED 3|4|DET 4|2|OM 5|8|LINK 6|8|SUBJ 7|8|AUX 8|4|CMOD
+	9|8|JCT 10|9|POBJ 11|13|LINK 12|13|SUBJ 13|10|CMOD 14|13|OBJ 15|13|JCT
+	16|1|PUNCT
+*SAR:	I've never seen it before . 289588_291126
+%mor:	pro:sub|I~aux|have adv|never part|see&PASTP pro:per|it adv|before .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*PAI:	I think so . 291539_292340
+%mor:	pro:sub|I v|think co|so .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*PAI:	I've seen it <in a> [/] <in a> [/] in a +/. 292328_293634
+%mor:	pro:sub|I~aux|have part|see&PASTP pro:per|it prep|in det:art|a +/.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|PUNCT
+*SAR:	+< maybe like I bumped into it going home since it's on my way . 293222_296044
+%mor:	adv|maybe co|like pro:sub|I v|bump-PAST prep|into pro:per|it
+	part|go-PRESP adv|home prep|since pro:per|it~cop|be&3S adv|on co|my
+	adv|way .
+%gra:	1|4|JCT 2|1|COM 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|XJCT 8|7|JCT
+	9|11|JCT 10|11|SUBJ 11|7|COMP 12|11|JCT 13|14|COM 14|11|JCT 15|4|PUNCT
+*SAR:	and I noticed that the streets are closed . 296049_298052
+%mor:	coord|and pro:sub|I v|notice-PAST comp|that det:art|the n|street-PL
+	aux|be&PRES part|close-PASTP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|8|LINK 5|6|DET 6|8|SUBJ 7|8|AUX 8|3|COMP
+	9|3|PUNCT
+*PAI:	+< I [///] yes and [/] and [/] and John has gone to it . 296815_299978
+%mor:	co|yes coord|and n:prop|John aux|have&3S part|go&PASTP prep|to
+	pro:per|it .
+%gra:	1|5|COM 2|1|CONJ 3|2|COORD 4|5|AUX 5|0|ROOT 6|5|JCT 7|6|POBJ 8|5|PUNCT
+*SAR:	but I wanted to ask Adelina because they have a list of +//. 299970_303456
+%mor:	conj|but pro:sub|I v|want-PAST inf|to v|ask n:prop|Adelina
+	conj|because pro:sub|they v|have det:art|a n|list prep|of +//.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|9|LINK 8|9|SUBJ
+	9|3|CJCT 10|11|DET 11|9|OBJ 12|11|NJCT 13|3|PUNCT
+*SAR:	xxx <it says> [/] it says that they are gonna be serving . 303433_306735
+%mor:	pro:per|it v|say-3S comp|that pro:sub|they aux|be&PRES
+	part|go-PRESP~inf|to aux|be part|serve-PRESP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|2|COMP 7|9|INF 8|9|AUX
+	9|6|COMP 10|2|PUNCT
+*SAR:	there's gonna be wine right obviously . 306712_308552
+%mor:	pro:exist|there~aux|be&3S part|go-PRESP~inf|to cop|be adj|wine
+	n|right adv|obvious&dadj-LY .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|MOD 7|5|PRED 8|7|NJCT
+	9|3|PUNCT
+*PAI:	m:hm . 308552_309422
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	but it's gonna be xxx . 309401_311967
+%mor:	conj|but pro:per|it~aux|be&3S part|go-PRESP~inf|to cop|be .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|4|PUNCT
+*PAI:	[- spa] por cincuenta pesos ? 311972_313041
+%mor:	prep|por=for det:num|cincuenta=fifty n|peso&m-PL=weight ?
+%eng:	for fifty dollars ?
+*SAR:	+< exactly from [/] from this place Wild_Oats or something right ?
+	312803_316494
+%mor:	adv|exact&dadj-LY prep|from det:dem|this n|place n:prop|Wild_Oats
+	coord|or pro:indef|something adj|right ?
+%gra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|2|POBJ 6|5|CONJ 7|6|COORD
+	8|7|POSTMOD 9|1|PUNCT
+*PAI:	+< oh no . 313406_314376
+%mor:	co|oh co|no .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*SAR:	[- spa] (es)pérate . 316467_317959
+%mor:	imp|espera-2S&IMP~pro:clit|2S .
+%eng:	wait and see .
+*SAR:	but then I'm saying fifty dollars ! 317947_320437
+%mor:	conj|but adv:tem|then pro:sub|I~aux|be&1S part|say-PRESP
+	det:num|fifty n|dollar-PL !
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|QUANT 7|5|OBJ 8|5|PUNCT
+*SAR:	and are you gonna get hors_d'oeuvres ? 320415_322708
+%mor:	coord|and cop|be&PRES pro:per|you part|go-PRESP~inf|to v|get
+	n|hors_d'oeuvres ?
+%gra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|3|XMOD 5|6|INF 6|4|COMP 7|6|OBJ 8|2|PUNCT
+*SAR:	but then I went into the restaurant section . 322702_325297
+%mor:	conj|but adv:tem|then pro:sub|I v|go&PAST prep|into det:art|the
+	n|restaurant n|section .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|4|PUNCT
+*SAR:	and it has all the restaurants participating . 325268_328072
+%mor:	coord|and pro:per|it aux|have&3S qn|all det:art|the n|restaurant-PL
+	part|participate-PRESP .
+%gra:	1|7|LINK 2|7|SUBJ 3|7|AUX 4|6|QUANT 5|6|DET 6|7|JCT 7|0|ROOT 8|7|PUNCT
+*SAR:	so I'm like bueno@s is each restaurant gonna have like a booth that
+	you can sample their food porque@s está@s Flemmings ahí@s . 328055_335467
+%mor:	adv|so pro:sub|I~cop|be&1S co|like L2|bueno aux|be&3S qn|each
+	n|restaurant part|go-PRESP~inf|to v|have prep|like det:art|a n|booth
+	pro:rel|that pro:per|you mod|can v|sample det:poss|their n|food
+	L2|porque L2|está n:prop|Flemmings L2|ahí .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|COM 5|3|PRED 6|7|AUX 7|8|QUANT 8|5|OBJ
+	9|8|XMOD 10|11|INF 11|9|COMP 12|11|JCT 13|14|DET 14|12|POBJ 15|18|LINK
+	16|18|SUBJ 17|18|AUX 18|14|CMOD 19|20|DET 20|18|OBJ 21|24|MOD 22|24|MOD
+	23|24|MOD 24|18|COMP 25|3|PUNCT
+%eng:	so I'm like, OK, is each restaurant gonna have, like, a booth that
+	you can sample their food because Flemming is there .
+*PAI:	no yeah Wild_Oats is not a +... 335457_337936
+%mor:	co|no co|yeah n:prop|Wild_Oats cop|be&3S neg|not det:art|a +...
+%gra:	1|3|COM 2|3|COM 3|4|SUBJ 4|0|ROOT 5|4|NEG 6|7|DET 7|4|PUNCT
+*SAR:	okay or are they just gonna (.) pass the stupid hors_d'oeuvres and
+	that's it por@s cincuenta@s pesos@s . 337890_346058
+%mor:	co|okay coord|or cop|be&PRES pro:sub|they adv|just
+	part|go-PRESP~inf|to v|pass det:art|the adj|stupid n|hors_d'oeuvres
+	coord|and pro:dem|that~cop|be&3S pro:per|it L2|por L2|cincuenta
+	L2|pesos .
+%gra:	1|6|COM 2|1|CONJ 3|2|COORD 4|6|SUBJ 5|6|JCT 6|0|ROOT 7|8|INF 8|6|COMP
+	9|11|DET 10|11|MOD 11|8|OBJ 12|14|LINK 13|14|SUBJ 14|8|CJCT 15|14|PRED
+	16|15|POSTMOD 17|16|CONJ 18|17|COORD 19|6|PUNCT
+%eng:	OK, or are they just gonna pass the stupid hors d'oeuvres and
+	that's it for fifty dollars .
+*PAI:	+< it's a healthy store . 338639_340758
+%mor:	pro:per|it~cop|be&3S det:art|a adj|health&dn-Y n|store .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*SAR:	[- spa] no hay manera que tú te puedas tomar . 346005_348337
+%mor:	adv|no=no v|habe-3S&PRES&SPEC=have n|manera&f=manner
+	pro:rel|que=that pro:sub|tú=you pro:obj|te=you
+	v|pode-2S&SUB&PRES=can inf|toma-INF=take .
+%eng:	there's no way you can take it .
+*PAI:	[- spa] cincuenta +/. 348312_350773
+%mor:	det:num|cincuenta=fifty +/.
+%eng:	fifty .
+*SAR:	bueno@s they're gonna have premium drinks too . 348312_350773
+%mor:	L2|bueno pro:sub|they~aux|be&PRES part|go-PRESP~inf|to v|have
+	n|premium v|drink-3S adv|too .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|SUBJ 8|6|COMP
+	9|8|JCT 10|4|PUNCT
+%eng:	well, they're gonna have premium drinks too
+*SAR:	you know . 352890_353424
+%mor:	pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*PAI:	+< it doesn't sound bad though . 353163_353981
+%mor:	pro:per|it mod|do&3S~neg|not adj|sound adj|bad adv|though .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PRED 6|5|JCT 7|4|PUNCT
+*SAR:	but [/] I don't know . 354477_356526
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*SAR:	I wanted to go . 356526_357341
+%mor:	pro:sub|I v|want-PAST inf|to v|go .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*SAR:	but then Rafi was like +"/. 357318_358740
+%mor:	conj|but adv:tem|then n:prop|Rafi cop|be&PAST&13S prep|like +"/.
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*PAI:	John ha@s ido@s . 357318_358740
+%mor:	n:prop|John L2|ha L2|ido .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+%eng:	John went .
+*SAR:	+" but then <we had> [//] we left the girls yesterday to go to do
+	the taxes . 358707_363002
+%mor:	conj|but adv:tem|then pro:sub|we v|leave&PAST det:art|the n|girl-PL
+	adv:tem|yesterday inf|to v|go inf|to v|do det:art|the n|tax-PL .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|6|NJCT 8|9|INF
+	9|7|COMP 10|11|INF 11|9|COMP 12|13|DET 13|11|OBJ 14|4|PUNCT
+*SAR:	so Rafi's like +"/. 363014_363948
+%mor:	adv|so adj|Rafi&dn-POSS prep|like +"/.
+%gra:	1|2|JCT 2|0|INCROOT 3|2|JCT 4|2|PUNCT
+*SAR:	+" I don't know if I wanna leave the girls again you know . 364018_366856
+%mor:	pro:sub|I mod|do~neg|not v|know comp|if pro:sub|I v|want~inf|to
+	v|leave det:art|the n|girl-PL adv|again pro:per|you v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|LINK 6|7|SUBJ 7|4|COMP 8|9|INF
+	9|7|COMP 10|11|DET 11|9|OBJ 12|14|JCT 13|14|SUBJ 14|7|CJCT 15|4|PUNCT
+*SAR:	so I don't know . 366833_368946
+%mor:	co|so pro:sub|I mod|do~neg|not v|know .
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|PUNCT
+*PAI:	+< xxx your mom's gonna mind . 366833_368946
+%mor:	det:poss|your adj|mom&dn-POSS part|go-PRESP~inf|to v|mind .
+%gra:	1|2|DET 2|0|ROOT 3|2|XMOD 4|5|INF 5|3|COMP 6|2|PUNCT
+*SAR:	I don't know . 368929_369464
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*SAR:	I have to ask her . 369446_370468
+%mor:	pro:sub|I v|have inf|to v|ask pro:obj|her .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|2|PUNCT
+*SAR:	[- spa] y después que le grité hoy . 370447_372015
+%mor:	coord|y=and adv|después=after pro:rel|que=that pro:ind|le=him
+	v|grita-1S&PRET=shout adv|hoy=today .
+%eng:	and since I called him today .
+*PAI:	+< [- spa] no y después que te xxx . 370976_372462
+%mor:	adv|no=no coord|y=and adv|después=after pro:rel|que=that
+	pro:obj|te=you .
+%eng:	no and after you [...] .
+*SAR:	&=laugh . 372432_374139
+*SAR:	it's only for two hours anyway . 374438_375639
+%mor:	pro:per|it~cop|be&3S adv|only prep|for det:num|two n|hour-PL
+	adv|anyway .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|6|QUANT 6|4|POBJ 7|2|JCT 8|2|PUNCT
+*SAR:	we are gonna be right there . 375465_376817
+%mor:	pro:sub|we aux|be&PRES part|go-PRESP~inf|to cop|be adv|right
+	adv|there .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|JCT 7|5|JCT 8|3|PUNCT
+*SAR:	you know . 376799_380480
+%mor:	pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*SAR:	because he says +"/. 380535_381150
+%mor:	conj|because pro:sub|he v|say-3S +"/.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	+" it sounds good I've always wanted to go . 381162_382741
+%mor:	pro:per|it v|sound-3S adj|good pro:sub|I~aux|have adv|always
+	part|want-PASTP inf|to v|go .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|7|SUBJ 5|7|AUX 6|7|JCT 7|3|CMOD 8|9|INF
+	9|7|COMP 10|2|PUNCT
+*SAR:	I always wanted to go to the one in South_Beach . 382793_384169
+%mor:	pro:sub|I adv|always part|want-PASTP inf|to v|go prep|to
+	det:art|the det:num|one prep|in n:prop|South_Beach .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|8|DET 8|6|POBJ
+	9|8|NJCT 10|9|POBJ 11|3|PUNCT
+*SAR:	but the one South_Beach is so expensive . 384163_385544
+%mor:	conj|but det:art|the det:num|one n:prop|South_Beach cop|be&3S
+	adv|so adj|expensive .
+%gra:	1|5|LINK 2|3|DET 3|5|SUBJ 4|5|SUBJ 5|0|ROOT 6|7|JCT 7|5|PRED 8|5|PUNCT
+*PAI:	that's two hundred dollars . 385519_386977
+%mor:	pro:dem|that~cop|be&3S det:num|two det:num|hundred n|dollar-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|QUANT 4|5|QUANT 5|2|PRED 6|2|PUNCT
+*SAR:	yeah it's really expensive . 386889_387958
+%mor:	co|yeah pro:per|it~cop|be&3S adv|real&dadj-LY adj|expensive .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|PUNCT
+*SAR:	and they keep on and they keep on . 387858_389779
+%mor:	coord|and pro:sub|they v|keep adv|on coord|and pro:sub|they v|keep
+	adv|on .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|7|LINK 6|7|SUBJ 7|3|CJCT 8|7|JCT
+	9|3|PUNCT
+*PAI:	+< that's ridiculous . 387858_388699
+%mor:	pro:dem|that~cop|be&3S adj|ridiculous .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*PAI:	but my brother told me it's +/. 388704_390058
+%mor:	conj|but det:poss|my n|brother v|tell&PAST pro:obj|me
+	pro:per|it~cop|be&3S +/.
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|7|CJCT 5|4|OBJ 6|7|SUBJ 7|0|ROOT 8|7|PUNCT
+*SAR:	they keep on hiring the prize thinking that people are not gonna go
+	. 390025_394441
+%mor:	pro:sub|they v|keep adv|on part|hire-PRESP det:art|the n|prize
+	part|think-PRESP adv|that n|person&PL aux|be&PRES neg|not
+	part|go-PRESP~inf|to v|go .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|XJCT 5|6|DET 6|4|OBJ 7|6|XMOD 8|12|JCT
+	9|12|SUBJ 10|12|AUX 11|10|NEG 12|7|COMP 13|14|INF 14|12|COMP 15|2|PUNCT
+%com:	should "hiring the prize" be "*highering the price", ie "raising
+	the price" ?
+*SAR:	and more people go . 394422_395955
+%mor:	coord|and qn|more n|person&PL v|go .
+%gra:	1|4|LINK 2|3|QUANT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*PAI:	+< and the people are going . 394422_396001
+%mor:	coord|and det:art|the n|person&PL aux|be&PRES part|go-PRESP .
+%gra:	1|5|LINK 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PUNCT
+*SAR:	yeah . 395925_397167
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	now next year it'll be three hundred bucks . 397138_398508
+%mor:	adv|now adj|next n|year pro:per|it~mod|will aux|be det:num|three
+	det:num|hundred n|buck-PL .
+%gra:	1|2|JCT 2|3|MOD 3|0|INCROOT 4|7|SUBJ 5|7|AUX 6|7|AUX 7|9|QUANT
+	8|9|QUANT 9|3|APP 10|3|PUNCT
+*PAI:	but I'm gonna tell my brother next year pa(ra)@s que@s me@s dé@s
+	los@s tickets . 398503_401380
+%mor:	conj|but pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|tell
+	det:poss|my n|brother adj|next n|year L2|para L2|que L2|me L2|dé
+	L2|los n|ticket-PL .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|10|MOD 10|6|OBJ 11|16|MOD 12|16|MOD 13|16|MOD 14|16|MOD 15|16|MOD
+	16|10|APP 17|4|PUNCT
+%eng:	but I'm gonna tell my brother next year why I got myself the
+	tickets .
+*SAR:	+< <and here> [//] but <here in> [/] <here in miracle> [//] here in
+	this one ? 398669_403597
+%mor:	conj|but adv|here prep|in det:dem|this pro:indef|one ?
+%gra:	1|0|INCROOT 2|3|JCT 3|1|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*SAR:	they have a VIP for one fifty . 403576_407448
+%mor:	pro:sub|they v|have det:art|a n:prop|VIP prep|for det:num|one
+	det:num|fifty .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|7|QUANT 7|5|POBJ 8|2|PUNCT
+*SAR:	that you go in the tent . 407467_408587
+%mor:	comp|that pro:per|you v|go prep|in det:art|the n|tent .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*SAR:	and I don't know what they give you . 408663_409829
+%mor:	coord|and pro:sub|I mod|do~neg|not v|know pro:int|what pro:sub|they
+	v|give pro:per|you .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|8|LINK 7|8|SUBJ 8|5|COMP
+	9|8|OBJ 10|5|PUNCT
+*SAR:	is Adelina here ? 409818_410665
+%mor:	cop|be&3S n:prop|Adelina adv|here ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|JCT 4|1|PUNCT
+*PAI:	I've seen the te(nt) . 410656_411690
+%mor:	pro:sub|I~aux|have part|see&PASTP det:art|the n|tent .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*PAI:	yeah let's go there . 411687_413307
+%mor:	co|yeah v|let~pro:obj|us v|go adv|there .
+%gra:	1|2|COM 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|2|PUNCT
+*PAI:	I've seen that tent . 413284_415147
+%mor:	pro:sub|I~aux|have part|see&PASTP pro:dem|that n|tent .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*SAR:	Sharon . 415136_418009
+%mor:	n:prop|Sharon .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	el@s [/] el@s food festival ese@s . 418005_420690
+%mor:	L2|el n|food n|festival L2|ese .
+%gra:	1|3|MOD 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+%eng:	that food festival .
+*OSE:	www . 420632_421793
+*SAR:	ellos@s dijeron@s que@s iban@s a@s dar@s appetizers at Wild_Oats .
+	421829_424492
+%mor:	L2|ellos L2|dijeron L2|que L2|iban L2|a L2|dar n|appetizer-PL
+	prep|at n:prop|Wild_Oats .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|7|MOD 7|5|OBJ
+	8|7|NJCT 9|8|POBJ 10|1|PUNCT
+%eng:	they said they were going to give appetisers at Wild Oats .
+*OSE:	www . 424469_425938
+*SAR:	[- spa] pero hay comida ? 426002_427146
+%mor:	conj|pero=but v|habe-3S&PRES&SPEC=have part|come-PPART-FEM=eat ?
+%eng:	but is there a meal ?
+*OSE:	www . 427120_427747
+*SAR:	entonces@s todos@s esos@s restaurants that are participating will
+	have booths . 427792_431299
+%mor:	L2|entonces L2|todos L2|esos n|restaurant-PL pro:rel|that
+	aux|be&PRES part|participate-PRESP mod|will v|have n|booth-PL .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|7|LINK 6|7|AUX 7|4|CMOD 8|9|AUX
+	9|7|COMP 10|9|OBJ 11|1|PUNCT
+%eng:	then all those restaurants that are participating will have booths
+	.
+*SAR:	and they are provide food for you free . 431282_433709
+%mor:	coord|and pro:sub|they cop|be&PRES v|provide n|food prep|for
+	pro:per|you adv|free .
+%gra:	1|3|LINK 2|3|SUBJ 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|JCT
+	9|4|PUNCT
+*OSE:	www . 433614_436159
+*SAR:	oh okay (be)cause if they're just giving appetizers . 436145_439553
+%mor:	co|oh co|okay conj|because conj|if pro:sub|they~aux|be&PRES
+	adv|just part|give-PRESP n|appetizer-PL .
+%gra:	1|2|COM 2|3|COM 3|0|ROOT 4|8|LINK 5|8|SUBJ 6|8|AUX 7|8|JCT 8|3|CPOBJ
+	9|8|OBJ 10|3|PUNCT
+*PAI:	+< John has gone . 437895_440217
+%mor:	n:prop|John aux|have&3S part|go&PASTP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*SAR:	eh ? 440166_443080
+%mor:	co|eh ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	no they have a list of the restaurants that are participating . 443063_446111
+%mor:	co|no pro:sub|they v|have det:art|a n|list prep|of det:art|the
+	n|restaurant-PL pro:rel|that aux|be&PRES part|participate-PRESP .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|11|LINK 10|11|AUX 11|8|CMOD 12|3|PUNCT
+*OSE:	www . 445431_446331
+*SAR:	it's just in the little thing where you buy the ticket . 446330_448908
+%mor:	pro:per|it~cop|be&3S adj|just prep|in det:art|the adj|little
+	n|thing pro:rel|where pro:per|you v|buy det:art|the n|ticket .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|JCT 5|7|DET 6|7|MOD 7|4|POBJ 8|10|LINK
+	9|10|SUBJ 10|7|CMOD 11|12|DET 12|10|OBJ 13|2|PUNCT
+*SAR:	it tells you no eh you know the wine and premium drinks and
+	hors_d'oeuvres from Wild_Oats . 448873_455524
+%mor:	pro:per|it v|tell-3S pro:per|you co|no co|eh pro:per|you v|know
+	det:art|the n|wine coord|and n|premium n|drink-PL coord|and
+	n|hors_d'oeuvres prep|from n:prop|Wild_Oats .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|COM 5|7|COM 6|7|SUBJ 7|2|COMP 8|9|DET
+	9|7|OBJ 10|9|CONJ 11|12|MOD 12|10|COORD 13|9|CONJ 14|13|COORD 15|14|NJCT
+	16|15|POBJ 17|2|PUNCT
+*SAR:	I'm like +... 455518_455965
+%mor:	pro:sub|I~cop|be&1S prep|like +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*PAI:	y@s Wild_Oats es@s un@s [/] un@s healthy store ? 455946_458564
+%mor:	L2|y n:prop|Wild_Oats L2|es L2|un adj|health&dn-Y n|store ?
+%gra:	1|0|INCROOT 2|1|OM 3|6|MOD 4|6|MOD 5|6|MOD 6|2|APP 7|1|PUNCT
+%eng:	and Wild Oats is a health store ?
+*SAR:	sí@s pero@s they have everything más@s o@s menos@s . 458623_461467
+%mor:	L2|sí L2|pero pro:sub|they v|have pro:indef|everything L2|más L2|o
+	L2|menos .
+%gra:	1|0|INCROOT 2|1|PRED 3|4|SUBJ 4|2|CMOD 5|4|OBJ 6|5|POSTMOD 7|6|CONJ
+	8|7|COORD 9|1|PUNCT
+%eng:	yes, but they have more or less everything .
+%com:	third person in the back
+*SAR:	but still I mean you know it's hors_d'oeuvres it's just +... 461456_465534
+%mor:	conj|but adv|still pro:sub|I v|mean pro:per|you v|know
+	pro:per|it~cop|be&3S n|hors_d'oeuvres pro:per|it~cop|be&3S adj|just
+	+...
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|6|CJCT 5|6|SUBJ 6|0|ROOT 7|8|SUBJ 8|6|COMP
+	9|8|PRED 10|11|SUBJ 11|6|COMP 12|11|PRED 13|6|PUNCT
+*SAR:	I mean +... 465476_466476
+%mor:	pro:sub|I v|mean +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*OSE:	www . 465733_469354
+*SAR:	+< I'm sure they probably have a sampling no ? 467781_469940
+%mor:	pro:sub|I~cop|be&1S adv|sure pro:sub|they adv|probable&dadj-LY
+	v|have det:art|a n:gerund|sample-PRESP co|no ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|JCT 4|6|SUBJ 5|6|JCT 6|2|CPRED 7|8|DET 8|6|OBJ
+	9|8|COM 10|2|PUNCT
+*PAI:	when you do that xxx thing . 469912_472054
+%mor:	conj|when pro:per|you v|do det:dem|that n|thing .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*SAR:	que@s everybody has . 472037_473314
+%mor:	L2|que pro:indef|everybody aux|have&3S .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+%eng:	that everyone has .
+*OSE:	+< www . 472077_473871
+*OSE:	www . 473777_476929
+*SAR:	yeah but you are paying for that right . 475135_476743
+%mor:	co|yeah conj|but pro:per|you aux|be&PRES part|pay-PRESP prep|for
+	det:dem|that adj|right .
+%gra:	1|5|COM 2|5|LINK 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|JCT 7|8|DET 8|6|POBJ
+	9|5|PUNCT
+*OSE:	www . 476736_477490
+*SAR:	+< that's probably what it is . 477485_478448
+%mor:	pro:dem|that~cop|be&3S adv|probable&dadj-LY pro:int|what pro:per|it
+	cop|be&3S .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|LINK 5|6|SUBJ 6|2|PRED 7|2|PUNCT
+*SAR:	[- spa] ah bueno pero mientras que todo el mundo tenga . 478454_480306
+%mor:	co|ah co|bueno=good conj|pero=but adv|mientras=while prep|que=than
+	det:indef|todo-MASC=all det:art|el&MASC&SG=the n|mundo&m=world
+	v|tene-13S&SUB&PRES=have .
+%eng:	ah, well, but while everybody has it .
+*SAR:	porque@s estaba@s hasta@s el@s Flemmings y@s todo@s . 480289_482088
+%mor:	L2|porque L2|estaba L2|hasta L2|el n:prop|Flemmings L2|y L2|todo .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|1|PUNCT
+%eng:	because it was up untl the Flemmings and everything .
+*OSE:	www . 482078_482751
+*SAR:	y@s <va@s a@s estar@s> [///] there's a whole bunch of them . 482792_485839
+%mor:	L2|y pro:exist|there~cop|be&3S det:art|a adj|whole n|bunch prep|of
+	pro:obj|them .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|6|NJCT 8|7|POBJ
+	9|3|PUNCT
+%eng:	and there's going to be, there's a whole bunch of them .
+*OSE:	www . 484864_486524
+*SAR:	<Archies pi(zza)> [//] that Archies place pizza and +... 486052_489625
+%mor:	comp|that n:prop|Archies n|place n|pizza coord|and +...
+%gra:	1|4|LINK 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|CONJ 6|4|PUNCT
+*PAI:	[- spa] oye tú no tienes que recoger a la niña ? 488244_489538
+%mor:	co|oye=listen pro:sub|tú=you adv|no=no v|tene-2S&PRES=have
+	pro:rel|que=that re#inf|coge-INF=take aprep|a=to
+	det:art|el&FEM&SG=the n|niño-FEM=child ?
+%eng:	listen, don't you have to collect the girl ?
+*OSE:	www . 489503_491471
+*PAI:	[- spa] qué hora es ? 491436_491988
+%mor:	pro:int|qué=what n|hora&f=hour cop|se-3S&PRES=be ?
+%eng:	what time is it ?
+*SAR:	fifteen . 491957_493843
+%mor:	det:num|fifteen .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	oh . 493814_494604
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	[- spa] vamos saltando para allá . 494602_497905
+%mor:	v|i-1P&PRES=go ger|salta-PROG=jump prep|para=for adv|allá=there .
+%eng:	let's go there quickly .
+*SAR:	+< [- spa] qué andas haciendo ? 497865_498672
+%mor:	pro:int|qué=what v|anda-2S&PRES=walk ger|hace-PROG=do ?
+%eng:	what are you going to be doing ?
+*OSE:	www . 498648_500529
+*SAR:	xxx . 500489_501731
+*OSE:	www . 500489_501731
+*OSE:	www . 501728_506871
+*SAR:	+< &=sneeze . 504690_505299
+*PAI:	&~pu . 506859_507254
+*SAR:	&~pu . 507271_507649
+*PAI:	[- spa] quién ? 507606_510294
+%mor:	pro:int|quién=who ?
+%eng:	who ?
+%com:	conversation in background
+*PAI:	who [/] who's that ? 510291_513826
+%mor:	pro:int|who~cop|be&3S pro:dem|that ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+%com:	conversation in background
+*SAR:	she's probably pregnant isn't she ? 513813_516228
+%mor:	pro:sub|she~cop|be&3S adv|probable&dadj-LY adj|pregnant
+	cop|be&3S~neg|not pro:sub|she ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|JCT 4|5|SUBJ 5|2|PRED 6|5|NEG 7|5|PRED 8|2|PUNCT
+*PAI:	she knows you ? 516157_518799
+%mor:	pro:sub|she v|know-3S pro:per|you ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+%com:	conversation in background
+*OSE:	www . 518799_519710
+*PAI:	she is lying . 519602_520386
+%mor:	pro:sub|she aux|be&3S part|lie-PRESP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*SAR:	so how'd you add her ? 520014_521256
+%mor:	adv|so pro:rel|how~mod|genmod pro:per|you v|add pro:obj|her ?
+%gra:	1|0|INCROOT 2|5|LINK 3|5|AUX 4|5|SUBJ 5|1|CMOD 6|5|OBJ 7|1|PUNCT
+*SAR:	she's browsing . 521245_523445
+%mor:	pro:sub|she~aux|be&3S part|browse-PRESP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*OSE:	www . 523415_525609
+*OSE:	www . 525647_528707
+*OSE:	www . 528739_530916
+*SAR:	[- spa] ella se mete donde se mete la mamá de xxx . 530917_533326
+%mor:	pro:sub|ella=she pro:refl|se=itself v|mete-3S&PRES=put
+	pro:rel|donde=where pro:refl|se=itself v|mete-3S&PRES=put
+	det:art|el&FEM&SG=the n|mamá&f=mommy prep|de=of .
+%eng:	she interferes where [...] mother interferes
+*SAR:	[- spa] y después te manda todas estas manos [?] de [/] de cosas
+	ahí . 533175_536750
+%mor:	coord|y=and adv|después=after pro:obj|te=you v|manda-3S&PRES=order
+	det:indef|todo-FEM-PL=all det:dem|este-FEM-PL=this n|mano&f-PL=hand
+	prep|de=of n|cosa&f-PL=thing adv|ahí=there .
+%eng:	and then she sends you all these things there .
+*OSE:	www . 536146_537197
+*SAR:	[- spa] no . 537180_537987
+%mor:	adv|no=no .
+%eng:	no .
+*SAR:	Rafi's mom también@s se@s mete@s en@s todas@s esas@s cosas@s &~hei .
+	537972_541141
+%mor:	adj|Rafi&dn-POSS n|mom L2|también L2|se L2|mete L2|en L2|todas
+	L2|esas L2|cosas .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|6|POSTMOD
+	8|7|CONJ 9|8|COORD 10|2|PUNCT
+%eng:	Rafi's mom also gets herself into all these things
+*SAR:	&=laugh . 540891_542730
+*SAR:	[- spa] te vas a xxx el papel ese ? 542712_549669
+%mor:	pro:obj|te=you v|i-2S&PRES=go aprep|a=to det:art|el&MASC&SG=the
+	n|papel&m=paper det:dem|ese=that ?
+%eng:	are you going to [...] that paper ?
+%com:	background noise
+*PAI:	[- spa] ay no . 549633_551095
+%mor:	co|ay=ay adv|no=no .
+%eng:	oh no .
+*SAR:	&=laugh . 551083_552534
+*PAI:	it's just fine . 552517_553835
+%mor:	pro:per|it~cop|be&3S adj|just adj|fine .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*SAR:	&=laugh . 553856_558765
+*PAI:	+< &=laugh . 553856_558765
+*SAR:	[- spa] ay pero vete a vomitar . 558697_560334
+%mor:	co|ay=ay conj|pero=but imp|i-2S&IMP~pro:clit|2S aprep|a=to
+	inf|vomita-INF=vomit .
+%eng:	but go and throw up
+*PAI:	[- spa] no y no hables de eso . 560328_563434
+%mor:	adv|no=no coord|y=and adv|no=no v|habla-2S&SUB&PRES=speak
+	prep|de=of pro:dem|eso=that_one .
+%eng:	no, don't talk about that .
+*SAR:	&=laugh . 563415_565766
+*PAI:	oh my goodness . 565739_566761
+%mor:	co|oh det:poss|my co|goodness .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*PAI:	what is that ? 566742_568924
+%mor:	pro:int|what cop|be&3S pro:dem|that ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*SAR:	nice to even to have your attention now xxx you dirty sneaky
+	immoral [=! laugh] . 568884_573247
+%mor:	adj|nice inf|to adj|even inf|to v|have det:poss|your n|attention
+	adv|now pro:per|you v|dirty adj|sneak&dv-Y adj|immoral .
+%gra:	1|0|INCROOT 2|3|INF 3|1|XMOD 4|5|INF 5|3|XMOD 6|7|DET 7|5|OBJ 8|5|JCT
+	9|10|SUBJ 10|5|COMP 11|12|MOD 12|10|JCT 13|1|PUNCT
+*PAI:	unfaithful xxx doubts . 573004_575036
+%mor:	un#adj|faith&dn-FULL n|doubt-PL .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*SAR:	+< oh my god what ? 574101_575106
+%mor:	co|oh det:poss|my n|god pro:int|what ?
+%gra:	1|4|COM 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*OSE:	www . 575100_576911
+*SAR:	qué@s website ? 576900_577852
+%mor:	L2|qué n|+n|web+n|site ?
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+%eng:	what website ?
+*OSE:	www . 577834_579885
+*SAR:	oh I don't know . 579799_580391
+%mor:	co|oh pro:sub|I mod|do~neg|not v|know .
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|PUNCT
+*SAR:	I have it &-um +... 580403_582010
+%mor:	pro:sub|I v|have pro:per|it +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*SAR:	just do the Core_Gables food and wine festival . 581975_584698
+%mor:	adv|just v|do det:art|the n:prop|Core_Gables n|food coord|and
+	n|wine n|festival .
+%gra:	1|2|JCT 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|5|CONJ 7|8|MOD 8|6|COORD
+	9|2|PUNCT
+*PAI:	lost dog mira@s esto@s . 584669_587299
+%mor:	v|lose&PAST n|dog L2|mira L2|esto .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|1|PUNCT
+%eng:	lost dog, look at this .
+*PAI:	last humping his wife best friend on hidden camera answer to Steven
+	[/] to see the old dog participating tricks xxx . 587263_599386
+%mor:	adv|last part|hump-PRESP det:poss|his n|wife adj|good&SP n|friend
+	adv|on part|hide&PASTP n|camera n|answer prep|to inf|to v|see
+	det:art|the adj|old n|dog part|participate-PRESP n|trick-PL .
+%gra:	1|2|JCT 2|0|ROOT 3|4|DET 4|2|OBJ 5|6|MOD 6|4|APP 7|2|JCT 8|2|XJCT
+	9|10|MOD 10|8|OBJ 11|8|JCT 12|13|INF 13|11|POBJ 14|16|DET 15|16|MOD 16|13|OBJ
+	17|16|XMOD 18|17|OBJ 19|2|PUNCT
+*SAR:	oh my god . 599003_600037
+%mor:	co|oh det:poss|my n|god .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*PAI:	+< &=sigh . 599299_600071
+*PAI:	oh my god that's terrible . 600080_601537
+%mor:	co|oh det:poss|my co|god pro:rel|that~cop|be&3S adj|terrible .
+%gra:	1|5|COM 2|3|DET 3|5|COM 4|5|LINK 5|0|ROOT 6|5|PRED 7|5|PUNCT
+*SAR:	look at what she did . 601531_603110
+%mor:	v|look prep|at pro:int|what pro:sub|she v|do&PAST .
+%gra:	1|0|ROOT 2|1|JCT 3|5|LINK 4|5|SUBJ 5|2|CPOBJ 6|1|PUNCT
+*PAI:	&=gasp . 603093_605554
+*SAR:	+< &=gasp . 603093_605554
+*PAI:	and a BMW . 605548_607400
+%mor:	coord|and det:art|a n:prop|BMW .
+%gra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*SAR:	she passed it . 607389_608260
+%mor:	pro:sub|she v|pass-PAST pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*PAI:	+< inside the car . 608172_609444
+%mor:	prep|inside det:art|the n|car .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*PAI:	&=gasp . 609420_611046
+*SAR:	oh . 611050_614092
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	+< [- spa] ay dios mío . 611050_614092
+%mor:	co|ay=ay co|dios pro:pos|mío-MASC=mine .
+%eng:	oh my God .
+*SAR:	I think she is mad . 614120_615467
+%mor:	pro:sub|I v|think pro:sub|she cop|be&3S adj|mad .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|PRED 6|2|PUNCT
+*PAI:	+< [- spa] la mato . 614143_615507
+%mor:	pro:obj|la&f=she v|mata-1S&PRES=kill .
+%eng:	I'll kill her .
+*SAR:	&=gasp . 615484_626026
+*OSE:	www . 618551_626026
+*SAR:	no you have to show her the other one . 626032_627942
+%mor:	co|no pro:per|you v|have inf|to v|show pro:obj|her det:art|the
+	qn|other pro:indef|one .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ2 7|9|DET 8|9|QUANT
+	9|5|OBJ 10|3|PUNCT
+*SAR:	look at what she did to that car . 627895_629428
+%mor:	v|look prep|at pro:int|what pro:sub|she v|do&PAST prep|to
+	det:dem|that n|car .
+%gra:	1|0|ROOT 2|1|JCT 3|5|LINK 4|5|SUBJ 5|2|CPOBJ 6|5|JCT 7|8|DET 8|6|POBJ
+	9|1|PUNCT
+*PAI:	+< [- spa] no repitas . 628076_628785
+%mor:	adv|no=no v|repeti-2S&SUB&PRES=repeat .
+%eng:	don't do it again .
+*PAI:	[- spa] no lo repitas . 628674_629701
+%mor:	adv|no=no pro:obj|lo&m=him v|repeti-2S&SUB&PRES=repeat .
+%eng:	don't do it again .
+*SAR:	[- spa] no lo repitas alto . 629660_630809
+%mor:	adv|no=no pro:obj|lo&m=him v|repeti-2S&SUB&PRES=repeat
+	adj|alto-MASC=tall .
+%eng:	don't say it out loud
+*PAI:	a killer . 630801_634231
+%mor:	det:art|a n|kill&dv-AGT .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*SAR:	+< look at what she did &=laughs . 632991_634901
+%mor:	v|look prep|at pro:int|what pro:sub|she v|do&PAST .
+%gra:	1|0|ROOT 2|1|JCT 3|5|LINK 4|5|SUBJ 5|2|CPOBJ 6|1|PUNCT
+*SAR:	no, look at the other one . 635713_636723
+%mor:	co|no cm|cm v|look prep|at det:art|the qn|other pro:indef|one .
+%gra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|JCT 5|7|DET 6|7|QUANT 7|4|POBJ
+	8|1|PUNCT
+*SAR:	[- spa] dale . 636729_638255
+%mor:	imp|da-2S&IMP~pro:clit|3S .
+%eng:	do it .
+*SAR:	&=laugh . 638248_640349
+*OSE:	www . 639200_640349
+*SAR:	&=laugh . 640285_641557
+*PAI:	+< [- spa] ay dios mío mira esto . 641561_644167
+%mor:	co|ay=ay co|dios pro:pos|mío-MASC=mine v|mira-3S&PRES=look
+	pro:dem|esto=this_one .
+%eng:	oh my God, look at this .
+*OSE:	www . 643353_644920
+*OSE:	www . 645395_648750
+*PAI:	&=laugh . 648732_649940
+*SAR:	+< &=laugh . 648732_649940
+*SAR:	[- spa] y esto ? 649923_652861
+%mor:	coord|y=and pro:dem|esto=this_one ?
+%eng:	and this ?
+*OSE:	www . 649923_652861
+*PAI:	ay@s dios@s mío@s how embarrassing ! 652821_655863
+%mor:	L2|ay L2|dios L2|mío pro:rel|how part|embarrass-PRESP !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|LINK 5|3|COMP 6|1|PUNCT
+%eng:	oh my God, how embarrassing ?
+*SAR:	+< oh my god . 652943_655462
+%mor:	co|oh det:poss|my n|god .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*SAR:	did you find it ? 655855_658897
+%mor:	mod|do&PAST pro:per|you v|find pro:per|it ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*OSE:	www . 658869_660738
+*SAR:	xxx . 660715_662253
+*PAI:	[- spa] pero dónde tú estás buscando ? 662271_663641
+%mor:	conj|pero=but pro:int|dónde=where pro:sub|tú=you
+	aux|esta-2S&PRES=be ger|busca-PROG=search ?
+%eng:	but where are you looking ?
+*SAR:	estás@s metida@s en@s Tag . 663613_666318
+%mor:	L2|estás L2|metida L2|en n:prop|Tag .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OBJ 5|1|PUNCT
+%eng:	she is in Tag
+%com:	background converstion
+*PAI:	[- spa] qué es eso ? 666405_667316
+%mor:	pro:int|qué=what cop|se-3S&PRES=be pro:dem|eso=that_one ?
+%eng:	what's that ?
+*SAR:	son@s un@s website there . 667277_668757
+%mor:	L2|son L2|un n|+n|web+n|site adv|there .
+%gra:	1|0|INCROOT 2|3|MOD 3|1|ENUM 4|3|JCT 5|1|PUNCT
+%eng:	there's a website there .
+*SAR:	[- spa] son +... 668734_671288
+%mor:	cop|se-3P&PRES=be +...
+%eng:	they're ...
+*PAI:	[- spa] ya yo ni me meto ahí . 671334_673236
+%mor:	adv|ya=already pro:sub|yo=I coord|ni=nor pro:obj|me=me
+	v|mete-1S&PRES=put adv|ahí=there .
+%eng:	yes, I'm not logging myself in there
+*SAR:	[- spa] sí ya vi ya . 673218_674100
+%mor:	co|sí=yes adv|ya=already v|ve-1S&PRET=see adv|ya=already .
+%eng:	yes, yes, I see, yes
+*SAR:	[- spa] todo el mundo quiere saber dónde [/] dónde comprar e(l) [/]
+	el delantal . 674056_683753
+%mor:	det:indef|todo-MASC=all det:art|el&MASC&SG=the n|mundo&m=world
+	v|quere-3S&PRES=want inf|sabe-INF=know pro:int|dónde=where
+	inf|compra-INF=buy det:art|el&MASC&SG=the n|delantal&m=apron .
+%eng:	everyone wants to know where to buy the apron .
+*PAI:	+< [- spa] en qué nos metemos ? 679934_681611
+%mor:	prep|en=in pro:int|qué=what pro:obj|nos=us v|mete-1P&PRES=put ?
+%eng:	which one do we log in on ?
+*PAI:	[- spa] ay está comiquísimo . 683741_685471
+%mor:	co|ay=ay cop|esta-3S&PRES=be adj|cómico-SUPER-MASC=comic .
+%eng:	oh, that's so funny .
+*SAR:	I got like six comments (.) on the thing . 685419_688649
+%mor:	pro:sub|I v|get&PAST co|like det:num|six n|comment-PL prep|on
+	det:art|the n|thing .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|COM 4|5|QUANT 5|2|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|2|PUNCT
+*PAI:	+< that is hilarious . 686647_687808
+%mor:	pro:dem|that cop|be&3S adj|hilarious .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*SAR:	everybody wants to know . 688654_691417
+%mor:	pro:indef|everybody v|want-3S inf|to v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*PAI:	+< that is I am gonna go look at it . 688654_691429
+%mor:	pro:dem|that cop|be&3S pro:sub|I aux|be&1S part|go-PRESP~inf|to
+	v|go v|look prep|at pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|SUBJ 4|5|AUX 5|2|PRED 6|7|INF 7|5|COMP 8|7|OBJ
+	9|7|JCT 10|9|POBJ 11|2|PUNCT
+*SAR:	stop . 691276_692506
+%mor:	n|stop .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	everybody wants to go . 692487_694049
+%mor:	pro:indef|everybody v|want-3S inf|to v|go .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*SAR:	everybody wants to see . 694003_695245
+%mor:	pro:indef|everybody v|want-3S inf|to v|see .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|2|PUNCT
+*PAI:	+< [- spa] xxx ella los vio ? 695193_697240
+%mor:	pro:sub|ella=she pro:obj|él&m-PL=he v|ve-3S&PRET=see ?
+%eng:	[...] did she see them ?
+*SAR:	sí@s she said it was +... 697159_698802
+%mor:	L2|sí pro:sub|she v|say&PAST pro:per|it cop|be&PAST&13S +...
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|3|PUNCT
+%eng:	yes, she said it was ...
+*SAR:	she says those last two pictures was a bit disturbing . 698784_701582
+%mor:	pro:sub|she v|say-3S det:dem|those adj|last det:num|two
+	n|picture-PL aux|be&PAST&13S det:art|a n|bit part|disturb-PRESP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|6|MOD 5|6|QUANT 6|10|SUBJ 7|10|AUX 8|9|DET
+	9|10|JCT 10|2|COMP 11|2|PUNCT
+*SAR:	and I said +"/. 701553_701989
+%mor:	coord|and pro:sub|I v|say&PAST +"/.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	+" oh god I sent those out . 702001_703614
+%mor:	co|oh n|god pro:sub|I v|send&PAST det:dem|those adv|out .
+%gra:	1|4|COM 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|JCT 7|4|PUNCT
+*SAR:	I wasn't supposed to . 703578_705593
+%mor:	pro:sub|I aux|be&PAST&13S~neg|not part|suppose-PASTP inf|to .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*SAR:	[- spa] lo encontraste o no ? 705598_709729
+%mor:	pro:obj|lo&m=him v|encontra-2S&PRET=find coord|o=or adv|no=no ?
+%eng:	have you found it or not ?
+%com:	background conversation
+*SAR:	[- spa] ah no . 709717_710315
+%mor:	co|ah adv|no=no .
+%eng:	ah, no .
+*SAR:	[- spa] igual que Carla no ha hecho nada . 710299_719571
+%mor:	co|igual=equal pro:rel|que=that n:prop|Carla adv|no=no
+	aux|habe-3S&PRES=have part|hace-PPART-MASC=do v|nada-3S&PRES=swim .
+%eng:	just like Carla hasn't done anything .
+%com:	background conversation
+*PAI:	[- spa] Carla estaba de madre . 719519_720703
+%mor:	n:prop|Carla cop|esta-13S&PAS=be prep|de=of n|madre&f=mother .
+%eng:	Carla was cool .
+*PAI:	[- spa] y ya porque como ella está en el chisme xxx lado . 720709_722746
+%mor:	coord|y=and adv|ya=already conj|porque=because adv|como=like
+	pro:sub|ella=she cop|esta-3S&PRES=be prep|en=in
+	det:art|el&MASC&SG=the n|chisme&m=gossip n|lado&m=side .
+%eng:	because she knows everything [...] .
+*PAI:	I think xxx . 722652_726217
+%mor:	pro:sub|I v|think .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*SAR:	[- spa] ay qué bueno . 726196_728843
+%mor:	co|ay=ay pro:int|qué=what co|bueno=good .
+%eng:	oh, how nice .
+*PAI:	[- spa] dónde ? 728831_729853
+%mor:	pro:int|dónde=where ?
+%eng:	where ?
+*PAI:	oh Maggie mira@s Maggie has more than me . 729850_734465
+%mor:	co|oh n:prop|Maggie L2|mira n:prop|Maggie aux|have&3S qn|more
+	prep|than pro:obj|me .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|6|SUBJ 5|6|AUX 6|3|COORD 7|6|JCT 8|7|POBJ
+	9|2|PUNCT
+%eng:	oh, Maggie, look; Maggie has more than me .
+*PAI:	[- spa] qué es esto xxx . 734448_739550
+%mor:	pro:int|qué=what cop|se-3S&PRES=be pro:dem|esto=this_one .
+%eng:	what is this ?
+*SAR:	[- spa] <qué es eso> [//] qué es ? 739529_741526
+%mor:	pro:int|qué=what cop|se-3S&PRES=be ?
+%eng:	what is that, what is it ?
+*SAR:	is that the noise coming from there ? 741529_747322
+%mor:	cop|be&3S comp|that det:art|the n|noise part|come-PRESP prep|from
+	n|there ?
+%gra:	1|0|ROOT 2|1|PRED 3|4|DET 4|2|OBJ 5|4|XMOD 6|5|JCT 7|6|POBJ 8|1|PUNCT
+*SAR:	the dog sniffing ? 747293_752358
+%mor:	det:art|the n|dog part|sniff-PRESP ?
+%gra:	1|2|DET 2|0|INCROOT 3|2|XMOD 4|2|PUNCT
+*PAI:	I don't know . 752718_753617
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*PAI:	I guess they have something wrong here . 753629_754918
+%mor:	pro:sub|I v|guess pro:sub|they v|have pro:indef|something adj|wrong
+	adv|here .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|OBJ 6|5|POSTMOD 7|6|JCT
+	8|2|PUNCT
+*SAR:	oh it's probably that no ? 754778_756792
+%mor:	co|oh pro:per|it~cop|be&3S adv|probable&dadj-LY adv|that co|no ?
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|JCT 6|3|PRED 7|3|PUNCT
+*PAI:	[- spa] este manda unas cosas tan +//. 757020_758553
+%mor:	det:dem|este=this v|manda-3S&PRES=order det:art|un-FEM-PL=one
+	v|cose-2S&SUB&PRES=sew adv|tan=such +//.
+%eng:	this [guy] send some things so ...
+*PAI:	[- spa] ellas con sus angelitos están de madre . 758558_760665
+%mor:	pro:sub|ella-PL=she prep|con=with det:pos|su&3S-PL=his
+	n|ángel-DIM-MASC-PL=angel cop|esta-3P&PRES=be prep|de=of
+	n|madre&f=mother .
+%eng:	they're cool with their angels .
+*SAR:	<I go to the main page> [//] go to your main page xxx in . 760648_774420
+%mor:	v|go prep|to det:poss|your adj|main n|page adv|in .
+%gra:	1|0|ROOT 2|1|JCT 3|5|DET 4|5|MOD 5|2|POBJ 6|5|NJCT 7|1|PUNCT
+%com:	background noise .
+*SAR:	[- spa] tienes que cambiar eso . 774404_776471
+%mor:	v|tene-2S&PRES=have pro:rel|que=that inf|cambia-INF=change
+	pro:dem|eso=that_one .
+%eng:	you have to change that .
+*PAI:	<it xxx> [///] and I can't open it . 776436_778195
+%mor:	coord|and pro:sub|I mod|can~neg|not v|open pro:per|it .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*SAR:	+< [- spa] mira pa(ra) allá . 776448_777272
+%mor:	v|mira-3S&PRES=look prep|para=for adv|allá=there .
+%eng:	look over there .
+*PAI:	[- spa] ay . 778175_779087
+%mor:	co|ay=ay .
+%eng:	oh .
+*SAR:	&=laugh . 779081_780114
+%com:	song in the back
+*SAR:	[- spa] ahí arriba ahí arriba . 780135_781847
+%mor:	adv|ahí=there adv|arriba=above adv|ahí=there adv|arriba=above .
+%eng:	up there, up there .
+*SAR:	oh . 781807_783307
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	&=laugh . 783278_784393
+*SAR:	+< &=laugh . 783278_784393
+*SAR:	you go in . 784357_785861
+%mor:	pro:per|you v|go adv|in .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*SAR:	<and then you> [//] and you redo it . 785815_788171
+%mor:	coord|and pro:per|you re#v|do pro:per|it .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*SAR:	go in the countdown . 788154_789245
+%mor:	v|go prep|in det:art|the n|+v|count+prep|down .
+%gra:	1|0|ROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*SAR:	and redo it . 789205_790041
+%mor:	coord|and re#v|do pro:per|it .
+%gra:	1|0|INCROOT 2|1|COORD 3|2|OBJ 4|1|PUNCT
+*PAI:	how [///] and xxx I did . 790196_791700
+%mor:	coord|and pro:sub|I v|do&PAST .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	right there press it . 790370_791833
+%mor:	adv|right adv|there v|press pro:per|it .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*PAI:	+< and they do not no longer have it . 791764_793000
+%mor:	coord|and pro:sub|they mod|do neg|not co|no adj|long-CP v|have
+	pro:per|it .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|7|COM 6|7|JCT 7|0|ROOT 8|7|OBJ
+	9|7|PUNCT
+*PAI:	I tried it . 792982_793598
+%mor:	pro:sub|I v|try-PAST pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*SAR:	what do you mean ? 793604_797023
+%mor:	pro:int|what mod|do pro:per|you adj|mean ?
+%gra:	1|4|OBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*SAR:	or there go the [//] that one . 796963_798850
+%mor:	coord|or adv|there v|go det:dem|that pro:indef|one .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*PAI:	[- spa] sí . 798856_802014
+%mor:	co|sí=yes .
+%eng:	yes .
+%com:	phone rings
+*PAI:	[- spa] sí . 801974_802461
+%mor:	co|sí=yes .
+%eng:	yes .
+*SAR:	right there click the link . 802444_805976
+%mor:	adv|right adv|there v|click det:art|the n|link .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
+*SAR:	no no there . 805960_808706
+%mor:	co|no co|no adv|there .
+%gra:	1|2|COM 2|0|INCROOT 3|2|JCT 4|2|PUNCT
+*PAI:	+< here ? 805960_808706
+%mor:	adv|here ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	wait xxx there . 808653_814828
+%mor:	v|wait adv|there .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*SAR:	now pick one . 814811_817534
+%mor:	adv|now v|pick det:num|one .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*SAR:	wait hold on . 817539_818956
+%mor:	v|wait n|hold adv|on .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|1|PUNCT
+*SAR:	something xxx &~bla &~bla &~bla . 818921_820657
+%mor:	pro:indef|something .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	yeah . 820715_820901
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	I wanna see them . 820901_821684
+%mor:	pro:sub|I v|want~inf|to v|see pro:obj|them .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|2|PUNCT
+*SAR:	pick . 821667_823505
+%mor:	v|pick .
+%gra:	1|0|ROOT 2|1|PUNCT
+*SAR:	pick like My_space flowers or +... 823468_827259
+%mor:	v|pick conj|like n:prop|My_space v|flower-3S coord|or +...
+%gra:	1|0|ROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|CONJ 6|1|PUNCT
+*PAI:	[- spa] ay qué lindo está ese . 827250_834207
+%mor:	co|ay=ay pro:int|qué=what adj|lindo-MASC=pretty cop|esta-3S&PRES=be
+	det:dem|ese=that .
+%eng:	oh, how pretty that is .
+*PAI:	[- spa] okay . 834196_840395
+%mor:	co|okay .
+%eng:	OK .
+*PAI:	enter the date . 840377_842659
+%mor:	v|enter det:art|the n|date .
+%gra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*PAI:	it will be +... 842629_843831
+%mor:	pro:per|it mod|will cop|be +...
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*SAR:	+< may . 842629_843831
+%mor:	mod|may .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	may . 843960_844883
+%mor:	mod|may .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	ninth . 844866_846915
+%mor:	adj|ninth .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	+< ninth . 844866_846915
+%mor:	adj|ninth .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	two thousand and eight . 846909_849446
+%mor:	det:num|two det:num|thousand coord|and det:num|eight .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*PAI:	and then you put what you want . 849406_852599
+%mor:	coord|and adv:tem|then pro:per|you v|put&ZERO pro:int|what
+	pro:per|you v|want .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|7|LINK 6|7|SUBJ 7|4|COMP 8|4|PUNCT
+*PAI:	New_York trip . 852553_855490
+%mor:	n:prop|New_York n|trip .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+%com:	typing
+*SAR:	[- spa] no te cabe . 855472_869104
+%mor:	adv|no=no pro:obj|te=you v|cabe-3S&PRES=fit .
+%eng:	it doesn't fit you .
+%com:	long period with typing noise
+*PAI:	ah . 869102_870205
+%mor:	co|ah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	just xxx . 870199_871923
+%mor:	adv|just .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	gross . 871900_873642
+%mor:	n|gross .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	no . 873619_873897
+%mor:	co|no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	put girl . 873871_882615
+%mor:	v|put&ZERO n|girl .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*PAI:	I know what I'm gonna do . 882594_883616
+%mor:	pro:sub|I v|know pro:int|what pro:sub|I~aux|be&1S
+	part|go-PRESP~inf|to v|do .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|2|COMP 7|8|INF 8|6|COMP
+	9|2|PUNCT
+*SAR:	+< and gap . 882594_883612
+%mor:	coord|and n|gap .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*PAI:	xxx . 883624_884999
+*SAR:	xxx . 884970_892785
+%com:	typing
+*PAI:	now what do I do ? 892733_899751
+%mor:	adv|now pro:int|what mod|do pro:sub|I v|do ?
+%gra:	1|5|JCT 2|5|OBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+%com:	long silence
+*SAR:	eh ? 899739_900244
+%mor:	co|eh ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	[- spa] lo qué ? 900255_902240
+%mor:	pro:obj|lo&m=him pro:int|qué=what ?
+%eng:	what ?
+*PAI:	and now what do I do ? 902199_903564
+%mor:	coord|and adv|now pro:int|what mod|do pro:sub|I v|do ?
+%gra:	1|6|LINK 2|6|JCT 3|6|OBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|PUNCT
+*SAR:	go down a minute . 903543_904222
+%mor:	v|go adv|down det:art|a n|minute .
+%gra:	1|0|ROOT 2|1|JCT 3|4|DET 4|1|OBJ 5|1|PUNCT
+*SAR:	and let me see that quick post . 904199_905336
+%mor:	coord|and v|let&ZERO pro:obj|me v|see adv|that adj|quick n|post .
+%gra:	1|2|LINK 2|0|ROOT 3|2|OBJ 4|2|COMP 5|6|JCT 6|7|MOD 7|4|OBJ 8|2|PUNCT
+*SAR:	oh I'll tell you where . 905305_908823
+%mor:	co|oh pro:sub|I~mod|will v|tell pro:per|you pro:rel|where .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|SUBJ 6|4|COMP 7|4|PUNCT
+*SAR:	okay copy the thing . 908823_910234
+%mor:	co|okay v|copy det:art|the n|thing .
+%gra:	1|2|COM 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*PAI:	copy . 910241_911901
+%mor:	n|copy .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	okay now open My_space . 911872_913654
+%mor:	co|okay adv|now adj|open n:prop|My_space .
+%gra:	1|4|COM 2|4|JCT 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*PAI:	+< or should I copy it like that ? 912754_913864
+%mor:	coord|or mod|should pro:sub|I v|copy pro:per|it co|like
+	pro:dem|that ?
+%gra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|COM 7|4|OBJ 8|4|PUNCT
+*SAR:	yeah . 913812_914288
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	that's what I would do yeah . 914277_916605
+%mor:	pro:dem|that~cop|be&3S pro:int|what pro:sub|I mod|will&COND v|do
+	co|yeah .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|2|CPRED 7|6|OBJ 8|2|PUNCT
+*SAR:	that's gonna take forever . 916603_920168
+%mor:	pro:dem|that~aux|be&3S part|go-PRESP~inf|to v|take adv:tem|forever
+	.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|3|PUNCT
+*PAI:	okay . 920127_924630
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	yeah . 924619_924787
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	eh . 924770_926116
+%mor:	co|eh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	copy . 926066_926769
+%mor:	n|copy .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	+< copy . 926066_926722
+%mor:	n|copy .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	now go to your My_space . 926687_928469
+%mor:	adv|now v|go prep|to det:poss|your n:prop|My_space .
+%gra:	1|2|JCT 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*SAR:	now you have to go into going home . 928459_935830
+%mor:	adv|now pro:per|you v|have inf|to v|go prep|into part|go-PRESP
+	adv|home .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|6|POBJ 8|7|JCT
+	9|3|PUNCT
+*PAI:	xxx . 933885_935679
+%com:	phone is ringing
+*SAR:	profile about me okay . 935670_938004
+%mor:	n|profile prep|about pro:obj|me adj|okay .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|ENUM 5|1|PUNCT
+*SAR:	go into profile there . 937986_942530
+%mor:	v|go prep|into n|profile adv|there .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|JCT 5|1|PUNCT
+*PAI:	[- spa] dónde ? 942519_943830
+%mor:	pro:int|dónde=where ?
+%eng:	where ?
+*SAR:	ahí@s mismo@s profile profile . 943819_945520
+%mor:	L2|ahí L2|mismo n|profile n|profile .
+%gra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+%eng:	that's the same, profile, profile .
+*PAI:	+< [- spa] ahí ? 943819_945502
+%mor:	adv|ahí=there ?
+%eng:	there .
+*SAR:	[- spa] ahí . 945482_947212
+%mor:	adv|ahí=there .
+%eng:	there .
+*PAI:	about me . 947183_948954
+%mor:	prep|about pro:obj|me .
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
+*SAR:	ahora@s tienes@s que@s buscar@s el@s countdown . 948919_951026
+%mor:	L2|ahora L2|tienes L2|que L2|buscar L2|el n|+v|count+prep|down .
+%gra:	1|6|MOD 2|6|MOD 3|6|MOD 4|6|MOD 5|6|MOD 6|0|INCROOT 7|6|PUNCT
+%eng:	now you have to look for the countdown .
+*PAI:	+< [- spa] imagínate tú . 948919_951026
+%mor:	imp|imagina-2S&IMP~pro:clit|2S pro:sub|tú=you .
+%eng:	just imagine .
+*SAR:	[- spa] debe estar en +... 951004_953001
+%mor:	v|debe-3S&PRES=must inf|esta-INF=be prep|en=in +...
+%eng:	it ought to be in ...
+*SAR:	go all the way down . 953001_954179
+%mor:	v|go qn|all det:art|the n|way adv|down .
+%gra:	1|0|ROOT 2|4|QUANT 3|4|DET 4|1|OBJ 5|1|JCT 6|1|PUNCT
+*SAR:	[- spa] debe estar abajo . 954170_955215
+%mor:	v|debe-3S&PRES=must inf|esta-INF=be adv|abajo=below .
+%eng:	it ought to be down there .
+*SAR:	I can más@s o@s menos@s +... 955199_959088
+%mor:	pro:sub|I mod|can L2|más L2|o L2|menos +...
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OM 5|4|OM 6|3|PUNCT
+%eng:	I can more or less ...
+*SAR:	go down a@s ver@s . 959140_960034
+%mor:	v|go adv|down L2|a L2|ver .
+%gra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|3|POBJ 5|1|PUNCT
+%eng:	go down to see .
+*PAI:	yeah . 960028_960928
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	[- spa] (es)pérate (es)pérate (es)pérate . 960910_961885
+%mor:	imp|espera-2S&IMP~pro:clit|2S imp|espera-2S&IMP~pro:clit|2S
+	imp|espera-2S&IMP~pro:clit|2S .
+%eng:	wait, wait, wait .
+*PAI:	counters . 961862_962901
+%mor:	n|counter-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	+< let me see . 961862_962901
+%mor:	v|let&ZERO pro:obj|me v|see .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*SAR:	where does it say counters ? 962914_964290
+%mor:	pro:int|where mod|do&3S pro:per|it v|say n|counter-PL ?
+%gra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*PAI:	here . 964254_964794
+%mor:	adv|here .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	+< no no no . 964254_965392
+%mor:	co|no co|no co|no .
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*SAR:	[- spa] ve arriba arriba . 965387_969375
+%mor:	v|ve-3S&PRES=see adv|arriba=above adv|arriba=above .
+%eng:	go up, up .
+*SAR:	to the top . 969369_970316
+%mor:	prep|to det:art|the n|top .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*PAI:	this is +... 970328_971024
+%mor:	pro:dem|this cop|be&3S +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*SAR:	does it say something countdown ? 971000_972858
+%mor:	mod|do&3S pro:per|it v|say pro:indef|something n|+v|count+prep|down
+	?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|OBJ 6|3|PUNCT
+*SAR:	yeah there it is . 972846_973769
+%mor:	co|yeah adv|there pro:per|it cop|be&3S .
+%gra:	1|4|COM 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*PAI:	+< xxx . 972846_973769
+*PAI:	[- spa] dónde ? 973762_974662
+%mor:	pro:int|dónde=where ?
+%eng:	where ?
+*SAR:	no@s ves@s New_York ? 974633_975736
+%mor:	L2|no L2|ves n:prop|New_York ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|OM 4|1|PUNCT
+%eng:	you don't see New York ?
+*SAR:	[- spa] pero ahora no sé +... 975710_979068
+%mor:	conj|pero=but adv|ahora=now adv|no=no v|sabe-1S&PRES=know +...
+%eng:	but now I don't know .
+*SAR:	at okay go (.) sí@s I know pero@s it doesn't start there . 979031_982840
+%mor:	prep|at adj|okay v|go L2|sí pro:sub|I v|know L2|pero pro:per|it
+	mod|do&3S~neg|not v|start adv|there .
+%gra:	1|6|JCT 2|4|MOD 3|4|SRL 4|1|POBJ 5|6|SUBJ 6|0|ROOT 7|11|LINK 8|11|SUBJ
+	9|11|AUX 10|9|NEG 11|6|COMP 12|11|JCT 13|6|PUNCT
+%eng:	at okay go, yes I know but it doesn't start there .
+*PAI:	+< éste@s mira@s el@s countdown aquí@s está@s . 979031_982857
+%mor:	L2|éste L2|mira L2|el n|+v|count+prep|down L2|aquí L2|está .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+%eng:	this one, look, the countdown, it's here .
+*SAR:	it probably starts all the way on the top . 982857_984610
+%mor:	pro:per|it adv|probable&dadj-LY v|start-3S adv|all det:art|the
+	n|way prep|on det:art|the n|top .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|6|NJCT 8|9|DET
+	9|7|POBJ 10|3|PUNCT
+*SAR:	go down a minute . 984573_985606
+%mor:	v|go adv|down det:art|a n|minute .
+%gra:	1|0|ROOT 2|1|JCT 3|4|DET 4|1|OBJ 5|1|PUNCT
+*SAR:	because you have to +... 985576_988333
+%mor:	conj|because pro:per|you v|have prep|to +...
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*PAI:	countdowns . 988322_989216
+%mor:	n|+v|count+prep|down-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	oh it starts all the way there then . 989200_994035
+%mor:	co|oh pro:per|it v|start-3S adv|all det:art|the n|way adv|there
+	adv:tem|then .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|JCT 5|6|DET 6|3|OBJ 7|6|NJCT 8|7|JCT
+	9|3|PUNCT
+*PAI:	[- spa] es de aquí pa(ra) arriba no ? 994004_995543
+%mor:	cop|se-3S&PRES=be prep|de=of adv|aquí=here prep|para=for
+	adv|arriba=above adv|no=no ?
+%eng:	it's from here on up, isn't it ?
+*SAR:	mira@s bien@s en@s la@s página@s donde@s está@s el@s countdown
+	cómo@s empieza@s . 995519_999443
+%mor:	L2|mira L2|bien L2|en L2|la L2|página L2|donde L2|está L2|el
+	n|+v|count+prep|down L2|cómo L2|empieza .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|9|CONJ 11|10|COORD 12|1|PUNCT
+%eng:	take a look at the page where the countdown is, how it starts
+*SAR:	you [/] you took it away right . 999439_1001575
+%mor:	pro:per|you v|take&PAST pro:per|it adv|away co|right .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|COM 6|2|PUNCT
+*PAI:	the countdown no . 1001540_1002567
+%mor:	det:art|the n|+v|count+prep|down co|no .
+%gra:	1|2|DET 2|0|INCROOT 3|2|COM 4|2|PUNCT
+*SAR:	where is it ? 1002503_1003328
+%mor:	pro:int|where cop|be&3S pro:per|it ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*PAI:	it's in the page . 1003397_1004042
+%mor:	pro:per|it~cop|be&3S prep|in det:art|the n|page .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*SAR:	just stick it under I [//] where I like to meet . 1004029_1007616
+%mor:	adv|just v|stick pro:per|it adv|under pro:rel|where pro:sub|I
+	v|like inf|to v|meet .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|JCT 5|7|LINK 6|7|SUBJ 7|2|CJCT 8|9|INF
+	9|7|COMP 10|2|PUNCT
+*PAI:	and where is that ? 1007522_1008723
+%mor:	coord|and pro:int|where cop|be&3S pro:dem|that ?
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*SAR:	right there . 1008700_1009443
+%mor:	adv|right adv|there .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*PAI:	+< here ? 1008700_1009431
+%mor:	adv|here ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	see how it starts . 1009409_1012137
+%mor:	v|see pro:int|how pro:per|it v|start-3S .
+%gra:	1|0|ROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|1|PUNCT
+*SAR:	see embedded type . 1012131_1013957
+%mor:	co|see part|embed-PASTP n|type .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*SAR:	now look for the same thing on the top . 1013962_1015808
+%mor:	adv|now v|look prep|for det:art|the adj|same n|thing prep|on
+	det:art|the n|top .
+%gra:	1|2|JCT 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|6|NJCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
+*SAR:	but then erase from there . 1015801_1017879
+%mor:	conj|but adv:tem|then v|erase prep|from n|there .
+%gra:	1|3|LINK 2|3|JCT 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*SAR:	it doesn't have the same thing does it ? 1017859_1024355
+%mor:	pro:per|it mod|do&3S~neg|not v|have det:art|the adj|same n|thing
+	mod|do&3S pro:per|it ?
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|DET 6|7|MOD 7|9|SUBJ 8|9|AUX
+	9|4|OBJ 10|4|PUNCT
+*SAR:	nope . 1024334_1026836
+%mor:	co|nope .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	[- spa] no . 1026824_1027991
+%mor:	adv|no=no .
+%eng:	no
+*SAR:	es@s que@s <you might> [/] you might erase your background that's
+	why . 1027960_1031112
+%mor:	L2|es L2|que pro:per|you mod|might v|erase det:poss|your
+	n|background pro:rel|that~cop|be&3S pro:rel|why .
+%gra:	1|5|LINK 2|5|LINK 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|DET 7|5|OBJ 8|9|LINK
+	9|7|CMOD 10|9|PRED 11|5|PUNCT
+%eng:	it's that, you might erase your background, that's why
+*PAI:	okay . 1031067_1034173
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	[- spa] xxx así mismo lo pongo . 1034151_1035463
+%mor:	adv|así=thus adj|mismo-MASC=same pro:obj|lo&m=him
+	v|pone-1S&PRES=put .
+%eng:	I place it in the same way
+*SAR:	put previous section ahí@s . 1035431_1037353
+%mor:	v|put&ZERO adj|previous n|section L2|ahí .
+%gra:	1|0|ROOT 2|3|MOD 3|1|OBJ 4|3|POSTMOD 5|1|PUNCT
+%eng:	put the previous section here
+*SAR:	there it is . 1037334_1043447
+%mor:	adv|there pro:per|it cop|be&3S .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*PAI:	but that's not the one I picked . 1043416_1045384
+%mor:	conj|but pro:dem|that~cop|be&3S neg|not det:art|the pro:indef|one
+	pro:sub|I v|pick-PAST .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|6|DET 6|3|PRED 7|8|SUBJ 8|6|CMOD
+	9|3|PUNCT
+*SAR:	oh it's down there . 1045341_1048765
+%mor:	co|oh pro:per|it~cop|be&3S prep|down n|there .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*SAR:	look at it down there . 1048779_1050857
+%mor:	v|look prep|at pro:per|it prep|down n|there .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|JCT 5|4|POBJ 6|1|PUNCT
+*SAR:	I don't know how to get rid of +... 1050844_1058175
+%mor:	pro:sub|I mod|do~neg|not v|know pro:int|how inf|to v|get v|rid&ZERO
+	prep|of +...
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|LINK 6|7|INF 7|4|COMP 8|7|COMP
+	9|8|JCT 10|4|PUNCT
+*SAR:	are you gonna change your layout ? 1058161_1059543
+%mor:	cop|be&PRES pro:per|you part|go-PRESP~inf|to v|change det:poss|your
+	n|layout ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|XMOD 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|1|PUNCT
+*PAI:	no . 1059517_1060602
+%mor:	co|no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	because I need it . 1060573_1062071
+%mor:	conj|because pro:sub|I v|need pro:per|it .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*SAR:	yeah go save the changes . 1062037_1066872
+%mor:	co|yeah v|go v|save det:art|the n|change-PL .
+%gra:	1|2|COM 2|0|ROOT 3|2|COMP 4|5|DET 5|3|OBJ 6|2|PUNCT
+*PAI:	so now what I can do is +/. 1066829_1071223
+%mor:	co|so adv|now pro:int|what pro:sub|I mod|can v|do cop|be&3S +/.
+%gra:	1|6|COM 2|6|JCT 3|6|OBJ 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|COMP 8|6|PUNCT
+*SAR:	+< now go to view my profile . 1070572_1073213
+%mor:	adv|now v|go inf|to v|view det:poss|my n|profile .
+%gra:	1|2|JCT 2|0|ROOT 3|4|INF 4|2|COMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*PAI:	[- spa] dónde está eso ? 1073160_1074513
+%mor:	pro:int|dónde=where cop|esta-3S&PRES=be pro:dem|eso=that_one ?
+%eng:	where is this
+*SAR:	[- spa] ahí arriba . 1074499_1075521
+%mor:	adv|ahí=there adv|arriba=above .
+%eng:	up here at the top
+*PAI:	right there in the corner . 1075515_1076398
+%mor:	adv|right adv|there prep|in det:art|the n|corner .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*SAR:	arriba@s arriba@s arriba@s there . 1076357_1078337
+%mor:	L2|arriba L2|arriba L2|arriba adv|there .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|JCT 5|1|PUNCT
+%eng:	up, up, up there
+*SAR:	[- spa] ahora tienes que quitar el de arriba . 1078307_1084792
+%mor:	adv|ahora=now v|tene-2S&PRES=have pro:rel|que=that
+	inf|quita-INF=remove det:art|el&MASC&SG=the prep|de=of
+	adv|arriba=above .
+%eng:	now you have to quit the one at the top
+*SAR:	[- spa] pero no sé +... 1084780_1086127
+%mor:	conj|pero=but adv|no=no v|sabe-1S&PRES=know +...
+%eng:	but I don't know
+*PAI:	[- spa] pero yo puedo volver a hacerlo de ahí mismo ? 1086114_1093418
+%mor:	conj|pero=but pro:sub|yo=I v|pode-1S&PRES=can inf|volve-INF=turn
+	aprep|a=to inf|hace-INF~pro:clit|OBJ&MASC prep|de=of adv|ahí=there
+	adj|mismo-MASC=same ?
+%eng:	but I can go back to do this one in the same place ?
+*SAR:	I thought you could . 1093412_1094435
+%mor:	pro:sub|I v|think&PAST pro:per|you mod|could .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|2|PUNCT
+*SAR:	but you can't . 1094400_1095421
+%mor:	conj|but pro:per|you mod|can~neg|not .
+%gra:	1|0|INCROOT 2|5|SUBJ 3|5|AUX 4|3|NEG 5|1|PUNCT
+*PAI:	I'm gonna put the other one now xxx . 1095391_1104942
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|put&ZERO det:art|the
+	qn|other det:num|one adv|now .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|8|DET 7|8|QUANT 8|5|OBJ
+	9|5|JCT 10|3|PUNCT
+*SAR:	oh just like mine that I have double . 1104938_1108119
+%mor:	co|oh adv|just prep|like n|mine pro:rel|that pro:sub|I v|have
+	adv|double .
+%gra:	1|0|INCROOT 2|3|JCT 3|1|JCT 4|3|POBJ 5|7|LINK 6|7|SUBJ 7|4|CMOD 8|7|JCT
+	9|1|PUNCT
+*PAI:	you do ? 1108096_1110035
+%mor:	pro:per|you v|do ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*SAR:	yeah I have two of them . 1110012_1111184
+%mor:	co|yeah pro:sub|I v|have det:num|two prep|of pro:obj|them .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|JCT 6|5|POBJ 7|3|PUNCT
+*PAI:	and now fun hearts . 1111155_1114437
+%mor:	coord|and adv|now n|fun n|heart-PL .
+%gra:	1|4|LINK 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*SAR:	[- spa] qué romántico . 1114421_1116958
+%mor:	pro:int|qué=what adj|romántico-MASC=romantic .
+%eng:	how romantic
+*PAI:	oh . 1116928_1120835
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	we are going in September . 1120795_1123976
+%mor:	pro:sub|we aux|be&PRES part|go-PRESP prep|in n:prop|September .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*PAI:	xxx . 1123981_1125889
+*PAI:	no . 1125871_1127317
+%mor:	co|no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	xxx . 1127293_1128211
+*SAR:	y@s por@s fin@s Peggy cogió@s el@s esto@s o@s no@s ? 1128199_1132326
+%mor:	L2|y L2|por L2|fin n:prop|Peggy L2|cogió L2|el L2|esto L2|o L2|no ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+%eng:	and at the end did Peggy take this one or not ?
+*PAI:	five six seven . 1132271_1134564
+%mor:	det:num|five det:num|six det:num|seven .
+%gra:	1|3|DATE 2|3|DATE 3|0|INCROOT 4|3|PUNCT
+*PAI:	no . 1134535_1135423
+%mor:	co|no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	you have to change the year . 1135384_1138867
+%mor:	pro:per|you v|have inf|to v|change det:art|the n|year .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|6|DET 6|4|OBJ 7|2|PUNCT
+*SAR:	she's not going ? 1138821_1139947
+%mor:	pro:sub|she~aux|be&3S neg|not part|go-PRESP ?
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*SAR:	at all ? 1139933_1140711
+%mor:	prep|at pro:indef|all ?
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
+*PAI:	+< she xxx she doesn't get it cheap . 1140258_1142783
+%mor:	pro:sub|she pro:sub|she mod|do&3S~neg|not v|get pro:per|it
+	adj|cheap .
+%gra:	1|5|SUBJ 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|OBJ 7|5|JCT 8|5|PUNCT
+*SAR:	did she go +... 1142760_1143346
+%mor:	mod|do&PAST pro:sub|she v|go +...
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	when is she leaving for [/] for the cruise ? 1143329_1145540
+%mor:	conj|when cop|be&3S pro:sub|she part|leave-PRESP prep|for
+	det:art|the n|cruise ?
+%gra:	1|2|LINK 2|0|ROOT 3|2|PRED 4|3|XMOD 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+*PAI:	ay@s no I wanna go back . 1145510_1147873
+%mor:	L2|ay co|no pro:sub|I v|want~inf|to v|go adv|back .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|6|INF 6|4|COMP 7|6|JCT 8|4|PUNCT
+%eng:	oh, I want to go back
+*PAI:	how do I go back ? 1147859_1149020
+%mor:	pro:int|how mod|do pro:sub|I v|go adv|back ?
+%gra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*SAR:	xxx . 1148810_1151353
+*SAR:	god it's still three hundred and eleven days away . 1151328_1156326
+%mor:	co|god pro:per|it~cop|be&3S adv|still det:num|three det:num|hundred
+	coord|and det:num|eleven n|day-PL adv|away .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|QUANT 6|3|PRED 7|6|CONJ 8|9|QUANT
+	9|7|COORD 10|9|JCT 11|3|PUNCT
+*SAR:	&=laugh . 1156319_1157144
+*SAR:	[- spa] me muero [=! laugh] . 1157103_1160472
+%mor:	pro:obj|me=me v|mori-1S&PRES=die .
+%eng:	I'm killing myself !
+*PAI:	oh my god . 1160488_1162543
+%mor:	co|oh det:poss|my n|god .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*SAR:	that's a long time . 1162520_1164633
+%mor:	pro:dem|that~cop|be&3S det:art|a adj|long n|time .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*PAI:	why ? 1164608_1164881
+%mor:	pro:rel|why ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	there is only three hundred and sixty five days (.) of the year . 1164869_1167801
+%mor:	pro:exist|there cop|be&3S qn|only det:num|three det:num|hundred
+	coord|and det:num|sixty det:num|five n|day-PL prep|of det:art|the
+	n|year .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|5|QUANT 5|2|PRED 6|5|CONJ 7|9|QUANT
+	8|9|QUANT 9|6|COORD 10|9|NJCT 11|12|DET 12|10|POBJ 13|2|PUNCT
+*SAR:	+< &=laugh . 1164869_1167783
+*PAI:	that doesn't sound right . 1167772_1170703
+%mor:	pro:dem|that mod|do&3S~neg|not v|sound co|right .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*PAI:	it can't be three hundred days from now . 1170666_1174579
+%mor:	pro:per|it mod|can~neg|not aux|be det:num|three det:num|hundred
+	n|day-PL prep|from adv|now .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|QUANT 6|7|QUANT 7|4|PRED 8|7|NJCT
+	9|8|POBJ 10|4|PUNCT
+*PAI:	it's +... 1174609_1178471
+%mor:	pro:per|it~cop|be&3S +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*PAI:	right now we're in March . 1178471_1179905
+%mor:	adv|right adv|now pro:sub|we~cop|be&PRES prep|in n:prop|March .
+%gra:	1|2|JCT 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+*PAI:	April May June July August . 1179883_1183157
+%mor:	n:prop|April n:prop|May n:prop|June n:prop|July n:prop|August .
+%gra:	1|2|NAME 2|3|NAME 3|0|ROOT 4|5|NAME 5|3|APP 6|3|PUNCT
+*PAI:	[- spa] uno dos tres cuatro cinco . 1183169_1185715
+%mor:	det:art|un-MASC=one det:num|dos=two det:num|tres=three
+	det:num|cuatro=four det:num|cinco=five .
+%eng:	one, two, three, four, five
+*PAI:	no that's wrong . 1185691_1188669
+%mor:	co|no pro:dem|that~cop|be&3S adj|wrong .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*SAR:	six times thirty . 1188639_1191083
+%mor:	det:num|six n|time-PL det:num|thirty .
+%gra:	1|2|QUANT 2|3|MOD 3|0|ROOT 4|3|PUNCT
+*PAI:	it's a hundred and eighty . 1191048_1192070
+%mor:	pro:per|it~cop|be&3S det:art|a det:num|hundred coord|and
+	det:num|eighty .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|CONJ 6|5|COORD 7|2|PUNCT
+*SAR:	okay when xxx finish . 1192058_1196272
+%mor:	co|okay conj|when v|finish .
+%gra:	1|3|COM 2|3|LINK 3|0|ROOT 4|3|PUNCT
+*PAI:	+< no <that's just> [//] that's not right . 1192058_1196272
+%mor:	co|no pro:dem|that~cop|be&3S neg|not co|right .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|COM 6|3|PUNCT
+*SAR:	finish putting it there and then . 1196236_1198401
+%mor:	v|finish part|put-PRESP pro:per|it adv|there coord|and adv:tem|then
+	.
+%gra:	1|0|ROOT 2|1|COMP 3|2|OBJ 4|2|JCT 5|2|CONJ 6|5|COORD 7|1|PUNCT
+*SAR:	it probably hasn't refreshed or +... 1198391_1204606
+%mor:	pro:per|it adv|probable&dadj-LY aux|have&3S~neg|not v|refresh-PAST
+	coord|or +...
+%gra:	1|5|SUBJ 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|CONJ 7|5|PUNCT
+*SAR:	&=singing . 1204573_1214914
+*SAR:	a hundred and sixty . 1214866_1216143
+%mor:	det:art|a det:num|hundred coord|and det:num|sixty .
+%gra:	1|2|DET 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*PAI:	that's what I thought . 1216074_1216911
+%mor:	pro:dem|that~cop|be&3S pro:int|what pro:sub|I v|think&PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|CPRED 6|2|PUNCT
+*PAI:	I was like hello . 1216911_1218124
+%mor:	pro:sub|I cop|be&PAST&13S prep|like n|hello .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*PAI:	copy . 1218120_1229067
+%mor:	n|copy .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	xxx . 1229037_1233182
+%com:	phone rings
+*PAI:	I'm gonna go to +... 1233138_1236812
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|go prep|to +...
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|3|PUNCT
+*PAI:	[- spa] dónde ahora ? 1236812_1237840
+%mor:	pro:int|dónde=where adv|ahora=now ?
+%eng:	where now ?
+*PAI:	profile no@s ? 1237816_1238930
+%mor:	n|profile L2|no ?
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+%eng:	profile, isn't it ?
+*SAR:	home . 1238919_1239929
+%mor:	adv|home .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	then profile . 1241043_1242732
+%mor:	adv:tem|then v|profile .
+%gra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*PAI:	[- spa] y voy a +... 1242676_1245381
+%mor:	coord|y=and v|i-1S&PRES=go aprep|a=to +...
+%eng:	I'm going to ...
+*SAR:	profile ahí@s abajo@s . 1245355_1246353
+%mor:	n|profile L2|ahí L2|abajo .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+%eng:	profile, down here
+*PAI:	[- spa] aquí ? 1246339_1251122
+%mor:	adv|aquí=here ?
+%eng:	here ?
+%com:	something is ringing in background
+*SAR:	no@s aquí@s en@s éste@s en@s control panel tiene@s que@s ser@s . 1251104_1253885
+%mor:	L2|no L2|aquí L2|en L2|éste L2|en n|control n|panel L2|tiene L2|que
+	L2|ser .
+%gra:	1|7|MOD 2|7|MOD 3|7|MOD 4|7|MOD 5|7|MOD 6|7|MOD 7|0|ROOT 8|7|POSTMOD
+	9|8|CONJ 10|9|COORD 11|7|PUNCT
+%eng:	no, here, in this, you have to be in control panel
+*PAI:	+< [- spa] ah en [/] en . 1252033_1253275
+%mor:	co|ah prep|en=in .
+%eng:	ah, in, in
+*SAR:	sí@s but now I don't know which one is +... 1253817_1258078
+%mor:	L2|sí conj|but adv|now pro:sub|I mod|do~neg|not v|know
+	pro:int|which pro:indef|one cop|be&3S +...
+%gra:	1|0|INCROOT 2|7|LINK 3|7|JCT 4|7|SUBJ 5|7|AUX 6|5|NEG 7|1|CJCT
+	8|10|LINK 9|10|SUBJ 10|7|COMP 11|1|PUNCT
+%eng:	yes, but now I don't know which one is ...
+*PAI:	+< [- spa] lo voy a poner aquí abajo . 1257590_1259396
+%mor:	pro:obj|lo&m=him v|i-1S&PRES=go aprep|a=to inf|pone-INF=put
+	adv|aquí=here adv|abajo=below .
+%eng:	I'm going to put it down here
+*PAI:	I'd like to meet . 1259407_1261784
+%mor:	pro:sub|I~mod|genmod v|like inf|to v|meet .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|3|PUNCT
+*PAI:	and what I'll do is I'll separate it . 1261761_1263508
+%mor:	coord|and pro:int|what pro:sub|I~mod|will v|do cop|be&3S
+	pro:sub|I~mod|will v|separate pro:per|it .
+%gra:	1|9|LINK 2|5|LINK 3|5|SUBJ 4|5|AUX 5|9|CJCT 6|5|COMP 7|9|SUBJ 8|9|AUX
+	9|0|ROOT 10|9|OBJ 11|9|PUNCT
+*SAR:	you think you will . 1263513_1265916
+%mor:	pro:per|you v|think pro:per|you mod|will .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|2|PUNCT
+*SAR:	but I doubt it's separated . 1265916_1267558
+%mor:	conj|but pro:sub|I v|doubt pro:per|it~aux|be&3S part|separate-PASTP
+	.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|AUX 6|3|CJCT 7|3|PUNCT
+*PAI:	yeah look . 1267529_1268261
+%mor:	co|yeah co|look .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*PAI:	[- spa] ya . 1268242_1270663
+%mor:	adv|ya=already .
+%eng:	yeah
+*SAR:	preview xxx . 1270634_1274358
+%mor:	pre#n|view .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	+< preview . 1270634_1274358
+%mor:	pre#n|view .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	[- spa] ah pero tienes que sacar el de arriba . 1274348_1280291
+%mor:	co|ah conj|pero=but v|tene-2S&PRES=have pro:rel|que=that
+	inf|saca-INF=bring_out det:art|el&MASC&SG=the prep|de=of
+	adv|arriba=above .
+%eng:	ah but you have to get the one from the top
+*PAI:	yeah but now I gotta figure out how the heck to do that . 1280277_1283255
+%mor:	co|yeah conj|but adv|now pro:sub|I mod|got~inf|to v|figure adv|out
+	pro:int|how det:art|the n|heck inf|to v|do pro:dem|that .
+%gra:	1|7|COM 2|1|CONJ 3|2|COORD 4|7|SUBJ 5|7|AUX 6|7|INF 7|0|ROOT 8|7|JCT
+	9|13|LINK 10|11|DET 11|13|SUBJ 12|13|INF 13|7|COMP 14|13|OBJ 15|7|PUNCT
+*PAI:	now . 1283281_1284036
+%mor:	adv|now .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	go into save . 1284015_1286401
+%mor:	v|go prep|into v|save .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*PAI:	+< save all changes . 1285112_1286575
+%mor:	v|save qn|all n|change-PL .
+%gra:	1|0|ROOT 2|3|QUANT 3|1|OBJ 4|1|PUNCT
+*SAR:	I wonder where the countdown begins for that one . 1286560_1290455
+%mor:	pro:sub|I v|wonder pro:int|where det:art|the n|+v|count+prep|down
+	v|begin-3S prep|for det:dem|that pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|5|DET 5|6|SUBJ 6|2|COMP 7|6|JCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
+*SAR:	it should be the first thing . 1290453_1292548
+%mor:	pro:per|it mod|should cop|be det:art|the adj|first n|thing .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*SAR:	I would wanna say to take off all of that until a@s ver@s . 1292519_1296513
+%mor:	pro:sub|I mod|will&COND v|want~inf|to co|say inf|to v|take adv|off
+	adv|all prep|of pro:dem|that conj|until L2|a L2|ver .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|INF 7|5|COMP 8|7|JCT
+	9|10|JCT 10|7|JCT 11|10|POBJ 12|13|LINK 13|5|CJCT 14|13|PRED 15|3|PUNCT
+%eng:	I would wanna say to take off all of that until, to see
+*PAI:	+< xxx . 1292769_1293965
+*SAR:	go in the bottom a@s ver@s . 1296455_1298934
+%mor:	v|go prep|in det:art|the n|bottom L2|a L2|ver .
+%gra:	1|0|ROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|JCT 6|5|POBJ 7|1|PUNCT
+%eng:	go in the bottom, to see
+*SAR:	right there . 1298894_1299643
+%mor:	adv|right adv|there .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*SAR:	no that's your background . 1299660_1301030
+%mor:	co|no pro:dem|that~cop|be&3S det:poss|your n|background .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*SAR:	that I know . 1301013_1301901
+%mor:	comp|that pro:sub|I v|know .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*PAI:	here ? 1301883_1302458
+%mor:	adv|here ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	all that is your background . 1302429_1303497
+%mor:	qn|all pro:dem|that cop|be&3S det:poss|your n|background .
+%gra:	1|2|QUANT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*SAR:	go up go up . 1303439_1304391
+%mor:	v|go adv|up v|go adv|up .
+%gra:	1|0|ROOT 2|3|JCT 3|1|COMP 4|3|JCT 5|1|PUNCT
+*SAR:	&~to yeah that's your &~si . 1304396_1306329
+%mor:	co|yeah pro:dem|that~cop|be&3S det:poss|your .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*SAR:	este@s I think it's up to here . 1306417_1308158
+%mor:	L2|este pro:sub|I v|think pro:per|it~cop|be&3S adv|up prep|to
+	adv|here .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|5|JCT 8|7|POBJ
+	9|3|PUNCT
+%eng:	this, I think it's up to here
+*SAR:	from object all the way to C_countdown New_York New_York . 1308128_1313097
+%mor:	prep|from n|object qn|all det:art|the n|way prep|to
+	n:prop|C_countdown n:prop|New_York n:prop|New_York .
+%gra:	1|0|INCROOT 2|1|POBJ 3|5|QUANT 4|5|DET 5|2|OBJ 6|5|NJCT 7|9|NAME
+	8|9|NAME 9|6|POBJ 10|1|PUNCT
+*SAR:	go down a little bit more . 1313061_1314884
+%mor:	v|go adv|down det:art|a adj|little n|bit adv|more .
+%gra:	1|0|ROOT 2|1|JCT 3|5|DET 4|5|MOD 5|1|JCT 6|5|NJCT 7|1|PUNCT
+*SAR:	go down . 1314845_1318555
+%mor:	v|go adv|down .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*SAR:	go down . 1318528_1320862
+%mor:	v|go adv|down .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*PAI:	I can't . 1320839_1322100
+%mor:	pro:sub|I mod|can~neg|not .
+%gra:	1|0|INCROOT 2|4|AUX 3|2|NEG 4|1|PUNCT
+*PAI:	[- spa] espérate . 1321995_1324543
+%mor:	imp|espera-2S&IMP~pro:clit|2S .
+%eng:	wait .
+*SAR:	where it says A (.) H R . 1324509_1327794
+%mor:	pro:int|where pro:per|it v|say-3S n:prop|A n:prop|H n:prop|R .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|NAME 5|3|OBJ 6|5|APP 7|3|PUNCT
+*PAI:	+< [- spa] aquí ? 1326842_1327783
+%mor:	adv|aquí=here ?
+%eng:	here ?
+*SAR:	[- spa] hasta aquí . 1327777_1328915
+%mor:	prep|hasta=until adv|aquí=here .
+%eng:	till here ?
+*SAR:	hasta@s object . 1328890_1330893
+%mor:	L2|hasta n|object .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+%eng:	till object .
+*SAR:	[- spa] no pero no quites la A esa . 1330829_1333592
+%mor:	adv|no=no conj|pero=but adv|no=no v|quita-2S&SUB&PRES=remove
+	det:art|el&FEM&SG=the n:prop|A det:dem|ese-FEM=that .
+%eng:	no don't remove that A
+*PAI:	[- spa] no ? 1333557_1334643
+%mor:	adv|no=no ?
+%eng:	no ?
+*SAR:	[- spa] al final . 1334642_1335925
+%mor:	aprep|a~det|el&MASC adj|final=final .
+%eng:	at the end .
+*SAR:	no because that's probably the beginning of +... 1335937_1337498
+%mor:	co|no conj|because pro:dem|that~cop|be&3S adv|probable&dadj-LY
+	det:art|the n|beginning prep|of +...
+%gra:	1|4|COM 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|7|NJCT
+	9|4|PUNCT
+*SAR:	e(verything) [/] everything starts <when you are> [/] when you are
+	&~e +/. 1337484_1340525
+%mor:	pro:indef|everything v|start-3S conj|when pro:per|you cop|be&PRES
+	+/.
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|2|PUNCT
+*PAI:	+< [- spa] aquí . 1339917_1340550
+%mor:	adv|aquí=here .
+%eng:	here
+*SAR:	uhuh right . 1340553_1342143
+%mor:	co|uhuh co|right .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*SAR:	[- spa] no pero no quites la cosita esa . 1342133_1344612
+%mor:	adv|no=no conj|pero=but adv|no=no v|quita-2S&SUB&PRES=remove
+	det:art|el&FEM&SG=the n|cosa-DIM-FEM=thing det:dem|ese-FEM=that .
+%eng:	no but don't remove that little thing .
+*PAI:	ah . 1344583_1345564
+%mor:	co|ah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	no@s ahí@s ahí@s right . 1345522_1348616
+%mor:	L2|no L2|ahí L2|ahí co|right .
+%gra:	1|0|INCROOT 2|1|PUNCT 3|2|INCROOT 4|3|INCROOT 5|4|PUNCT
+%eng:	no there there right
+*SAR:	xxx . 1348578_1349066
+*PAI:	[- spa] lo coge . 1349048_1349826
+%mor:	pro:obj|lo&m=him v|coge-3S&PRES=take .
+%eng:	he/she catches it .
+*SAR:	okay so separate it . 1349803_1351167
+%mor:	adj|okay adv|so adj|separate pro:per|it .
+%gra:	1|0|INCROOT 2|3|JCT 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*SAR:	[- spa] espérate . 1351132_1351823
+%mor:	imp|espera-2S&IMP~pro:clit|2S .
+%eng:	wait
+*SAR:	there . 1351795_1354617
+%mor:	adv|there .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	yeah . 1354587_1357780
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	delete . 1357743_1361209
+%mor:	v|delete .
+%gra:	1|0|ROOT 2|1|PUNCT
+*PAI:	[- spa] ay dios mío . 1361207_1363030
+%mor:	co|ay=ay co|dios pro:pos|mío-MASC=mine .
+%eng:	oh my God .
+*SAR:	now do a preview . 1362974_1364228
+%mor:	adv|now v|do det:art|a pre#n|view .
+%gra:	1|2|JCT 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*SAR:	not that one . 1364213_1365339
+%mor:	neg|not adv|that pro:indef|one .
+%gra:	1|2|NEG 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*SAR:	the bottom . 1365300_1366258
+%mor:	det:art|the n|bottom .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*SAR:	down . 1366218_1367152
+%mor:	adv|down .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	see if it did it . 1367137_1372222
+%mor:	v|see conj|if pro:per|it mod|do&PAST pro:per|it .
+%gra:	1|0|ROOT 2|5|LINK 3|5|SUBJ 4|5|AUX 5|1|OBJ 6|1|PUNCT
+*PAI:	what is this ? 1372210_1373435
+%mor:	pro:int|what cop|be&3S pro:dem|this ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*SAR:	+< whatever we did we did it . 1372727_1373795
+%mor:	pro:int|whatever pro:sub|we mod|do&PAST pro:sub|we mod|do&PAST
+	pro:per|it .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|PUNCT
+*SAR:	there you go . 1373801_1374544
+%mor:	adv|there pro:per|you v|go .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	go down . 1374526_1374944
+%mor:	v|go adv|down .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*SAR:	we did it . 1374927_1375699
+%mor:	pro:sub|we mod|do&PAST pro:per|it .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*PAI:	[- spa] no pero qué es esto ? 1375693_1377243
+%mor:	adv|no=no conj|pero=but pro:int|qué=what cop|se-3S&PRES=be
+	pro:dem|esto=this_one ?
+%eng:	no, but what's up with that ?
+*SAR:	there it is Paige . 1377231_1378601
+%mor:	adv|there pro:per|it cop|be&3S n:prop|Paige .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*PAI:	+< oh okay okay . 1377231_1378613
+%mor:	co|oh co|okay co|okay .
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*PAI:	[- spa] y esto no me salió ? 1378611_1380899
+%mor:	coord|y=and pro:dem|esto=this_one adv|no=no pro:obj|me=me
+	v|sali-3S&PRET=leave ?
+%eng:	and this didn't come out ?
+*SAR:	that's who you use to do your background . 1380868_1383619
+%mor:	pro:dem|that~cop|be&3S pro:int|who pro:per|you v|use inf|to v|do
+	det:poss|your n|background .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|CPRED 6|7|INF 7|5|COMP 8|9|DET
+	9|7|OBJ 10|2|PUNCT
+*SAR:	so that's gonna come out . 1383593_1384841
+%mor:	co|so pro:dem|that~aux|be&3S part|go-PRESP~inf|to v|come adv|out .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|JCT 8|4|PUNCT
+*PAI:	so entonces@s save all changes . 1384841_1386391
+%mor:	adv|so L2|entonces v|save qn|all n|change-PL .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|3|PUNCT
+%eng:	so then save all changes .
+*PAI:	[- spa] ay dios mío . 1386393_1390334
+%mor:	co|ay=ay co|dios pro:pos|mío-MASC=mine .
+%eng:	oh my God .
+*SAR:	now go into view my profile on the top . 1390320_1404959
+%mor:	adv|now v|go prep|into n|view det:poss|my n|profile prep|on
+	det:art|the n|top .
+%gra:	1|2|JCT 2|0|ROOT 3|2|JCT 4|3|POBJ 5|6|DET 6|2|OBJ 7|2|JCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
+*PAI:	okay . 1403171_1404982
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	&=sniff . 1404978_1406093
+*SAR:	&=singing there you go . 1406092_1412355
+%mor:	adv|there pro:per|you v|go .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	[- spa] vieja mira la canción esa . 1412325_1419613
+%mor:	adj|viejo-FEM=old v|mira-3S&PRES=look det:art|el&FEM&SG=the
+	n|canción&f=song det:dem|ese-FEM=that .
+%eng:	girl check this song .
+%com:	background noise
+*PAI:	I know . 1419591_1421054
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*PAI:	I gotta xxx . 1421042_1422772
+%mor:	pro:sub|I mod|got~inf|to .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*SAR:	y@s xxx todo@s eso@s de@s Hannah_Montana . 1422755_1425953
+%mor:	L2|y L2|todo L2|eso L2|de n:prop|Hannah_Montana .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+%eng:	and all of that about Hannah Montana .
+*PAI:	+< girls just wanna have fun . 1423655_1425971
+%mor:	n|girl-PL adj|just v|want~inf|to v|have n|fun .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|PUNCT
+*PAI:	[- spa] dónde estaba xxx música ? 1425847_1427042
+%mor:	pro:int|dónde=where cop|esta-13S&PAS=be adj|músico-FEM=musical ?
+%eng:	where was the music ?
+*PAI:	[- spa] cómo lo quito ? 1427008_1427727
+%mor:	pro:int|cómo=how pro:obj|lo&m=him v|quita-1S&PRES=remove ?
+%eng:	how do I remove it ?
+*SAR:	[- spa] no . 1427869_1430226
+%mor:	adv|no=no .
+*SAR:	[- spa] tiene que ir en música (.) arriba . 1430063_1432179
+%mor:	v|tene-3S&PRES=have pro:rel|que=that inf|i-INF=go prep|en=in
+	adj|músico-FEM=musical adv|arriba=above .
+%eng:	you have to go to music up there .
+*PAI:	here ? 1432165_1432525
+%mor:	adv|here ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	no . 1432467_1433652
+%mor:	co|no .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	yeah . 1433634_1437530
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	and then you gotta find the +... 1437507_1442968
+%mor:	coord|and adv:tem|then pro:per|you mod|got~inf|to v|find
+	det:art|the +...
+%gra:	1|6|LINK 2|6|JCT 3|6|SUBJ 4|6|AUX 5|6|INF 6|0|ROOT 7|8|DET 8|6|PUNCT
+*PAI:	[- spa] aquí pongo la [/] la música . 1442943_1445474
+%mor:	adv|aquí=here v|pone-1S&PRES=put det:art|el&FEM&SG=the
+	adj|músico-FEM=musical .
+%eng:	I put music here .
+*SAR:	yeah . 1445461_1446924
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	who sings that ? 1446895_1447580
+%mor:	pro:int|who v|sing-3S comp|that ?
+%gra:	1|2|LINK 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*PAI:	Madonna . 1447557_1448683
+%mor:	n:prop|Madonna .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	girls just wanna have fun [=! singing] . 1448632_1455639
+%mor:	n|girl-PL adj|just v|want~inf|to v|have n|fun .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|PUNCT
+%com:	typing in background
+*SAR:	that's Cyndi_Louper . 1455581_1456986
+%mor:	pro:dem|that~cop|be&3S n:prop|Cyndi_Louper .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*PAI:	right that's what I thought Cyndi_Louper right . 1456967_1459045
+%mor:	co|right pro:dem|that~cop|be&3S pro:int|what pro:sub|I v|think&PAST
+	n:prop|Cyndi_Louper co|right .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|CPRED 7|6|OBJ 8|7|COM
+	9|3|PUNCT
+*SAR:	go back . 1459054_1461173
+%mor:	v|go adv|back .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
+*PAI:	[- spa] xxx el nombre de la canción . 1461131_1464457
+%mor:	det:art|el&MASC&SG=the v|nombra-13S&SUB&PRES=name prep|de=of
+	det:art|el&FEM&SG=the n|canción&f=song .
+%eng:	the name of the song .
+*SAR:	ay@s I don't know . 1464388_1465526
+%mor:	L2|ay pro:sub|I mod|do~neg|not v|know .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|PUNCT
+%eng:	ay I don't know .
+*SAR:	that thing is so annoying . 1465479_1466553
+%mor:	det:dem|that n|thing aux|be&3S adv|so part|annoy-PRESP .
+%gra:	1|2|DET 2|5|SUBJ 3|5|AUX 4|5|JCT 5|0|ROOT 6|5|PUNCT
+*SAR:	and you're not typing anything . 1466542_1467848
+%mor:	coord|and pro:per|you~aux|be&PRES neg|not part|type-PRESP
+	pro:indef|anything .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*SAR:	sometimes you can't even find the artist . 1467795_1471423
+%mor:	adv|sometimes pro:per|you mod|can~neg|not adv|even v|find
+	det:art|the n|artist .
+%gra:	1|6|JCT 2|6|SUBJ 3|6|AUX 4|3|NEG 5|6|JCT 6|0|ROOT 7|8|DET 8|6|OBJ
+	9|6|PUNCT
+*PAI:	&=typing &=singing . 1471400_1479741
+*SAR:	she may not even be there . 1479724_1480989
+%mor:	pro:sub|she mod|may neg|not adv|even cop|be adv|there .
+%gra:	1|5|SUBJ 2|5|AUX 3|2|NEG 4|5|JCT 5|0|ROOT 6|5|JCT 7|5|PUNCT
+*PAI:	[- spa] y dónde está la canción ? 1480982_1483460
+%mor:	coord|y=and pro:int|dónde=where cop|esta-3S&PRES=be
+	det:art|el&FEM&SG=the n|canción&f=song ?
+%eng:	and where is the song ?
+*SAR:	now you gotta go into her site . 1483425_1485759
+%mor:	adv|now pro:per|you mod|got~inf|to v|go prep|into det:poss|her
+	n|site .
+%gra:	1|5|JCT 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|JCT 7|8|DET 8|6|POBJ
+	9|5|PUNCT
+*PAI:	[- spa] cuál ? 1485759_1486479
+%mor:	pro:int|cuál=which ?
+%eng:	which one ?
+*PAI:	[- spa] ésta ? 1486471_1486924
+%mor:	pro:dem|éste-FEM=this_one ?
+%eng:	this one ?
+*SAR:	cualquiera@s porque@s now we don't know which one's which . 1486912_1489252
+%mor:	L2|cualquiera L2|porque adv|now pro:sub|we mod|do~neg|not v|know
+	pro:int|which pro:indef|one~cop|be&3S pro:int|which .
+%gra:	1|7|LINK 2|7|SUBJ 3|7|JCT 4|7|SUBJ 5|7|AUX 6|5|NEG 7|0|ROOT 8|10|LINK
+	9|10|SUBJ 10|7|COMP 11|10|PRED 12|7|PUNCT
+%eng:	any of them because now we don't know which one's which .
+*SAR:	we don't know which one's true and which one's not . 1489220_1491321
+%mor:	pro:sub|we mod|do~neg|not v|know pro:int|which adj|one&dn-POSS
+	n|true coord|and pro:int|which pro:indef|one~cop|be&3S neg|not .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|LINK 6|7|MOD 7|4|OBJ 8|7|CONJ
+	9|11|LINK 10|11|SUBJ 11|8|COORD 12|11|NEG 13|4|PUNCT
+*SAR:	they have material girls material girls . 1491314_1496473
+%mor:	pro:sub|they v|have n|material n|girl-PL n|material n|girl-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|MOD 4|6|MOD 5|6|MOD 6|2|OBJ 7|2|PUNCT
+*PAI:	ma(terial) material [=! singing] . 1496447_1498229
+%mor:	adj|material n|material .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*SAR:	but that's Madonna . 1498345_1499338
+%mor:	conj|but pro:dem|that~cop|be&3S n:prop|Madonna .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*PAI:	+< that's Madonna . 1498838_1500162
+%mor:	pro:dem|that~cop|be&3S n:prop|Madonna .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*SAR:	go back and try the other one . 1500156_1502165
+%mor:	v|go adv|back coord|and v|try det:art|the qn|other pro:indef|one .
+%gra:	1|0|ROOT 2|1|JCT 3|1|CONJ 4|3|COORD 5|7|DET 6|7|QUANT 7|4|OBJ 8|1|PUNCT
+*SAR:	let's see . 1502116_1503341
+%mor:	v|let~pro:obj|us v|see .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*PAI:	true colors . 1503309_1510414
+%mor:	adj|true n|color-PL .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+%com:	background noise
+*SAR:	+< true colors . 1509415_1510292
+%mor:	adj|true n|color-PL .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*SAR:	I see your true colors [=! singing] . 1510242_1515399
+%mor:	pro:sub|I v|see det:poss|your adj|true n|color-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*PAI:	ah so si@s no@s la@s tiene@s no@s la@s puedo@s coger@s . 1515316_1517028
+%mor:	co|ah co|so L2|si L2|no L2|la L2|tiene L2|no L2|la L2|puedo
+	L2|coger .
+%gra:	1|3|COM 2|3|COM 3|0|ROOT 4|3|PRED 5|4|CONJ 6|5|COORD 7|6|CONJ 8|7|COORD
+	9|8|CONJ 10|9|COORD 11|3|PUNCT
+%eng:	ah so if it doesn't have it I can't get it .
+*SAR:	uhuh . 1516819_1517800
+%mor:	co|uhuh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	es@s que@s yo@s no@s creo@s que@s ella@s tiene@s un@s site porque@s
+	those are just people I think . 1517729_1523898
+%mor:	L2|es L2|que L2|yo L2|no L2|creo L2|que L2|ella L2|tiene L2|un
+	n|site L2|porque det:dem|those aux|be&PRES adj|just n|person&PL
+	pro:sub|I v|think .
+%gra:	1|0|INCROOT 2|1|COBJ 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|8|CONJ 10|11|MOD 11|9|COORD 12|15|DET 13|15|AUX 14|15|MOD
+	15|11|PRED 16|17|SUBJ 17|15|CMOD 18|1|PUNCT
+%eng:	the thing is that I don't think they have a site because those are
+	jut people I think .
+*SAR:	maybe is this a Chinese pop ? 1523888_1527197
+%mor:	adv|maybe cop|be&3S pro:dem|this det:art|a n:prop|Chinese n|pop ?
+%gra:	1|2|JCT 2|0|ROOT 3|2|PRED 4|6|DET 5|6|MOD 6|2|PRED 7|2|PUNCT
+*SAR:	nope . 1527160_1529691
+%mor:	co|nope .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	digo@s I don't know how to go to that other site and like look for
+	it you know . 1529686_1534470
+%mor:	L2|digo pro:sub|I mod|do~neg|not v|know pro:int|how inf|to v|go
+	prep|to det:dem|that qn|other n|site coord|and co|like v|look
+	prep|for pro:per|it pro:per|you v|know .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|8|LINK 7|8|INF 8|5|COMP
+	9|8|JCT 10|12|DET 11|12|QUANT 12|9|POBJ 13|15|LINK 14|15|COM 15|5|CJCT
+	16|15|JCT 17|16|POBJ 18|19|SUBJ 19|15|CJCT 20|5|PUNCT
+%eng:	I say I don't know how to go to that other site and like look for
+	it you know .
+*SAR:	you can go into top artist . 1534425_1537652
+%mor:	pro:per|you mod|can v|go prep|into n|top n|artist .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|MOD 6|4|POBJ 7|3|PUNCT
+*SAR:	and search on the top . 1537645_1539601
+%mor:	coord|and n|search prep|on det:art|the n|top .
+%gra:	1|0|INCROOT 2|1|COORD 3|2|NJCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*SAR:	and see . 1539624_1542316
+%mor:	coord|and v|see .
+%gra:	1|2|LINK 2|0|ROOT 3|2|PUNCT
+*SAR:	but she's not a top artist anymore . 1542294_1544274
+%mor:	conj|but pro:sub|she~cop|be&3S neg|not det:art|a n|top n|artist
+	adv|anymore .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|7|DET 6|7|MOD 7|3|PRED 8|7|NJCT
+	9|3|PUNCT
+*PAI:	+< xxx . 1543452_1544566
+*SAR:	or you can do a +... 1544552_1547582
+%mor:	coord|or pro:per|you mod|can v|do det:art|a +...
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*PAI:	[- spa] no se puede ni mover esto . 1547545_1559229
+%mor:	adv|no=no pro:refl|se=itself v|pode-3S&PRES=can coord|ni=nor
+	inf|move-INF=move pro:dem|esto=this_one .
+%eng:	you cannot even more that .
+%com:	noise and conversation in background
+*SAR:	pero@s go down . 1559234_1561161
+%mor:	L2|pero v|go adv|down .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+%eng:	but go down .
+%com:	beeping noise
+*SAR:	oh there you go . 1561126_1562293
+%mor:	co|oh adv|there pro:per|you v|go .
+%gra:	1|4|COM 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*SAR:	eh nice glasses . 1562264_1564401
+%mor:	co|eh adj|nice n|glass-PL .
+%gra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*PAI:	+< what up . 1562949_1564093
+%mor:	pro:int|what adv|up .
+%gra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+%com:	started talking to a third person
+*SAR:	he's going to the airport . 1564366_1566798
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP prep|to det:art|the n|airport .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*PAI:	[- spa] en qué lo puedo ayudar ? 1566788_1568529
+%mor:	prep|en=in pro:int|qué=what pro:obj|lo&m=him v|pode-1S&PRES=can
+	inf|ayuda-INF=help ?
+%eng:	how can I help ?
+*PAI:	[- spa] vas al aeropuerto ? 1568483_1570126
+%mor:	v|i-2S&PRES=go aprep|a~det|el&MASC n|aeropuerto&m=airport ?
+%eng:	are you going to the airport ?
+*SAR:	[- spa] discúlpame . 1570101_1571396
+%mor:	imp|disculpa-2S&IMP~pro:clit|1S .
+%eng:	excuse me .
+*PAI:	it [/] it sounds like you're saying escúpame@s . 1571367_1573294
+%mor:	pro:per|it v|sound-3S prep|like pro:per|you~aux|be&PRES
+	part|say-PRESP L2|escúpame .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|6|AUX 6|2|XJCT 7|6|OBJ 8|2|PUNCT
+%eng:	it sounds like you are saying spit on me .
+*SAR:	+< [- spa] escúpame . 1572295_1573282
+%mor:	imp|escupi-3S&IMP~pro:clit|1S .
+%eng:	spit on me .
+*SAR:	&=laughing . 1573310_1574152
+*PAI:	oh . 1574158_1575853
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	[- spa] escúpame . 1579529_1580417
+%mor:	imp|escupi-3S&IMP~pro:clit|1S .
+%eng:	spit on me .
+*OSE:	www . 1580611_1585541
+*SAR:	[- spa] discúlpame . 1584902_1586528
+%mor:	imp|disculpa-2S&IMP~pro:clit|1S .
+%eng:	excuse me .
+*SAR:	&=laughing . 1586486_1588705
+*PAI:	[- spa] en qué te puedo ayudar ? 1588688_1593053
+%mor:	prep|en=in pro:int|qué=what pro:obj|te=you v|pode-1S&PRES=can
+	inf|ayuda-INF=help ?
+%eng:	how can I help you ?
+*OSE:	www . 1590665_1593666
+*SAR:	&=laughing . 1593018_1594800
+*PAI:	+< that's just xxx . 1593018_1595241
+%mor:	pro:dem|that~cop|be&3S adv|just .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*SAR:	&=laughing . 1595224_1598510
+*SAR:	oh god . 1598493_1599886
+%mor:	co|oh n|god .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*PAI:	+< [- spa] dime . 1598493_1599886
+%mor:	imp|deci-2S&IMP~pro:clit|1S .
+%eng:	tell me .
+*OSE:	www . 1599605_1602894
+*SAR:	[- spa] sí ? 1602911_1603677
+%mor:	co|sí=yes ?
+%eng:	yes ?
+*SAR:	[- spa] muy bien . 1603589_1605864
+%mor:	adv|muy=very adv|bien=well .
+%eng:	very good .
+*PAI:	[- spa] adiós pues enton(ces) . 1605847_1607159
+%mor:	co|adiós=goodbye co|pues=well adv|entonces=then .
+%eng:	see you later then .
+*PAI:	[- spa] hasta luego . 1607234_1608407
+%mor:	prep|hasta=until adv|luego=afterwards .
+%eng:	see you later .
+*PAI:	passport office . 1608388_1610315
+%mor:	n|passport n|office .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*PAI:	of course not it's never on . 1610318_1612344
+%mor:	prep|of n|course neg|not pro:per|it~cop|be&3S adv|never adv|on .
+%gra:	1|5|JCT 2|1|POBJ 3|2|NEG 4|5|SUBJ 5|0|ROOT 6|5|JCT 7|5|JCT 8|5|PUNCT
+*PAI:	it's never on . 1612344_1613679
+%mor:	pro:per|it~cop|be&3S adv|never adv|on .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|2|PUNCT
+*PAI:	[- spa] nunca ! 1613660_1615576
+%mor:	adv|nunca=never !
+%eng:	never !
+*PAI:	yeah nunca@s la@s tienes@s puesta@s . 1615561_1617639
+%mor:	co|yeah L2|nunca L2|la L2|tienes L2|puesta .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+%eng:	yeah you never have it on .
+*SAR:	&=laughing . 1617624_1621531
+*PAI:	you are being recorded . 1621526_1624834
+%mor:	pro:per|you cop|be&PRES aux|be-PRESP part|record-PASTP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|AUX 4|2|PRED 5|2|PUNCT
+*SAR:	yes . 1624776_1626114
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	hello [=! laughing] . 1626062_1627554
+%mor:	co|hello .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*PAI:	+< &=laughing . 1626062_1631502
+*OSE:	www . 1630337_1631446
+*PAI:	why and then who ? 1631467_1633029
+%mor:	pro:int|why coord|and adv:tem|then pro:rel|who ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|JCT 4|2|COORD 5|1|PUNCT
+*OSE:	www . 1633022_1635833
+*SAR:	m:hm partners in crime . 1635305_1637227
+%mor:	co|mhm=yes v|partner-3S prep|in n|crime .
+%gra:	1|2|COM 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*PAI:	M I A mean F I xxx . 1637202_1640445
+%mor:	n:prop|M pro:sub|I n:prop|A v|mean n:prop|F pro:sub|I .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|OBJ 7|4|PUNCT
+*SAR:	+< oh he's going to the airport . 1637966_1640363
+%mor:	co|oh pro:sub|he~aux|be&3S part|go-PRESP prep|to det:art|the
+	n|airport .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*SAR:	&=laugh . 1640333_1642051
+*SAR:	&=hiss . 1642032_1643715
+*PAI:	+< and she doesn't even work here . 1642682_1643715
+%mor:	coord|and pro:sub|she mod|do&3S~neg|not adj|even n|work adv|here .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|3|NEG 5|6|MOD 6|0|INCROOT 7|6|JCT 8|6|PUNCT
+*SAR:	and I don't even work here [=! laughing] . 1643690_1645135
+%mor:	coord|and pro:sub|I mod|do~neg|not adv|even n|work adv|here .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|3|NEG 5|6|JCT 6|0|INCROOT 7|6|JCT 8|6|PUNCT
+*PAI:	+< and she knows . 1643690_1645147
+%mor:	coord|and pro:sub|she v|know-3S .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*SAR:	&=laughing . 1645141_1650473
+*PAI:	+< &=laughing . 1645141_1650473
+*OSE:	www . 1650459_1656171
+*PAI:	what is he talking about ? 1656177_1657204
+%mor:	pro:int|what cop|be&3S pro:sub|he part|talk-PRESP adv|about ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|XMOD 5|4|JCT 6|2|PUNCT
+*PAI:	[- spa] qué es eso ? 1657627_1659896
+%mor:	pro:int|qué=what cop|se-3S&PRES=be pro:dem|eso=that_one ?
+%eng:	what's that ?
+*PAI:	what is he talking about ? 1659858_1660689
+%mor:	pro:int|what cop|be&3S pro:sub|he part|talk-PRESP adv|about ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|XMOD 5|4|JCT 6|2|PUNCT
+*SAR:	+< is he making fun of my cups ? 1660015_1662116
+%mor:	cop|be&3S pro:sub|he n:gerund|make-PRESP adj|fun prep|of
+	det:poss|my n|cup-PL ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|3|JCT 5|4|JCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*PAI:	oh . 1662050_1663200
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	&=laughing . 1663186_1665090
+*PAI:	+< &=laughing . 1663186_1665090
+*SAR:	they're so small . 1665072_1667478
+%mor:	pro:sub|they~cop|be&PRES adv|so adj|small .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*PAI:	[- spa] qué lindo ! 1667453_1668550
+%mor:	pro:int|qué=what adj|lindo-MASC=pretty !
+%eng:	how nice !
+*PAI:	I know like everybody who keeps coming to me and telling me are you
+	teasing me [=! laughing] . 1668527_1672244
+%mor:	pro:sub|I v|know prep|like pro:indef|everybody pro:rel|who
+	v|keep-3S part|come-PRESP prep|to pro:obj|me coord|and
+	part|tell-PRESP pro:obj|me aux|be&PRES pro:per|you part|tease-PRESP
+	pro:obj|me .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|6|LINK 6|4|CMOD 7|6|COMP 8|7|JCT
+	9|8|POBJ 10|15|LINK 11|15|SUBJ 12|11|OBJ 13|15|AUX 14|15|SUBJ 15|7|XJCT
+	16|15|OBJ 17|2|PUNCT
+*SAR:	+< you see [=! laughing] . 1670085_1672169
+%mor:	pro:per|you v|see .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*PAI:	like I have forty three days (.) for my first one and a hundred and
+	sixty two +... 1672218_1681450
+%mor:	conj|like pro:sub|I v|have det:num|forty det:num|three n|day-PL
+	prep|for det:poss|my adj|first pro:indef|one coord|and det:art|a
+	det:num|hundred coord|and det:num|sixty det:num|two +...
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|QUANT 5|6|QUANT 6|3|OBJ 7|3|JCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|10|CONJ 12|13|DET 13|11|COORD 14|10|CONJ
+	15|16|QUANT 16|14|COORD 17|3|PUNCT
+*SAR:	tienes@s que@s quitar@s todo@s eso@s de@s Hannah_Montana ya@s . 1681379_1683875
+%mor:	L2|tienes L2|que L2|quitar L2|todo L2|eso L2|de
+	n:prop|Hannah_Montana L2|ya .
+%gra:	1|0|INCROOT 2|1|COBJ 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|1|PUNCT
+%eng:	you have to get rid of all of that about Hannah Montana soon .
+*PAI:	ay@s I know . 1683862_1684976
+%mor:	L2|ay pro:sub|I v|know .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+%eng:	ay I know .
+*SAR:	dale@s go into +... 1684936_1685899
+%mor:	L2|dale v|go prep|into +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+%eng:	do it, go into .
+*SAR:	that's easy because you just have it in one section . 1685893_1688158
+%mor:	pro:dem|that~cop|be&3S adj|ease&dn-Y conj|because pro:per|you
+	adv|just v|have pro:per|it prep|in det:num|one n|section .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|7|LINK 5|7|SUBJ 6|7|JCT 7|2|CJCT 8|7|OBJ
+	9|7|JCT 10|11|QUANT 11|9|POBJ 12|2|PUNCT
+*SAR:	go into home . 1688210_1688976
+%mor:	v|go prep|into n|home .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*PAI:	look I'm jolly . 1688992_1691152
+%mor:	co|look pro:sub|I~cop|be&1S adj|jolly .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*SAR:	ay@s how nice . 1691137_1691950
+%mor:	L2|ay pro:int|how adj|nice .
+%gra:	1|0|INCROOT 2|3|JCT 3|1|COBJ 4|1|PUNCT
+%eng:	oh, how nice .
+*SAR:	go into home . 1691942_1692639
+%mor:	v|go prep|into n|home .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*SAR:	you should seem nauseated . 1692616_1694955
+%mor:	pro:per|you mod|should cop|seem part|nauseate-PASTP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*SAR:	home . 1694941_1695679
+%mor:	adv|home .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*SAR:	&~m go into profile . 1695830_1698575
+%mor:	v|go prep|into n|profile .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*PAI:	[- spa] eso está aquí abajo . 1698677_1700784
+%mor:	pro:dem|eso=that_one cop|esta-3S&PRES=be adv|aquí=here
+	adv|abajo=below .
+%eng:	that's down there .
+*SAR:	music under music borra@s todo@s lo@s que@s hay@s under music . 1700766_1703646
+%mor:	n|music adv|under n|music L2|borra L2|todo L2|lo L2|que L2|hay
+	adv|under n|music .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|POSTMOD 9|8|NJCT 10|9|POBJ 11|1|PUNCT
+%eng:	music under music remove all you have under music .
+*SAR:	all the way down . 1703628_1705927
+%mor:	qn|all det:art|the n|way adv|down .
+%gra:	1|3|QUANT 2|3|DET 3|0|INCROOT 4|3|NJCT 5|3|PUNCT
+*SAR:	[- spa] ya . 1705918_1708362
+%mor:	adv|ya=already .
+%eng:	yeah .
+*SAR:	[- spa] bueno &~pi . 1708334_1712072
+%mor:	co|bueno=good .
+%eng:	good .
+*PAI:	oh so I can even add things in here huh . 1712066_1714359
+%mor:	co|oh conj|so pro:sub|I mod|can adv|even v|add n|thing-PL prep|in
+	n|here co|huh .
+%gra:	1|6|COM 2|6|LINK 3|6|SUBJ 4|6|AUX 5|6|JCT 6|0|ROOT 7|6|OBJ 8|6|JCT
+	9|8|POBJ 10|6|COM 11|6|PUNCT
+*SAR:	+< of course you can add them anywhere . 1713198_1715456
+%mor:	prep|of n|course pro:per|you mod|can v|add pro:obj|them
+	adv|anywhere .
+%gra:	1|5|JCT 2|1|POBJ 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|JCT 8|5|PUNCT
+*SAR:	<that's where people> [/] that's where people add their slide shows
+	and stuff . 1715445_1718986
+%mor:	pro:dem|that~cop|be&3S pro:int|where n|person&PL v|add
+	det:poss|their n|slide n|show-PL coord|and n|stuff .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|CPRED 6|8|DET 7|8|MOD 8|5|OBJ
+	9|8|CONJ 10|9|COORD 11|2|PUNCT
+*PAI:	+< [- spa] oh podíamos empezar a jugar aquí . 1715445_1718568
+%mor:	co|oh=oh v|pode-1P&PAS=can inf|empeza-INF=begin aprep|a=to
+	inf|juga-INF=play adv|aquí=here .
+%eng:	oh, we can start playing here .
+*SAR:	you add them in different sections . 1718986_1720310
+%mor:	pro:per|you v|add pro:obj|them prep|in adj|different n|section-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|6|MOD 6|4|POBJ 7|2|PUNCT
+*SAR:	you don't have to add it in one place . 1720234_1721807
+%mor:	pro:per|you mod|do~neg|not v|have inf|to v|add pro:per|it prep|in
+	det:num|one n|place .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|6|JCT
+	9|10|QUANT 10|8|POBJ 11|4|PUNCT
+*SAR:	ya@s ahora@s view profile . 1721779_1723468
+%mor:	L2|ya L2|ahora n|view n|profile .
+%gra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+%eng:	so now, view profile .
+*SAR:	[- spa] ahí arriba . 1723439_1725453
+%mor:	adv|ahí=there adv|arriba=above .
+%eng:	up there .
+*SAR:	[- spa] me duele la muela otra vez . 1725423_1731697
+%mor:	pro:obj|me=me v|dole-3S&PRES=hurt det:art|el&FEM&SG=the
+	n|muela&f=runner det:indef|otro-FEM=other n|vez&f=turn .
+%eng:	my tood is aching again .
+*SAR:	[- spa] ya . 1731681_1732610
+%mor:	adv|ya=already .
+%eng:	yeah .
+*PAI:	[- spa] ah muy bien . 1732604_1734694
+%mor:	co|ah adv|muy=very adv|bien=well .
+%eng:	ah, very good .
+*SAR:	do it . 1734646_1735911
+%mor:	mod|do pro:per|it .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*PAI:	[- spa] ah ya yo sé jugar con eso . 1735903_1741201
+%mor:	co|ah adv|ya=already pro:sub|yo=I v|sabe-1S&PRES=know
+	inf|juga-INF=play prep|con=with pro:dem|eso=that_one .
+%eng:	ah, I alreday know how to play with this .
+*SAR:	so now you have all that &~ts +//. 1741186_1742192
+%mor:	co|so adv|now pro:per|you v|have qn|all pro:dem|that +//.
+%gra:	1|4|COM 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|QUANT 6|4|OBJ 7|4|PUNCT
+*SAR:	everything that you have xxx come out on this side . 1742158_1744642
+%mor:	pro:indef|everything pro:rel|that pro:per|you v|have v|come adv|out
+	prep|on det:dem|this n|side .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|CMOD 5|4|COMP 6|5|JCT 7|5|JCT 8|9|DET
+	9|7|POBJ 10|1|PUNCT
+*SAR:	because you have nothing on this side . 1744651_1745865
+%mor:	conj|because pro:per|you v|have pro:indef|nothing prep|on
+	det:dem|this n|side .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*PAI:	+< [- spa] yo voy a agregar . 1745850_1747685
+%mor:	pro:sub|yo=I v|i-1S&PRES=go aprep|a=to inf|agrega-INF=join .
+%eng:	I'm going to add .
+*SAR:	+< all you have is under the general section . 1745862_1747615
+%mor:	post|all pro:per|you v|have aux|be&3S prep|under det:art|the
+	adj|general n|section .
+%gra:	1|0|INCROOT 2|3|SUBJ 3|1|PUNCT 4|3|ROOT 5|4|JCT 6|8|DET 7|8|MOD
+	8|5|POBJ 9|4|PUNCT
+*SAR:	[- spa] eh ? 1747615_1747952
+%mor:	co|eh ?
+%eng:	eh ?
+*PAI:	[- spa] ya yo sé cómo jugar aquí . 1747952_1749896
+%mor:	adv|ya=already pro:sub|yo=I v|sabe-1S&PRES=know co|cómo
+	inf|juga-INF=play adv|aquí=here .
+%eng:	I know how to play here .
+*PAI:	[- spa] voy ahora a mi casa . 1749873_1750581
+%mor:	v|i-1S&PRES=go adv|ahora=now aprep|a=to det:pos|mi=my
+	imp|casa-2S&IMP=marry .
+%eng:	I'm going home now .
+*PAI:	[- spa] y voy a cambiar todo (.) si me acuerdo . 1750563_1755526
+%mor:	coord|y=and v|i-1S&PRES=go aprep|a=to inf|cambia-INF=change
+	det:indef|todo-MASC=all conj|si=if pro:obj|me=me
+	v|acorda-1S&PRES=remind .
+%eng:	I'm going to change everything if I remember .
+*SAR:	[- spa] y la canción +... 1755509_1756682
+%mor:	coord|y=and det:art|el&FEM&SG=the n|canción&f=song +...
+%eng:	and the song .
+*SAR:	you can just go and pick +/. 1756676_1758075
+%mor:	pro:per|you mod|can adv|just v|go coord|and v|pick +/.
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|CONJ 6|5|COORD 7|4|PUNCT
+*PAI:	+< no@s la@s canción@s es@s a@s meterme@s ahí@s en@s music . 1757703_1759921
+%mor:	L2|no L2|la L2|canción L2|es L2|a L2|meterme L2|ahí L2|en n|music .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|9|MOD 9|7|OBJ 10|1|PUNCT
+%eng:	no, I log in to get the song there in music .
+*PAI:	[- spa] y ya . 1759892_1763026
+%mor:	coord|y=and adv|ya=already .
+%eng:	and yes .
+*PAI:	[- spa] <no me voy de aquí que va no me puedo meter> [?] . 1763016_1767626
+%mor:	adv|no=no pro:obj|me=me v|i-1S&PRES=go prep|de=of adv|aquí=here
+	pro:rel|que=that v|i-3S&PRES=go adv|no=no pro:obj|me=me
+	v|pode-1S&PRES=can inf|mete-INF=put .
+%eng:	I can't get out of here, so I can't log in .
+%com:	very low sound
+*SAR:	[- spa] qué ? 1767590_1768129
+%mor:	pro:int|qué=what ?
+%eng:	what ?
+*PAI:	[- spa] tengo hambre . 1768090_1773597
+%mor:	v|tene-1S&PRES=have n|hambre&f=hunger .
+%eng:	I'm hungry .
+%com:	background conversation
+*SAR:	[- spa] qué pasó ? 1773562_1775391
+%mor:	pro:int|qué=what v|pasa-3S&PRET=pass ?
+%eng:	what happened ?
+*PAI:	[- spa] que ya . 1775371_1777635
+%mor:	pro:rel|que=that adv|ya=already .
+%eng:	that it's done .
+*PAI:	okay I think we are (.) done . 1777607_1781107
+%mor:	adj|okay pro:sub|I v|think pro:sub|we aux|be&PRES part|do&PASTP .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|SUBJ 5|6|AUX 6|3|COMP 7|3|PUNCT
+*PAI:	where is that ? 1781081_1784895
+%mor:	pro:int|where cop|be&3S pro:dem|that ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+%com:	very low sound
+*PAI:	Julio then here . 1784866_1788413
+%mor:	n:prop|Julio adv:tem|then adv|here .
+%gra:	1|2|SUBJ 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*PAI:	[- spa] qué lindo ! 1788396_1795645
+%mor:	pro:int|qué=what adj|lindo-MASC=pretty !
+%eng:	how pretty !
+*PAI:	now I'm gonna change it around . 1795524_1797428
+%mor:	adv|now pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|change
+	pro:per|it adv|around .
+%gra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|6|JCT
+	9|4|PUNCT
+*PAI:	now I know what to do . 1797422_1798816
+%mor:	adv|now pro:sub|I v|know pro:int|what inf|to v|do .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|INF 6|3|COMP 7|3|PUNCT
+*SAR:	I did mine xxx already . 1798742_1801458
+%mor:	pro:sub|I v|do&PAST n|mine adv|already .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
+*PAI:	yeah I think xxx New_York is old . 1801476_1802950
+%mor:	co|yeah pro:sub|I v|think n:prop|New_York cop|be&3S adj|old .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|PRED 7|3|PUNCT
+*SAR:	&~t old news . 1802936_1805544
+%mor:	adj|old n|news .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*PAI:	+< I need to clean it . 1802936_1805515
+%mor:	pro:sub|I v|need inf|to v|clean pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|OBJ 6|2|PUNCT
+*PAI:	but now I know how to play . 1805478_1808189
+%mor:	conj|but adv|now pro:sub|I v|know pro:int|how inf|to v|play .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|7|LINK 6|7|INF 7|4|COMP 8|4|PUNCT
+*SAR:	old news . 1808162_1811459
+%mor:	adj|old n|news .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+@End

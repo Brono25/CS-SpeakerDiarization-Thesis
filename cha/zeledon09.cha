@@ -1,0 +1,3007 @@
+@UTF8
+@PID:	11312/t-00000063-1
+@Begin
+@Languages:	eng, spa
+@Participants:	CHA Chantal Teenager, GIL Gillian Child
+@ID:	spa, eng|Miami|CHA|12;|female|||Teenager|||
+@ID:	spa, eng|Miami|GIL|9;|female|||Child|||
+@Situation:	Informal conversation between two cousins
+@Date:	22-MAR-2008
+@Transcriber:	Diana Carter, Bangor University. Initial translation by
+	Kevin Donnelly
+@Comment:	Researcher: Marilyn Zeledón
+@Time Duration:	00:30:51
+@Media:	zeledon09, audio
+*GIL:	ah Jacky está@s en@s Colombia@s para@s Navidad@s un@s año@s . 6_5132
+%mor:	co|ah n:prop|Jacky L2|está L2|en L2|Colombia L2|para L2|Navidad
+	L2|un L2|año .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|3|PUNCT
+%eng:	Jacky is in Colombia for Christmas one year
+*GIL:	&-um yo@s (.) fui@s la@s día@s primero@s un@s poquito@s días@s de@s
+	Navidad@s . 5123_11219
+%mor:	L2|yo L2|fui L2|la L2|día L2|primero L2|un L2|poquito L2|días L2|de
+	L2|Navidad .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|POSTMOD 9|8|CONJ 10|9|COORD 11|1|PUNCT
+%eng:	I went the first day for a few days at Christmas
+*GIL:	&~i and then &-um I stayed there for a week or like couple days or
+	something like +... 11292_17105
+%mor:	coord|and adv:tem|then pro:sub|I v|stay-PAST adv|there prep|for
+	det:art|a n|week coord|or co|like qn|couple n|day-PL coord|or
+	pro:indef|something prep|like +...
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|CONJ 10|12|COM 11|12|QUANT 12|9|COORD 13|12|CONJ 14|13|COORD 15|14|NJCT
+	16|4|PUNCT
+*GIL:	I came like a week before Christmas you know . 17076_19191
+%mor:	pro:sub|I v|come&PAST prep|like det:art|a n|week conj|before
+	n:prop|Christmas pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|JCT 7|6|POBJ 8|9|SUBJ
+	9|7|CMOD 10|2|PUNCT
+*CHA:	uhuh yes . 18802_19789
+%mor:	co|uhuh co|yes .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*GIL:	and so I stayed for like a week and a half . 19216_21108
+%mor:	coord|and co|so pro:sub|I v|stay-PAST prep|for co|like det:art|a
+	n|week coord|and det:art|a n|half .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|8|COM 7|8|DET 8|5|POBJ
+	9|8|CONJ 10|11|DET 11|9|COORD 12|4|PUNCT
+*GIL:	and when I came back I opened all my presents and stuff . 21087_23571
+%mor:	coord|and conj|when pro:sub|I v|come&PAST n|back pro:sub|I
+	v|open-PAST qn|all co|my n|present-PL coord|and n|stuff .
+%gra:	1|7|LINK 2|4|LINK 3|4|SUBJ 4|7|CJCT 5|4|OBJ 6|7|SUBJ 7|0|ROOT
+	8|10|QUANT 9|10|COM 10|7|OBJ 11|10|CONJ 12|11|COORD 13|7|PUNCT
+*CHA:	[- spa] chévere . 23545_25205
+%mor:	adj|chévere=excellent .
+%eng:	cool
+*CHA:	[- spa] y cómo [///] qué [/] qué te dieron ? 25193_26999
+%mor:	coord|y=and pro:int|qué=what pro:obj|te=you v|da-3P&PRET=give ?
+%eng:	and what did they give you ?
+*CHA:	you know . 26976_27661
+%mor:	pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	[- spa] en Colombia qué te dieron de regalos para Navidad ? 27645_30461
+%mor:	prep|en=in n:prop|Colombia pro:int|qué=what pro:obj|te=you
+	v|da-3P&PRET=give prep|de=of imp|rega-2S&IMP~pro:clit|OBJ&MASC&PL
+	prep|para=for n:prop|Navidad ?
+%eng:	in Colombia what did they give you as Christmas presents ?
+*GIL:	don't remember . 30451_32686
+%mor:	mod|do~neg|not v|remember .
+%gra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|PUNCT
+*CHA:	you [//] of course you remember . 32677_34743
+%mor:	prep|of n|course pro:per|you v|remember .
+%gra:	1|4|JCT 2|1|POBJ 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHA:	you remember of course . 34716_36754
+%mor:	pro:per|you v|remember prep|of n|course .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*CHA:	you remember I was there with you ? 36748_38919
+%mor:	pro:per|you v|remember pro:sub|I cop|be&PAST&13S adv|there
+	prep|with pro:per|you ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|4|JCT 7|6|POBJ 8|2|PUNCT
+*GIL:	oh oh right . 36971_38794
+%mor:	co|oh co|oh co|right .
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*GIL:	they gave me this really cute shirt . 38776_41261
+%mor:	pro:sub|they v|give&PAST pro:obj|me pro:dem|this adv|real&dadj-LY
+	adj|cute n|shirt .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|7|DET 5|6|JCT 6|7|MOD 7|2|OBJ 8|2|PUNCT
+*CHA:	yeah they gave me a [/] a Barbie car . 41239_45281
+%mor:	co|yeah pro:sub|they v|give&PAST pro:obj|me det:art|a n:prop|Barbie
+	n|car .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|7|DET 6|7|MOD 7|3|OBJ 8|3|PUNCT
+*CHA:	it was so fun . 45289_46584
+%mor:	pro:per|it cop|be&PAST&13S adv|so adj|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	my good childhood memories . 46567_48407
+%mor:	det:poss|my adj|good n|childhood n|memory-PL .
+%gra:	1|4|DET 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*GIL:	so (.) when [//] (.) cuándo@s tú@s cogiste@s tus@s braces ? 51186_55365
+%mor:	adv|so L2|cuándo L2|tú L2|cogiste L2|tus n|brace-PL ?
+%gra:	1|2|JCT 2|0|INCROOT 3|6|MOD 4|6|MOD 5|6|MOD 6|2|ENUM 7|2|PUNCT
+%eng:	so when, when did you get your braces ?
+*CHA:	yo@s mis@s braces me@s lo@s colocaron@s hace@s tres@s semanas@s . 55351_60752
+%mor:	L2|yo L2|mis n|brace-PL L2|me L2|lo L2|colocaron L2|hace L2|tres
+	L2|semanas .
+%gra:	1|0|INCROOT 2|3|MOD 3|1|OBJ 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+%eng:	they fitted my braces three weeks ago .
+*GIL:	cool . 60719_61178
+%mor:	adj|cool .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	my dentist she said I had to take very good care of (th)em . 61178_64736
+%mor:	det:poss|my n|dentist pro:sub|she v|say&PAST pro:sub|I v|have&PAST
+	inf|to v|take adv|very adj|good n|care prep|of pro:obj|them .
+%gra:	1|2|DET 2|6|SUBJ 3|4|SUBJ 4|2|CMOD 5|6|SUBJ 6|0|ROOT 7|8|INF 8|6|COMP
+	9|10|JCT 10|11|MOD 11|8|OBJ 12|11|NJCT 13|12|POBJ 14|6|PUNCT
+*CHA:	and they hurt you know horribly . 64733_67247
+%mor:	coord|and pro:sub|they v|hurt&ZERO pro:per|you v|know
+	adv|horrible&dadj-LY .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|3|PUNCT
+*GIL:	oh my gosh I can make like six pages of list that you can't eat . 67040_70686
+%mor:	co|oh det:poss|my co|gosh pro:sub|I mod|can v|make co|like
+	det:num|six n|page-PL prep|of n|list pro:rel|that pro:per|you
+	mod|can~neg|not v|eat .
+%gra:	1|3|COM 2|3|DET 3|6|COM 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|COM 8|9|QUANT
+	9|6|OBJ 10|9|NJCT 11|10|POBJ 12|16|LINK 13|16|SUBJ 14|16|AUX 15|14|NEG
+	16|11|CMOD 17|6|PUNCT
+*GIL:	sometimes no soda no popcorn no gum no tootsie rolls I could go on
+	and on . 70648_76095
+%mor:	adv|sometimes qn|no n|soda qn|no n|+n|pop+n|corn qn|no n|gum qn|no
+	n|tootsie n|roll-PL pro:sub|I mod|could v|go adv|on coord|and adv|on
+	.
+%gra:	1|10|JCT 2|3|QUANT 3|10|MOD 4|5|QUANT 5|10|MOD 6|7|QUANT 7|10|MOD
+	8|9|QUANT 9|10|MOD 10|13|LINK 11|13|SUBJ 12|13|AUX 13|0|ROOT 14|13|JCT
+	15|13|CONJ 16|15|COORD 17|13|PUNCT
+*CHA:	it's horrible . 76068_77583
+%mor:	pro:per|it~cop|be&3S adj|horrible .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	[- spa] pero te tienes que acostumbrar a eso . 77550_80998
+%mor:	conj|pero=but pro:obj|te=you v|tene-2S&PRES=have pro:rel|que=that
+	inf|acostumbra-INF=get_used_to aprep|a=to pro:dem|eso=that_one .
+%eng:	but you have to get used to that .
+*GIL:	yeah I'm gonna get my top braces on soon during the summer . 81001_84977
+%mor:	co|yeah pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|get co|my
+	adj|top n|brace-PL adv|on adv|soon prep|during det:art|the n|summer
+	.
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|9|COM 8|9|MOD
+	9|6|OBJ 10|6|JCT 11|6|JCT 12|6|JCT 13|14|DET 14|12|POBJ 15|4|PUNCT
+*CHA:	oh . 84951_86216
+%mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	I &~s [/] I [/] I'm sure you'll be fine you know . 86195_89255
+%mor:	pro:sub|I pro:sub|I~cop|be&1S adj|sure pro:per|you~mod|will cop|be
+	adj|fine pro:per|you v|know .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|7|SUBJ 6|7|AUX 7|10|CJCT 8|7|PRED
+	9|10|SUBJ 10|4|CMOD 11|3|PUNCT
+*GIL:	so what's your favorite color ? 89249_91403
+%mor:	adv|so pro:int|what~cop|be&3S det:poss|your n|favorite n|color ?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*CHA:	my favorite color is rosado@s . 91377_94860
+%mor:	det:poss|my n|favorite n|color cop|be&3S L2|rosado .
+%gra:	1|2|DET 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
+%eng:	my favorite color is pink .
+*CHA:	it's [/] it's &-um a very pretty color . 94850_98404
+%mor:	pro:per|it~cop|be&3S det:art|a adv|very adj|pretty n|color .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|5|JCT 5|6|MOD 6|2|PRED 7|2|PUNCT
+*CHA:	it would translate to pink . 98393_100465
+%mor:	pro:per|it mod|will&COND v|translate prep|to n|pink .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*CHA:	xxx what about yours ? 100453_102450
+%mor:	pro:int|what adv|about pro:poss|yours ?
+%gra:	1|3|LINK 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*GIL:	mine is red because in the Bible Jesus spoke in red . 102429_107005
+%mor:	n|mine cop|be&3S adj|red conj|because prep|in det:art|the
+	n:prop|Bible n:prop|Jesus n|spoke prep|in n|red .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|INCROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|9|MOD
+	9|5|POBJ 10|9|NJCT 11|10|POBJ 12|4|PUNCT
+*CHA:	that's very cool . 106987_108723
+%mor:	pro:dem|that~cop|be&3S adv|very adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	&-um let's talk about our hobbies . 108714_110682
+%mor:	v|let~pro:obj|us v|talk prep|about det:poss|our n|hobby-PL .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|6|DET 6|4|POBJ 7|1|PUNCT
+*CHA:	what are you favorite hobbies ? 110671_112238
+%mor:	pro:int|what cop|be&PRES pro:per|you n|favorite n|hobby-PL ?
+%gra:	1|2|LINK 2|0|ROOT 3|5|MOD 4|5|MOD 5|2|PRED 6|2|PUNCT
+*GIL:	I &~u draw . 112217_114202
+%mor:	pro:sub|I v|draw .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	I sing . 114156_115456
+%mor:	pro:sub|I v|sing .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	and sometimes I go play golf . 115452_118216
+%mor:	coord|and adv|sometimes pro:sub|I v|go n|play n|golf .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|MOD 6|4|OBJ 7|4|PUNCT
+*CHA:	[- spa] muy chévere . 118201_119496
+%mor:	adv|muy=very adj|chévere=excellent .
+%eng:	very cool .
+*CHA:	<my hobbies are> [///] I +/. 119490_121905
+%mor:	pro:sub|I +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	and swimming . 120964_122096
+%mor:	coord|and part|swim-PRESP .
+%gra:	1|2|LINK 2|0|ROOT 3|2|PUNCT
+*CHA:	I [/] I love to play basketball . 122075_126546
+%mor:	pro:sub|I v|love prep|to n|play n|+n|basket+n|ball .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|MOD 5|3|POBJ 6|2|PUNCT
+*CHA:	I'm in my team in my school . 126531_130177
+%mor:	pro:sub|I~cop|be&1S prep|in det:poss|my n|team prep|in det:poss|my
+	n|school .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|2|PUNCT
+*CHA:	&-um I also love to swim . 130163_132792
+%mor:	pro:sub|I adv|also n|love inf|to v|swim .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|INCROOT 4|5|INF 5|3|XMOD 6|3|PUNCT
+*CHA:	you know in the pool it's very very fun . 132759_135882
+%mor:	pro:per|you v|know prep|in det:art|the n|pool pro:per|it~cop|be&3S
+	adv|very adv|very adj|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|7|SUBJ 7|2|CJCT 8|10|JCT
+	9|10|JCT 10|7|PRED 11|2|PUNCT
+*GIL:	I know . 135868_136263
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	remember the other day when we [//] (.) cuando@s nosotros@s
+	fuimos@s a@s la@s piscina@s aquí@s ? 136245_141919
+%mor:	v|remember det:art|the qn|other n|day conj|when L2|cuando
+	L2|nosotros L2|fuimos L2|a L2|la L2|piscina L2|aquí ?
+%gra:	1|0|ROOT 2|4|DET 3|4|QUANT 4|1|JCT 5|4|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|8|CONJ 10|9|COORD 11|10|CONJ 12|11|COORD 13|1|PUNCT
+%eng:	remember the other day when we, when we went to the swimming pool
+	here ?
+*GIL:	[- spa] y fue tan chévere . 141886_143413
+%mor:	coord|y=and v|i-3S&PRET=go adv|tan=such adj|chévere=excellent .
+%eng:	and it was so cool .
+*GIL:	[- spa] te acuerdas ? 143403_144280
+%mor:	pro:obj|te=you v|acorda-2S&PRES=remind ?
+%eng:	you remember ?
+*CHA:	+< just said +"/. 143409_144309
+%mor:	adv|just part|say&PASTP +"/.
+%gra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*CHA:	+" [- spa] tan chévere . 144297_145864
+%mor:	adv|tan=such adj|chévere=excellent .
+%eng:	so cool .
+*GIL:	[- spa] estamos haciendo como vueltas y todo eso en la piscina . 145850_149341
+%mor:	aux|esta-1P&PRES&PRET=be ger|hace-PROG=do adv|como=like
+	n|vuelta&f-PL=turn coord|y=and det:indef|todo-MASC=all
+	pro:dem|eso=that_one prep|en=in det:art|el&FEM&SG=the
+	n|piscina&f=swiming_pool .
+%eng:	we're doing, like, flips and all that in the pool .
+*CHA:	[- spa] estamos nadando mucho . 149288_151163
+%mor:	aux|esta-1P&PRES&PRET=be ger|nada-PROG=swim adv|mucho=much .
+%eng:	we're swimming a lot .
+*GIL:	m:hm . 151169_151802
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] también nos [/] nos solíamos un poquito . 151776_153634
+%mor:	adv|también=also pro:obj|nos=us v|sole-1P&PAS=accustom
+	det:art|un&m=one pro:indef|poquito=little .
+%eng:	also we sunbathed a bit .
+*CHA:	we got a great tan . 153628_155306
+%mor:	pro:sub|we v|get&PAST det:art|a adj|great n|tan .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*GIL:	hablamos@s mucho@s de@s la@s parque@s de@s café@s Sergio Diana . 155298_159300
+%mor:	L2|hablamos L2|mucho L2|de L2|la L2|parque L2|de L2|café
+	n:prop|Sergio n:prop|Diana .
+%gra:	1|9|LINK 2|9|NAME 3|9|NAME 4|9|NAME 5|9|NAME 6|9|NAME 7|9|NAME 8|9|NAME
+	9|0|ROOT 10|9|PUNCT
+%eng:	we were talking a lot about Sergio and Diana's café area
+*GIL:	[- spa] y hablamos de las tías . 159109_161378
+%mor:	coord|y=and v|habla-1P&PRES&PRET=speak prep|de=of
+	det:art|el&FEM-PL=the n|tío-FEM-PL=uncle .
+%eng:	and we were talking about the aunts
+*CHA:	sí@s let's talk about our aunts . 161364_163390
+%mor:	L2|sí v|let~pro:obj|us v|talk prep|about det:poss|our n|aunt-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
+%eng:	yes, let's talk about our aunts .
+*CHA:	well (.) your mom (.) my tía@s Ana is so nice you know . 163378_170537
+%mor:	co|well det:poss|your n|mom det:poss|my L2|tía n:prop|Ana cop|be&3S
+	adv|so adj|nice pro:per|you v|know .
+%gra:	1|7|COM 2|3|DET 3|7|SUBJ 4|5|DET 5|7|SUBJ 6|7|SUBJ 7|0|ROOT 8|9|JCT
+	9|7|PRED 10|11|SUBJ 11|9|CMOD 12|7|PUNCT
+%eng:	well, your Mom, my Aunt Angela, is so nice, you know .
+*GIL:	+< yo@s &~te &=stutter &~kl (.) Ana Howell . 165904_169272
+%mor:	L2|yo n:prop|Ana n:prop|Howell .
+%gra:	1|3|NAME 2|3|NAME 3|0|INCROOT 4|3|PUNCT
+%eng:	I Ana Howell
+*GIL:	[- spa] que yo sé . 170516_171579
+%mor:	pro:rel|que=that pro:sub|yo=I v|sabe-1S&PRES=know .
+%eng:	I know .
+*GIL:	[- spa] ella es muy chévere . 171451_172490
+%mor:	pro:sub|ella=she cop|se-3S&PRES=be adv|muy=very
+	adj|chévere=excellent .
+%eng:	she is very cool .
+*CHA:	she's very muy@s chévere@s . 172478_174522
+%mor:	pro:sub|she~cop|be&3S adv|very L2|muy L2|chévere .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|4|ENUM 6|2|PUNCT
+%eng:	she's very cool .
+*GIL:	[- spa] es muy linda . 174501_176004
+%mor:	cop|se-3S&PRES=be adv|muy=very adj|lindo-FEM=pretty .
+%eng:	she's very pretty .
+*GIL:	e@s mi@s tía@s Francesca (.) es@s muy@s linda@s . 175896_178951
+%mor:	L2|e L2|mi L2|tía n:prop|Francesca L2|es L2|muy L2|linda .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|1|PUNCT
+%eng:	and my Aunt Francesca is very pretty .
+*GIL:	tiene@s dos@s niños@s Sergio y@s David . 178945_181523
+%mor:	L2|tiene L2|dos L2|niños n:prop|Sergio L2|y n:prop|David .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+%eng:	she has two sons, Sergio and David .
+*CHA:	xxx . 181474_182293
+*GIL:	+< David tiene@s cuatro@s años@s . 181503_183785
+%mor:	n:prop|David L2|tiene L2|cuatro L2|años .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+%eng:	David is four .
+*GIL:	y@s Sergio tiene@s (.) diecisiete@s . 183770_186869
+%mor:	L2|y n:prop|Sergio L2|tiene L2|diecisiete .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|1|PUNCT
+%eng:	and Sergio is seventeen .
+*CHA:	+< [- spa] diecisiete . 185035_186289
+%mor:	det:num|diecisiete=seventeen .
+%eng:	seventeen .
+*CHA:	well +/. 186866_187887
+%mor:	co|well +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	y@s yo@s tengo@s mi@s tía@s Magdalena . 187564_189834
+%mor:	L2|y L2|yo L2|tengo L2|mi L2|tía n:prop|Magdalena .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|OBJ 7|1|PUNCT
+%eng:	and I have my Aunt Magdalena .
+*CHA:	that's my mom . 189779_191590
+%mor:	pro:dem|that~cop|be&3S det:poss|my n|mom .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*GIL:	+< y@s ella@s tiene@s (.) u(n) [//] dos@s hijas@s . 190382_192968
+%mor:	L2|y L2|ella L2|tiene L2|dos L2|hijas .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+%eng:	and she has one, two daughters .
+*GIL:	una@s que@s se@s llama@s Valerie que@s es@s cinco@s años@s y@s
+	que@s está@s en@s kinder(garten) . 192954_197971
+%mor:	L2|una L2|que L2|se L2|llama n:prop|Valerie L2|que L2|es L2|cinco
+	L2|años L2|y L2|que L2|está L2|en n|kindergarten .
+%gra:	1|14|MOD 2|14|MOD 3|14|MOD 4|14|MOD 5|14|MOD 6|14|MOD 7|14|MOD 8|14|MOD
+	9|14|MOD 10|14|MOD 11|14|MOD 12|14|MOD 13|14|MOD 14|0|INCROOT
+	15|14|PUNCT
+%eng:	one called Valerie who is five and who is in kindergarten .
+*GIL:	y@s otra@s que@s se@s llama@s the lovely Chantal que@s es@s twelve
+	. 197968_202736
+%mor:	L2|y L2|otra L2|que L2|se L2|llama det:art|the adj|love&dn-LY
+	n:prop|Chantal L2|que L2|es det:num|twelve .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|7|DET 7|5|PRED
+	8|7|XMOD 9|8|CONJ 10|11|DATE 11|9|COORD 12|1|PUNCT
+%eng:	and another called the lovely Chantal who is twelve .
+*GIL:	y@s está@s en@s (.) sixth grade . 202730_205367
+%mor:	L2|y L2|está L2|en adj|sixth n|grade .
+%gra:	1|5|MOD 2|5|MOD 3|5|MOD 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+%eng:	and is in sixth grade .
+*CHA:	yes sixth grade . 205358_207477
+%mor:	co|yes adj|sixth n|grade .
+%gra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*CHA:	well &-um let's talk about our uncles by marriage . 207473_212146
+%mor:	co|well v|let~pro:obj|us v|talk prep|about det:poss|our n|uncle-PL
+	prep|by n|marriage .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|7|NJCT
+	9|8|POBJ 10|2|PUNCT
+*CHA:	well let's talk about uncle dad your dad . 212144_215302
+%mor:	co|well v|let~pro:obj|us v|talk prep|about n|uncle n|dad
+	det:poss|your n|dad .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|7|MOD 7|5|POBJ 8|9|DET
+	9|7|OBJ 10|2|PUNCT
+*CHA:	as you know I call him uncle dad (be)cause he's my uncle and he's
+	like my dad . 215263_219321
+%mor:	conj|as pro:per|you v|know pro:sub|I v|call pro:obj|him n|uncle
+	n|dad conj|because pro:sub|he~cop|be&3S det:poss|my n|uncle
+	coord|and pro:sub|he~cop|be&3S prep|like det:poss|my n|dad .
+%gra:	1|3|LINK 2|3|SUBJ 3|5|CJCT 4|5|SUBJ 5|0|ROOT 6|7|SUBJ 7|8|MOD 8|5|OBJ
+	9|11|LINK 10|11|SUBJ 11|5|CJCT 12|13|DET 13|11|PRED 14|16|LINK 15|16|SUBJ
+	16|13|CMOD 17|16|JCT 18|19|DET 19|17|POBJ 20|5|PUNCT
+*GIL:	+< oh my dad . 215263_216424
+%mor:	co|oh det:poss|my n|dad .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*GIL:	so it's like uncle slash dad right ? 219295_221327
+%mor:	co|so pro:per|it~cop|be&3S co|like n|uncle n|slash n|dad adj|right
+	?
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|7|COM 5|7|MOD 6|7|MOD 7|3|PRED 8|7|POSTMOD
+	9|3|PUNCT
+*CHA:	[- spa] sí . 221269_221698
+%mor:	co|sí=yes .
+%eng:	yes .
+*CHA:	[- spa] yo lo amo mucho . 221682_223836
+%mor:	pro:sub|yo=I pro:obj|lo&m=him v|ama-1S&PRES=love adv|mucho=much .
+%eng:	I love him a lot .
+*GIL:	I know he's like so cool . 223815_226027
+%mor:	pro:sub|I v|know pro:sub|he~cop|be&3S v|like adv|so adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|5|SUBJ 5|2|COMP 6|7|JCT 7|5|JCT 8|2|PUNCT
+*CHA:	+< I love him very much . 224128_225742
+%mor:	pro:sub|I v|love pro:obj|him adv|very adv|much .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|JCT 5|2|JCT 6|2|PUNCT
+*CHA:	he's very very cool . 225610_227439
+%mor:	pro:sub|he~cop|be&3S adv|very adv|very adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|JCT 4|5|JCT 5|2|PRED 6|2|PUNCT
+*GIL:	remember yesterday when he took us like (.) shopping ? 227288_231051
+%mor:	v|remember adv:tem|yesterday conj|when pro:sub|he v|take&PAST
+	pro:obj|us prep|like n:gerund|shop-PRESP ?
+%gra:	1|0|ROOT 2|1|JCT 3|5|LINK 4|5|SUBJ 5|2|CJCT 6|5|OBJ 7|5|JCT 8|7|POBJ
+	9|1|PUNCT
+*CHA:	that was fun . 231042_232151
+%mor:	pro:dem|that cop|be&PAST&13S adj|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	+" [- spa] de compras . 232128_233138
+%mor:	prep|de=of v|compra-2S&PRES=buy .
+%eng:	shopping .
+*CHA:	as he would say in Spanish +". 233126_234798
+%mor:	conj|as pro:sub|he mod|will&COND v|say prep|in n:prop|Spanish +".
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+*GIL:	you know these old jeans estaban@s tan@s lindos@s . 234771_238842
+%mor:	pro:per|you v|know det:dem|these adj|old n|jeans L2|estaban L2|tan
+	L2|lindos .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|5|POSTMOD 7|6|CONJ
+	8|7|COORD 9|2|PUNCT
+%eng:	you know, these old jeans, they were so pretty .
+*CHA:	I love the jeans . 238842_240775
+%mor:	pro:sub|I v|love det:art|the n|jeans .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHA:	let's talk about Andrew now . 240760_243257
+%mor:	v|let~pro:obj|us v|talk prep|about n:prop|Andrew adv|now .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|4|POBJ 6|5|NJCT 7|1|PUNCT
+*CHA:	&-um he's [/] he's new in our family . 243249_247121
+%mor:	pro:sub|he~cop|be&3S adj|new prep|in det:poss|our n|family .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|JCT 5|6|DET 6|4|POBJ 7|2|PUNCT
+*CHA:	but he's a great person . 247103_248972
+%mor:	conj|but pro:sub|he~cop|be&3S det:art|a adj|great n|person .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*GIL:	yeah &-um they actually just got married in June . 248935_252209
+%mor:	co|yeah pro:sub|they adv|actual&dadj-LY adj|just v|get&PAST
+	v|marry-PAST prep|in n:prop|June .
+%gra:	1|6|COM 2|6|SUBJ 3|6|JCT 4|6|JCT 5|6|SRL 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|6|PUNCT
+*CHA:	exactly . 252183_253274
+%mor:	adv|exact&dadj-LY .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	you were there . 252891_253739
+%mor:	pro:per|you cop|be&PAST adv|there .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*GIL:	you did a great job . 253739_255085
+%mor:	pro:per|you v|do&PAST det:art|a adj|great n|job .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*CHA:	+< I was there . 254000_254888
+%mor:	pro:sub|I cop|be&PAST&13S adv|there .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHA:	thank you . 254848_255667
+%mor:	v|thank pro:per|you .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*GIL:	+< we came in a limo . 255138_256224
+%mor:	pro:sub|we v|come&PAST prep|in det:art|a n|limo .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*GIL:	remember ? 256215_256731
+%mor:	co|remember ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	that was really fun you know . 256702_259177
+%mor:	pro:dem|that cop|be&PAST&13S adv|real&dadj-LY adj|fun pro:per|you
+	v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|6|SUBJ 6|2|CJCT 7|2|PUNCT
+*GIL:	+< that was like (.) OMG . 256714_259183
+%mor:	pro:dem|that cop|be&PAST&13S co|like n:prop|OMG .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|COM 4|2|PRED 5|2|PUNCT
+*CHA:	Andrew has a lot of childhood in him . 259183_261644
+%mor:	n:prop|Andrew v|have&3S det:art|a n|lot prep|of n|childhood prep|in
+	pro:obj|him .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT 8|7|POBJ
+	9|2|PUNCT
+*CHA:	easter egg hunting +... 261629_263614
+%mor:	adj|east-CP n|egg part|hunt-PRESP +...
+%gra:	1|2|MOD 2|0|INCROOT 3|2|XMOD 4|2|PUNCT
+*GIL:	oh yeah totally . 261728_263011
+%mor:	co|oh co|yeah adv|total&dadj-LY .
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*CHA:	that's very very funny . 263616_265415
+%mor:	pro:rel|that~cop|be&3S adv|very adv|very adj|fun&dn-Y .
+%gra:	1|2|LINK 2|0|ROOT 3|5|JCT 4|5|JCT 5|2|PRED 6|2|PUNCT
+*GIL:	and rare . 265389_266590
+%mor:	coord|and adj|rare .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*CHA:	I know . 266584_267148
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	he is not afraid to sit down with you and laugh . 267130_269557
+%mor:	pro:sub|he cop|be&3S neg|not adj|afraid inf|to v|sit adv|down
+	prep|with pro:per|you coord|and n|laugh .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|NEG 4|2|PRED 5|6|INF 6|4|XMOD 7|6|JCT 8|6|JCT
+	9|8|POBJ 10|9|CONJ 11|10|COORD 12|2|PUNCT
+*CHA:	[- spa] él es muy chistoso . 269553_271585
+%mor:	pro:sub|él&m=he cop|se-3S&PRES=be adv|muy=very
+	adj|chistoso-MASC=amusing .
+%eng:	he is really funny .
+*CHA:	y@s también@s nació@s en@s Honduras which makes him much more
+	funnier because they say a lot of good jokes . 271563_278149
+%mor:	L2|y L2|también L2|nació L2|en n:prop|Honduras pro:rel|which
+	v|make-3S pro:obj|him adv|much adv|more adj|fun&dn-Y-CP conj|because
+	pro:sub|they v|say det:art|a n|lot prep|of adj|good n|joke-PL .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|NJCT 5|4|POBJ 6|7|LINK 7|5|CMOD
+	8|7|OBJ 9|7|JCT 10|11|JCT 11|7|JCT 12|14|LINK 13|14|SUBJ 14|1|CJCT 15|16|DET
+	16|14|OBJ 17|16|NJCT 18|19|MOD 19|17|POBJ 20|1|PUNCT
+%eng:	and also he was born in Honduras, which makes him much more funnier
+	because they say a lot of good jokes .
+*GIL:	so let's move on to you and me . 278145_280525
+%mor:	adv|so v|let~pro:obj|us v|move adv|on prep|to pro:per|you coord|and
+	pro:obj|me .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|4|JCT 7|6|POBJ 8|7|CONJ
+	9|8|COORD 10|2|PUNCT
+*GIL:	you've been here (.) since (.) Thursday (.) last Thursday which was
+	the nineteenth . 280516_289374
+%mor:	pro:per|you~aux|have cop|be&PASTP adv|here prep|since
+	n:prop|Thursday adj|last n:prop|Thursday pro:rel|which
+	cop|be&PAST&13S det:art|the adj|nineteenth .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|JCT 6|5|POBJ 7|8|MOD 8|6|APP
+	9|10|LINK 10|3|CJCT 11|12|DET 12|10|PRED 13|3|PUNCT
+*CHA:	+< yes . 284652_285552
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] el +... 287353_288473
+%mor:	det:art|el&MASC&SG=the +...
+%eng:	the ...
+*CHA:	el@s diecinueve@s exactly . 289351_291110
+%mor:	L2|el L2|diecinueve adv|exact&dadj-LY .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|JCT 4|1|PUNCT
+%eng:	the nineteenth, exactly .
+*GIL:	no it was the twentieth . 290803_292892
+%mor:	co|no pro:per|it cop|be&PAST&13S det:art|the adj|twentieth .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*CHA:	yeah no it was the nineteenth . 292878_294126
+%mor:	co|yeah co|no pro:per|it cop|be&PAST&13S det:art|the adj|nineteenth
+	.
+%gra:	1|4|COM 2|4|COM 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*GIL:	yeah the nineteenth . 294103_295572
+%mor:	co|yeah det:art|the adj|nineteenth .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*GIL:	and &-um (.) you actually got there . 295551_298803
+%mor:	coord|and pro:per|you adv|actual&dadj-LY v|get&PAST adv|there .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*GIL:	and we started decorating for my easter party class . 298780_303361
+%mor:	coord|and pro:sub|we v|start-PAST part|decorate-PRESP prep|for
+	det:poss|my adj|east-CP n|party n|class .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|4|JCT 6|9|DET 7|9|MOD 8|9|MOD
+	9|5|POBJ 10|3|PUNCT
+*CHA:	[- spa] sí el [/] el día de pascua . 303353_305378
+%mor:	co|sí=yes det:art|el&MASC&SG=the n|día&m=day prep|de=of
+	n|pascua&f=passover .
+%eng:	yes, Easter day .
+*CHA:	así@s no@s para@s celebrar@s de@s Jesus@s y@s también@s del@s
+	easter bunny . 305275_309398
+%mor:	L2|así L2|no L2|para L2|celebrar L2|de L2|Jesus L2|y L2|también
+	L2|del adj|east-CP n|bunny .
+%gra:	1|11|MOD 2|11|MOD 3|11|MOD 4|11|MOD 5|11|MOD 6|11|MOD 7|11|MOD 8|11|MOD
+	9|11|MOD 10|11|MOD 11|0|INCROOT 12|11|PUNCT
+%eng:	so no, to celebrate Jesus and also the Easter Bunny .
+*GIL:	yeah &~e yo@s [///] fue@s tan@s chévere@s . 309390_312722
+%mor:	co|yeah L2|fue L2|tan L2|chévere .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+%eng:	yeah, it was so cool .
+*GIL:	like we had the party and everything . 312717_314429
+%mor:	conj|like pro:sub|we v|have&PAST det:art|the n|party coord|and
+	pro:indef|everything .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|CONJ 7|6|COORD 8|3|PUNCT
+*GIL:	and we wrote this really funny letter to uncle dad slash dad . 314408_318525
+%mor:	coord|and pro:sub|we v|write&PAST det:dem|this adv|real&dadj-LY
+	adj|fun&dn-Y n|letter prep|to n|uncle n|dad n|slash n|dad .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|7|DET 5|6|JCT 6|7|MOD 7|3|OBJ 8|7|NJCT
+	9|12|MOD 10|12|MOD 11|12|MOD 12|8|POBJ 13|3|PUNCT
+*GIL:	and can I tell them about it ? 318503_320402
+%mor:	coord|and mod|can pro:sub|I v|tell pro:obj|them prep|about
+	pro:per|it ?
+%gra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|PUNCT
+*CHA:	sure then why don't we talk about it . 320382_322867
+%mor:	adj|sure adv:tem|then pro:int|why mod|do~neg|not pro:sub|we v|talk
+	prep|about pro:per|it .
+%gra:	1|7|LINK 2|7|JCT 3|7|JCT 4|7|AUX 5|4|NEG 6|7|SUBJ 7|0|ROOT 8|7|JCT
+	9|8|POBJ 10|7|PUNCT
+*GIL:	yeah it said happy easter on the front . 322190_324639
+%mor:	co|yeah pro:per|it v|say&PAST adj|happy adj|east-CP prep|on
+	det:art|the n|front .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|PRED 6|5|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*GIL:	and then it said +"/. 324612_326278
+%mor:	coord|and adv:tem|then pro:per|it v|say&PAST +"/.
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	+" dear uncle dad slash dad . 326268_329565
+%mor:	adj|dear n|uncle n|dad n|slash n|dad .
+%gra:	1|5|MOD 2|5|MOD 3|5|MOD 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*GIL:	+" uncle dad slash dad . 329563_334021
+%mor:	n|uncle n|dad n|slash n|dad .
+%gra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*GIL:	+" we love you . 334000_334796
+%mor:	pro:sub|we v|love pro:per|you .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*GIL:	+" and we appreciate everything you do for us . 334778_338437
+%mor:	coord|and pro:sub|we v|appreciate pro:indef|everything pro:per|you
+	v|do prep|for pro:obj|us .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|SUBJ 6|3|COMP 7|6|JCT 8|7|POBJ
+	9|3|PUNCT
+*CHA:	I know . 337880_338489
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	we do . 338462_339443
+%mor:	pro:sub|we v|do .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	+< this should be your easter present . 338474_341121
+%mor:	pro:dem|this mod|should cop|be det:poss|your adj|east-CP n|present
+	.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*GIL:	+" we will hang you by your toes if you don't give us more money .
+	341094_344687
+%mor:	pro:sub|we mod|will v|hang pro:per|you prep|by det:poss|your
+	n|toe-PL conj|if pro:per|you mod|do~neg|not v|give pro:obj|us
+	adv|more n|money .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|12|LINK
+	9|12|SUBJ 10|12|AUX 11|10|NEG 12|3|CJCT 13|12|OBJ 14|12|JCT 15|14|POBJ
+	16|3|PUNCT
+*GIL:	+" happy easter ! 344666_345955
+%mor:	adj|happy adj|east-CP !
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*GIL:	and then we put +"/. 345932_346833
+%mor:	coord|and adv:tem|then pro:sub|we v|put&ZERO +"/.
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	+" just kidding ! 346822_347611
+%mor:	adv|just part|kid-PRESP !
+%gra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*GIL:	in really tiny letters . 347600_348877
+%mor:	prep|in adv|real&dadj-LY adj|tiny n|letter-PL .
+%gra:	1|0|INCROOT 2|3|JCT 3|4|MOD 4|1|POBJ 5|1|PUNCT
+*GIL:	and then in even tinier letters we put +"/. 348861_351468
+%mor:	coord|and adv:tem|then adv|in adv|even adj|tiny-CP n|letter-PL
+	pro:sub|we v|put&ZERO +"/.
+%gra:	1|6|LINK 2|6|JCT 3|5|JCT 4|5|JCT 5|6|MOD 6|0|INCROOT 7|8|SUBJ 8|6|CMOD
+	9|6|PUNCT
+*GIL:	+" not ! 351462_352321
+%mor:	neg|not !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	nope . 352312_353287
+%mor:	co|nope .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	+< and then (.) we put +"/. 352318_353879
+%mor:	coord|and adv:tem|then pro:sub|we v|put&ZERO +"/.
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	+" love Chacha and Gili . 353856_355116
+%mor:	n|love n:prop|Chacha coord|and n:prop|Gili .
+%gra:	1|2|MOD 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*GIL:	and then we wrote +"/. 355104_356422
+%mor:	coord|and adv:tem|then pro:sub|we v|write&PAST +"/.
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	+" always read the small print . 356419_358183
+%mor:	adv|always v|read&ZERO det:art|the adj|small n|print .
+%gra:	1|2|JCT 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*GIL:	we also wrote one to my mother right ? 358168_361460
+%mor:	pro:sub|we adv|also v|write&PAST det:num|one prep|to det:poss|my
+	n|mother adj|right ?
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|DET 7|5|POBJ 8|3|JCT
+	9|3|PUNCT
+*CHA:	yes . 361433_362240
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	I'm gonna read it also . 362228_363517
+%mor:	pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|read&ZERO pro:per|it
+	adv|also .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|3|PUNCT
+*CHA:	+< &~di . 362919_363505
+*CHA:	&=sigh . 363489_364273
+*GIL:	+" happy easter . 364273_365486
+%mor:	adj|happy adj|east-CP .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*GIL:	+" dear tía@s slash mommy . 365475_367303
+%mor:	adj|dear L2|tía n|slash n|mommy .
+%gra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+%eng:	dear Aunt slash Mommy
+*GIL:	+" happy easter . 367271_368240
+%mor:	adj|happy adj|east-CP .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*GIL:	+" we love you . 368228_369198
+%mor:	pro:sub|we v|love pro:per|you .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*GIL:	+" you have been very good with both of us . 369176_371353
+%mor:	pro:per|you v|have aux|be&PASTP adv|very adj|good prep|with qn|both
+	prep|of pro:obj|us .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|AUX 4|5|JCT 5|2|COMP 6|5|JCT 7|6|POBJ 8|7|NJCT
+	9|8|POBJ 10|2|PUNCT
+*GIL:	+" we love you a lot . 371338_372731
+%mor:	pro:sub|we v|love pro:per|you det:art|a n|lot .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ2 4|5|DET 5|2|OBJ 6|2|PUNCT
+*GIL:	+" thank you for helping us learn about the path of Jesus . 372715_376001
+%mor:	v|thank pro:per|you prep|for n:gerund|help-PRESP pro:obj|us v|learn
+	prep|about det:art|the n|path prep|of n:prop|Jesus .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|3|POBJ 5|6|SUBJ 6|1|COMP 7|6|JCT 8|9|DET
+	9|7|POBJ 10|9|NJCT 11|10|POBJ 12|1|PUNCT
+*GIL:	+" we love you . 375974_376955
+%mor:	pro:sub|we v|love pro:per|you .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*GIL:	+" and in this easter season we wish you the best . 376955_380746
+%mor:	coord|and prep|in det:dem|this adj|east-CP n|season pro:sub|we
+	v|wish pro:per|you det:art|the adj|good&SP .
+%gra:	1|7|LINK 2|7|JCT 3|5|DET 4|5|MOD 5|2|POBJ 6|7|SUBJ 7|0|ROOT 8|7|OBJ2
+	9|10|DET 10|7|JCT 11|7|PUNCT
+*GIL:	+" PS for your present it's a certificate for free jokes when you
+	need them . 380749_385574
+%mor:	n:prop|PS prep|for det:poss|your n|present pro:per|it~cop|be&3S
+	det:art|a n|certificate prep|for adv|free n|joke-PL conj|when
+	pro:per|you v|need pro:obj|them .
+%gra:	1|6|SUBJ 2|6|JCT 3|4|DET 4|2|POBJ 5|6|SUBJ 6|0|ROOT 7|8|DET 8|6|PRED
+	9|8|NJCT 10|11|MOD 11|9|POBJ 12|14|LINK 13|14|SUBJ 14|6|CJCT 15|14|OBJ
+	16|6|PUNCT
+*GIL:	+" five dollars per joke LOL . 385555_388428
+%mor:	det:num|five n|dollar-PL prep|per n|joke n:prop|LOL .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|NJCT 4|5|MOD 5|3|POBJ 6|2|PUNCT
+*CHA:	+< &=laughs that is so funny you know . 386995_389647
+%mor:	pro:rel|that cop|be&3S adv|so adj|fun&dn-Y pro:per|you v|know .
+%gra:	1|2|LINK 2|0|ROOT 3|4|JCT 4|2|PRED 5|6|SUBJ 6|4|CMOD 7|2|PUNCT
+*CHA:	[- spa] &~ela mucha creatividad en nuestras cabezas . 389638_393169
+%mor:	det:indef|mucho-FEM=many n|creatividad&f=creativity prep|en=in
+	pro:pos|nuestro-FEM-PL=ours n|cabeza&f-PL=head .
+%eng:	a lot of creativity in our heads .
+*CHA:	we have a lot of creativity . 393166_394699
+%mor:	pro:sub|we v|have det:art|a n|lot prep|of n|creativity .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|2|PUNCT
+*GIL:	do you remember when we went ice skating today ? 394686_398238
+%mor:	mod|do pro:per|you v|remember conj|when pro:sub|we v|go&PAST n|ice
+	part|skate-PRESP adv:tem|today ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|CJCT 7|6|OBJ 8|7|XMOD
+	9|8|JCT 10|3|PUNCT
+*CHA:	oh patinando@s en@s el@s hielo@s . 398229_400429
+%mor:	co|oh L2|patinando L2|en L2|el L2|hielo .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+%eng:	oh, skating on the ice .
+*CHA:	that was fun . 400418_402478
+%mor:	pro:dem|that cop|be&PAST&13S adj|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	that was really fun . 402470_403631
+%mor:	pro:dem|that cop|be&PAST&13S adv|real&dadj-LY adj|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*GIL:	yeah remember after the Zamboni came it was like so glossy . 403626_407016
+%mor:	co|yeah v|remember prep|after det:art|the n:prop|Zamboni
+	v|come&PAST pro:per|it cop|be&PAST&13S prep|like adv|so
+	adj|gloss&dn-Y .
+%gra:	1|2|COM 2|0|ROOT 3|2|JCT 4|5|DET 5|6|SUBJ 6|3|POBJ 7|6|OBJ 8|6|OBJ
+	9|8|JCT 10|11|JCT 11|9|POBJ 12|2|PUNCT
+*CHA:	[- spa] sí . 406996_407780
+%mor:	co|sí=yes .
+%eng:	yes .
+*CHA:	it was really fun you know . 407763_409498
+%mor:	pro:per|it cop|be&PAST&13S adv|real&dadj-LY adj|fun pro:per|you
+	v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|6|SUBJ 6|2|CJCT 7|2|PUNCT
+*GIL:	[- spa] yo sé . 409472_410029
+%mor:	pro:sub|yo=I v|sabe-1S&PRES=know .
+%eng:	I know .
+*GIL:	[- spa] te acuerdas cuando llegamos a la casa ? 410012_412119
+%mor:	pro:obj|te=you v|acorda-2S&PRES=remind conj|cuando=when
+	v|llega-1P&PRES&PRET=arrive aprep|a=to det:art|el&FEM&SG=the
+	n|casa&f=house ?
+%eng:	you remember when we arrived at the house ?
+*GIL:	[- spa] y después mi papi (.) ponió [: puso] [*] (.) un huevos (.)
+	con (.) plata adentro . 412102_419861
+%mor:	coord|y=and adv|después=after det:pos|mi=my n|papi&m=daddy
+	v|pone-3S&PRET=put det:art|un&m=one n|huevo&m-PL=egg prep|con=with
+	n|plata&f=silver adv|adentro=inside .
+%eng:	and afterwards my dad put out eggs with money inside .
+%com:	in the previous line GIL says ponió instead of puso
+*GIL:	[- spa] fue cuatro huevos . 419851_422094
+%mor:	v|i-3S&PRET=go det:num|cuatro=four n|huevo&m-PL=egg .
+%eng:	it was four eggs .
+*GIL:	[- spa] tres tenían un dólar . 422076_423719
+%mor:	det:num|tres=three v|tene-3P&PAS=have det:art|un&m=one
+	n|dólar&m=dollar .
+%eng:	three had one dollar .
+*GIL:	[- spa] y solo una de la cuatro tenía diez adentro . 423699_425945
+%mor:	coord|y=and adj|solo-MASC=alone pro:dem|uno-FEM=one prep|de=of
+	det:art|el&FEM&SG=the det:num|cuatro=four v|tene-13S&PAS=have
+	det:num|diez=ten adv|adentro=inside .
+%eng:	and only one of the four had ten dollars inside .
+*CHA:	+< I know . 426418_427753
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	I know . 427738_428574
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	that was so fun you know hunting for money . 428562_432314
+%mor:	pro:dem|that cop|be&PAST&13S adv|so adj|fun pro:per|you v|know
+	part|hunt-PRESP prep|for n|money .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|6|SUBJ 6|2|CJCT 7|6|COMP 8|7|JCT
+	9|8|POBJ 10|2|PUNCT
+*GIL:	o_m_g I found the ten dollar one . 431072_434711
+%mor:	co|o_m_g pro:sub|I v|find&PAST det:art|the det:num|ten n|dollar
+	det:num|one .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|7|DET 5|6|QUANT 6|7|MOD 7|3|OBJ 8|3|PUNCT
+*CHA:	you found the ten dollar I know . 434702_436635
+%mor:	pro:per|you v|find&PAST det:art|the det:num|ten n|dollar pro:sub|I
+	v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|QUANT 5|2|OBJ 6|7|SUBJ 7|5|CMOD 8|2|PUNCT
+*CHA:	but it was fun . 436632_438164
+%mor:	conj|but pro:per|it cop|be&PAST&13S adj|fun .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*GIL:	I'll split it with you . 437032_438181
+%mor:	pro:sub|I~mod|will v|split&ZERO pro:per|it prep|with pro:per|you .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|PUNCT
+*CHA:	don't worry . 438176_438936
+%mor:	mod|do~neg|not v|worry .
+%gra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|PUNCT
+*CHA:	it's fine . 438930_440428
+%mor:	pro:per|it~cop|be&3S adj|fine .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	&-um so well it's been really fun these couple days I've been here .
+	440426_445431
+%mor:	adv|so adv|well pro:per|it~cop|be&3S cop|be&PASTP adv|real&dadj-LY
+	adj|fun det:dem|these qn|couple n|day-PL pro:sub|I~aux|have
+	cop|be&PASTP adv|here .
+%gra:	1|2|JCT 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|7|JCT 7|5|PRED 8|10|DET
+	9|10|QUANT 10|4|PRED 11|13|SUBJ 12|13|AUX 13|10|CMOD 14|13|JCT 15|4|PUNCT
+*CHA:	I've been practicing my Spanish a lot . 445417_447675
+%mor:	pro:sub|I~aux|have aux|be&PASTP part|practice-PRESP det:poss|my
+	n:prop|Spanish det:art|a n|lot .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|8|DET 8|6|OBJ
+	9|4|PUNCT
+*CHA:	mucho@s español@s con@s mi@s tía@s y@s Juanjo and you . 447663_451949
+%mor:	L2|mucho L2|español L2|con L2|mi L2|tía L2|y n:prop|Juanjo
+	coord|and pro:per|you .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+%eng:	a lot of Spanish with my aunt and Juanjo and you .
+*GIL:	+< yeah . 450916_452129
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	we've been lately watching home videos of me . 451998_455284
+%mor:	pro:sub|we~aux|have cop|be&PASTP adv|late&dadj-LY part|watch-PRESP
+	adv|home v|video-3S prep|of pro:obj|me .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|XJCT 6|5|JCT 7|5|COMP 8|7|JCT
+	9|8|POBJ 10|3|PUNCT
+*GIL:	and I was about three or two and a half in one . 455275_459089
+%mor:	coord|and pro:sub|I cop|be&PAST&13S prep|about det:num|three
+	coord|or det:num|two coord|and det:art|a n|half prep|in
+	pro:indef|one .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|5|CONJ 7|6|COORD 8|5|CONJ
+	9|10|DET 10|8|COORD 11|10|NJCT 12|11|POBJ 13|3|PUNCT
+*GIL:	and we were watching videos of my Christmas . 459085_462286
+%mor:	coord|and pro:sub|we aux|be&PAST part|watch-PRESP n|video-PL
+	prep|of det:poss|my n:prop|Christmas .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*GIL:	and (.) when we were going to places . 462270_466613
+%mor:	coord|and conj|when pro:sub|we aux|be&PAST part|go-PRESP prep|to
+	n|place-PL .
+%gra:	1|5|LINK 2|5|LINK 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|JCT 7|6|POBJ 8|5|PUNCT
+*GIL:	and it was awesome you know . 466598_468903
+%mor:	coord|and pro:per|it cop|be&PAST&13S adj|awesome pro:per|you v|know
+	.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|6|SUBJ 6|3|CJCT 7|3|PUNCT
+*CHA:	+< I know . 468003_468995
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	and one of the videos we saw my cousin Chantal in them . 468975_472656
+%mor:	coord|and pro:indef|one prep|of det:art|the n|video-PL pro:sub|we
+	v|see&PAST det:poss|my n|cousin n:prop|Chantal prep|in pro:obj|them
+	.
+%gra:	1|7|LINK 2|7|CJCT 3|2|NJCT 4|5|DET 5|3|POBJ 6|7|SUBJ 7|0|ROOT 8|9|DET
+	9|7|OBJ 10|9|APP 11|7|JCT 12|11|POBJ 13|7|PUNCT
+*CHA:	+< you know what I &~s +... 468981_470862
+%mor:	pro:per|you v|know pro:int|what pro:sub|I +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|LINK 4|2|COMP 5|2|PUNCT
+*CHA:	yes you know what I've seen from the videos ? 472640_475142
+%mor:	co|yes pro:per|you v|know pro:int|what pro:sub|I~aux|have
+	part|see&PASTP prep|from det:art|the n|video-PL ?
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|7|LINK 5|7|SUBJ 6|7|AUX 7|3|COMP 8|7|JCT
+	9|10|DET 10|8|POBJ 11|3|PUNCT
+*CHA:	we've been really close since we were little girls . 475119_477726
+%mor:	pro:sub|we~aux|have cop|be&PASTP adv|real&dadj-LY adj|close
+	conj|since pro:sub|we cop|be&PAST adj|little n|girl-PL .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|JCT 5|3|PRED 6|8|LINK 7|8|SUBJ 8|3|CJCT
+	9|10|MOD 10|8|PRED 11|3|PUNCT
+*CHA:	you know dancing to Shakira . 477729_481102
+%mor:	pro:per|you v|know part|dance-PRESP prep|to n:prop|Shakira .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|COMP 4|3|JCT 5|4|POBJ 6|2|PUNCT
+*CHA:	and (.) it was really fun . 481075_483031
+%mor:	coord|and pro:per|it cop|be&PAST&13S adv|real&dadj-LY adj|fun .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|PUNCT
+*CHA:	you know in Columbia when you came to visit it was awesome . 483004_486446
+%mor:	pro:per|you v|know prep|in n:prop|Columbia conj|when pro:per|you
+	v|come&PAST inf|to v|visit pro:per|it cop|be&PAST&13S adj|awesome .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|7|LINK 6|7|SUBJ 7|2|CJCT 8|9|INF
+	9|7|XJCT 10|11|SUBJ 11|9|COMP 12|11|PRED 13|2|PUNCT
+*GIL:	before Venesa and Diana were around &-um things were a lot different
+	. 486433_492286
+%mor:	prep|before n:prop|Venesa coord|and n:prop|Diana cop|be&PAST
+	prep|around n|thing-PL cop|be&PAST det:art|a n|lot adj|different .
+%gra:	1|5|LINK 2|5|SUBJ 3|2|CONJ 4|3|COORD 5|0|ROOT 6|8|LINK 7|8|SUBJ
+	8|5|CJCT 9|10|DET 10|8|PRED 11|10|POSTMOD 12|5|PUNCT
+*GIL:	not much noise . 492275_493987
+%mor:	neg|not qn|much n|noise .
+%gra:	1|2|NEG 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
+*CHA:	very peaceful . 493974_495071
+%mor:	adv|very adj|peace&dn-FULL .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*GIL:	+< you know . 494200_494885
+%mor:	pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	[- spa] mucha paz en la familia . 495042_497416
+%mor:	det:indef|mucho-FEM=many n|paz&m=peace prep|en=in
+	det:art|el&FEM&SG=the n|familia&f=family .
+%eng:	a lot of peace in the family .
+*GIL:	&=laughs . 496301_497137
+*GIL:	very peaceful . 497407_498382
+%mor:	adv|very adj|peace&dn-FULL .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*GIL:	but we love them so much . 498382_500431
+%mor:	conj|but pro:sub|we v|love pro:obj|them adv|so adv|much .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|JCT 6|3|JCT 7|3|PUNCT
+*GIL:	even if they chipped our tooth . 500410_503295
+%mor:	adv|even conj|if pro:sub|they v|chip-PAST det:poss|our n|tooth .
+%gra:	1|2|JCT 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
+*CHA:	+< from a distance &=laughs . 500938_502848
+%mor:	prep|from det:art|a n|distance .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
+*GIL:	so Venesa she's like so close to us . 503279_507779
+%mor:	co|so n:prop|Venesa pro:sub|she~cop|be&3S v|like adv|so adj|close
+	prep|to pro:obj|us .
+%gra:	1|5|COM 2|5|SUBJ 3|4|SUBJ 4|2|CMOD 5|0|ROOT 6|7|JCT 7|5|COMP 8|7|JCT
+	9|8|POBJ 10|5|PUNCT
+*GIL:	we love her so much . 507770_509935
+%mor:	pro:sub|we v|love pro:obj|her adv|so adv|much .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|JCT 5|2|JCT 6|2|PUNCT
+*GIL:	and (.) we think she's like the best ever . 509908_514095
+%mor:	coord|and pro:sub|we v|think pro:sub|she~cop|be&3S prep|like
+	det:art|the adj|good&SP adv|ever .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|8|DET 8|6|POBJ
+	9|8|JCT 10|3|PUNCT
+*GIL:	and you know she's five . 514082_515359
+%mor:	coord|and pro:per|you v|know pro:sub|she~cop|be&3S det:num|five .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|PRED 7|3|PUNCT
+*GIL:	and she's about to graduate kinder . 515348_517437
+%mor:	coord|and pro:sub|she~cop|be&3S adv|about inf|to v|graduate
+	adj|kind-CP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|INF 6|3|XJCT 7|6|PRED 8|3|PUNCT
+*CHA:	she's [//] I know she's so big for her age . 517411_519936
+%mor:	pro:sub|I v|know pro:sub|she~cop|be&3S adv|so adj|big prep|for
+	det:poss|her n|age .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|JCT 6|4|PRED 7|6|JCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
+*CHA:	[- spa] es muy grande muy muy grande para su edad . 519717_523022
+%mor:	cop|se-3S&PRES=be adv|muy=very adj|grande=big adv|muy=very
+	adv|muy=very adj|grande=big prep|para=for det:pos|su&3S=his
+	n|edad&f=age .
+%eng:	she's very big, very very big for her age .
+*GIL:	+< she's very talkative . 522169_523818
+%mor:	pro:sub|she~cop|be&3S adv|very adj|talkative .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*GIL:	they live in New_Jersey [=! laughs] . 523812_525606
+%mor:	pro:sub|they v|live prep|in n:prop|New_Jersey .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*CHA:	yeah in New_Jersey . 525584_526809
+%mor:	co|yeah prep|in n:prop|New_Jersey .
+%gra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+*CHA:	xxx said mucha@s gente@s que@s habla@s español@s allá@s . 526804_530240
+%mor:	v|say&PAST L2|mucha L2|gente L2|que L2|habla L2|español L2|allá .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|1|PUNCT
+%eng:	... said there are many people who speak Spanish there .
+*GIL:	I know that's like so surprising . 530232_532978
+%mor:	pro:sub|I v|know comp|that~aux|be&3S v|like adv|so
+	part|surprise-PRESP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|SUBJ 4|5|AUX 5|2|COMP 6|7|JCT 7|5|COMP 8|2|PUNCT
+*CHA:	+< [- spa] mucha gente . 530400_531677
+%mor:	det:indef|mucho-FEM=many n|gente&f=folk .
+%eng:	many people .
+*CHA:	[- spa] yo sé . 532614_533392
+%mor:	pro:sub|yo=I v|sabe-1S&PRES=know .
+%eng:	I know .
+*CHA:	I mean casi@s todo@s el@s mundo@s de@s los@s países@s
+	suramericanos@s se@s van@s para@s New_Jersey or New_York you know .
+	533387_540501
+%mor:	pro:sub|I v|mean L2|casi L2|todo L2|el L2|mundo L2|de L2|los
+	L2|países L2|suramericanos L2|se L2|van L2|para n:prop|New_Jersey
+	coord|or n:prop|New_York pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT 8|7|POBJ
+	9|8|NJCT 10|9|POBJ 11|10|NJCT 12|11|POBJ 13|12|NJCT 14|13|POBJ
+	15|14|CONJ 16|15|COORD 17|18|SUBJ 18|14|CMOD 19|2|PUNCT
+%eng:	I mean, almost everyone in the countries of South America goes to
+	New Jersey or New York, you know .
+*GIL:	yeah I know remember when we +/. 540493_542884
+%mor:	co|yeah pro:sub|I v|know v|remember conj|when pro:sub|we +/.
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|6|LINK 6|3|CJCT 7|3|PUNCT
+*CHA:	+< porque@s there's a lot of chance of jobs . 540818_543773
+%mor:	L2|porque pro:exist|there~cop|be&3S det:art|a n|lot prep|of
+	n|chance prep|of n|job-PL .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|5|NJCT 7|6|POBJ 8|7|NJCT
+	9|8|POBJ 10|3|PUNCT
+%eng:	because there's a lot of chance of jobs
+*GIL:	remember when we went to New_York ? 542861_545264
+%mor:	v|remember conj|when pro:sub|we v|go&PAST prep|to n:prop|New_York ?
+%gra:	1|0|ROOT 2|4|LINK 3|4|SUBJ 4|1|CJCT 5|4|JCT 6|5|POBJ 7|1|PUNCT
+*GIL:	and like we went in all these awesome stores like the M_and_M store
+	. 545233_549716
+%mor:	coord|and co|like pro:sub|we v|go&PAST prep|in adv|all
+	det:dem|these adj|awesome n|store-PL prep|like det:art|the
+	n:prop|M_and_M n|store .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|9|JCT 7|9|DET 8|9|MOD
+	9|5|POBJ 10|9|NJCT 11|13|DET 12|13|MOD 13|10|POBJ 14|4|PUNCT
+*GIL:	it had like four floors . 549712_551848
+%mor:	pro:per|it v|have&PAST co|like det:num|four n|floor-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|COM 4|5|QUANT 5|2|OBJ 6|2|PUNCT
+*CHA:	I know all chocolate . 551821_553644
+%mor:	pro:sub|I v|know qn|all n|chocolate .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|OBJ 5|2|PUNCT
+*CHA:	[- spa] mucho mucho chocolate . 553621_556401
+%mor:	adv|mucho=much adv|mucho=much n|chocolate&m=chocolate .
+%eng:	an awful lot of chocolate .
+*GIL:	there's this one floor that you had (.) a total view of
+	Times_Square . 556387_563414
+%mor:	pro:exist|there~cop|be&3S pro:dem|this pro:indef|one n|floor
+	pro:rel|that pro:per|you v|have&PAST det:art|a n|total n|view
+	prep|of n:prop|Times_Square .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|8|LINK 7|8|SUBJ 8|5|CMOD
+	9|11|DET 10|11|MOD 11|8|OBJ 12|11|NJCT 13|12|POBJ 14|2|PUNCT
+*GIL:	serious . 563427_564042
+%mor:	adj|serious .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	I know it was fun . 564031_566103
+%mor:	pro:sub|I v|know pro:per|it cop|be&PAST&13S adj|fun .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|PRED 6|2|PUNCT
+*CHA:	so &~w +/. 566061_566839
+%mor:	co|so +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	+< and if you ever go to New_York like you have to go in the giant
+	MacDonalds . 566096_570456
+%mor:	coord|and conj|if pro:per|you adv|ever v|go prep|to n:prop|New_York
+	prep|like pro:per|you v|have inf|to v|go prep|in det:art|the n|giant
+	n:prop|MacDonalds .
+%gra:	1|10|LINK 2|5|LINK 3|5|SUBJ 4|5|JCT 5|10|CJCT 6|5|JCT 7|6|POBJ 8|5|JCT
+	9|8|POBJ 10|0|ROOT 11|12|INF 12|10|COMP 13|12|JCT 14|15|DET 15|13|POBJ
+	16|12|APP 17|10|PUNCT
+*GIL:	it's like awesome right ? 570440_571642
+%mor:	pro:per|it~cop|be&3S conj|like adj|awesome co|right ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|5|MOD 5|3|OM 6|2|PUNCT
+*CHA:	I know MacDonalds you know . 571642_573209
+%mor:	pro:sub|I v|know n:prop|MacDonalds pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|SUBJ 5|2|COMP 6|2|PUNCT
+*CHA:	&~e that MacDonalds is always in the movies . 573212_575563
+%mor:	comp|that n:prop|MacDonalds cop|be&3S adv|always prep|in
+	det:art|the n|movie-PL .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*CHA:	haven't you noticed ? 575569_576626
+%mor:	aux|have~neg|not pro:per|you v|notice-PAST ?
+%gra:	1|4|AUX 2|1|NEG 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	yeah I know ! 576617_577499
+%mor:	co|yeah pro:sub|I v|know !
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*GIL:	&-um (.) like the Pink_Panther the inspector I think . 577493_582309
+%mor:	prep|like det:art|the n:prop|Pink_Panther det:art|the n|inspector
+	pro:sub|I v|think .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|5|DET 5|1|POBJ 6|7|SUBJ 7|5|CMOD
+	8|1|PUNCT
+*GIL:	I think it was in this other movie . 582298_584271
+%mor:	pro:sub|I v|think pro:per|it cop|be&PAST&13S prep|in det:dem|this
+	qn|other n|movie .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|8|DET 7|8|QUANT 8|5|POBJ
+	9|2|PUNCT
+*GIL:	he comes to New_York . 584262_587507
+%mor:	pro:sub|he v|come-3S prep|to n:prop|New_York .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*GIL:	and (.) he &~we +/. 587498_590400
+%mor:	coord|and pro:sub|he +/.
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
+*CHA:	+< orders a hamburger . 588664_590185
+%mor:	v|order-3S det:art|a n|hamburger .
+%gra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*GIL:	yeah he calls it hamburger . 590172_592198
+%mor:	co|yeah pro:sub|he v|call-3S pro:per|it n|hamburger .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|OBJ 6|3|PUNCT
+*GIL:	but you know the exciting thing is he was standing exactly where me
+	and my cousin Chantal +//. 592180_597956
+%mor:	conj|but pro:per|you v|know det:art|the adj|exciting n|thing
+	cop|be&3S pro:sub|he aux|be&PAST&13S part|stand-PRESP
+	adv|exact&dadj-LY pro:int|where pro:obj|me coord|and det:poss|my
+	n|cousin n:prop|Chantal +//.
+%gra:	1|3|LINK 2|3|SUBJ 3|10|CJCT 4|6|DET 5|6|MOD 6|7|SUBJ 7|3|COMP 8|10|SUBJ
+	9|10|AUX 10|0|ROOT 11|10|JCT 12|10|JCT 13|12|OBJ 14|13|CONJ 15|16|DET
+	16|14|COORD 17|16|APP 18|10|PUNCT
+*GIL:	the people doing this are like +"/. 597956_599976
+%mor:	det:art|the n|person&PL part|do-PRESP pro:dem|this cop|be&PRES
+	prep|like +"/.
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|3|PUNCT
+*GIL:	+" we're standing . 599970_601061
+%mor:	pro:sub|we~aux|be&PRES part|stand-PRESP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
+*GIL:	and it was like awesome ! 601047_602248
+%mor:	coord|and pro:per|it cop|be&PAST&13S prep|like adj|awesome !
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*CHA:	how do you say hamburger in Spanish ? 602244_604218
+%mor:	pro:int|how mod|do pro:per|you v|say n|hamburger prep|in
+	n:prop|Spanish ?
+%gra:	1|4|JCT 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|6|POBJ 8|4|PUNCT
+*CHA:	I'm just wondering . 604177_605193
+%mor:	pro:sub|I~aux|be&1S adv|just part|wonder-PRESP .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|4|PUNCT
+*GIL:	[- spa] hamburguesa . 605164_606076
+%mor:	n|hamburguesa&f=hamburger .
+%eng:	hamburger .
+*CHA:	that's muy@s chévere@s . 606079_608766
+%mor:	pro:dem|that~cop|be&3S L2|muy L2|chévere .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+%eng:	that's really cool .
+*CHA:	so why don't we talk about our grandfather . 608761_611361
+%mor:	adv|so pro:int|why mod|do~neg|not pro:sub|we v|talk prep|about
+	det:poss|our grand#n|father .
+%gra:	1|6|JCT 2|6|JCT 3|6|AUX 4|3|NEG 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|9|DET
+	9|7|POBJ 10|6|PUNCT
+*GIL:	yeah we have (.) &-um a grandfather named abuelito@s Alfredo . 611347_617212
+%mor:	co|yeah pro:sub|we v|have det:art|a grand#n|father v|name-PAST
+	L2|abuelito n:prop|Alfredo .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|6|SUBJ 6|3|COMP 7|6|OBJ 8|7|APP
+	9|3|PUNCT
+%eng:	yeah, we have a grandfather named Grandad Alfredo .
+*CHA:	+< (Al)fredo . 615858_616880
+%mor:	n:prop|Alfredo .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	he is very cool . 617199_620044
+%mor:	pro:sub|he cop|be&3S adv|very adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	+< yes muy@s muy@s chistoso@s . 617449_620816
+%mor:	co|yes L2|muy L2|muy L2|chistoso .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+%eng:	yes, very very funny .
+*GIL:	he's pretty much the only grandfather we have . 620818_624557
+%mor:	pro:sub|he~cop|be&3S adv|pretty adv|much det:art|the qn|only
+	grand#n|father pro:sub|we v|have .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|7|JCT 5|6|DET 6|7|QUANT 7|2|PRED 8|9|SUBJ
+	9|7|CMOD 10|2|PUNCT
+*CHA:	+< [- spa] &~h tú te sientas con él +... 620928_623285
+%mor:	pro:sub|tú=you pro:obj|te=you v|senta-2S&PRES=sit prep|con=with
+	pro:sub|él&m=he +...
+%eng:	you sit down with him ...
+*CHA:	[- spa] tú te sientas con él y te ríes por años y años . 624566_628463
+%mor:	pro:sub|tú=you pro:obj|te=you v|senta-2S&PRES=sit prep|con=with
+	pro:head|él&m=he coord|y=and pro:obj|te=you v|reí-2S&PRES=laugh
+	prep|por=for n|año&m-PL=year coord|y=and n|año&m-PL=year .
+%eng:	you sit down with him and you laugh for ages .
+*CHA:	[- spa] porque él es una persona muy muy chistosa . 628448_631844
+%mor:	conj|porque=because pro:sub|él&m=he cop|se-3S&PRES=be
+	det:art|un-FEM=one n|persona&f=person adv|muy=very adv|muy=very
+	adj|chistoso-FEM=amusing .
+%eng:	because he's a very very funny person .
+*CHA:	very funny you know . 631824_633211
+%mor:	adv|very adj|fun&dn-Y pro:per|you v|know .
+%gra:	1|2|JCT 2|0|INCROOT 3|4|SUBJ 4|2|CMOD 5|2|PUNCT
+*CHA:	he makes us laugh (un)til we drop . 633205_635986
+%mor:	pro:sub|he v|make-3S pro:obj|us v|laugh prep|until pro:sub|we
+	v|drop .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|COMP 5|7|LINK 6|7|SUBJ 7|4|CJCT 8|2|PUNCT
+*GIL:	let's talk about our grandmothers . 635977_638160
+%mor:	v|let~pro:obj|us v|talk prep|about det:poss|our grand#n|mother-PL .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|6|DET 6|4|POBJ 7|1|PUNCT
+*GIL:	let's start with Marge Howell . 637867_640432
+%mor:	v|let~pro:obj|us v|start prep|with n:prop|Marge n:prop|Howell .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|6|NAME 6|4|POBJ 7|1|PUNCT
+*CHA:	Marge well she is ver(y) [///] let's start [///] she's a very good
+	cook . 640406_645743
+%mor:	n:prop|Marge n|well pro:sub|she cop|be&3S v|let~pro:obj|us
+	pro:sub|she~cop|be&3S det:art|a adv|very adj|good n|cook .
+%gra:	1|2|MOD 2|5|SUBJ 3|4|SUBJ 4|2|CMOD 5|0|ROOT 6|5|OBJ 7|8|SUBJ 8|5|COMP
+	9|12|DET 10|11|JCT 11|12|MOD 12|8|PRED 13|5|PUNCT
+*CHA:	[- spa] cocina super rico . 645741_648341
+%mor:	n|cocina&f=kitchen n|super&m=super adj|rico-MASC=rich .
+%eng:	a terrific cook .
+*GIL:	+< yes . 646501_647238
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	[- spa] rico sí . 648339_649500
+%mor:	adj|rico-MASC=rich co|sí=yes .
+%eng:	great, yes .
+*GIL:	[- spa] &~e nosotros [//] yo y ella estamos muy [//] (.) mucho
+	tiempo con nosotros en la casa de ella haciendo chévere cosas . 649506_660649
+%mor:	pro:sub|yo=I coord|y=and pro:sub|ella=she cop|esta-1P&PRES&PRET=be
+	adv|mucho=much n|tiempo&m=season prep|con=with
+	pro:sub|nosotro-MASC-PL=we prep|en=in det:art|el&FEM&SG=the
+	n|casa&f=house v|da-13S&SUB&PRES=give pro:sub|ella=she
+	ger|hace-PROG=do adj|chévere=excellent v|cose-2S&SUB&PRES=sew .
+%eng:	us, me and her we're together lots in her house doing cool things .
+*GIL:	y@s <a@s mí@s me@s> [//] a@s nosotros@s les@s gusta@s hacer@s
+	como@s cakes and stuff . 660643_664930
+%mor:	L2|y L2|a L2|nosotros L2|les L2|gusta L2|hacer L2|como n|cake-PL
+	coord|and n|stuff .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|OBJ 9|8|CONJ 10|9|COORD 11|1|PUNCT
+%eng:	and, I and, we enjoy making, like, cakes and stuff .
+*GIL:	it's awesome . 664825_665743
+%mor:	pro:per|it~cop|be&3S adj|awesome .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	I know you guys cook a lot you know since she's from the south of
+	Texas . 665705_669704
+%mor:	pro:sub|I v|know pro:per|you n|guy-PL v|cook det:art|a n|lot
+	pro:per|you v|know prep|since pro:sub|she~cop|be&3S prep|from
+	det:art|the adj|south prep|of n:prop|Texas .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|SUBJ 4|5|SUBJ 5|9|JCT 6|7|DET 7|5|OBJ 8|9|SUBJ
+	9|2|COMP 10|12|LINK 11|12|SUBJ 12|9|COMP 13|12|JCT 14|15|DET 15|13|POBJ
+	16|15|NJCT 17|16|POBJ 18|2|PUNCT
+*GIL:	I know she makes the best cornbread . 669695_672185
+%mor:	pro:sub|I v|know pro:sub|she v|make-3S det:art|the adj|good&SP
+	n|cornbread .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|7|DET 6|7|MOD 7|4|OBJ 8|2|PUNCT
+*CHA:	+< she +... 670130_671018
+%mor:	pro:sub|she +...
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	exactly . 671564_672400
+%mor:	adv|exact&dadj-LY .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	xxx she's a really good cook . 672136_674289
+%mor:	pro:sub|she~cop|be&3S det:art|a adv|real&dadj-LY adj|good n|cook .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|5|JCT 5|6|MOD 6|2|PRED 7|2|PUNCT
+*GIL:	yeah so that's (.) the point of view . 674284_676682
+%mor:	co|yeah co|so pro:dem|that~cop|be&3S det:art|the n|point prep|of
+	n|view .
+%gra:	1|3|COM 2|3|COM 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|6|NJCT 8|7|POBJ
+	9|4|PUNCT
+*CHA:	she teaches &=sigh +/. 675429_676653
+%mor:	pro:sub|she v|teach-3S +/.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	yes . 676613_677298
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	POV . 676642_677849
+%mor:	n:prop|POV .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	point of view . 677846_679472
+%mor:	n|point prep|of n|view .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*GIL:	so let's move on to abuelito@s [//] abuelita@s Anita . 679458_684354
+%mor:	adv|so v|let~pro:obj|us v|move adv|on prep|to L2|abuelita
+	n:prop|Anita .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|4|JCT 7|8|MOD 8|6|POBJ
+	9|2|PUNCT
+%eng:	so let's move on to Grandad, Granny Anita .
+*CHA:	+< Anita . 683390_684394
+%mor:	n:prop|Anita .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	well she is dedicated to God one hundred and ten percent . 684338_690192
+%mor:	co|well pro:sub|she aux|be&3S part|dedicate-PASTP prep|to
+	n:prop|God det:num|one det:num|hundred coord|and det:num|ten
+	n|percent .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|5|POBJ 7|8|QUANT 8|4|JCT
+	9|8|CONJ 10|11|QUANT 11|9|COORD 12|4|PUNCT
+*GIL:	+< she is like dedicated . 686279_688909
+%mor:	pro:sub|she cop|be&3S co|like v|dedicate-PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|COM 4|2|CPRED 5|2|PUNCT
+*GIL:	no more like one thousand and ten percent . 690189_693376
+%mor:	co|no adv|more prep|like det:num|one det:num|thousand coord|and
+	det:num|ten n|percent .
+%gra:	1|0|INCROOT 2|1|JCT 3|2|JCT 4|8|QUANT 5|8|QUANT 6|5|CONJ 7|6|COORD
+	8|3|POBJ 9|1|PUNCT
+*GIL:	you know ? 693302_693982
+%mor:	pro:per|you v|know ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	no she is a great person . 693325_695885
+%mor:	co|no pro:sub|she cop|be&3S det:art|a adj|great n|person .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*CHA:	and te@s enseña@s mucho@s . 695858_698546
+%mor:	coord|and L2|te L2|enseña L2|mucho .
+%gra:	1|0|INCROOT 2|1|COORD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+%eng:	and she teaches you a lot .
+*CHA:	[- spa] te enseña mucho de Dios (.) mucho mucho de Dios . 698530_702492
+%mor:	pro:obj|te=you v|enseña-3S&PRES=teach adv|mucho=much prep|de=of
+	n:prop|Dios adv|mucho=much adv|mucho=much prep|de=of n:prop|Dios .
+%eng:	she teaches you a lot about God, a terrific amount about God .
+*GIL:	y@s ella@s le@s encanta@s ir@s a@s la@s iglesia@s las@s cuatro@s
+	de@s la@s mañana@s praying like literally praying praying . 702475_710643
+%mor:	L2|y L2|ella L2|le L2|encanta L2|ir L2|a L2|la L2|iglesia L2|las
+	L2|cuatro L2|de L2|la L2|mañana part|pray-PRESP conj|like
+	adv|literal&dadj-LY part|pray-PRESP part|pray-PRESP .
+%gra:	1|14|SUBJ 2|14|AUX 3|14|AUX 4|14|AUX 5|14|AUX 6|14|AUX 7|14|AUX
+	8|14|AUX 9|14|AUX 10|14|AUX 11|14|AUX 12|14|AUX 13|14|AUX 14|0|ROOT 15|14|JCT
+	16|17|JCT 17|15|CPOBJ 18|17|COMP 19|14|PUNCT
+%eng:	and she loves going to the church at four in the morning and
+	praying, like, literally praying, praying .
+*CHA:	+< four o'clock in the morning . 707059_709265
+%mor:	det:num|four n|o'clock prep|in det:art|the n|morning .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|NJCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*CHA:	you know her life is praying praying from three o'clock in the
+	morning (un)til midnight . 709731_715790
+%mor:	pro:per|you v|know det:poss|her n|life aux|be&3S part|pray-PRESP
+	part|pray-PRESP prep|from det:num|three n|o'clock prep|in
+	det:art|the n|morning prep|until mid#n|night&dn .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|6|SUBJ 5|6|AUX 6|2|COMP 7|2|XJCT 8|7|JCT
+	9|10|QUANT 10|8|POBJ 11|10|NJCT 12|13|DET 13|11|POBJ 14|7|JCT 15|14|POBJ
+	16|2|PUNCT
+*CHA:	she's (.) very very amazing . 715786_718282
+%mor:	pro:sub|she~aux|be&3S adv|very adv|very part|amaze-PRESP .
+%gra:	1|5|SUBJ 2|5|AUX 3|5|JCT 4|5|JCT 5|0|ROOT 6|5|PUNCT
+*GIL:	&~mke now that we talked enough about family let's talk about our
+	homes [//] kind of home states . 718266_726084
+%mor:	adv|now pro:rel|that pro:sub|we v|talk-PAST adv|enough prep|about
+	n|family v|let~pro:obj|us v|talk prep|about det:poss|our n|kind
+	prep|of n|home n|state-PL .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|CMOD 5|4|JCT 6|4|JCT 7|6|POBJ
+	8|4|XJCT 9|8|OBJ 10|8|COMP 11|10|JCT 12|13|DET 13|16|MOD 14|13|NJCT 15|14|POBJ
+	16|11|POBJ 17|1|PUNCT
+*GIL:	I was born here in Florida . 726063_727926
+%mor:	pro:sub|I cop|be&PAST&13S adj|born adv|here prep|in n:prop|Florida
+	.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|JCT 5|2|JCT 6|5|POBJ 7|2|PUNCT
+*GIL:	and (.) &-um (.) &-um we're gonna ask each other what is our favorite
+	things to do here . 727996_733914
+%mor:	coord|and pro:sub|we~aux|be&PRES part|go-PRESP~inf|to v|ask qn|each
+	qn|other pro:int|what cop|be&3S det:poss|our n|favorite n|thing-PL
+	inf|to v|do adv|here .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|QUANT 8|9|QUANT
+	9|10|SUBJ 10|6|COMP 11|13|DET 12|13|MOD 13|10|PRED 14|15|INF 15|13|XMOD
+	16|15|JCT 17|4|PUNCT
+*CHA:	well let me talk about my background first . 733912_736216
+%mor:	co|well v|let&ZERO pro:obj|me v|talk prep|about det:poss|my
+	n|background adv|first .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|4|JCT
+	9|2|PUNCT
+*CHA:	well both of my parents are from Columbia . 736189_738679
+%mor:	co|well qn|both prep|of det:poss|my n|parent-PL cop|be&PRES
+	prep|from n:prop|Columbia .
+%gra:	1|6|COM 2|6|QUANT 3|2|NJCT 4|5|DET 5|3|POBJ 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|6|PUNCT
+*CHA:	and I was also born in Columbia . 738674_740734
+%mor:	coord|and pro:sub|I cop|be&PAST&13S adv|also adj|born prep|in
+	n:prop|Columbia .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|PRED 6|3|JCT 7|6|POBJ 8|3|PUNCT
+*CHA:	so my first language was Spanish . 740702_743477
+%mor:	adv|so det:poss|my adj|first n|language cop|be&PAST&13S
+	n:prop|Spanish .
+%gra:	1|4|JCT 2|4|DET 3|4|MOD 4|5|SUBJ 5|0|ROOT 6|5|PRED 7|5|PUNCT
+*GIL:	yeah . 743456_744321
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] español (.) es mi prioridad en mis idiomas . 744327_748966
+%mor:	adj|español=Spanish cop|se-3S&PRES=be det:pos|mi=my
+	n|prioridad&f=priority prep|en=in det:pos|mi-PL=my
+	n|idioma&m-PL=language .
+%eng:	Spanish is my priority in my languages .
+*CHA:	but you know I've immuned [: immunized] [*] to English more than
+	Spanish . 748941_754515
+%mor:	conj|but pro:per|you v|know pro:sub|I~aux|have part|immunize-PASTP
+	prep|to n:prop|English qn|more prep|than n:prop|Spanish .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|SUBJ 5|6|AUX 6|3|COMP 7|6|JCT 8|7|POBJ
+	9|10|QUANT 10|8|JCT 11|10|POBJ 12|3|PUNCT
+*GIL:	over the years I had noticed that at first you were like blanked
+	out on the English . 754482_759755
+%mor:	prep|over det:art|the n|year-PL pro:sub|I aux|have&PAST
+	part|notice-PASTP comp|that prep|at adj|first pro:per|you
+	cop|be&PAST co|like v|blank-PAST adv|out prep|on det:art|the
+	n:prop|English .
+%gra:	1|6|JCT 2|3|DET 3|1|POBJ 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|11|LINK 8|11|JCT
+	9|8|POBJ 10|11|SUBJ 11|6|COMP 12|13|COM 13|11|CPRED 14|13|JCT 15|13|JCT
+	16|17|DET 17|15|POBJ 18|6|PUNCT
+*GIL:	and I'm like +... 759723_760600
+%mor:	coord|and pro:sub|I~cop|be&1S prep|like +...
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*GIL:	I had to talk to you in like total total Spanish . 760571_762939
+%mor:	pro:sub|I v|have&PAST prep|to n|talk prep|to pro:per|you prep|in
+	co|like n|total n|total n:prop|Spanish .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|JCT 6|5|POBJ 7|6|NJCT 8|10|COM
+	9|10|MOD 10|7|POBJ 11|10|APP 12|2|PUNCT
+*CHA:	I know . 762936_763812
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	but like look at you pro now . 763812_766639
+%mor:	conj|but co|like v|look prep|at pro:per|you n|pro adv|now .
+%gra:	1|3|LINK 2|3|COM 3|0|ROOT 4|3|JCT 5|6|SUBJ 6|4|POBJ 7|3|JCT 8|3|PUNCT
+*CHA:	I know . 766624_767484
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	you know +/. 767493_768382
+%mor:	pro:per|you v|know +/.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	my background of my stay is I was born here in the city of
+	Pembrooke_Pines . 767662_773231
+%mor:	det:poss|my n|background prep|of det:poss|my v|stay cop|be&3S
+	pro:sub|I cop|be&PAST&13S adj|born adv|here prep|in det:art|the
+	n|city prep|of n:prop|Pembrooke_Pines .
+%gra:	1|2|DET 2|6|SUBJ 3|2|NJCT 4|5|DET 5|3|POBJ 6|0|ROOT 7|8|SUBJ 8|6|PRED
+	9|8|PRED 10|9|JCT 11|8|JCT 12|13|DET 13|11|POBJ 14|13|NJCT 15|14|POBJ
+	16|6|PUNCT
+*GIL:	and (.) I was born at the hospital Memorial_West here in Florida .
+	773216_778263
+%mor:	coord|and pro:sub|I cop|be&PAST&13S adj|born prep|at det:art|the
+	n|hospital n:prop|Memorial_West adv|here prep|in n:prop|Florida .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|JCT 6|7|DET 7|5|POBJ 8|5|POBJ
+	9|8|NJCT 10|8|NJCT 11|10|POBJ 12|3|PUNCT
+*GIL:	and I have (.) two parents (.) of course . 778251_783269
+%mor:	coord|and pro:sub|I v|have det:num|two n|parent-PL prep|of n|course
+	.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|5|NJCT 7|6|POBJ
+	8|3|PUNCT
+*CHA:	&=laughs . 783144_784166
+*GIL:	and I live in the neighborhood . 783382_786006
+%mor:	coord|and pro:sub|I v|live prep|in det:art|the n|neighborhood .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*GIL:	and there's this big neighborhood named Grand_Palms . 785990_788651
+%mor:	coord|and pro:exist|there~cop|be&3S det:dem|this adj|big
+	n|neighborhood v|name-PAST n:prop|Grand_Palms .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|6|CMOD 8|7|OBJ
+	9|3|PUNCT
+*GIL:	my dad lives in the front . 788640_790312
+%mor:	det:poss|my n|dad n|life-PL prep|in det:art|the n|front .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|NJCT 5|6|DET 6|4|POBJ 7|3|PUNCT
+*GIL:	me and my grandma my mom all live in like the little same community
+	. 790286_794802
+%mor:	pro:obj|me coord|and det:poss|my grand#n|ma det:poss|my n|mom
+	adv|all adj|live adv|in prep|like det:art|the adj|little adj|same
+	n|community .
+%gra:	1|5|SUBJ 2|1|CONJ 3|4|DET 4|2|COORD 5|6|DET 6|8|SUBJ 7|8|JCT 8|0|ROOT
+	9|8|JCT 10|8|JCT 11|14|DET 12|14|MOD 13|14|MOD 14|10|POBJ 15|8|PUNCT
+*GIL:	and it's like awesome . 794786_795750
+%mor:	coord|and pro:per|it~cop|be&3S conj|like adj|awesome .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|LINK 5|3|PRED 6|3|PUNCT
+*GIL:	my home language is English . 795733_797619
+%mor:	det:poss|my adv|home n|language cop|be&3S n:prop|English .
+%gra:	1|3|DET 2|3|JCT 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
+*GIL:	but I've [//] my first word was in Spanish . 797604_799897
+%mor:	conj|but det:poss|my adj|first n|word cop|be&PAST&13S prep|in
+	n:prop|Spanish .
+%gra:	1|5|LINK 2|4|DET 3|4|MOD 4|5|SUBJ 5|0|ROOT 6|5|JCT 7|6|POBJ 8|5|PUNCT
+*GIL:	it was agua@s . 799879_800994
+%mor:	pro:per|it cop|be&PAST&13S L2|agua .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+%eng:	it was water .
+*CHA:	I'm guessing that means water . 800986_803262
+%mor:	pro:sub|I~aux|be&1S part|guess-PRESP adv|that v|mean-3S n|water .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|JCT 5|3|COMP 6|5|OBJ 7|3|PUNCT
+*CHA:	translation . 803250_804997
+%mor:	n|translation .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	duh . 803726_805084
+%mor:	co|duh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	so tell us more about your mom and your dad's backgrounds from
+	where they come from . 805068_809744
+%mor:	adv|so v|tell pro:obj|us pro:indef|more prep|about det:poss|your
+	n|mom coord|and det:poss|your adj|dad&dn-POSS n|background-PL
+	prep|from pro:int|where pro:sub|they v|come prep|from .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|7|CONJ
+	9|11|DET 10|11|MOD 11|8|COORD 12|11|JCT 13|15|LINK 14|15|SUBJ 15|12|CPOBJ
+	16|15|JCT 17|2|PUNCT
+*GIL:	my dad comes from the United States from Texas . 809723_813351
+%mor:	det:poss|my n|dad v|come-3S prep|from det:art|the n:prop|United
+	n:prop|States prep|from n:prop|Texas .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|4|POBJ 8|7|NJCT
+	9|8|POBJ 10|3|PUNCT
+*GIL:	&-um (.) he was born in Tyler Texas . 813344_817088
+%mor:	pro:sub|he cop|be&PAST&13S adj|born prep|in n:prop|Tyler
+	n:prop|Texas .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|JCT 5|6|NAME 6|4|POBJ 7|2|PUNCT
+*GIL:	he only spent a couple years though there though you know . 817080_820528
+%mor:	pro:sub|he adv|only v|spend&PAST det:art|a qn|couple n|year-PL
+	adv|though adv|there adv|though pro:per|you v|know .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|DET 5|6|QUANT 6|3|OBJ 7|3|JCT 8|3|JCT
+	9|11|JCT 10|11|SUBJ 11|3|CJCT 12|3|PUNCT
+*GIL:	[- spa] fue [/] fue muy [//] mucho calor . 820484_823172
+%mor:	v|i-3S&PRET=go adv|mucho=much n|calor&m=heat .
+%eng:	it was very, really hot .
+*GIL:	he said and you know he said he had a good childhood there . 823133_826340
+%mor:	pro:sub|he v|say&PAST coord|and pro:per|you v|know pro:sub|he
+	v|say&PAST pro:sub|he v|have&PAST det:art|a adj|good n|childhood
+	adv|there .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|CJCT 6|7|SUBJ 7|5|COMP 8|9|SUBJ
+	9|7|COMP 10|12|DET 11|12|MOD 12|9|OBJ 13|9|JCT 14|2|PUNCT
+*GIL:	but he spent most of his years here in Florida &~h and Atlanta and
+	California and a lot of different places you know . 826396_835143
+%mor:	conj|but pro:sub|he v|spend&PAST qn|most prep|of det:poss|his
+	n|year-PL adv|here prep|in n:prop|Florida coord|and n:prop|Atlanta
+	coord|and n:prop|California coord|and det:art|a n|lot prep|of
+	adj|different n|place-PL pro:per|you v|know .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|3|JCT
+	9|3|JCT 10|9|POBJ 11|3|CONJ 12|11|COORD 13|12|CONJ 14|13|COORD 15|3|CONJ
+	16|17|DET 17|15|COORD 18|17|NJCT 19|20|MOD 20|18|POBJ 21|22|SUBJ
+	22|17|CMOD 23|3|PUNCT
+*CHA:	yes . 835135_835913
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	you know and then my [///] here comes my mom . 835907_838182
+%mor:	pro:per|you v|know coord|and adv:tem|then adv|here v|come-3S
+	det:poss|my n|mom .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|JCT 5|6|JCT 6|2|COMP 7|8|DET 8|6|OBJ
+	9|2|PUNCT
+*GIL:	she's from like a whole different country like Columbia . 838169_840880
+%mor:	pro:sub|she~cop|be&3S prep|from co|like det:art|a n|whole
+	adj|different n|country conj|like n:prop|Columbia .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|8|COM 5|6|DET 6|8|MOD 7|8|MOD 8|3|POBJ
+	9|8|NJCT 10|9|POBJ 11|2|PUNCT
+*GIL:	that's where much [//] most of my family comes from you know . 840865_843390
+%mor:	pro:dem|that~cop|be&3S pro:int|where qn|most prep|of det:poss|my
+	n|family v|come-3S prep|from pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|8|LINK 4|8|QUANT 5|4|NJCT 6|7|DET 7|5|POBJ
+	8|2|CPRED 9|8|JCT 10|11|SUBJ 11|9|POBJ 12|2|PUNCT
+*GIL:	and (.) she (.) was raised on a farm . 843367_847660
+%mor:	coord|and pro:sub|she aux|be&PAST&13S part|raise-PASTP prep|on
+	det:art|a n|farm .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
+*GIL:	and [/] (.) and she loved it there you know . 847644_854217
+%mor:	coord|and pro:sub|she v|love-PAST pro:per|it adv|there pro:per|you
+	v|know .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|7|SUBJ 7|3|CJCT 8|3|PUNCT
+*GIL:	and she had two sisters . 854209_856322
+%mor:	coord|and pro:sub|she v|have&PAST det:num|two n|sister-PL .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|QUANT 5|3|OBJ 6|3|PUNCT
+*CHA:	+< yes I know . 854569_855590
+%mor:	co|yes pro:sub|I v|know .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHA:	y@s mamá@s también@s me@s dijo@s de@s [/] <de@s la@s> [/] de@s la@s
+	farm . 856318_860759
+%mor:	L2|y L2|mamá L2|también L2|me L2|dijo L2|de L2|la n|farm .
+%gra:	1|8|MOD 2|8|MOD 3|8|MOD 4|8|MOD 5|8|MOD 6|8|MOD 7|8|MOD 8|0|INCROOT
+	9|8|PUNCT
+%eng:	and Mom also told me about the farm .
+*CHA:	she [//] <ella@s me@s &~di> [//] she told me it was big . 860732_863617
+%mor:	pro:sub|she v|tell&PAST pro:obj|me pro:per|it cop|be&PAST&13S
+	adj|big .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|SUBJ 5|2|COMP 6|5|PRED 7|2|PUNCT
+%eng:	she, she to[ld] me, she told me it was big .
+*CHA:	what did your mom tell you about the farm ? 863608_865669
+%mor:	pro:int|what mod|do&PAST det:poss|your n|mom v|tell pro:per|you
+	prep|about det:art|the n|farm ?
+%gra:	1|5|LINK 2|5|AUX 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|JCT 8|9|DET
+	9|7|POBJ 10|5|PUNCT
+*GIL:	my mom told me that (.) &~s they didn't have pools you know . 865663_869764
+%mor:	det:poss|my n|mom v|tell&PAST pro:obj|me comp|that pro:sub|they
+	mod|do&PAST~neg|not v|have v|pool-3S pro:per|you v|know .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|9|LINK 6|9|SUBJ 7|9|AUX 8|7|NEG
+	9|3|COMP 10|9|COMP 11|12|SUBJ 12|10|COMP 13|3|PUNCT
+*GIL:	so she'd just take a like a swim in the pond . 869744_872762
+%mor:	adv|so pro:sub|she~mod|genmod adv|just v|take det:art|a co|like
+	det:art|a n|swim prep|in det:art|the n|pond .
+%gra:	1|5|JCT 2|5|SUBJ 3|5|AUX 4|5|JCT 5|0|ROOT 6|7|DET 7|9|COM 8|9|DET
+	9|5|OBJ 10|9|NJCT 11|12|DET 12|10|POBJ 13|5|PUNCT
+*CHA:	in the pond en@s el@s lago@s . 872730_875092
+%mor:	prep|in det:art|the n|pond L2|en L2|el L2|lago .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|ENUM 5|4|CONJ 6|5|COORD 7|1|PUNCT
+%eng:	in the pond, the pond .
+*CHA:	ugh that sounds stinky . 875077_876963
+%mor:	co|ugh adv|that v|sound-3S adj|stink&dn-Y .
+%gra:	1|3|COM 2|3|JCT 3|0|ROOT 4|3|JCT 5|3|PUNCT
+*CHA:	I can't go swim in a pond . 876963_878554
+%mor:	pro:sub|I mod|can~neg|not v|go n|swim prep|in det:art|a n|pond .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|JCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
+*GIL:	yeah so the rest of my mom's background is now she's remarried to
+	Andrew as we talked about earlier . 878540_885839
+%mor:	co|yeah conj|so det:art|the n|rest prep|of det:poss|my
+	adj|mom&dn-POSS n|background cop|be&3S adv|now pro:sub|she~aux|be&3S
+	re#part|marry-PASTP prep|to n:prop|Andrew conj|as pro:sub|we
+	v|talk-PAST adv|about adj|early-CP .
+%gra:	1|9|COM 2|9|LINK 3|4|DET 4|9|SUBJ 5|4|NJCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|0|ROOT 10|9|JCT 11|13|SUBJ 12|13|AUX 13|9|PRED 14|13|NJCT 15|14|POBJ
+	16|18|LINK 17|18|SUBJ 18|13|CJCT 19|20|JCT 20|18|JCT 21|9|PUNCT
+*GIL:	and she's here sitting right now live at this interview (.) hearing
+	us so this chat . 885832_894792
+%mor:	coord|and pro:sub|she~aux|be&3S adv|here part|sit-PRESP adv|right
+	adv|now v|live prep|at det:dem|this n|interview part|hear-PRESP
+	pro:obj|us conj|so det:dem|this n|chat .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|JCT 5|0|ROOT 6|7|JCT 7|8|JCT 8|5|COMP
+	9|8|JCT 10|11|DET 11|9|POBJ 12|8|XJCT 13|12|OBJ 14|5|JCT 15|16|DET
+	16|14|POBJ 17|5|PUNCT
+*CHA:	listening to us talking about this . 894772_896607
+%mor:	part|listen-PRESP prep|to pro:obj|us part|talk-PRESP prep|about
+	pro:dem|this .
+%gra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|1|XJCT 5|4|JCT 6|5|POBJ 7|1|PUNCT
+*CHA:	she finds our conversations very interesting . 896589_900265
+%mor:	pro:sub|she v|find-3S det:poss|our n|converse&dv-ATION-PL adv|very
+	adj|interesting .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|6|JCT 6|2|JCT 7|2|PUNCT
+*CHA:	well +... 900258_900890
+%mor:	co|well +...
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	she is a very interesting woman . 900890_902487
+%mor:	pro:sub|she cop|be&3S det:art|a adv|very adj|interesting n|woman .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|5|JCT 5|6|MOD 6|2|PRED 7|2|PUNCT
+*CHA:	she's very interesting you know . 902477_904090
+%mor:	pro:sub|she~cop|be&3S adv|very adj|interesting pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|6|SUBJ 6|4|CMOD 7|2|PUNCT
+*GIL:	okay let's move on to your parents' background . 904090_906465
+%mor:	co|okay v|let~pro:obj|us v|move adv|on prep|to det:poss|your
+	adj|parent&dn-PL-POSS n|background .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|4|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|2|PUNCT
+*CHA:	well (.) it's not very interesting . 906439_909579
+%mor:	co|well pro:per|it~cop|be&3S neg|not adv|very adj|interesting .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|6|JCT 6|3|PRED 7|3|PUNCT
+*CHA:	but my mom is from Columbia . 909558_912548
+%mor:	conj|but det:poss|my n|mom cop|be&3S prep|from n:prop|Columbia .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+*GIL:	m:hm . 912533_913299
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	she was born on a farm just like your mom (be)cause they're both
+	sisters . 913288_916341
+%mor:	pro:sub|she cop|be&PAST&13S adj|born prep|on det:art|a n|farm
+	adv|just prep|like det:poss|your n|mom conj|because
+	pro:sub|they~cop|be&PRES qn|both n|sister-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|JCT 5|6|DET 6|4|POBJ 7|8|JCT 8|2|JCT
+	9|10|DET 10|8|POBJ 11|13|LINK 12|13|SUBJ 13|2|CJCT 14|15|QUANT 15|13|PRED
+	16|2|PUNCT
+*CHA:	and my father was born in Columbia also . 916309_919223
+%mor:	coord|and det:poss|my n|father cop|be&PAST&13S adj|born prep|in
+	n:prop|Columbia adv|also .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|JCT 7|6|POBJ 8|4|JCT
+	9|4|PUNCT
+*CHA:	so there's basically no other different country than Columbia . 919225_924697
+%mor:	adv|so pro:exist|there~cop|be&3S adv|basic&dadj-AL-LY qn|no
+	qn|other adj|different n|country prep|than n:prop|Columbia .
+%gra:	1|2|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|QUANT 6|8|QUANT 7|8|MOD 8|3|PRED
+	9|8|NJCT 10|9|POBJ 11|3|PUNCT
+*CHA:	that's their main country . 924685_925823
+%mor:	pro:dem|that~cop|be&3S det:poss|their adj|main n|country .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*GIL:	that's cool . 925817_926351
+%mor:	pro:dem|that~cop|be&3S adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	[- spa] y hablamos mucho español . 926342_928234
+%mor:	coord|y=and v|habla-1P&PRES&PRET=speak adv|mucho=much
+	adj|español=Spanish .
+%eng:	and we speak a lot of Spanish .
+*GIL:	cool . 928229_928519
+%mor:	adj|cool .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] en mi casa . 928357_930534
+%mor:	prep|en=in det:pos|mi=my imp|casa-2S&IMP=marry .
+%eng:	in my house .
+*CHA:	we speak Spanish . 930529_932558
+%mor:	pro:sub|we v|speak n:prop|Spanish .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHA:	but since I go to school of course I have to speak most of my time
+	in English . 932558_937011
+%mor:	conj|but conj|since pro:sub|I v|go prep|to n|school prep|of
+	n|course pro:sub|I v|have inf|to v|speak qn|most prep|of det:poss|my
+	n|time prep|in n:prop|English .
+%gra:	1|10|LINK 2|4|LINK 3|4|SUBJ 4|10|CJCT 5|4|JCT 6|5|POBJ 7|6|NJCT
+	8|7|POBJ 9|10|SUBJ 10|0|ROOT 11|12|INF 12|10|COMP 13|12|OBJ 14|13|JCT 15|16|DET
+	16|14|POBJ 17|16|NJCT 18|17|POBJ 19|10|PUNCT
+*GIL:	so (.) &-um let's see . 936968_940481
+%mor:	adv|so v|let~pro:obj|us v|see .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|COMP 5|2|PUNCT
+*GIL:	what else can we talk about ? 940458_942501
+%mor:	pro:int|what post|else mod|can pro:sub|we v|talk adv|about ?
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|JCT 7|5|PUNCT
+*GIL:	so (.) &-um (.) who is [//] what is your favorite number ? 942499_948938
+%mor:	adv|so pro:rel|who pro:int|what cop|be&3S det:poss|your n|favorite
+	v|number ?
+%gra:	1|7|JCT 2|4|LINK 3|4|SUBJ 4|7|CJCT 5|6|DET 6|4|PRED 7|0|ROOT 8|7|PUNCT
+*CHA:	my favorite number is nueve@s nine (be)cause that was the day I was
+	born . 948900_954616
+%mor:	det:poss|my n|favorite n|number cop|be&3S L2|nueve det:num|nine
+	conj|because pro:dem|that cop|be&PAST&13S det:art|the n|day
+	pro:sub|I cop|be&PAST&13S adj|born .
+%gra:	1|2|DET 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|6|DATE 6|4|PRED 7|9|LINK 8|9|SUBJ
+	9|4|CJCT 10|11|DET 11|13|JCT 12|13|SUBJ 13|9|PRED 14|13|PRED 15|4|PUNCT
+%eng:	my favorite number is nine, nine (be)cause that was the day I was
+	born .
+*CHA:	February ninth . 954598_956137
+%mor:	n:prop|February adj|ninth .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHA:	so that's my favorite number . 956121_958507
+%mor:	co|so pro:dem|that~cop|be&3S det:poss|my n|favorite v|number .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|ENUM 7|3|PUNCT
+*CHA:	it's just very weird . 958481_960141
+%mor:	pro:per|it~cop|be&3S adj|just adv|very adj|weird .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|JCT 4|5|JCT 5|2|PRED 6|2|PUNCT
+*CHA:	but that's my favorite number . 960135_962260
+%mor:	conj|but pro:dem|that~cop|be&3S det:poss|my n|favorite v|number .
+%gra:	1|3|LINK 2|3|SUBJ 3|6|CJCT 4|5|DET 5|3|PRED 6|0|ROOT 7|6|PUNCT
+*CHA:	[- spa] mi favorito número . 962250_964224
+%mor:	det:pos|mi=my adj|favorito-MASC=favorite n|número&m=number .
+%eng:	my favorite number .
+%com:	silent pause
+*CHA:	so what about you ? 965800_967327
+%mor:	adv|so pro:int|what adv|about pro:per|you ?
+%gra:	1|4|JCT 2|4|LINK 3|4|JCT 4|0|INCROOT 5|4|PUNCT
+*CHA:	tell me about your birthday . 967321_969022
+%mor:	v|tell pro:obj|me prep|about det:poss|your n|+n|birth+n|day .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*GIL:	my birthday is on July two five twenty fifth . 969009_973664
+%mor:	det:poss|my n|+n|birth+n|day cop|be&3S prep|on n:prop|July
+	det:num|two det:num|five det:num|twenty adj|fifth .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|7|QUANT 7|9|QUANT
+	8|9|QUANT 9|3|PRED 10|3|PUNCT
+*GIL:	and my mom's birthday really weird is four days before on the
+	twenty first of July . 973639_980055
+%mor:	coord|and det:poss|my adj|mom&dn-POSS n|+n|birth+n|day
+	adv|real&dadj-LY adj|weird aux|be&3S det:num|four n|day-PL
+	adv|before prep|on det:art|the det:num|twenty adv|first prep|of
+	n:prop|July .
+%gra:	1|9|LINK 2|4|DET 3|4|MOD 4|9|SUBJ 5|9|JCT 6|9|SUBJ 7|9|AUX 8|9|QUANT
+	9|0|INCROOT 10|9|NJCT 11|10|JCT 12|13|DET 13|11|POBJ 14|13|NJCT 15|14|JCT
+	16|15|POBJ 17|9|PUNCT
+*GIL:	so she had me like (.) like (.) like [/] like four days before . 980035_986376
+%mor:	co|so pro:sub|she v|have&PAST pro:obj|me prep|like co|like co|like
+	det:num|four n|day-PL adv|before .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|9|COM 7|9|COM 8|9|QUANT
+	9|5|POBJ 10|9|NJCT 11|3|PUNCT
+*CHA:	+< four days . 984785_985610
+%mor:	det:num|four n|day-PL .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*GIL:	after her birthday you know &=laughs . 986356_988190
+%mor:	prep|after pro:obj|her n|+n|birth+n|day pro:per|you v|know .
+%gra:	1|0|INCROOT 2|3|SUBJ 3|1|POBJ 4|5|SUBJ 5|3|CMOD 6|1|PUNCT
+*CHA:	wow . 988138_988968
+%mor:	co|wow .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	+< like awesome . 988271_989351
+%mor:	prep|like adj|awesome .
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
+*CHA:	[- spa] tú fuiste el regalo de ella . 988889_990996
+%mor:	pro:sub|tú=you v|i-2S&PRET=go det:art|el&MASC&SG=the
+	v|regala-1S&PRES=give_present prep|de=of pro:sub|ello-FEM=he .
+%eng:	you were her present .
+*CHA:	you were her birthday present . 991013_992685
+%mor:	pro:per|you cop|be&PAST det:poss|her n|+n|birth+n|day adv|present .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|4|NJCT 6|2|PUNCT
+*GIL:	+< yeah I was her birthday present like four days late birthday
+	present . 991724_995154
+%mor:	co|yeah pro:sub|I cop|be&PAST&13S det:poss|her n|+n|birth+n|day
+	adv|present co|like det:num|four n|day-PL adj|late n|+n|birth+n|day
+	adv|present .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|5|NJCT 7|9|COM 8|9|QUANT
+	9|11|MOD 10|11|MOD 11|6|POBJ 12|11|NJCT 13|3|PUNCT
+*CHA:	that was great . 994523_996137
+%mor:	pro:dem|that cop|be&PAST&13S adj|great .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*GIL:	when &-uh [///] and my dad I think he is born in +... 996124_1001159
+%mor:	conj|when coord|and det:poss|my n|dad pro:sub|I v|think pro:sub|he
+	cop|be&3S adj|born adv|in +...
+%gra:	1|6|LINK 2|1|CONJ 3|4|DET 4|2|COORD 5|6|SUBJ 6|0|ROOT 7|8|SUBJ 8|6|COMP
+	9|8|PRED 10|8|JCT 11|6|PUNCT
+*CHA:	born in +... 1002326_1003197
+%mor:	adj|born adv|in +...
+%gra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*GIL:	+, October (..) twelfth . 1003197_1006887
+%mor:	n:prop|October adj|twelfth .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHA:	twelfth yes . 1006882_1008431
+%mor:	adj|twelfth co|yes .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*GIL:	and &-um (.) to say a little bit about him &-um you know +... 1008417_1013556
+%mor:	coord|and inf|to v|say det:art|a adj|little n|bit prep|about
+	pro:obj|him pro:per|you v|know +...
+%gra:	1|3|LINK 2|3|INF 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|JCT 8|7|POBJ
+	9|10|SUBJ 10|3|CJCT 11|3|PUNCT
+*CHA:	he's bald . 1013376_1014612
+%mor:	pro:sub|he~cop|be&3S adj|bald .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	&=laughs . 1014598_1016304
+*CHA:	he's bald ! 1016289_1017537
+%mor:	pro:sub|he~cop|be&3S adj|bald !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*GIL:	yeah he's bald . 1017514_1018646
+%mor:	co|yeah pro:sub|he~cop|be&3S adj|bald .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
+*GIL:	but you know he still has little hairs sticking up . 1018634_1021618
+%mor:	conj|but pro:per|you v|know pro:sub|he adv|still aux|have&3S
+	adj|little n|hair-PL part|stick-PRESP adv|up .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|9|SUBJ 5|9|JCT 6|9|AUX 7|8|MOD 8|6|PRED
+	9|3|COMP 10|9|JCT 11|3|PUNCT
+*CHA:	you know I saw that picture . 1021617_1023329
+%mor:	pro:per|you v|know pro:sub|I v|see&PAST adv|that n|picture .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|5|POBJ 7|2|PUNCT
+*CHA:	[- spa] yo vi esa foto de él con pelo largo y mono . 1023318_1027819
+%mor:	pro:sub|yo=I v|ve-1S&PRET=see det:dem|ese-FEM=that n|foto&m=photo
+	v|da-13S&SUB&PRES=give pro:sub|él&m=he prep|con=with
+	v|pela-1S&PRES=peel adj|largo-MASC=long coord|y=and
+	adj|mono-MASC=cool .
+%eng:	I saw that photo of him with hair as thick as a monkey's .
+*GIL:	+< yeah I know . 1025509_1026310
+%mor:	co|yeah pro:sub|I v|know .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*GIL:	I know like back +//. 1027784_1029081
+%mor:	pro:sub|I v|know prep|like adj|back +//.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*GIL:	no no mono@s . 1029058_1030062
+%mor:	co|no co|no L2|mono .
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+%eng:	no, no, monkey .
+*GIL:	no it wasn't blond . 1030062_1031635
+%mor:	co|no pro:per|it cop|be&PAST&13S~neg|not adj|blond .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|PRED 6|3|PUNCT
+*CHA:	yes it was . 1031620_1032392
+%mor:	co|yes pro:per|it cop|be&PAST&13S .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*GIL:	no it wasn't ! 1032381_1033362
+%mor:	co|no pro:per|it cop|be&PAST&13S~neg|not !
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|PUNCT
+*CHA:	&=laughs okay . 1033350_1035405
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	+< it was orange . 1034755_1036154
+%mor:	pro:per|it cop|be&PAST&13S adj|orange .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	okay orange . 1036145_1038223
+%mor:	co|okay n|orange .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHA:	[- spa] en la foto con él con el pelo largo y naranja . 1038202_1041325
+%mor:	prep|en=in det:art|el&FEM&SG=the n|foto&m=photo prep|con=with
+	pro:sub|él&m=he prep|con=with det:art|el&MASC&SG=the n|pelo&m=hair
+	adj|largo-MASC=long coord|y=and adj|naranjo-FEM=orange .
+%eng:	in the photo with him with long orange hair .
+*GIL:	yeah it was like down to his butt . 1039473_1041795
+%mor:	co|yeah pro:per|it cop|be&PAST&13S prep|like adv|down prep|to
+	det:poss|his n|butt .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|5|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
+*GIL:	I'm serious . 1041714_1042440
+%mor:	pro:sub|I~cop|be&1S adj|serious .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	wow . 1042413_1044875
+%mor:	co|wow .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	&=laughs okay . 1044877_1046660
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	so when ah were your parents born ? 1046073_1048552
+%mor:	co|so conj|when co|ah aux|be&PAST det:poss|your n|parent-PL
+	adj|born ?
+%gra:	1|7|COM 2|6|LINK 3|6|SUBJ 4|6|AUX 5|6|DET 6|7|MOD 7|0|ROOT 8|7|PUNCT
+*CHA:	well my mom was born in Tulúa which is a very small town in
+	Columbia . 1048532_1054223
+%mor:	co|well det:poss|my n|mom cop|be&PAST&13S adj|born prep|in
+	n:prop|Tulúa pro:rel|which cop|be&3S det:art|a adv|very adj|small
+	n|town prep|in n:prop|Columbia .
+%gra:	1|4|COM 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|JCT 7|6|POBJ 8|9|LINK
+	9|4|CJCT 10|13|DET 11|12|JCT 12|13|MOD 13|9|PRED 14|13|NJCT 15|14|POBJ
+	16|4|PUNCT
+%com:	GIL is whispering to someone in background
+*CHA:	and (.) she was born on April sixth . 1055678_1060092
+%mor:	coord|and pro:sub|she cop|be&PAST&13S adj|born prep|on n:prop|April
+	adj|sixth .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|JCT 6|7|MOD 7|5|POBJ 8|3|PUNCT
+%com:	GIL is whispering to someone in background
+*CHA:	and my dad was born in Armenia xxx was born in Columbia . 1061770_1065369
+%mor:	coord|and det:poss|my n|dad cop|be&PAST&13S adj|born prep|in
+	n:prop|Armenia cop|be&PAST&13S adj|born prep|in n:prop|Columbia .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|JCT 7|6|POBJ 8|6|POBJ
+	9|8|PRED 10|9|JCT 11|10|POBJ 12|4|PUNCT
+*CHA:	he was born December ninth . 1065362_1067980
+%mor:	pro:sub|he cop|be&PAST&13S adj|born n:prop|December adj|ninth .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|MOD 4|5|MOD 5|2|PRED 6|2|PUNCT
+%com:	humming in recording possibly due to equipment or battery
+*GIL:	yeah cool . 1067969_1069542
+%mor:	co|yeah v|cool .
+%gra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*CHA:	yes so <what about> [//] what did you think about that (.) &-uh
+	rainstorm today ? 1069533_1077780
+%mor:	co|yes co|so pro:int|what mod|do&PAST pro:per|you v|think
+	prep|about det:dem|that n|rainstorm adv:tem|today ?
+%gra:	1|6|COM 2|6|COM 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|9|DET
+	9|7|POBJ 10|6|JCT 11|6|PUNCT
+*CHA:	[- spa] cómo cayó la lluvia . 1077752_1079766
+%mor:	pro:int|cómo=how v|cae-3S&PRET=fall det:art|el&FEM&SG=the
+	n|lluvia&f=rain .
+%eng:	how the rain fell .
+*GIL:	I know that rainstorm totally wiped out . 1079734_1082346
+%mor:	pro:sub|I v|know comp|that n|rainstorm adv|total&dadj-LY
+	v|wipe-PAST adv|out .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|SUBJ 5|6|JCT 6|2|COMP 7|6|JCT 8|2|PUNCT
+*CHA:	totally ruined our egg hunt . 1082301_1085332
+%mor:	adv|total&dadj-LY v|ruin-PAST det:poss|our n|egg n|hunt .
+%gra:	1|2|JCT 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*GIL:	you know and then like &-um you know the movie Ten_thousand_b_c ? 1085322_1090839
+%mor:	pro:per|you v|know coord|and adv:tem|then v|like pro:per|you v|know
+	det:art|the n|movie n:prop|Ten_thousand_b_c ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|JCT 5|2|COMP 6|7|SUBJ 7|5|COMP 8|9|DET
+	9|7|OBJ 10|9|APP 11|2|PUNCT
+*GIL:	wasn't it awesome ? 1090801_1092374
+%mor:	cop|be&PAST&13S~neg|not pro:per|it adj|awesome ?
+%gra:	1|0|ROOT 2|1|NEG 3|1|PRED 4|3|OM 5|1|PUNCT
+*CHA:	[- spa] pues super chévere . 1092372_1094734
+%mor:	co|pues=well n|super&m=super adj|chévere=excellent .
+%eng:	then super cool .
+*GIL:	+< [- spa] chévere . 1093875_1094647
+%mor:	adj|chévere=excellent .
+%eng:	cool .
+*CHA:	I know you know . 1094724_1096158
+%mor:	pro:sub|I v|know pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|2|PUNCT
+*GIL:	jinx you owe me a soda . 1095711_1096895
+%mor:	v|jinx pro:per|you v|owe pro:obj|me det:art|a n|soda .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ2 5|6|DET 6|3|OBJ 7|3|PUNCT
+*CHA:	oh okay I'll give you that soda later . 1096874_1100671
+%mor:	co|oh co|okay pro:sub|I~mod|will v|give pro:per|you det:dem|that
+	n|soda adv|later .
+%gra:	1|5|COM 2|5|COM 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|8|DET 8|5|OBJ
+	9|5|JCT 10|5|PUNCT
+*CHA:	&-um (.) so ah (.) school . 1100656_1106034
+%mor:	co|so co|ah n|school .
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*CHA:	tell me about school . 1106022_1107526
+%mor:	v|tell pro:obj|me prep|about n|school .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|3|POBJ 5|1|PUNCT
+*CHA:	your grades your friends your teachers . 1107512_1110519
+%mor:	det:poss|your n|grade-PL det:poss|your n|friend-PL det:poss|your
+	n|teach&dv-AGT-PL .
+%gra:	1|2|DET 2|0|INCROOT 3|4|DET 4|2|ENUM 5|6|DET 6|4|OBJ 7|2|PUNCT
+*GIL:	+< we've been doing fractions lately . 1109422_1112185
+%mor:	pro:sub|we~aux|have aux|be&PASTP part|do-PRESP n|fraction-PL
+	adv|late&dadj-LY .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
+*GIL:	and I've actually been doing okay . 1112159_1115120
+%mor:	coord|and pro:sub|I~aux|have adv|actual&dadj-LY aux|be&PASTP
+	part|do-PRESP adj|okay .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|6|JCT 5|6|AUX 6|0|ROOT 7|6|JCT 8|6|PUNCT
+*GIL:	I got a pretty good grade on my math test . 1114946_1118309
+%mor:	pro:sub|I v|get&PAST det:art|a adj|pretty adj|good n|grade prep|on
+	det:poss|my n|math n|test .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|6|MOD 5|6|MOD 6|2|OBJ 7|2|JCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|2|PUNCT
+*GIL:	and I also had a social studies test . 1118306_1120988
+%mor:	coord|and pro:sub|I adv|also v|have&PAST det:art|a n|social
+	v|study-3S n|test .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|6|DET 6|7|SUBJ 7|4|COMP 8|7|OBJ
+	9|4|PUNCT
+*CHA:	+< tell me about your friends . 1119793_1120919
+%mor:	v|tell pro:obj|me prep|about det:poss|your n|friend-PL .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*CHA:	your friends . 1120973_1124305
+%mor:	det:poss|your n|friend-PL .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*CHA:	are they nice ? 1124302_1127802
+%mor:	cop|be&PRES pro:sub|they adj|nice ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*CHA:	they're nice ? 1127765_1129083
+%mor:	pro:sub|they~cop|be&PRES adj|nice ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*GIL:	yeah . 1129077_1130284
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	m:hm yeah . 1130269_1132080
+%mor:	co|mhm=yes co|yeah .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHA:	your teacher what's her name ? 1132086_1133270
+%mor:	det:poss|your n|teach&dv-AGT pro:int|what~cop|be&3S det:poss|her
+	n|name ?
+%gra:	1|2|DET 2|4|SUBJ 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*GIL:	miss White . 1133253_1134176
+%mor:	n|miss n:prop|White .
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*CHA:	is she nice ? 1134167_1135252
+%mor:	cop|be&3S pro:sub|she adj|nice ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*CHA:	<is she> [/] (.) is she a good teacher ? 1135113_1137855
+%mor:	cop|be&3S pro:sub|she det:art|a adj|good n|teach&dv-AGT ?
+%gra:	1|0|ROOT 2|1|PRED 3|5|DET 4|5|MOD 5|2|OM 6|1|PUNCT
+*CHA:	that's the first main priority yes ? 1137843_1140206
+%mor:	pro:dem|that~cop|be&3S det:art|the adj|first adj|main n|priority
+	co|yes ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|6|MOD 5|6|MOD 6|2|PRED 7|6|COM 8|2|PUNCT
+*GIL:	+< yes . 1138441_1139219
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	okay . 1140208_1141810
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	what's your favorite plant ? 1141795_1143902
+%mor:	pro:int|what~cop|be&3S det:poss|your n|favorite n|plant ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*CHA:	my favorite plant is a daisy . 1143885_1146590
+%mor:	det:poss|my adj|favorite n|plant cop|be&3S det:art|a n|daisy .
+%gra:	1|3|DET 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*CHA:	just because (.) well the white and the yellow I think are two very
+	beautiful colors combined together . 1146599_1155183
+%mor:	adv|just conj|because adv|well det:art|the n|white coord|and
+	det:art|the n|yellow pro:sub|I v|think aux|be&PRES det:num|two
+	adv|very adj|beautiful n|color-PL v|combine-PAST adv|together .
+%gra:	1|2|JCT 2|5|LINK 3|5|JCT 4|5|DET 5|10|CJCT 6|5|CONJ 7|8|DET 8|6|COORD
+	9|10|SUBJ 10|0|ROOT 11|12|AUX 12|15|QUANT 13|14|JCT 14|15|MOD 15|16|SUBJ
+	16|10|COMP 17|16|JCT 18|10|PUNCT
+*GIL:	&~mke . 1154521_1155108
+*CHA:	so +... 1155174_1158675
+%mor:	co|so +...
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	what's your favorite clothing store ? 1158671_1161974
+%mor:	pro:int|what~cop|be&3S det:poss|your n|favorite n|clothing n|store
+	?
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|6|MOD 5|6|MOD 6|2|PRED 7|2|PUNCT
+*GIL:	Love_couture . 1161947_1164385
+%mor:	n:prop|Love_couture .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	mine too . 1164371_1165752
+%mor:	n|mine adv|too .
+%gra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*GIL:	like the other day I bought these really cute jeans there . 1165746_1168713
+%mor:	prep|like det:art|the qn|other n|day pro:sub|I v|buy&PAST
+	det:dem|these adv|real&dadj-LY adj|cute n|jeans adv|there .
+%gra:	1|6|JCT 2|4|DET 3|4|QUANT 4|1|POBJ 5|6|SUBJ 6|0|ROOT 7|10|DET 8|9|JCT
+	9|10|MOD 10|6|OBJ 11|6|JCT 12|6|PUNCT
+*CHA:	really ? 1168699_1170626
+%mor:	adv|real&dadj-LY ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	yeah . 1170620_1171178
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] sí ? 1171168_1172091
+%mor:	co|sí=yes ?
+%eng:	yes .
+*CHA:	también@s hay@s una@s [/] una@s tienda@s &~k en@s Colombia que@s
+	se@s llama@s Azucar (.) which translates to sugar . 1172058_1179102
+%mor:	L2|también L2|hay L2|una L2|tienda L2|en n:prop|Colombia L2|que
+	L2|se L2|llama n:prop|Azucar pro:rel|which v|translate-3S prep|to
+	n|sugar .
+%gra:	1|0|INCROOT 2|1|POBJ 3|2|NJCT 4|3|POBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT
+	8|7|POBJ 9|8|NJCT 10|9|POBJ 11|12|LINK 12|10|CMOD 13|12|JCT 14|13|POBJ
+	15|1|PUNCT
+%eng:	also there is a store in Colombia called Azucar, which translates
+	to sugar .
+*CHA:	it's so cute there . 1179080_1181840
+%mor:	pro:per|it~cop|be&3S adv|so adj|cute adv|there .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|JCT 6|2|PUNCT
+*CHA:	I love that store . 1181834_1183361
+%mor:	pro:sub|I v|love det:dem|that n|store .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHA:	I love that store . 1183349_1187102
+%mor:	pro:sub|I v|love det:dem|that n|store .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*GIL:	+< yeah cool . 1184478_1186329
+%mor:	co|yeah v|cool .
+%gra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*GIL:	it's awesome . 1187087_1189815
+%mor:	pro:per|it~cop|be&3S adj|awesome .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*GIL:	&~u look like you know &-um what is your favorite thing to do in
+	Columbia ? 1189809_1195159
+%mor:	v|look conj|like pro:per|you v|know pro:int|what cop|be&3S
+	det:poss|your adj|favorite n|thing inf|to v|do prep|in
+	n:prop|Columbia ?
+%gra:	1|0|ROOT 2|4|LINK 3|4|SUBJ 4|1|CJCT 5|6|SUBJ 6|4|COMP 7|9|DET 8|9|MOD
+	9|6|PRED 10|11|INF 11|9|XMOD 12|11|JCT 13|12|POBJ 14|1|PUNCT
+*CHA:	oh my favorite thing to do mi@s favorita@s cosa@s de@s hacer@s es@s
+	estar@s con@s mi@s familia@s . 1195157_1203635
+%mor:	co|oh det:poss|my adj|favorite n|thing inf|to v|do L2|mi
+	L2|favorita L2|cosa L2|de L2|hacer L2|es L2|estar L2|con L2|mi
+	L2|familia .
+%gra:	1|6|COM 2|4|DET 3|4|MOD 4|6|SUBJ 5|6|INF 6|0|ROOT 7|6|OBJ 8|7|CONJ
+	9|8|COORD 10|9|CONJ 11|10|COORD 12|11|CONJ 13|12|COORD 14|13|POSTMOD
+	15|14|CONJ 16|15|COORD 17|6|PUNCT
+%eng:	oh, my favorite thing to do, my favorite thing to do is to be with
+	my family .
+*CHA:	[- spa] yo (.) adoro estar con mi familia . 1203621_1206935
+%mor:	pro:sub|yo=I v|adora-1S&PRES=adore inf|esta-INF=be prep|con=with
+	det:pos|mi=my n|familia&f=family .
+%eng:	I adore being with my family .
+%com:	GIL is whispering to someone in background
+*CHA:	ellos@s son@s lo@s [/] lo@s &~ma [//] they're the best . 1206891_1210148
+%mor:	L2|ellos L2|son L2|lo pro:sub|they~cop|be&PRES det:art|the
+	adj|good&SP .
+%gra:	1|0|INCROOT 2|1|PRED 3|5|LINK 4|5|SUBJ 5|2|CMOD 6|7|DET 7|5|PRED
+	8|1|PUNCT
+%eng:	they're the, the, they're the best .
+*CHA:	that's all I can say . 1210133_1212478
+%mor:	pro:dem|that~cop|be&3S pro:indef|all pro:sub|I mod|can v|say .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|6|SUBJ 5|6|AUX 6|3|CMOD 7|2|PUNCT
+*CHA:	I also love about Columbia is that it's beautiful climate . 1212470_1219011
+%mor:	pro:sub|I adv|also v|love prep|about n:prop|Columbia cop|be&3S
+	adv|that pro:per|it~cop|be&3S adj|beautiful n|climate .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|6|JCT 5|6|SUBJ 6|3|COMP 7|9|JCT 8|9|SUBJ
+	9|6|PRED 10|11|MOD 11|9|PRED 12|3|PUNCT
+*CHA:	and there's great great [//] (.) there's a lot of fun things to do
+	you know like el@s parque@s el@s café@s the rivers . 1219000_1230356
+%mor:	coord|and pro:exist|there~cop|be&3S adj|great
+	pro:exist|there~cop|be&3S det:art|a n|lot prep|of n|fun n|thing-PL
+	inf|to v|do pro:per|you v|know prep|like L2|el L2|parque L2|el
+	L2|café det:art|the n|river-PL .
+%gra:	1|3|LINK 2|3|SUBJ 3|6|CJCT 4|3|PRED 5|6|SUBJ 6|0|ROOT 7|8|DET 8|6|PRED
+	9|8|NJCT 10|11|MOD 11|9|POBJ 12|13|INF 13|8|XMOD 14|15|SUBJ 15|13|COMP
+	16|15|JCT 17|16|POBJ 18|17|COORD 19|18|CONJ 20|19|COORD 21|22|DET
+	22|20|OBJ 23|6|PUNCT
+%eng:	and there's great, great, there's a lot of fun things to do, you
+	know, like, the park, the cafe, the rivers .
+*CHA:	y@s a@s veces@s también@s Cartagena . 1230356_1232550
+%mor:	L2|y L2|a L2|veces L2|también n:prop|Cartagena .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+%eng:	and at times Cartagena too .
+*GIL:	but the best thing about it [=! whispers] +... 1232531_1235329
+%mor:	conj|but det:art|the adj|good&SP n|thing prep|about pro:per|it +...
+%gra:	1|4|LINK 2|4|DET 3|4|MOD 4|0|INCROOT 5|4|NJCT 6|5|POBJ 7|4|PUNCT
+*CHA:	but the best thing I love to do is hang out with my abuelito@s
+	Alfredo . 1235327_1239106
+%mor:	conj|but det:art|the adj|good&SP n|thing pro:sub|I v|love inf|to
+	v|do cop|be&3S v|hang adv|out prep|with det:poss|my L2|abuelito
+	n:prop|Alfredo .
+%gra:	1|6|LINK 2|4|DET 3|4|MOD 4|6|JCT 5|6|SUBJ 6|10|CJCT 7|8|INF 8|6|COMP
+	9|10|SUBJ 10|0|ROOT 11|10|JCT 12|10|JCT 13|14|DET 14|12|POBJ 15|14|APP
+	16|10|PUNCT
+%eng:	but the best thing I love to do is hang out with my grandad Alfredo
+	.
+*CHA:	he's like my dad you know . 1239091_1240873
+%mor:	pro:sub|he~cop|be&3S prep|like det:poss|my n|dad pro:per|you v|know
+	.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|7|SUBJ 7|2|CJCT 8|2|PUNCT
+*CHA:	he raised me since I was a little girl . 1240844_1243015
+%mor:	pro:sub|he v|raise-PAST pro:obj|me conj|since pro:sub|I
+	cop|be&PAST&13S det:art|a adj|little n|girl .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|6|LINK 5|6|SUBJ 6|2|CJCT 7|9|DET 8|9|MOD
+	9|6|PRED 10|2|PUNCT
+*CHA:	and I love him . 1242996_1244807
+%mor:	coord|and pro:sub|I v|love pro:obj|him .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*GIL:	I know . 1244801_1245730
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	yeah you know &-um you know he's like the best . 1245726_1249041
+%mor:	co|yeah pro:per|you v|know pro:per|you v|know pro:sub|he~cop|be&3S
+	prep|like det:art|the adj|good&SP .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|7|SUBJ 7|3|COMP 8|7|JCT
+	9|10|DET 10|8|POBJ 11|3|PUNCT
+*GIL:	and (.) what do you have to say about Anahí ? 1249039_1252853
+%mor:	coord|and pro:int|what mod|do pro:per|you v|have inf|to v|say
+	prep|about n:prop|Anahí ?
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|7|INF 7|5|COMP 8|7|JCT
+	9|8|POBJ 10|5|PUNCT
+*CHA:	his girlfriend . 1252832_1254243
+%mor:	det:poss|his n|+n|girl+n|friend .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*CHA:	la@s [/] la@s novia@s de@s abuelito@s Alfredo . 1254231_1256681
+%mor:	L2|la L2|novia L2|de L2|abuelito n:prop|Alfredo .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+%eng:	Grandad Alfredo's girlfriend .
+*CHA:	well la@s primera@s cosa@s (.) ella@s es@s muy@s muy@s linda@s xxx
+	. 1256661_1261905
+%mor:	co|well L2|la L2|primera L2|cosa L2|ella L2|es L2|muy L2|muy
+	L2|linda .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+%eng:	well, the first thing, she is really pretty .
+*CHA:	she's super nice . 1261890_1264142
+%mor:	pro:sub|she~cop|be&3S adj|super adj|nice .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*CHA:	and she has the cutest dog ever . 1264127_1267796
+%mor:	coord|and pro:sub|she v|have&3S det:art|the adj|cute-SP n|dog
+	adv|ever .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|JCT 8|3|PUNCT
+*CHA:	it's so fluffy . 1267780_1270474
+%mor:	pro:per|it~cop|be&3S adv|so adj|fluff&dn-Y .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	she is so pretty . 1270459_1272276
+%mor:	pro:sub|she cop|be&3S adv|so adj|pretty .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	[- spa] es muy muy bella ella . 1272189_1274134
+%mor:	cop|se-3S&PRES=be adv|muy=very adv|muy=very adj|bello-FEM=beautiful
+	pro:sub|ello-FEM=he .
+%eng:	she is really beautiful .
+*CHA:	[- spa] muy bella . 1274125_1277857
+%mor:	adv|muy=very adj|bello-FEM=beautiful .
+%eng:	very beautiful .
+%com:	GIL whispers in background
+*CHA:	she [//] and she's very [/] (..) she's very (.) pleasant to be
+	around with . 1277848_1287746
+%mor:	coord|and pro:sub|she~cop|be&3S pro:sub|she~cop|be&3S adv|very
+	adj|pleasant inf|to aux|be adv|around prep|with .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|PRED 6|7|JCT 7|5|PRED 8|11|INF
+	9|11|AUX 10|11|JCT 11|7|XMOD 12|3|PUNCT
+*CHA:	and she [///] Anahí ya@s xxx con@s mi@s abuelito@s Alfredo de@s
+	novios@s . 1287738_1292242
+%mor:	coord|and n:prop|Anahí L2|ya L2|con L2|mi L2|abuelito
+	n:prop|Alfredo L2|de L2|novios .
+%gra:	1|0|INCROOT 2|1|COORD 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|6|OBJ
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+%eng:	and she, Anahí is now with my grandad Alfredo as boyfriend and
+	girlfriend .
+*GIL:	yeah remember once when you [/] you and me went with my mom para@s
+	la@s [//] para@s un@s parque@s . 1292227_1298795
+%mor:	co|yeah v|remember adv|once conj|when pro:per|you coord|and
+	pro:obj|me v|go&PAST prep|with det:poss|my n|mom L2|para L2|para
+	L2|un L2|parque .
+%gra:	1|2|COM 2|0|ROOT 3|2|JCT 4|2|JCT 5|4|POBJ 6|8|LINK 7|8|SUBJ 8|5|COMP
+	9|8|JCT 10|11|DET 11|9|POBJ 12|11|CONJ 13|12|COORD 14|13|CONJ 15|14|COORD
+	16|2|PUNCT
+%eng:	yeah, remember once when you and me went with my mom to a park .
+*GIL:	it was like so cool . 1298750_1299830
+%mor:	pro:per|it cop|be&PAST&13S prep|like adv|so adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|JCT 5|3|POBJ 6|2|PUNCT
+*GIL:	and my mom you and me first went on this cool ride &~u where you
+	like sit down . 1299826_1305122
+%mor:	coord|and det:poss|my n|mom pro:per|you coord|and pro:obj|me
+	adv|first v|go&PAST prep|on det:dem|this adj|cool n|ride
+	pro:rel|where pro:per|you v|like v|sit adv|down .
+%gra:	1|8|LINK 2|3|DET 3|8|SUBJ 4|3|OBJ 5|4|CONJ 6|5|COORD 7|8|JCT 8|0|ROOT
+	9|8|JCT 10|12|DET 11|12|MOD 12|9|POBJ 13|15|LINK 14|15|SUBJ 15|12|CMOD
+	16|15|OBJ 17|15|JCT 18|8|PUNCT
+*GIL:	and there's this little rope that you hold on to . 1305100_1307190
+%mor:	coord|and pro:exist|there~cop|be&3S det:dem|this adj|little n|rope
+	pro:rel|that pro:per|you v|hold adv|on prep|to .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|9|LINK 8|9|SUBJ
+	9|6|CMOD 10|9|JCT 11|9|JCT 12|3|PUNCT
+*GIL:	and you go +/. 1307190_1308063
+%mor:	coord|and pro:per|you v|go +/.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHA:	+< xxx . 1307291_1307970
+*GIL:	kind of . 1308063_1309142
+%mor:	adj|kind prep|of .
+%gra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
+*GIL:	but it's not like as high . 1309139_1310788
+%mor:	conj|but pro:per|it~cop|be&3S neg|not v|like prep|as n|high .
+%gra:	1|3|LINK 2|3|SUBJ 3|5|CJCT 4|3|NEG 5|0|ROOT 6|5|JCT 7|6|POBJ 8|5|PUNCT
+*GIL:	and you go (a)round like a circle like twice . 1310766_1313291
+%mor:	coord|and pro:per|you v|go adv|around prep|like det:art|a n|circle
+	prep|like adv|twice .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|7|DET 7|5|POBJ 8|3|JCT
+	9|8|POBJ 10|3|PUNCT
+*GIL:	and then I went on . 1313256_1314452
+%mor:	coord|and adv:tem|then pro:sub|I v|go&PAST adv|on .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*GIL:	then you went on it . 1314447_1315532
+%mor:	adv:tem|then pro:per|you v|go&PAST prep|on pro:per|it .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*GIL:	and they said that only people thirteen and under could go on [/]
+	on it . 1315511_1320651
+%mor:	coord|and pro:sub|they v|say&PAST comp|that qn|only n|person&PL
+	det:num|thirteen coord|and adv|under mod|could v|go prep|on
+	pro:per|it .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|7|LINK 5|6|QUANT 6|7|SUBJ 7|11|SUBJ
+	8|7|CONJ 9|8|COORD 10|11|AUX 11|3|COMP 12|11|JCT 13|12|POBJ 14|3|PUNCT
+*GIL:	but my mom went on it . 1320624_1321936
+%mor:	conj|but det:poss|my n|mom v|go&PAST prep|on pro:per|it .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
+*GIL:	and she was like in her thirties . 1321928_1323524
+%mor:	coord|and pro:sub|she cop|be&PAST&13S prep|like prep|in
+	det:poss|her det:num|thirty-PL .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|JCT 6|7|DET 7|5|POBJ 8|3|PUNCT
+*GIL:	and like she went around . 1323514_1325337
+%mor:	coord|and co|like pro:sub|she v|go&PAST adv|around .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*GIL:	and right when she ended the cord almost broke . 1325332_1328113
+%mor:	coord|and adj|right conj|when pro:sub|she v|end-PAST det:art|the
+	n|cord adv|almost adj|broke .
+%gra:	1|5|LINK 2|5|JCT 3|5|LINK 4|5|SUBJ 5|0|ROOT 6|7|DET 7|5|OBJ 8|9|JCT
+	9|7|POSTMOD 10|5|PUNCT
+*GIL:	it went &~noise . 1328098_1329735
+%mor:	pro:per|it v|go&PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	&=laughs that was so funny . 1329735_1331430
+%mor:	pro:dem|that cop|be&PAST&13S adv|so adj|fun&dn-Y .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	that was hilarious . 1331409_1332942
+%mor:	pro:dem|that cop|be&PAST&13S adj|hilarious .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*GIL:	&=laughs I know . 1332936_1334428
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	it went &=noise . 1334407_1335887
+%mor:	pro:per|it v|go&PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	&=laughs . 1335887_1339069
+*CHA:	&~a: that was really funny . 1339049_1341383
+%mor:	pro:dem|that cop|be&PAST&13S adv|real&dadj-LY adj|fun&dn-Y .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	I remember that like it was yesterday . 1341377_1343461
+%mor:	pro:sub|I v|remember comp|that v|like pro:per|it cop|be&PAST&13S
+	adv:tem|yesterday .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|SUBJ 6|4|COMP 7|6|PRED
+	8|2|PUNCT
+*GIL:	yeah I know . 1343452_1344543
+%mor:	co|yeah pro:sub|I v|know .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHA:	it was really funny . 1344532_1345495
+%mor:	pro:per|it cop|be&PAST&13S adv|real&dadj-LY adj|fun&dn-Y .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	let's keep talking about that restaurant . 1345481_1348348
+%mor:	v|let~pro:obj|us v|keep part|talk-PRESP prep|about det:dem|that
+	n|restaurant .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*GIL:	+< xxx . 1345562_1347118
+*CHA:	it's a very outdoor restaurant . 1348339_1350632
+%mor:	pro:per|it~cop|be&3S det:art|a adv|very adj|outdoor n|restaurant .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|5|JCT 5|6|MOD 6|2|PRED 7|2|PUNCT
+*CHA:	and it has a lot of games like the sky lining game . 1350591_1353105
+%mor:	coord|and pro:per|it aux|have&3S det:art|a n|lot prep|of n|game-PL
+	prep|like det:art|the n|sky part|line-PRESP n|game .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|DET 5|0|INCROOT 6|5|NJCT 7|6|POBJ
+	8|7|NJCT 9|10|DET 10|8|POBJ 11|10|XMOD 12|11|OBJ 13|5|PUNCT
+*GIL:	yeah . 1353102_1353764
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	that was funny . 1353770_1354734
+%mor:	pro:dem|that cop|be&PAST&13S adj|fun&dn-Y .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	I think they had to take it down after mom went on there . 1354635_1357508
+%mor:	pro:sub|I v|think pro:sub|they v|have&PAST inf|to v|take pro:per|it
+	adv|down prep|after n|mom v|go&PAST prep|on n|there .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|INF 6|4|COMP 7|6|OBJ 8|6|JCT
+	9|11|JCT 10|11|SUBJ 11|6|COMP 12|11|JCT 13|12|POBJ 14|2|PUNCT
+*CHA:	&=laughs . 1357488_1369100
+*GIL:	+< &=laughs . 1357488_1368212
+*GIL:	okay . 1368386_1370417
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	so what's your favorite fruit ? 1370380_1373456
+%mor:	adv|so pro:int|what~cop|be&3S det:poss|your adj|favorite n|fruit ?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*CHA:	&-uh since we're talking about fruits my favorite fruit is a
+	strawberry . 1373435_1378644
+%mor:	conj|since pro:sub|we~aux|be&PRES part|talk-PRESP prep|about
+	n|fruit-PL det:poss|my adj|favorite n|fruit cop|be&3S det:art|a
+	n|strawberry .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|5|POBJ 7|9|DET 8|9|MOD
+	9|10|SUBJ 10|6|CMOD 11|12|DET 12|10|PRED 13|4|PUNCT
+*GIL:	mine is a mango . 1378652_1382658
+%mor:	n|mine cop|be&3S det:art|a n|mango .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
+*CHA:	mango ? 1382650_1384310
+%mor:	n|mango ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	<oh that's a> [///] I love mango smoothies . 1384304_1386377
+%mor:	pro:sub|I n|love n|mango n|smooth&dadj-DIM-PL .
+%gra:	1|2|SUBJ 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*CHA:	&-um (.) &=laughs mango smoothies . 1386356_1390072
+%mor:	n|mango n|smooth&dadj-DIM-PL .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*CHA:	&=laughs you know what's funny &=laughs ? 1390052_1392118
+%mor:	pro:per|you v|know pro:int|what~cop|be&3S adj|fun&dn-Y ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|PRED 6|2|PUNCT
+*GIL:	what ? 1392107_1392571
+%mor:	pro:int|what ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	remember when we were in the car ? 1392550_1394379
+%mor:	v|remember conj|when pro:sub|we cop|be&PAST prep|in det:art|the
+	n|car ?
+%gra:	1|0|ROOT 2|4|LINK 3|4|SUBJ 4|1|CJCT 5|4|JCT 6|7|DET 7|5|POBJ 8|1|PUNCT
+*CHA:	and we were with Francesca talking Spanish . 1394367_1397084
+%mor:	coord|and pro:sub|we aux|be&PAST prep|with n:prop|Francesca
+	part|talk-PRESP n:prop|Spanish .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|3|NJCT 5|4|POBJ 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*CHA:	and your grandma says +"/. 1397070_1398852
+%mor:	coord|and det:poss|your grand#n|ma v|say-3S +"/.
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	+" stop screaming ! 1398841_1403400
+%mor:	n|stop part|scream-PRESP !
+%gra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
+*GIL:	+" because you're gonna disconcentrate me . 1403379_1405800
+%mor:	conj|because pro:per|you~aux|be&PRES part|go-PRESP~inf|to
+	dis#v|concentrate pro:obj|me .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|4|PUNCT
+*GIL:	+" and I'm gonna think that we're gonna crash . 1405713_1407037
+%mor:	coord|and pro:sub|I~aux|be&1S part|go-PRESP~inf|to v|think
+	comp|that pro:sub|we~aux|be&PRES part|go-PRESP~prep|to n|crash .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|10|LINK 8|10|SUBJ
+	9|10|AUX 10|6|COMP 11|10|JCT 12|11|POBJ 13|4|PUNCT
+*GIL:	and all of a sudden she starts screaming louder than us . 1407032_1410382
+%mor:	coord|and pro:indef|all prep|of det:art|a adj|sudden pro:sub|she
+	v|start-3S part|scream-PRESP adj|loud-CP prep|than pro:obj|us .
+%gra:	1|7|LINK 2|7|JCT 3|2|NJCT 4|5|DET 5|3|POBJ 6|7|SUBJ 7|0|ROOT 8|7|COMP
+	9|8|POSTMOD 10|9|JCT 11|10|POBJ 12|7|PUNCT
+*CHA:	I know . 1410374_1411349
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	and then we're thinking oh my gosh . 1410635_1412794
+%mor:	coord|and adv:tem|then pro:sub|we~aux|be&PRES part|think-PRESP
+	co|oh det:poss|my co|gosh .
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|8|COM 7|8|DET 8|5|OBJ
+	9|5|PUNCT
+*GIL:	how could she be disconcentrated <when she's scream(ing) &~w with
+	us> [//] when she's screaming even louder than us ? 1412784_1418817
+%mor:	pro:int|how mod|could pro:sub|she aux|be dis#part|concentrate-PASTP
+	conj|when pro:sub|she~aux|be&3S part|scream-PRESP adv|even
+	adj|loud-CP prep|than pro:obj|us ?
+%gra:	1|5|LINK 2|5|AUX 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|9|LINK 7|9|SUBJ 8|9|AUX
+	9|5|CJCT 10|11|JCT 11|9|JCT 12|11|JCT 13|12|POBJ 14|5|PUNCT
+*CHA:	well sometimes xxx &=laughs . 1418797_1421612
+%mor:	adv|well adv|sometimes .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*CHA:	she's very nervous . 1421590_1423360
+%mor:	pro:sub|she~cop|be&3S adv|very adj|nervous .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	she's very funny person . 1423340_1424809
+%mor:	pro:sub|she~cop|be&3S adv|very adj|fun&dn-Y n|person .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|5|MOD 5|2|PRED 6|2|PUNCT
+*GIL:	+< yeah . 1423491_1424106
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] muy muy chistosa . 1424791_1426399
+%mor:	adv|muy=very adv|muy=very adj|chistoso-FEM=amusing .
+%eng:	really funny .
+*GIL:	+< yeah . 1425180_1425790
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	&-um during the easter egg hunt at my school the last day before
+	spring break +... 1426379_1430802
+%mor:	prep|during det:art|the adj|east-CP n|egg n|hunt prep|at
+	det:poss|my n|school det:art|the adj|last n|day prep|before n|spring
+	n|break +...
+%gra:	1|14|JCT 2|5|DET 3|5|MOD 4|5|MOD 5|1|POBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|11|DET 10|11|MOD 11|14|MOD 12|11|NJCT 13|12|POBJ 14|0|INCROOT 15|14|PUNCT
+*CHA:	m:hm . 1430221_1430721
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	+, you know &-um we [//] this kid found an &~e egg with money in it .
+	1430712_1435096
+%mor:	pro:per|you v|know det:dem|this n|kid v|find&PAST det:art|a n|egg
+	prep|with n|money prep|in pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|5|SUBJ 5|2|COMP 6|7|DET 7|5|OBJ 8|7|NJCT
+	9|8|POBJ 10|9|NJCT 11|10|POBJ 12|2|PUNCT
+*GIL:	and then this [//] he yelled +". 1435285_1436980
+%mor:	coord|and adv:tem|then pro:sub|he v|yell-PAST +".
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*GIL:	+" money in the bank ! 1436968_1438530
+%mor:	n|money prep|in det:art|the n|bank !
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*CHA:	oh my gosh . 1438498_1440657
+%mor:	co|oh det:poss|my co|gosh .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
+*CHA:	kids are really funny in your school (.) really funny in your
+	school . 1440651_1445020
+%mor:	n|kid-PL cop|be&PRES adv|real&dadj-LY adj|fun&dn-Y prep|in
+	det:poss|your n|school adv|real&dadj-LY adj|fun&dn-Y prep|in
+	det:poss|your n|school .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|JCT 6|7|DET 7|5|POBJ 8|9|JCT
+	9|2|PRED 10|9|JCT 11|12|DET 12|10|POBJ 13|2|PUNCT
+*CHA:	hablando@s de@s tu@s colegio@s (.) tu@s colegio@s is really big and
+	really outdoors . 1444991_1451374
+%mor:	L2|hablando L2|de L2|tu L2|colegio L2|tu L2|colegio aux|be&3S
+	adv|real&dadj-LY adj|big coord|and adv|real&dadj-LY adv|outdoors .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|9|AUX
+	8|9|JCT 9|6|COORD 10|9|CONJ 11|12|JCT 12|10|COORD 13|1|PUNCT
+%eng:	speaking of your school, your school is really big and really
+	outdoors .
+*CHA:	and <it's very> [/] it's very exposed to the outdoors . 1451365_1456586
+%mor:	coord|and pro:per|it~aux|be&3S adv|very part|expose-PASTP prep|to
+	det:art|the n|outdoors .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|JCT 5|0|ROOT 6|5|JCT 7|8|DET 8|6|POBJ
+	9|5|PUNCT
+*GIL:	I know . 1456566_1457176
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	you know the second floor when you're heading to the library and
+	the fifth grade hallway and the administrated office ? 1457164_1463958
+%mor:	pro:per|you v|know det:art|the adj|second n|floor conj|when
+	pro:per|you~cop|be&PRES n|heading prep|to det:art|the n|library
+	coord|and det:art|the adj|fifth n|grade n|+n|hall+n|way coord|and
+	det:art|the part|administrate-PASTP n|office ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|8|LINK 7|8|SUBJ 8|2|CJCT
+	9|8|PRED 10|9|NJCT 11|12|DET 12|10|POBJ 13|8|CONJ 14|17|DET 15|17|MOD
+	16|17|MOD 17|13|COORD 18|17|CONJ 19|21|DET 20|21|MOD 21|18|COORD 22|2|PUNCT
+%com:	GIL uses administrated instead of administrative
+*CHA:	+< yes . 1461927_1463209
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	yes . 1463937_1464430
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	there's like this pretty balcony that shows like (.) trees and like
+	a lot of pretty stuff you know . 1464419_1472080
+%mor:	pro:exist|there~cop|be&3S prep|like pro:dem|this adj|pretty
+	n|balcony adv|that n|show-PL prep|like n|tree-PL coord|and co|like
+	det:art|a n|lot prep|of adj|pretty n|stuff pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|DET 5|6|MOD 6|3|POBJ 7|6|NJCT 8|7|POBJ
+	9|8|NJCT 10|9|POBJ 11|8|CONJ 12|14|COM 13|14|DET 14|11|COORD 15|14|NJCT
+	16|17|MOD 17|15|POBJ 18|19|SUBJ 19|14|CMOD 20|2|PUNCT
+*CHA:	+< yes it [/] it let's you go outside you know I'm guessing to
+	breathe fresh air . 1471621_1475879
+%mor:	co|yes pro:per|it v|let~pro:obj|us pro:per|you v|go adv|outside
+	pro:per|you v|know pro:sub|I~aux|be&1S part|guess-PRESP inf|to
+	v|breathe adj|fresh n|air .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|SUBJ 6|3|COMP 7|6|JCT 8|9|SUBJ
+	9|6|CJCT 10|12|SUBJ 11|12|AUX 12|9|COMP 13|14|INF 14|12|COMP 15|16|MOD
+	16|14|OBJ 17|3|PUNCT
+*CHA:	&-um your school +... 1475862_1478106
+%mor:	det:poss|your n|school +...
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*GIL:	what's your favorite holiday ? 1478100_1480219
+%mor:	pro:int|what~cop|be&3S det:poss|your adj|favorite n|holiday ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
+*CHA:	Christmas of course Christmas Navidad@s . 1480206_1483439
+%mor:	n:prop|Christmas prep|of n|course n:prop|Christmas L2|Navidad .
+%gra:	1|4|SUBJ 2|1|NJCT 3|2|POBJ 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+%eng:	Christmas, of course, Christmas, Christmas .
+*CHA:	pero@s I prefer Christmas in Colombia . 1483435_1487151
+%mor:	L2|pero pro:sub|I v|prefer n:prop|Christmas prep|in n:prop|Colombia
+	.
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|PUNCT
+%eng:	but I prefer Christmas in Colombia .
+*CHA:	very exciting . 1487148_1490503
+%mor:	adv|very part|excite-PRESP .
+%gra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*CHA:	very exciting . 1490482_1491783
+%mor:	adv|very part|excite-PRESP .
+%gra:	1|2|JCT 2|0|ROOT 3|2|PUNCT
+*CHA:	what about you ? 1491765_1492839
+%mor:	pro:int|what adv|about pro:per|you ?
+%gra:	1|3|LINK 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*GIL:	&-um (..) I don't know . 1492839_1495210
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
+*GIL:	easter and Christmas get like all tied up . 1495189_1498904
+%mor:	adj|east-CP coord|and n:prop|Christmas v|get prep|like adv|all
+	part|tie-PASTP adv|up .
+%gra:	1|4|MOD 2|1|CONJ 3|2|COORD 4|0|ROOT 5|4|JCT 6|7|JCT 7|5|POBJ 8|7|JCT
+	9|4|PUNCT
+*GIL:	I'm not really sure which one is like the best . 1498898_1500826
+%mor:	pro:sub|I~cop|be&1S neg|not adv|real&dadj-LY v|sure pro:int|which
+	pro:indef|one cop|be&3S co|like det:art|the adj|good&SP .
+%gra:	1|2|SUBJ 2|5|SUBJ 3|2|NEG 4|5|JCT 5|0|ROOT 6|8|LINK 7|8|SUBJ 8|5|COMP
+	9|11|COM 10|11|DET 11|8|PRED 12|5|PUNCT
+*GIL:	because you know Jesus was born on Christmas . 1500812_1505313
+%mor:	conj|because pro:per|you v|know n:prop|Jesus cop|be&PAST&13S
+	adj|born prep|on n:prop|Christmas .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|PRED 7|5|JCT 8|7|POBJ
+	9|3|PUNCT
+*GIL:	and he died on easter . 1505301_1507826
+%mor:	coord|and pro:sub|he v|die-PAST adv|on adj|east-CP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|JCT 6|3|PUNCT
+*CHA:	yes he did . 1507923_1509037
+%mor:	co|yes pro:sub|he v|do&PAST .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*GIL:	he had about thirty five years to live I think . 1508707_1511917
+%mor:	pro:sub|he v|have&PAST prep|about det:num|thirty det:num|five
+	n|year-PL inf|to adj|live pro:sub|I v|think .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|6|QUANT 5|6|QUANT 6|3|POBJ 7|8|INF 8|6|XMOD
+	9|10|SUBJ 10|8|CMOD 11|2|PUNCT
+*CHA:	thirty three . 1511913_1513457
+%mor:	det:num|thirty det:num|three .
+%gra:	1|2|QUANT 2|0|INCROOT 3|2|PUNCT
+*CHA:	[- spa] treinta y tres años . 1513454_1514905
+%mor:	det:num|treinta=thirty coord|y=and det:num|tres=three
+	n|año&m-PL=year .
+%eng:	thirty-three years .
+*GIL:	he started his ministry at thirty and ended at thirty three . 1514766_1518895
+%mor:	pro:sub|he v|start-PAST det:poss|his n|ministry prep|at
+	det:num|thirty coord|and v|end-PAST prep|at det:num|thirty
+	det:num|three .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|2|CONJ 8|7|COORD
+	9|8|JCT 10|11|QUANT 11|9|POBJ 12|2|PUNCT
+*CHA:	I know . 1518885_1519796
+%mor:	pro:sub|I v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*CHA:	well we've talked <a lot &~ab> [/] a lot about you know our thoughts
+	and our family . 1519791_1527516
+%mor:	co|well pro:sub|we~aux|have part|talk-PASTP det:art|a n|lot
+	prep|about pro:per|you v|know det:poss|our n|thought-PL coord|and
+	det:poss|our n|family .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|9|JCT 8|9|SUBJ
+	9|4|CJCT 10|11|DET 11|9|OBJ 12|11|CONJ 13|14|DET 14|12|COORD 15|4|PUNCT
+*CHA:	so +... 1527512_1530177
+%mor:	co|so +...
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	yes +... 1532147_1536027
+%mor:	co|yes +...
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	so &-um what's your favorite cartoon ? 1536019_1538956
+%mor:	adv|so pro:int|what~cop|be&3S det:poss|your adj|favorite n|cartoon
+	?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*CHA:	&=gasp you know who I love ? 1538950_1541551
+%mor:	pro:per|you v|know pro:int|who pro:sub|I v|love ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|2|PUNCT
+*CHA:	I love the Rug_Rats . 1541531_1544532
+%mor:	pro:sub|I v|love det:art|the n:prop|Rug_Rats .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHA:	they are so cute . 1544500_1547083
+%mor:	pro:sub|they cop|be&PRES adv|so adj|cute .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	[- spa] son tan lindos . 1547089_1549068
+%mor:	cop|se-3P&PRES=be adv|tan=such adj|lindo-MASC-PL=pretty .
+%eng:	they're so cute .
+*GIL:	I like Fairly_Odd_Parents . 1549048_1551997
+%mor:	pro:sub|I v|like n:prop|Fairly_Odd_Parents .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHA:	magical fairies ? 1551977_1553875
+%mor:	adj|magic&dn-AL n|fairy-PL ?
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*GIL:	yes . 1553869_1554374
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	I like them too . 1554357_1556836
+%mor:	pro:sub|I v|like pro:obj|them adv|too .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
+*GIL:	they just came out with a new episode . 1556816_1559155
+%mor:	pro:sub|they adv|just v|come&PAST adv|out prep|with det:art|a
+	adj|new n|episode .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|JCT 5|3|JCT 6|8|DET 7|8|MOD 8|5|POBJ
+	9|3|PUNCT
+*CHA:	oh yeah their baby is so cute so round . 1559140_1563482
+%mor:	co|oh co|yeah det:poss|their n|baby cop|be&3S adv|so adj|cute
+	adv|so adv|round .
+%gra:	1|5|COM 2|4|COM 3|4|DET 4|5|SUBJ 5|0|ROOT 6|7|JCT 7|5|PRED 8|9|JCT
+	9|5|JCT 10|5|PUNCT
+*GIL:	yeah round . 1563467_1565179
+%mor:	co|yeah n|round .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*GIL:	so what's [//] who's your favorite author ? 1565176_1568618
+%mor:	adv|so pro:rel|who~cop|be&3S det:poss|your n|favorite n|author ?
+%gra:	1|3|JCT 2|3|LINK 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*CHA:	I like Judy Bloom . 1568603_1571366
+%mor:	pro:sub|I v|like n:prop|Judy n:prop|Bloom .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|NAME 4|2|OBJ 5|2|PUNCT
+*CHA:	I love her books . 1571369_1574213
+%mor:	pro:sub|I v|love det:poss|her n|book-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
+*CHA:	[- spa] yo amo sus libros . 1574192_1576177
+%mor:	pro:sub|yo=I v|ama-1S&PRES=love co|sus adj|libre-MASC-PL=free .
+%eng:	I love her books .
+*CHA:	[- spa] pero me gustaría que ella escribiera más libros en español
+	para yo puedo practicar mi español . 1576162_1582492
+%mor:	conj|pero=but pro:obj|me=me v|gusta-13S&COND=like pro:rel|que=that
+	pro:sub|ella=she v|escribi-13S&SUB&PAS=write adv|más=more
+	adj|libre-MASC-PL=free prep|en=in adj|español=Spanish
+	imp|para-2S&IMP=stop pro:sub|yo=I v|pode-1S&PRES=can
+	inf|practica-INF=practise det:pos|mi=my adj|español=Spanish .
+%eng:	but I would like her to write more books in Spanish so that I can
+	practice my Spanish .
+*CHA:	what about you ? 1582465_1584282
+%mor:	pro:int|what adv|about pro:per|you ?
+%gra:	1|3|LINK 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*GIL:	Mark Twain . 1584259_1585797
+%mor:	n:prop|Mark n:prop|Twain .
+%gra:	1|2|NAME 2|0|INCROOT 3|2|PUNCT
+*CHA:	tell me about his books . 1585777_1587350
+%mor:	v|tell pro:obj|me prep|about det:poss|his n|book-PL .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*CHA:	tell me about his books . 1587321_1588697
+%mor:	v|tell pro:obj|me prep|about det:poss|his n|book-PL .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|5|DET 5|3|POBJ 6|1|PUNCT
+*GIL:	he made a book about Tom Sawyer . 1588691_1592630
+%mor:	pro:sub|he v|make&PAST det:art|a n|book prep|about n:prop|Tom
+	n:prop|Sawyer .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|JCT 6|7|NAME 7|5|POBJ 8|2|PUNCT
+*CHA:	m:hm . 1592620_1593624
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	it's very good . 1593618_1594669
+%mor:	pro:per|it~cop|be&3S adv|very adj|good .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	very good ? 1594663_1595162
+%mor:	adv|very adj|good ?
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*CHA:	why don't you tell me about the book ? 1595150_1596584
+%mor:	pro:int|why mod|do~neg|not pro:per|you v|tell pro:obj|me prep|about
+	det:art|the n|book ?
+%gra:	1|5|LINK 2|5|AUX 3|2|NEG 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|JCT 8|9|DET
+	9|7|POBJ 10|5|PUNCT
+*GIL:	yeah &-um you know he [//] &~i it's about this kid who always tricks
+	people into doing stuff for him . 1596577_1606765
+%mor:	co|yeah pro:per|you v|know pro:per|it~cop|be&3S prep|about
+	det:dem|this n|kid pro:rel|who adv|always v|trick-3S n|person&PL
+	prep|into n:gerund|do-PRESP n|stuff prep|for pro:obj|him .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|JCT 7|8|DET 8|6|POBJ
+	9|11|LINK 10|11|JCT 11|8|CMOD 12|11|OBJ 13|5|JCT 14|13|POBJ 15|14|OBJ
+	16|15|NJCT 17|16|POBJ 18|3|PUNCT
+*CHA:	uhuh . 1606748_1607398
+%mor:	co|uhuh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	you know yeah . 1607387_1608536
+%mor:	pro:per|you v|know co|yeah .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
+*CHA:	that's awesome . 1608509_1610819
+%mor:	pro:dem|that~cop|be&3S adj|awesome .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*CHA:	well +/. 1610799_1611356
+%mor:	co|well +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	but you know his real name is Samuel &~t Clemens ? 1611338_1614531
+%mor:	conj|but pro:per|you v|know det:poss|his adj|real n|name cop|be&3S
+	n:prop|Samuel n:prop|Clemens ?
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|7|SUBJ 7|3|COMP 8|9|NAME
+	9|7|PRED 10|3|PUNCT
+*CHA:	Samuel Clemens ? 1614505_1615689
+%mor:	n:prop|Samuel n:prop|Clemens ?
+%gra:	1|2|NAME 2|0|INCROOT 3|2|PUNCT
+*GIL:	yeah . 1615685_1616329
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	+< wow . 1615685_1616329
+%mor:	co|wow .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	he got out from Mark Twain because he used to &-um work as someone
+	who helped like xxx and stuff . 1616318_1623686
+%mor:	pro:sub|he v|get&PAST adv|out prep|from n:prop|Mark n:prop|Twain
+	conj|because pro:sub|he v|use-PAST inf|to v|work prep|as
+	pro:indef|someone pro:rel|who part|help-PASTP co|like coord|and
+	n|stuff .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|4|POBJ 6|4|POBJ 7|9|LINK 8|9|SUBJ
+	9|2|CJCT 10|11|INF 11|9|COMP 12|11|JCT 13|12|POBJ 14|15|LINK 15|13|CMOD
+	16|15|COM 17|15|CONJ 18|17|COORD 19|2|PUNCT
+*CHA:	[- spa] sí ? 1623689_1624078
+%mor:	co|sí=yes ?
+%eng:	yes ?
+*GIL:	and then they shouted out +". 1623823_1625576
+%mor:	coord|and adv:tem|then pro:sub|they v|shout-PAST adv|out +".
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|PUNCT
+*GIL:	+" Mark Twain ! 1625559_1626453
+%mor:	n:prop|Mark n:prop|Twain !
+%gra:	1|2|NAME 2|0|INCROOT 3|2|PUNCT
+*GIL:	so he thought that was a very interesting new name . 1626443_1628411
+%mor:	co|so pro:sub|he v|think&PAST adv|that cop|be&PAST&13S det:art|a
+	adv|very adj|interesting adj|new n|name .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|COMP 6|10|DET 7|8|JCT 8|10|MOD
+	9|10|MOD 10|5|PRED 11|3|PUNCT
+*GIL:	so he named himself Mark Twain . 1628400_1630623
+%mor:	co|so pro:sub|he v|name-PAST pro:refl|himself n:prop|Mark
+	n:prop|Twain .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|NAME 5|6|NAME 6|3|OBJ 7|3|PUNCT
+*CHA:	wow a very [//] actually very interesting &-um story . 1630608_1634796
+%mor:	co|wow det:art|a adv|actual&dadj-LY adv|very adj|interesting
+	n|story .
+%gra:	1|6|COM 2|6|DET 3|5|JCT 4|5|JCT 5|6|MOD 6|0|INCROOT 7|6|PUNCT
+*CHA:	let me tell you a very funny story about our presidents . 1634796_1637815
+%mor:	v|let&ZERO pro:obj|me v|tell pro:per|you det:art|a adv|very
+	adj|fun&dn-Y n|story prep|about det:poss|our n|president-PL .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|OBJ2 5|8|DET 6|7|JCT 7|8|MOD 8|3|OBJ
+	9|8|NJCT 10|11|DET 11|9|POBJ 12|1|PUNCT
+*CHA:	you know <in our> [///] &-uh when the Indians used to see pictures
+	of George Washington they would see the pictures of waist up . 1637782_1647837
+%mor:	pro:per|you v|know conj|when det:art|the n:prop|Indians v|use-PAST
+	inf|to v|see n|picture-PL prep|of n:prop|George n:prop|Washington
+	pro:sub|they mod|will&COND v|see det:art|the n|picture-PL prep|of
+	n|waist adv|up .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|5|DET 5|6|SUBJ 6|15|CJCT 7|8|INF 8|6|COMP
+	9|8|OBJ 10|9|NJCT 11|12|NAME 12|10|POBJ 13|15|SUBJ 14|15|AUX 15|2|COMP
+	16|17|DET 17|15|OBJ 18|17|NJCT 19|18|POBJ 20|15|JCT 21|2|PUNCT
+*GIL:	I know and like I heard this story before . 1647828_1650487
+%mor:	pro:sub|I v|know coord|and co|like pro:sub|I v|hear&PAST
+	det:dem|this n|story adv|before .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|LINK 4|6|COM 5|6|SUBJ 6|2|COMP 7|8|DET 8|6|OBJ
+	9|6|JCT 10|2|PUNCT
+*GIL:	they didn't know how tall he was . 1650464_1652025
+%mor:	pro:sub|they mod|do&PAST~neg|not v|know pro:int|how adj|tall
+	pro:sub|he cop|be&PAST&13S .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|JCT 6|8|PRED 7|8|SUBJ 8|4|COMP
+	9|4|PUNCT
+*GIL:	so they just added feet . 1652010_1654123
+%mor:	co|so pro:sub|they adv|just part|add-PASTP n|foot&PL .
+%gra:	1|4|COM 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHA:	I know so when they were gonna make the statue he was just this
+	little mini guy muy@s muy@s chiquito@s como@s una@s enanito@s . 1654108_1661280
+%mor:	pro:sub|I v|know co|so conj|when pro:sub|they aux|be&PAST
+	part|go-PRESP~inf|to v|make det:art|the n|statue pro:sub|he
+	cop|be&PAST&13S adv|just det:dem|this adj|little adj|mini n|guy
+	L2|muy L2|muy L2|chiquito L2|como L2|una L2|enanito .
+%gra:	1|2|SUBJ 2|0|ROOT 3|7|COM 4|7|LINK 5|7|SUBJ 6|7|AUX 7|2|COMP 8|9|INF
+	9|7|COMP 10|11|DET 11|9|OBJ 12|13|SUBJ 13|11|CMOD 14|18|JCT 15|18|DET
+	16|18|MOD 17|18|MOD 18|13|PRED 19|18|CONJ 20|19|COORD 21|20|CONJ 22|21|COORD
+	23|22|CONJ 24|23|COORD 25|2|PUNCT
+%eng:	I know, so when they were gonna make the statue he was just this
+	little mini guy, really small like a dwarf .
+*CHA:	he was so &~sm little . 1661271_1663554
+%mor:	pro:sub|he cop|be&PAST&13S adv|so adj|little .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
+*CHA:	it was funny you know . 1663542_1664970
+%mor:	pro:per|it cop|be&PAST&13S adj|fun&dn-Y pro:per|you v|know .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|5|SUBJ 5|2|CJCT 6|2|PUNCT
+*CHA:	I learned about that in a book (.) in [/] in my social studies
+	class . 1664950_1669576
+%mor:	pro:sub|I v|learn-PAST prep|about pro:dem|that prep|in det:art|a
+	n|book prep|in det:poss|my n|social v|study-3S n|class .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|2|JCT
+	9|10|DET 10|8|POBJ 11|2|ENUM 12|11|OBJ 13|2|PUNCT
+*GIL:	what month were you born ? 1669556_1671367
+%mor:	pro:int|what n|month cop|be&PAST pro:per|you adj|born ?
+%gra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|OM 6|3|PUNCT
+*CHA:	February (.) as I &-uh previously told you . 1672199_1675903
+%mor:	n:prop|February conj|as pro:sub|I adv|previous&dadj-LY v|tell&PAST
+	pro:per|you .
+%gra:	1|0|INCROOT 2|5|LINK 3|5|SUBJ 4|5|JCT 5|1|CJCT 6|5|OBJ 7|1|PUNCT
+*GIL:	+< cool . 1672315_1672739
+%mor:	adj|cool .
+%gra:	1|0|INCROOT 2|1|PUNCT
+%com:	long pause
+*CHA:	February . 1677944_1678768
+%mor:	n:prop|February .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	yeah . 1678745_1679569
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	so &-um (.) you're visiting here in Florida right now . 1679567_1684770
+%mor:	adv|so pro:per|you~aux|be&PRES part|visit-PRESP adv|here prep|in
+	n:prop|Florida adv|right adv|now .
+%gra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|JCT 7|6|POBJ 8|9|JCT
+	9|4|JCT 10|4|PUNCT
+*GIL:	so your family's up in New_jersey . 1684755_1687587
+%mor:	co|so det:poss|your n|family~cop|be&3S adv|up prep|in
+	n:prop|New_jersey .
+%gra:	1|4|COM 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|4|JCT 7|6|POBJ 8|4|PUNCT
+*CHA:	yes they are in New_jersey . 1687567_1689605
+%mor:	co|yes pro:sub|they cop|be&PRES prep|in n:prop|New_jersey .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
+*CHA:	my mom and her husband and my sister are there . 1689600_1692578
+%mor:	det:poss|my n|mom coord|and det:poss|her n|husband coord|and
+	det:poss|my n|sister cop|be&PRES adv|there .
+%gra:	1|2|DET 2|9|SUBJ 3|2|CONJ 4|5|DET 5|3|COORD 6|2|CONJ 7|8|DET 8|6|COORD
+	9|0|ROOT 10|9|JCT 11|9|PUNCT
+*CHA:	well I love spending time with you guys you know . 1692563_1696446
+%mor:	co|well pro:sub|I v|love part|spend-PRESP n|time prep|with
+	pro:per|you n|guy-PL pro:per|you v|know .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|10|XJCT 5|4|OBJ 6|4|JCT 7|8|SUBJ 8|6|POBJ
+	9|10|SUBJ 10|3|COMP 11|3|PUNCT
+*CHA:	me@s fascina@s estar@s contigo@s y@s con@s mi@s tía@s with George
+	and uncle dad . 1696438_1702135
+%mor:	L2|me L2|fascina L2|estar L2|contigo L2|y L2|con L2|mi L2|tía
+	prep|with n:prop|George coord|and n|uncle n|dad .
+%gra:	1|0|INCROOT 2|1|COBJ 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|8|JCT 10|9|POBJ 11|10|CONJ 12|13|MOD 13|11|COORD 14|1|PUNCT
+%eng:	it's fascinating to be with you and with my aunt, with George and
+	Uncle Dad .
+*GIL:	yeah so just like to wrap it all up (.) because we don't have much
+	time left . 1702130_1707495
+%mor:	co|yeah adv|so adj|just co|like inf|to v|wrap pro:per|it adv|all
+	adv|up conj|because pro:sub|we mod|do~neg|not v|have adv|much n|time
+	v|leave&PAST .
+%gra:	1|6|COM 2|3|JCT 3|6|JCT 4|3|COM 5|6|INF 6|0|ROOT 7|6|OBJ 8|9|JCT
+	9|6|JCT 10|14|LINK 11|14|SUBJ 12|14|AUX 13|12|NEG 14|6|CJCT 15|17|JCT
+	16|17|SUBJ 17|14|COMP 18|6|PUNCT
+*GIL:	&-um let's see . 1707486_1709425
+%mor:	v|let~pro:obj|us v|see .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*GIL:	what is +//. 1709416_1711076
+%mor:	pro:int|what cop|be&3S +//.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
+*GIL:	just honestly what is your favorite &-um +... 1711071_1715804
+%mor:	adv|just adv|honest&dadj-LY pro:int|what cop|be&3S det:poss|your
+	n|favorite +...
+%gra:	1|2|JCT 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
+*GIL:	let's see . 1715804_1716309
+%mor:	v|let~pro:obj|us v|see .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
+*GIL:	what is there ? 1716288_1717756
+%mor:	pro:int|what cop|be&3S adv|there ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*CHA:	well why don't we talk about this . 1717742_1719199
+%mor:	co|well pro:int|why mod|do~neg|not pro:sub|we v|talk prep|about
+	pro:dem|this .
+%gra:	1|6|COM 2|6|JCT 3|6|AUX 4|3|NEG 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|7|POBJ
+	9|6|PUNCT
+*CHA:	let me put a conversation . 1719187_1720668
+%mor:	v|let&ZERO pro:obj|me v|put&ZERO det:art|a n|converse&dv-ATION .
+%gra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|OBJ 6|1|PUNCT
+*CHA:	what are your main priorities to accomplish in life ? 1720641_1724420
+%mor:	pro:int|what cop|be&PRES det:poss|your adj|main n|priority-PL
+	inf|to v|accomplish prep|in n|life ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|7|INF 7|5|XMOD 8|7|JCT
+	9|8|POBJ 10|2|PUNCT
+*GIL:	+< goal ? 1723654_1724269
+%mor:	n|goal ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	yes . 1724408_1724791
+%mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	your goal for your life . 1724788_1726767
+%mor:	det:poss|your n|goal prep|for det:poss|your n|life .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|5|DET 5|3|POBJ 6|2|PUNCT
+*GIL:	I'm not sure . 1726752_1727901
+%mor:	pro:sub|I~cop|be&1S neg|not adj|sure .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|NEG 4|2|PRED 5|2|PUNCT
+*GIL:	I'm just gonna wait and see what I need to do when I grow up . 1727884_1731618
+%mor:	pro:sub|I~aux|be&1S adv|just part|go-PRESP~inf|to v|wait coord|and
+	v|see pro:int|what pro:sub|I v|need inf|to v|do conj|when pro:sub|I
+	v|grow adv|up .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|6|INF 6|4|COMP 7|6|CONJ 8|7|COORD
+	9|11|LINK 10|11|SUBJ 11|8|COMP 12|13|INF 13|11|COMP 14|16|LINK 15|16|SUBJ
+	16|4|CJCT 17|16|JCT 18|4|PUNCT
+*GIL:	right now I'm just getting the grades (.) doing good (.) doing my
+	best (.) and trying hard . 1731607_1739526
+%mor:	adv|right adv|now pro:sub|I~aux|be&1S adv|just part|get-PRESP
+	det:art|the n|grade-PL part|do-PRESP adj|good n:gerund|do-PRESP
+	det:poss|my adj|good&SP coord|and part|try-PRESP adv|hard .
+%gra:	1|2|JCT 2|6|JCT 3|6|SUBJ 4|6|AUX 5|6|JCT 6|0|ROOT 7|8|DET 8|6|OBJ
+	9|8|XMOD 10|11|MOD 11|9|COMP 12|13|DET 13|11|OBJ 14|13|CONJ 15|14|COORD
+	16|15|JCT 17|6|PUNCT
+*GIL:	and when I grow up I'll see what attracts to me . 1739520_1741848
+%mor:	coord|and conj|when pro:sub|I v|grow adv|up pro:sub|I~mod|will
+	v|see pro:int|what v|attract-3S prep|to pro:obj|me .
+%gra:	1|8|LINK 2|4|LINK 3|4|SUBJ 4|8|CJCT 5|4|JCT 6|8|SUBJ 7|8|AUX 8|0|ROOT
+	9|10|SUBJ 10|8|COMP 11|10|JCT 12|11|POBJ 13|8|PUNCT
+*GIL:	I'm just +... 1741836_1742832
+%mor:	pro:sub|I~cop|be&1S adv|just +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
+*GIL:	you know people they do like gymnastics or something . 1742820_1745334
+%mor:	pro:per|you v|know n|person&PL pro:sub|they v|do prep|like
+	n:pt|gymnastics coord|or pro:indef|something .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|5|SUBJ 5|2|COMP 6|5|JCT 7|6|POBJ 8|7|CONJ
+	9|8|COORD 10|2|PUNCT
+*GIL:	they stick to it . 1745319_1746044
+%mor:	pro:sub|they v|stick prep|to pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
+*GIL:	<I didn't> [///] if I don't like it I don't do it . 1746021_1748128
+%mor:	conj|if pro:sub|I mod|do~neg|not v|like pro:per|it pro:sub|I
+	mod|do~neg|not v|do pro:per|it .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|10|CJCT 6|5|OBJ 7|10|SUBJ 8|10|AUX
+	9|8|NEG 10|0|ROOT 11|10|OBJ 12|10|PUNCT
+*GIL:	I'm just waiting to (.) see what I like . 1748111_1752723
+%mor:	pro:sub|I~aux|be&1S adv|just part|wait-PRESP inf|to v|see
+	pro:int|what pro:sub|I co|like .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|6|INF 6|4|COMP 7|9|LINK 8|9|SUBJ
+	9|6|COMP 10|4|PUNCT
+*CHA:	oh very interesting . 1752713_1755628
+%mor:	co|oh adv|very adj|interesting .
+%gra:	1|3|COM 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*GIL:	how about you ? 1755614_1758220
+%mor:	pro:int|how adv|about pro:per|you ?
+%gra:	1|3|LINK 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*CHA:	well (.) my goals in life are to get involved with international
+	businesses . 1758209_1764324
+%mor:	co|well det:poss|my n|goal-PL prep|in n|life cop|be&PRES inf|to
+	aux|get part|involve-PASTP prep|with n|international n|business-PL .
+%gra:	1|6|COM 2|3|DET 3|6|SUBJ 4|3|NJCT 5|4|POBJ 6|0|ROOT 7|9|INF 8|9|AUX
+	9|6|COMP 10|9|JCT 11|12|MOD 12|10|POBJ 13|6|PUNCT
+*CHA:	I would like to learn about you know businesses in all the
+	countries . 1764310_1769061
+%mor:	pro:sub|I mod|will&COND v|like inf|to v|learn prep|about
+	pro:per|you v|know n|business-PL prep|in qn|all det:art|the
+	n|country-PL .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|8|JCT 7|8|SUBJ 8|5|COMP
+	9|8|OBJ 10|8|JCT 11|13|QUANT 12|13|DET 13|10|POBJ 14|3|PUNCT
+*GIL:	lawyer ? 1769044_1770338
+%mor:	n|lawyer ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	yeah a lawyer too . 1770317_1771728
+%mor:	co|yeah det:art|a n|lawyer post|too .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|POSTMOD 5|3|PUNCT
+*CHA:	but ah [/] (.) but you know international business I can talk
+	Spanish with people . 1771710_1777375
+%mor:	conj|but conj|but pro:per|you v|know n|international n|business
+	pro:sub|I mod|can v|talk n:prop|Spanish prep|with n|person&PL .
+%gra:	1|9|LINK 2|4|LINK 3|4|SUBJ 4|9|CJCT 5|6|MOD 6|4|OBJ 7|9|SUBJ 8|9|AUX
+	9|0|ROOT 10|9|OBJ 11|9|JCT 12|11|POBJ 13|9|PUNCT
+*CHA:	hablar@s español@s or different types of languages . 1777323_1780494
+%mor:	L2|hablar L2|español coord|or adj|different n|type-PL prep|of
+	n|language-PL .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|CONJ 4|5|MOD 5|3|COORD 6|5|NJCT 7|6|POBJ
+	8|1|PUNCT
+%eng:	to speak Spanish or different types of languages .
+*CHA:	get to travel around . 1780478_1782783
+%mor:	v|get inf|to v|travel adv|around .
+%gra:	1|0|ROOT 2|3|INF 3|1|COMP 4|3|JCT 5|1|PUNCT
+*CHA:	I wanna learn how to speak different languages . 1782767_1785658
+%mor:	pro:sub|I v|want~inf|to v|learn pro:int|how inf|to v|speak
+	adj|different n|language-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|7|LINK 6|7|INF 7|4|COMP 8|9|MOD
+	9|7|OBJ 10|2|PUNCT
+*CHA:	I have a lot of goals to accomplish in my life . 1785637_1788801
+%mor:	pro:sub|I v|have det:art|a n|lot prep|of n|goal-PL inf|to
+	v|accomplish prep|in det:poss|my n|life .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|8|INF 8|2|XJCT
+	9|8|JCT 10|11|DET 11|9|POBJ 12|2|PUNCT
+*GIL:	I'm just like I said before I'm just gonna wait and see what I like
+	or I want to accomplish because right now I don't wanna make a
+	decision and then try to go after it . 1788775_1802632
+%mor:	pro:sub|I~cop|be&1S adj|just co|like pro:sub|I v|say&PAST
+	adv|before pro:sub|I~aux|be&1S adv|just part|go-PRESP~inf|to v|wait
+	coord|and v|see pro:int|what pro:sub|I v|like coord|or pro:sub|I
+	v|want inf|to v|accomplish conj|because adv|right adv|now pro:sub|I
+	mod|do~neg|not v|want~inf|to v|make det:art|a n|decision coord|and
+	adv:tem|then v|try inf|to v|go prep|after pro:per|it .
+%gra:	1|2|SUBJ 2|6|CJCT 3|2|PRED 4|3|COM 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|11|SUBJ
+	9|11|AUX 10|11|JCT 11|6|XJCT 12|13|INF 13|11|COMP 14|13|CONJ 15|14|COORD
+	16|18|LINK 17|18|SUBJ 18|15|COMP 19|21|LINK 20|21|SUBJ 21|18|CJCT
+	22|23|INF 23|21|COMP 24|30|LINK 25|26|JCT 26|30|JCT 27|30|SUBJ 28|30|AUX
+	29|28|NEG 30|6|CJCT 31|32|INF 32|30|COMP 33|34|DET 34|32|OBJ 35|30|CONJ
+	36|37|JCT 37|35|COORD 38|39|INF 39|37|COMP 40|39|JCT 41|40|POBJ 42|6|PUNCT
+*GIL:	and I don't really want it . 1802624_1804528
+%mor:	coord|and pro:sub|I mod|do~neg|not adv|real&dadj-LY v|want
+	pro:per|it .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|3|NEG 5|6|JCT 6|0|ROOT 7|6|OBJ 8|6|PUNCT
+*CHA:	well that's a very (.) very interesting thing of thinking ways . 1804522_1809853
+%mor:	co|well pro:dem|that~cop|be&3S det:art|a adv|very adv|very
+	adj|interesting n|thing prep|of part|think-PRESP n|way-PL .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|8|DET 5|7|JCT 6|7|JCT 7|8|MOD 8|3|PRED
+	9|8|NJCT 10|9|POBJ 11|10|OBJ 12|3|PUNCT
+*GIL:	yeah . 1809845_1811505
+%mor:	co|yeah .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHA:	[- spa] entonces ya para cerrar la conversación (.) qué [//] (.)
+	cómo tú te sientes (.) con tu familia ? 1811484_1821856
+%mor:	adv|entonces=then adv|ya=already prep|para=for inf|cerra-INF=close
+	det:art|el&FEM&SG=the n|conversación&f=conversation co|cómo
+	pro:sub|tú=you pro:obj|te=you v|senti-2S&PRES=feel prep|con=with
+	det:pos|tu=your n|familia&f=family ?
+%eng:	so to close the conversation, what, how do you feel about your
+	family ?
+*GIL:	I feel very warm with them . 1821841_1824744
+%mor:	pro:sub|I v|feel adv|very adj|warm prep|with pro:obj|them .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|JCT 5|4|JCT 6|5|POBJ 7|2|PUNCT
+*GIL:	&-um I just love it when we can just be together and bond just by
+	ourselves . 1824741_1830106
+%mor:	pro:sub|I adv|just v|love pro:per|it conj|when pro:sub|we mod|can
+	adj|just cop|be adv|together coord|and n|bond adv|just prep|by
+	pro:refl|ourselves .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|9|LINK 6|9|SUBJ 7|9|AUX 8|9|JCT
+	9|3|CJCT 10|9|PRED 11|9|CONJ 12|11|COORD 13|12|NJCT 14|13|JCT 15|14|POBJ
+	16|3|PUNCT
+*GIL:	and you know I love bonding with my parents because we get a chance
+	to chitchat and talk about what's going on with each other and (.)
+	about stuff that just we get comfortable around . 1830099_1844915
+%mor:	coord|and pro:per|you v|know pro:sub|I v|love part|bond-PRESP
+	prep|with det:poss|my n|parent-PL conj|because pro:sub|we v|get
+	det:art|a n|chance inf|to v|chitchat coord|and n|talk prep|about
+	pro:int|what~aux|be&3S part|go-PRESP adv|on prep|with qn|each
+	qn|other coord|and prep|about n|stuff pro:rel|that adv|just
+	pro:sub|we v|get adj|comfort&dv-ABLE adv|around .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|COMP 7|6|JCT 8|9|DET
+	9|7|POBJ 10|12|LINK 11|12|SUBJ 12|3|CJCT 13|14|DET 14|12|OBJ 15|16|INF
+	16|12|XJCT 17|16|CONJ 18|17|COORD 19|22|JCT 20|22|SUBJ 21|22|AUX
+	22|18|CMOD 23|22|JCT 24|22|JCT 25|26|QUANT 26|24|POBJ 27|26|CONJ 28|27|COORD
+	29|28|POBJ 30|33|LINK 31|33|JCT 32|33|SUBJ 33|29|CMOD 34|33|PRED 35|34|JCT
+	36|3|PUNCT
+*CHA:	it looks like you have a lot of confidence . 1844919_1847450
+%mor:	pro:per|it v|look-3S conj|like pro:per|you v|have det:art|a n|lot
+	prep|of n|confidence .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|7|DET 7|5|OBJ 8|7|NJCT
+	9|8|POBJ 10|2|PUNCT
+*CHA:	and +/. 1847445_1847967
+%mor:	coord|and +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
+*GIL:	+< I had a lot of self confidence . 1847578_1849517
+%mor:	pro:sub|I v|have&PAST det:art|a n|lot prep|of n|self n|confidence .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|4|NJCT 6|7|MOD 7|5|POBJ 8|2|PUNCT
+*CHA:	yes with yourself . 1848994_1850666
+%mor:	co|yes prep|with pro:refl|yourself .
+%gra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
+@End

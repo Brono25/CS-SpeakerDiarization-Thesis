@@ -1,0 +1,5 @@
+{
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": { "python": "$pythonPath -u $fullFileName /Users/brono/GitHub/katana/cha/herring08.cha" }
+}
+
