@@ -21,9 +21,9 @@ cd $PBS_O_WORKDIR
 
 DATA_PATH='/srv/scratch/z5146619/katana-sync'
 
-for wav_file in "${DATA_PATH}/"*; do
+for wav_file in "$DATA_PATH/"*; do
 
-    python diarization.py $wav_file
+    python diarization.py "$wav_file"
 
 done
 
