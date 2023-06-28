@@ -7,7 +7,7 @@ import numpy as np
 
 AUDIO_PATH = "/Users/brono/Desktop/thesis-dataset.tmp/clean-audio-441"
 
-transcript_file = "/Users/brono/Desktop/thesis-dataset.tmp/time-fixed-trans/zeledon01_fixed.txt"
+transcript_file = "/Users/brono/Desktop/thesis-dataset.tmp/time-fixed-trans/sastre03_fixed.txt"
 filename = re.match(r".*/(.*)_fixed\.txt", transcript_file).group(1)
 audio_file = f"{AUDIO_PATH}/p_mono-{filename}.wav"
 print(audio_file)
@@ -15,7 +15,7 @@ print(audio_file)
 with open(transcript_file, 'r') as f:
     content = f.readlines()
 
-inject_at = 950
+inject_at = 501
 
 # Load audio file using librosa
 audio_data, sample_rate = librosa.load(audio_file)

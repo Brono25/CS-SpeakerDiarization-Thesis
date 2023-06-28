@@ -21,12 +21,19 @@ for i, line in enumerate(content):
         continue    
     if re.search(r"^\*[A-Z]{3}:", line):
         speech_flag = True
-        speech_content.append(line)
+        tmp = re.sub(r"[\t\n]", "",line) + '\n'
+        tmp = re.sub(r"[ ]+", " ", tmp)
+        tmp = re.sub(r"\x15", "", tmp)
+        speech_content.append(tmp)
 
     elif speech_flag:
-        speech_content[-1] += line
+        tmp = re.sub(r"[\t\n]", "",line) + '\n'
+        tmp = re.sub(r"[ ]+", " ", tmp)
+        tmp = re.sub(r"\x15", " ", tmp)
+        speech_content[-1] = speech_content[-1].rstrip()
+        speech_content[-1] += tmp
 
-    time_stamps = re.search(r"\x15(\d+_\d+)\x15", line)
+    time_stamps = re.search(r"(\d+_\d+)", line)
     if time_stamps:
         time_stamps = time_stamps.group(1)
         speech_flag = False
@@ -37,7 +44,7 @@ corrupted = False
 with open(output_file, 'w') as f:
     for line in speech_content:
         f.write(line)
-        if not re.search(r"\x15(\d+_\d+)\x15", line):
+        if not re.search(r"(\d+_\d+)", line):
             f.write("\n\n--------------------------------Error Missing Timestamp--------------------------------\n\n")
             corrupted = True
 
