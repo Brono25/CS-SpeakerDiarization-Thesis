@@ -85,6 +85,8 @@ class GUI:
         self.save_edit_button.grid(row=1, column=4) 
 
     def update_bordertime_labels(self):
+        if not self.session_data["filename"]:
+            return
         prev_timestamp = ""
         next_timestamp = ""
         i = self.session_data["curr_index"]
@@ -280,6 +282,9 @@ class GUI:
         self.window.update_idletasks()
 
     def print_content_line(self):
+
+        if not self.session_data["filename"]:
+            return
         i = self.session_data["curr_index"]
         length = len(self.session_data["content"])
         content = self.session_data["content"]
