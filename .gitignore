@@ -1,12 +1,5 @@
-
-
-
-# audio files
-*.wav
 *.mp3
-*.mp4
-*.mov
-
+*.wav
 
 package-lock.json
 node_modules

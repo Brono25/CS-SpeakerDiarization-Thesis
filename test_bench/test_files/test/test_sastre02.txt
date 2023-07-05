@@ -1,0 +1,256 @@
+@UTF8
+@PID:	11312/t-00000043-1
+@Window:	771_1046_609_881_-1_-1_1977_0_1977_0
+@Begin
+@Languages:	spa, eng
+@Participants:	AVA Ava Adult, LUI Luis Adult
+@ID:	spa, eng|Miami|LUI|55;|male|||Adult|||
+@ID:	spa, eng|Miami|AVA|78;|female|||Adult|||
+@Situation:	Informal conversation between Luis and his mother Ava, at
+	Luis's place of work
+@Date:	07-MAR-2008
+@Transcriber:	M. Carmen Parafita Couto, Jonathan Stammer and Fraibet
+	Aveledo, Bangor University
+@Comment:	Researcher: Lergia Sastre
+@Time Duration:	00:41:00
+@Media:	sastre02, audio
+*LUI:	[- eng] (be)cause that's my nap time .
+%mor:	conj|because pro:dem|that~cop|be&3S pro:poss:det|my n|nap n|time .
+*LUI:	[- eng] and when it's the afternoon's when I take my nap . 1155_2728
+%mor:	conj|and conj|when pro|it~cop|be&3S det|the n|afternoon~poss|s
+	conj|when pro:sub|I v|take pro:poss:det|my n|nap .
+*AVA:	+< sí claro que sí . 1329_2595
+%mor:	co|sí=yes co|claro=obvious pro:rel|que=that co|sí=yes .
+%eng:	of course yes .
+*LUI:	[- eng] so what ! 2734_3332
+%mor:	co|so pro:wh|what !
+*AVA:	claro que sí . 3634_4870
+%mor:	co|claro=obvious pro:rel|que=that co|sí=yes .
+%eng:	of course yes .
+*AVA:	entonces estoy ideando coger esas [//] esos [/] esos carros que uno
+	llama y por dos cincuenta te llevan al lugar que tú quieres . 6134_13725
+%mor:	adv|entonces=then aux|esta-1S&PRES=be ger|idea-PROG=consider
+	inf|coge-INF=take det:dem|ese-MASC-PL=that n|carro&m-PL=cart
+	prep|que=than pro:dem|uno-MASC=one v|llama-3S&PRES=call coord|y=and
+	prep|por=for det:num|dos=two det:num|cincuenta=fifty pro:obj|te=you
+	v|lleva-3P&PRES=carry aprep|a~det|el&MASC n|lugar&m=place
+	pro:rel|que=that pro:sub|tú=you v|quere-2S&PRES=want .
+%eng:	so I am thinking about picking up one of those cars that one calls,
+	and for two fifty they take you wherever you want .
+*LUI:	[- eng] oh the STS cars ? 13939_15129
+%mor:	co|oh det|the n:prop|STS n|car-PL ?
+*AVA:	sí . 15130_15444
+%mor:	co|sí=yes .
+%eng:	yes .
+*LUI:	[- eng] oh ! 15728_16106
+%mor:	co|oh !
+*AVA:	pero <me dieron el pe> [//] me die(ron) +/. 16899_18754
+%eng:	but they gave me the ...
+*LUI:	+< <por dos> [/] por dos pesos te llevan ? 16975_18310
+%mor:	prep|por=for det:num|dos=two n|peso&m-PL=weight pro:obj|te=you
+	v|lleva-3P&PRES=carry ?
+%eng:	they take you for two dollars ?
+*LUI:	coño ! 18760_19962
+%mor:	co|coño !
+%eng:	bloody hell !
+*AVA:	+< por dos cincuenta . 18760_19962
+%mor:	prep|por=for det:num|dos=two det:num|cincuenta=fifty .
+%eng:	for two fifty .
+*AVA:	+, me llevan . 20086_20690
+%mor:	pro:obj|me=me v|lleva-3P&PRES=carry .
+%eng:	they take me .
+*AVA:	y dos cincuenta el regreso . 20672_22148
+%mor:	coord|y=and det:num|dos=two det:num|cincuenta=fifty
+	det:art|el&MASC&SG=the v|regresa-1S&PRES=return .
+%eng:	and two fifty for the return .
+*LUI:	+< [- eng] just like the bus ? 20697_21632
+%mor:	adv|just prep|like det|the n|bus ?
+*LUI:	coño ! 22479_22955
+%mor:	co|coño !
+%eng:	bloody hell !
+*AVA:	por cinco pesos me llevan donde yo quiera ir . 23208_25357
+%mor:	prep|por=for det:num|cinco=five n|peso&m-PL=weight pro:obj|me=me
+	v|lleva-3P&PRES=carry pro:rel|donde=where pro:sub|yo=I
+	imp|quere-3S&IMP=want inf|i-INF=go .
+%eng:	for five dollars they take me wherever I want to go .
+*LUI:	ida y vuelta ah &~per [?] ? 25692_26592
+%mor:	part|i-PPART-FEM=go coord|y=and part|volve-PPART-FEM=turn co|ah ?
+%eng:	return, isn't it ?
+*LUI:	y una propinita ? 26574_27619
+%mor:	coord|y=and det:art|un-FEM=one n|propina-DIM-FEM=tip ?
+%eng:	and a little tip ?
+*AVA:	+< ahhah . 26932_27397
+%mor:	co|ahhah=ahhah .
+*LUI:	siete pesos ya y ya está ? 27608_29309
+%mor:	det:num|siete=seven n|peso&m-PL=weight adv|ya=already coord|y=and
+	adv|ya=already cop|esta-3S&PRES=be ?
+%eng:	seven dollars and that's it ?
+*AVA:	+< [- eng] right right . 27922_29309
+%mor:	adv|right adv|right .
+*AVA:	pero me dieron el teléfono donde llamar . 29871_31694
+%mor:	conj|pero=but pro:obj|me=me v|da-3P&PRET=give
+	det:art|el&MASC&SG=the n|teléfono&m=telephone pro:rel|donde=where
+	inf|llama-INF=call .
+%eng:	but they gave me the phone I should dial,
+*AVA:	y me lo dieron mal . 31586_32625
+%mor:	coord|y=and pro:obj|me=me pro:obj|lo&m=him v|da-3P&PRET=give
+	adv|mal=badly .
+%eng:	and they gave me the wrong number .
+*AVA:	y tengo que pedírselo a Luisa que tiene ese servicio . 34282_37085
+%mor:	coord|y=and v|tene-1S&PRES=have pro:rel|que=that
+	inf|pedi-INF~pro:clit|3S&REFL~pro:clit|OBJ&MASC aprep|a=to
+	n:prop|Luisa pro:rel|que=that v|tene-3S&PRES=have det:dem|ese=that
+	n|servicio&m=service .
+%eng:	and I have to ask Luisa for it, as she's got that service .
+*AVA:	porque Pepe se brinda a lleva(rme) +//. 39945_41622
+%mor:	conj|porque=because n:prop|Pepe pro:refl|se=itself
+	v|brinda-3S&PRES=toast aprep|a=to inf|lleva-INF~pro:clit|1S +//.
+%eng:	because Pepe has offered to take me .
+*AVA:	ya <me ve> [///] se brindó a llevarme a ver a Susana . 41535_44014
+%mor:	adv|ya=already pro:refl|se=itself v|brinda-3S&PRET=toast aprep|a=to
+	inf|lleva-INF~pro:clit|1S aprep|a=to inf|ve-INF=see aprep|a=to
+	n:prop|Susana .
+%eng:	you see, he offered to take me to see Susana .
+*LUI:	[- eng] I'll take you ! 43904_44705
+%mor:	pro:sub|I~mod|will v|take pro|you !
+*LUI:	[- eng] I'll take you anywhere you wanna go . 44809_46046
+%mor:	pro:sub|I~mod|will v|take pro|you adv|anywhere pro|you
+	v|want~inf|to v|go .
+*LUI:	[- eng] what the hell ! 46052_46684
+%mor:	pro:wh|what det|the n|hell !
+*AVA:	+< sí . 46137_46581
+%mor:	co|sí=yes .
+%eng:	yes .
+*AVA:	pero es que te quedas a dormir, te quedas xxx . 46544_49967
+%mor:	conj|pero=but cop|se-3S&PRES=be pro:rel|que=that pro:obj|te=you
+	v|queda-2S&PRES=stay aprep|a=to inf|dormi-INF=sleep cm|cm
+	pro:obj|te=you v|queda-2S&PRES=stay .
+%eng:	but you stay overnight, you stay xxx .
+*LUI:	+< [- eng] so what ! 47775_48309
+%mor:	co|so pro:wh|what !
+*LUI:	+< [- eng] we'll go +//. 48297_48704
+%mor:	pro:sub|we~mod|will v|go +//.
+*LUI:	[- eng] one sunday morning I'll come sunday &~m morning and we'll go
+	there first . 48692_51566
+%mor:	det:num|one n|sunday co|morning pro:sub|I~mod|will v|come n|sunday
+	co|morning conj|and pro:sub|we~mod|will v|go adv|there n|first .
+*LUI:	[- eng] xxx sleep until one two o'clock in the afternoon . 51942_54043
+%mor:	n|sleep conj|until pro:indef|one det:num|two n|o'clock prep|in
+	det|the n|afternoon .
+*AVA:	entonces +//. 54752_56145
+%mor:	adv|entonces=then +//.
+%eng:	then ...
+*AVA:	y me da vergüenza que más nunca la +//. 56408_58579
+%mor:	coord|y=and pro:obj|me=me v|da-3S&PRES=give n|vergüenza&f=shame
+	pro:rel|que=that adv|más=more adv|nunca=never pro:obj|la&f=she +//.
+%eng:	and I feel ashamed that I have never again ...
+*AVA:	una sola vez la he ido a ver . 58550_59994
+%mor:	det:art|un-FEM=one adj|solo-FEM=alone n|vez&f=turn pro:obj|la&f=she
+	aux|habe-1S&PRES=have part|i-PPART-MASC=go aprep|a=to inf|ve-INF=see
+	.
+%eng:	only once I've gone to see her .
+*AVA:	la mermelada de +//. 60901_62776
+%mor:	det:art|el&FEM&SG=the n|mermelada&f=jam prep|de=of +//.
+%eng:	the marmalade of ...
+*AVA:	Billy me trajo una caja de mangos de que una amiga de ella se los
+	dio para que yo hiciera la mermelada para ella . 62799_70104
+%mor:	n:prop|Billy pro:obj|me=me v|trae-3S&PRET=carry det:art|un-FEM=one
+	n|caja&f=box prep|de=of n|mango&m-PL=mango prep|de=of
+	pro:rel|que=that det:art|un-FEM=one n|amigo-FEM=friend prep|de=of
+	pro:sub|ella=she imp|se-2S&IMP=be det:art|el&MASC-PL=the
+	v|da-3S&PRET=give prep|para=for pro:rel|que=that pro:sub|yo=I
+	v|hace-13S&SUB&PAS=do det:art|el&FEM&SG=the n|mermelada&f=jam
+	prep|para=for pro:sub|ello-FEM=he .
+%eng:	Billy brought for me a box of mangos that a friend of hers had
+	given away, so that she would make marmalade for her .
+*LUI:	[- eng] really ? 70475_71102
+%mor:	adv|real&dadj-LY ?
+*AVA:	+< la hice la mermelada . 70763_72095
+%mor:	pro:obj|la&f=she v|hace-1S&PRET=do det:art|el&FEM&SG=the
+	n|mermelada&f=jam .
+%eng:	I made the marmalade for her .
+*AVA:	y la boté los otros días . 72043_73419
+%mor:	coord|y=and pro:obj|la&f=she v|bota-1S&PRET=bounce
+	det:art|el&MASC-PL=the pro:indef|otro-MASC-PL=other n|día&m-PL=day .
+%eng:	and I threw it away eventually .
+*AVA:	pues tuvo más de un año en la nevera . 74122_76049
+%mor:	co|pues=well v|tene-3S&PRET=have adv|más=more prep|de=of
+	det:art|un&m=one n|año&m=year prep|en=in det:art|el&FEM&SG=the
+	n|nevero-FEM=ice_seller .
+%eng:	because it was in the fridge for more than a year .
+*LUI:	[- eng] oh . 76246_76844
+%mor:	co|oh .
+*AVA:	yo eso no se lo iba a llevar . 76859_78409
+%mor:	pro:sub|yo=I pro:dem|eso=that_one adv|no=no pro:refl|se=itself
+	pro:obj|lo&m=him v|i-13S&PAS=go aprep|a=to inf|lleva-INF=carry .
+%eng:	I wouldn't bring that to her .
+*LUI:	[- eng] oh . 79024_79605
+%mor:	co|oh .
+*AVA:	y la anoté [?] +/. 79681_80836
+%mor:	coord|y=and pro:obj|la&f=she v|anota-1S&PRET=annotate +/.
+%eng:	and I wrote to her ...
+*LUI:	+< [- eng] how do you do that ? 80087_80981
+%mor:	adv:wh|how mod|do pro|you v|do pro:dem|that ?
+*AVA:	dos pomos . 81111_82075
+%mor:	det:num|dos=two n|pomo&m-PL=handle .
+%eng:	two jars .
+*AVA:	&~oj pero hay que usar una de mango . 82365_84455
+%mor:	conj|pero=but v|habe-3S&PRES&SPEC=have pro:rel|que=that
+	inf|usa-INF=use det:art|un-FEM=one imp|da-3S&IMP=give
+	n|mango&m=mango .
+%eng:	but one should use one of mango .
+*LUI:	pero es +//? 85284_85569
+%mor:	conj|pero=but cop|se-3S&PRES=be +//?
+%eng:	but is ...?
+*LUI:	tú pones mango entero en agua hirviendo ? 85545_87676
+%mor:	pro:sub|tú=you v|pone-2S&PRES=put n|mango&m=mango
+	adj|entero-MASC=entire prep|en=in n|agua&f=water ger|hervi-PROG=boil
+	?
+%eng:	do you put the whole mango in boiling water ?
+*AVA:	no . 87517_88092
+%mor:	adv|no=no .
+%eng:	no
+*AVA:	los pongo en la batidora . 88158_89290
+%mor:	pro:obj|él&m-PL=he v|pone-1S&PRES=put prep|en=in
+	det:art|el&FEM&SG=the n:v|bati&f-AGT-FEM=beat .
+%eng:	I put them in the blender .
+*AVA:	los pelo . 89247_90640
+%mor:	pro:obj|él&m-PL=he v|pela-1S&PRES=peel .
+%eng:	I peel them .
+*AVA:	los hago pedazos . 90544_92245
+%mor:	pro:obj|él&m-PL=he v|hace-1S&PRES=do n|pedo-AUG-MASC-PL=fart .
+%eng:	I cut them into pieces .
+*AVA:	los pongo <en el> [/] en el blender@s . 92110_94495
+%mor:	pro:obj|él&m-PL=he v|pone-1S&PRES=put prep|en=in
+	det:art|el&MASC&SG=the L2|blender .
+%eng:	I place them in the blender .
+*LUI:	con leche o agua o what@s ? 94565_96016
+%mor:	prep|con=with n|leche&f=milk coord|o=or n|agua&f=water coord|o=or
+	L2|what ?
+%eng:	with milk or water, or what ?
+*AVA:	eh ? 96110_97178
+%mor:	co|eh ?
+%eng:	eh ?
+*AVA:	con leche . 97114_98036
+%mor:	prep|con=with n|leche&f=milk .
+%eng:	with milk .
+*LUI:	+< con qué ? 97328_97850
+%mor:	prep|con=with pro:int|qué=what ?
+%eng:	with what ?
+*LUI:	ah okay así que +/. 98402_99516
+%mor:	co|ah co|okay adv|así=thus pro:rel|que=that +/.
+%eng:	ah, okay, so ...
+*AVA:	+< no yo no le echo leche . 98645_100201
+%mor:	adv|no=no pro:sub|yo=I adv|no=no pro:ind|le=him
+	v|echa-1S&PRES=throw n|leche&f=milk .
+%eng:	no, I don't add milk .
+*LUI:	no ? 100213_100648
+%mor:	adv|no=no ?
+%eng:	don't you ?
+*AVA:	es mango puro . 100792_102115
+%mor:	cop|se-3S&PRES=be n|mango&m=mango adj|puro-MASC=pure .
+%eng:	it's pure mango .
+*LUI:	sin agua sin nada ? 102710_104301
+%mor:	prep|sin=without imp|agua-2S&IMP=water_down prep|sin=without
+	v|nada-3S&PRES=swim ?
+%eng:	without water or anything ?

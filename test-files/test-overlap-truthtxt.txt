@@ -1,8 +1,0 @@
-*AAA: line 1 line 2 1_20
-*BBB: line 3 line 4 line 5 line 6 17_50
-*AAA: line 7 45_55
-*AAA: line 8 56_60
-*CCC: line 9 line 10 line 11 59_80
-*CCC: line 12 81_85
-*BBB: line 13 90_95
-*AAA: line 14 91_100
