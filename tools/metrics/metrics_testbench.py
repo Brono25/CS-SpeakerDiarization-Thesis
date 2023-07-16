@@ -6,18 +6,52 @@ import metrics as met
 import sys
 
 URI = "test bench"
+
+
 #######################################
 #       met.compute_components
 ######################################
-test = met.EnglishSpanishErrorRate(uri=URI)
 ref = Annotation(uri=URI)
 hyp = Annotation(uri=URI)
 lang_map = Annotation(uri=URI)
 
 
-#######################################
-#       met.compute_metric
-######################################
+# Confusion speaker A
+ref[Segment(0, 5)] = "A"
+ref[Segment(0, 1)] = "B"
+hyp[Segment(0, 2)] = "A"
+hyp[Segment(2, 4)] = "B"
+hyp[Segment(4, 5)] = "A"
+lang_map[Segment(0, 2.5)] = "ENG"
+lang_map[Segment(0.5, 1)] = "ENG"
+lang_map[Segment(1, 2)] = "SPA"
+lang_map[Segment(2.5, 4.5)] = "SPA"
+lang_map[Segment(4.5, 5)] = "ENG"
+
+# Confusion speaker B
+ref[Segment(5, 10)] = "B"
+hyp[Segment(5, 8)] = "B"
+hyp[Segment(8, 10)] = "A"
+lang_map[Segment(5, 8)] = "SPA"
+lang_map[Segment(8, 10)] = "ENG"
+
+answer = {
+    "english_error": 2.5,
+    "english_total": 3.5,
+    "spanish_error": 1.5,
+    "spanish_total": 5,
+}
+
+test = met.EnglishSpanishErrorRate(
+    uri=URI, reference=ref, hypothesis=hyp, language_map=lang_map
+)
+result = test.compute_components()
+for k in result.keys():
+    if result[k] != answer[k]:
+        print("FAIL: compute_components")
+        break
+else:
+    print("PASS: compute_components")
 
 #######################################
 #       met.compute_metric
@@ -28,6 +62,32 @@ lang_map = Annotation(uri=URI)
 #  met.language_confusion_annotation
 ######################################
 
+ref = Annotation(uri=URI)
+ref[Segment(0, 10)] = "A"
+ref[Segment(9, 11)] = "B"
+hyp = Annotation(uri=URI)
+hyp[Segment(0, 4)] = "A"
+hyp[Segment(3, 8)] = "B"
+hyp[Segment(8, 11)] = "A"
+language_annotation = Annotation(uri=URI)
+language_annotation[Segment(0, 4)] = "ENG"
+language_annotation[Segment(4, 7.5)] = "SPA"
+language_annotation[Segment(7.5, 11)] = "ENG"
+test = met.EnglishSpanishErrorRate(
+    uri=URI, reference=ref, hypothesis=hyp, language_map=language_annotation
+)
+result = test.language_confusion_annotation()
+
+answer = Annotation(uri=URI)
+answer[Segment(4, 7.5)] = "SPA"
+answer[Segment(7.5, 8)] = "ENG"
+answer[Segment(10, 11)] = "ENG"
+
+
+if isinstance(result, Annotation) and result == answer and result.uri == ref.uri:
+    print("PASS: language_confusion_annotation")
+else:
+    print("FAIL: language_confusion_annotation")
 
 #######################################
 #       met._extrude_overlap
@@ -91,15 +151,18 @@ else:
 ######################################
 ref = Annotation(uri=URI)
 ref[Segment(0, 10)] = "A"
+ref[Segment(9, 11)] = "B"
 hyp = Annotation(uri=URI)
 hyp[Segment(0, 4)] = "A"
-hyp[Segment(3, 7)] = "B"
-hyp[Segment(7, 10)] = "A"
+hyp[Segment(3, 7)] = "C"
+hyp[Segment(7, 11)] = "A"
 
 test = met.EnglishSpanishErrorRate(uri=URI, reference=ref, hypothesis=hyp)
 answer = Timeline(uri=URI)
 answer.add(Segment(4, 7))
+answer.add(Segment(10, 11))
 result = test._get_confusion_timeline()
+
 
 if ref.uri == result.uri and answer == result:
     print("PASS: _get_confusion_timeline")
@@ -110,13 +173,22 @@ else:
 #######################################
 #  met._timeline_to_annotation
 ######################################
+timeline = Timeline(uri=URI)
+timeline.add(Segment(0, 3))
+timeline.add(Segment(2, 5))
+test = met.EnglishSpanishErrorRate(uri=URI)
+result = test._timeline_to_annotation(timeline, "LABEL")
+
+answer = Annotation(uri=URI)
+answer[Segment(0, 3)] = "LABEL"
+answer[Segment(2, 5)] = "LABEL"
+
+if timeline.uri == result.uri and answer == result:
+    print("PASS: _timeline_to_annotation")
+else:
+    print("FAIL: _timeline_to_annotation")
 
 
-""" 
-utils.plot_annotations([(ref, "ref"), (hyp, "hyp")])
-utils.plot_timelines([(answer, "answer"), (result, "result")])
-plt.show() """
- 
 #######################################
 #   met._crop_annotation_from_map
 ######################################

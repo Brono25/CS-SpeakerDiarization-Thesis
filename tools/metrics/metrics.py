@@ -12,7 +12,8 @@ class EnglishSpanishErrorRate(BaseMetric):
         self.uri = uri
         self.ref = reference
         self.hyp = hypothesis
-        self.lang_map = language_map
+        self.lang_map = self._lang_map_extrude_overlap(language_map)
+
         self.spanish = "SPA"
         self.english = "ENG"
 
@@ -30,27 +31,21 @@ class EnglishSpanishErrorRate(BaseMetric):
         ]
 
     def compute_components(self):
-        # 1. Select the language map segments which occur during a confusion error
+        # 1. Crop the language annotation to the sections where confusion happens
+        lang_conf_annotation = self.language_confusion_annotation()
 
-        # 2. Get the time in seconds of each language which occur during a
-        # confusion error
+        # 2. Isolate the spanish and english total speaking time and time in confusion
+        english_error = self._filter_language_annotation(lang_conf_annotation, "ENG")
+        spanish_error = self._filter_language_annotation(lang_conf_annotation, "SPA")
+        english_tot = self._filter_language_annotation(self.lang_map, "ENG")
+        spanish_tot = self._filter_language_annotation(self.lang_map, "SPA")
 
-        english_error_seconds = 0
-
-        spanish_error_seconds = 0
-
-        # 3. Get the total english and spanish speaking time
-
-        english_total_seconds = 0
-
-        spanish_total_seconds = 0
-
-        # 4. Return the componants
+        # 3. Return the durations in the componants
         components = {
-            "english_error": english_error_seconds,
-            "english_total": english_total_seconds,
-            "spanish_error": spanish_error_seconds,
-            "spanish_total": spanish_total_seconds,
+            "english_error": english_error.get_timeline().duration(),
+            "english_total": english_tot.get_timeline().duration(),
+            "spanish_error": spanish_error.get_timeline().duration(),
+            "spanish_total": spanish_tot.get_timeline().duration(),
         }
         return components
 
@@ -77,15 +72,17 @@ class EnglishSpanishErrorRate(BaseMetric):
             self._get_confusion_timeline(), "CONF_MASK"
         )
         # 2. Crop the language map using the confusion annotation as a mask
-        language_confusion_errors_annotation = self._keep_annotation_sections(
+        language_confusion_errors_annotation = self._crop_annotation_from_map(
             self.lang_map, confusion_mask
         )
         return language_confusion_errors_annotation
 
-    def _extrude_overlap(self, annotation: Annotation) -> Annotation:
+    def _extrude_overlap(self, annotation) -> Annotation:
         """Return the annotation with its overlap segments subtracted"""
-        overlap = annotation.get_overlap()
-        annotation_extruded_overlap = annotation.extrude(overlap)
+        annotation_extruded_overlap = None
+        if annotation is not None:
+            overlap = annotation.get_overlap()
+            annotation_extruded_overlap = annotation.extrude(overlap)
         return annotation_extruded_overlap
 
     def _filter_language_annotation(
@@ -107,9 +104,9 @@ class EnglishSpanishErrorRate(BaseMetric):
         """
         confusion_tl = Timeline(uri=self.uri)
         uem = self._default_uem()
+        # skip_overlap only skips on reference
         analysis = IdentificationErrorAnalysis(collar=0.0, skip_overlap=True)
         errors = analysis.difference(self.ref, self.hyp, uem=uem)
-
         for segment, _, label in errors.itertracks(yield_label=True):
             status, _, _ = label
             if status == "confusion":
@@ -158,9 +155,9 @@ class EnglishSpanishErrorRate(BaseMetric):
     def _create_mask_annotation(self, map: Union[Annotation, Timeline]) -> Annotation:
         """
         Takes in a map and turns it into a mask annotation. A map is either
-        an annotation or timeline consisting of segments you want to use for 
+        an annotation or timeline consisting of segments you want to use for
         manipulating annotations or timelines. A mask is these segments turned
-        into an annotation with the label "MASK" for every label. Masks are 
+        into an annotation with the label "MASK" for every label. Masks are
         Annotations so they can use Annotation methods like crop and extrude
         """
         mask = Annotation(uri=map.uri)
@@ -186,3 +183,17 @@ class EnglishSpanishErrorRate(BaseMetric):
         extent_segment = ref_tl.union(hyp_tl).extent()
         uem = Timeline([extent_segment], uri=self.uri)
         return uem
+
+    def _lang_map_extrude_overlap(self, language_map):
+        """
+        Remove overlaps from language map to align with ref and hyp
+        """
+        if language_map is not None:
+            overlap_extruded = self._extrude_overlap(language_map)
+            overlap_same_label_map = overlap_extruded.get_timeline().get_overlap()
+            overlap_extruded = self._extrude_annotation_from_map(
+                overlap_extruded, overlap_same_label_map
+            )
+            return overlap_extruded
+        else:
+            return None
