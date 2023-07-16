@@ -1,9 +1,9 @@
-import matplotlib.pyplot as plt
-from pyannote.core import Annotation, Segment, Timeline, notebook
-from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
-import utils
-from pyannote.metrics.base import BaseMetric
 from typing import Union
+import utils as u
+import matplotlib.pyplot as plt
+from pyannote.core import Annotation, Timeline
+from pyannote.metrics.base import BaseMetric
+from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
 
 
 class EnglishSpanishErrorRate(BaseMetric):
@@ -30,7 +30,27 @@ class EnglishSpanishErrorRate(BaseMetric):
             "total spanish seconds",
         ]
 
+    def compute_metric(self, components):
+
+        english_total = components["english_total"]
+        english_error = components["english_error"]
+        spanish_error = components["spanish_error"]
+        spanish_total = components["spanish_total"]
+
+        error_rates = {
+            "english_error_rate": english_error / english_total,
+            "spanish_error_rate": spanish_error / spanish_total,
+        }
+        return error_rates
+    
     def compute_components(self):
+        conf_components = self.compute_conf_components()
+        miss_components = self.compute_miss_components()
+
+        components = {**conf_components, **miss_components}
+        return components
+
+    def compute_conf_components(self):
         # 1. Crop the language annotation to the sections where confusion happens
         lang_conf_annotation = self.language_confusion_annotation()
 
@@ -42,24 +62,31 @@ class EnglishSpanishErrorRate(BaseMetric):
 
         # 3. Return the durations in the componants
         components = {
-            "english_error": english_error.get_timeline().duration(),
+            "english_conf_error": english_error.get_timeline().duration(),
             "english_total": english_tot.get_timeline().duration(),
-            "spanish_error": spanish_error.get_timeline().duration(),
+            "spanish_conf_error": spanish_error.get_timeline().duration(),
             "spanish_total": spanish_tot.get_timeline().duration(),
         }
         return components
 
-    def compute_metric(self, components):
-        english_total = components["english_total"]
-        english_error = components["english_error"]
-        spanish_error = components["spanish_error"]
-        spanish_total = components["spanish_total"]
+    def compute_miss_components(self):
+        # 1. Crop the language annotation to the sections where missed detection happens
+        lang_miss_annotation = self.language_missed_annotation()
 
-        error_rates = {
-            "english_error_rate": english_error / english_total,
-            "spanish_error_rate": spanish_error / spanish_total,
+        # 2. Isolate the spanish and english total speaking time and time in missed detection
+        english_miss = self._filter_language_annotation(lang_miss_annotation, "ENG")
+        spanish_miss = self._filter_language_annotation(lang_miss_annotation, "SPA")
+        english_tot = self._filter_language_annotation(self.lang_map, "ENG")
+        spanish_tot = self._filter_language_annotation(self.lang_map, "SPA")
+
+        # 3. Return the durations in the components
+        components = {
+            "english_miss_error": english_miss.get_timeline().duration(),
+            "english_total": english_tot.get_timeline().duration(),
+            "spanish_miss_error": spanish_miss.get_timeline().duration(),
+            "spanish_total": spanish_tot.get_timeline().duration(),
         }
-        return error_rates
+        return components
 
     def language_confusion_annotation(self):
         """
@@ -76,6 +103,23 @@ class EnglishSpanishErrorRate(BaseMetric):
             self.lang_map, confusion_mask
         )
         return language_confusion_errors_annotation
+
+    def language_missed_annotation(self):
+        """
+        Returns an Annotation object where each segment corresponds to a time interval
+        where missed detection errors occurred. Each segment is labeled with the language/s
+        that occurred within that segment.
+        """
+        # 1. Get the segments where the missed detection errors occurred
+        missed_mask = self._timeline_to_annotation(
+            self._get_missed_timeline(), "MISS_MASK"
+        )
+
+        # 2. Crop the language map using the missed detection annotation as a mask
+        language_missed_detection_errors_annotation = self._crop_annotation_from_map(
+            self.lang_map, missed_mask
+        )
+        return language_missed_detection_errors_annotation
 
     def _extrude_overlap(self, annotation) -> Annotation:
         """Return the annotation with its overlap segments subtracted"""
@@ -111,7 +155,22 @@ class EnglishSpanishErrorRate(BaseMetric):
             status, _, _ = label
             if status == "confusion":
                 confusion_tl.add(segment)
-        return confusion_tl
+        return confusion_tl.support()
+
+    def _get_missed_timeline(self) -> Timeline:
+        """
+        Returns a timeline consisting of all the missed detection errors between ref and hyp.
+        """
+        missed_tl = Timeline(uri=self.uri)
+        uem = self._default_uem()
+        # skip_overlap only skips on reference
+        analysis = IdentificationErrorAnalysis(collar=0.0, skip_overlap=True)
+        errors = analysis.difference(self.ref, self.hyp, uem=uem)
+        for segment, _, label in errors.itertracks(yield_label=True):
+            status, _, _ = label
+            if status == "missed detection":
+                missed_tl.add(segment)
+        return missed_tl.support()
 
     def _timeline_to_annotation(self, timeline: Timeline, label: str) -> Annotation:
         """Convert a timeline to an annotation with a specified label."""
