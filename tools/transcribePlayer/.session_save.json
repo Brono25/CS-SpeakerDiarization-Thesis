@@ -1,7 +1,7 @@
 {
-    "filename": "/Users/brono/GitHub/katana/transcriptions/o_sastre09_part1.txt",
-    "audio_file": "./clean-audio-441/p_mono-sastre09_part1.wav",
-    "id": "sastre09_part1",
+    "filename": "/Users/brono/GitHub/katana/transcriptions/sastre09_1.txt",
+    "audio_file": "./wav/sastre09_1.wav",
+    "id": "sastre09_1",
     "curr_index": 4,
     "curr_start": 7537,
     "curr_end": 8568,

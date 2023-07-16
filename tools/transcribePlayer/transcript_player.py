@@ -52,9 +52,9 @@ class TranscriptPlayer:
 
     def update_session_data(self, file):
         file = re.sub(r".*/database", ".", file)
-        id = re.search(r"o_(.*)\.txt", file).group(1)
+        id = re.search(r".*/(.*)\.txt", file).group(1)
         curr_index = 0
-        audio_file = f"./clean-audio-441/p_mono-{id}.wav"
+        audio_file = f"./wav/{id}.wav"
         content = self.util.load_content(file)
         match = re.search(r"(\d+)_(\d+)", content[0])
         if match:

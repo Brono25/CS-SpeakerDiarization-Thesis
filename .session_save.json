@@ -1,10 +1,10 @@
 {
-    "filename": "./transcriptions/o_sastre09_part1.txt",
-    "audio_file": "./clean-audio-441/p_mono-sastre09_part1.wav",
-    "id": "sastre09_part1",
-    "curr_index": 3,
-    "curr_start": 4322,
-    "curr_end": 7536,
+    "filename": "/Users/brono/GitHub/katana/transcriptions/sastre09_1.txt",
+    "audio_file": "./wav/sastre09_1.wav",
+    "id": "sastre09_1",
+    "curr_index": 6,
+    "curr_start": 11090,
+    "curr_end": 12193,
     "content": [
         "*KAY:so s\u00ed@s hay@s un@s range ah\u00ed@s . 470_2107\n",
         "*VAL:m:hm . 2180_2790\n",

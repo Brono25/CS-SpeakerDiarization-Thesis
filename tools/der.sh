@@ -13,4 +13,4 @@ der () {
 
 
 
-der "/Users/brono/GitHub/katana/transcriptions/3-rttm/1-herring09_truth.rttm" "/Users/brono/GitHub/katana/output_rttm/herring09_output.rttm"
+der "ref_rttm/sastre09_part1.rttm" "hypo_rttm/p_mono-sastre09_part1_output.rttm"
