@@ -1,5 +1,5 @@
 from typing import Union
-import test_bench.utils as u
+import test_files.utils as u
 import matplotlib.pyplot as plt
 from pyannote.core import Annotation, Timeline
 from pyannote.metrics.base import BaseMetric
