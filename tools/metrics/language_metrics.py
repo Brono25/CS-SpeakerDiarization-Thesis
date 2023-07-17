@@ -21,6 +21,8 @@ class EnglishSpanishErrorRate(BaseMetric):
             self.lang_map = self._extrude_annotation_from_map(
                 copy.deepcopy(language_map), self.overlap_map
             )
+            self.lang_conf_error_map = self.language_confusion_annotation()
+
         self.spanish = "SPA"
         self.english = "ENG"
 
@@ -46,12 +48,12 @@ class EnglishSpanishErrorRate(BaseMetric):
         spa_total = components["spanish_total"]
 
         error_rates = {
-            "english_conf_error_rate":  eng_conf_error / eng_total,
-            "spanish_conf_error_rate":  spa_conf_error / spa_total,
-            "english_miss_error_rate":  eng_miss_error / eng_total,
+            "english_conf_error_rate": eng_conf_error / eng_total,
+            "spanish_conf_error_rate": spa_conf_error / spa_total,
+            "english_miss_error_rate": eng_miss_error / eng_total,
             "spanish_miss_error_rate": spa_miss_error / spa_total,
             "english_error_rate": (eng_conf_error + eng_miss_error) / eng_total,
-            "spanish_error_rate": (spa_conf_error + spa_miss_error) /  spa_total
+            "spanish_error_rate": (spa_conf_error + spa_miss_error) / spa_total,
         }
         return error_rates
 
@@ -107,6 +109,7 @@ class EnglishSpanishErrorRate(BaseMetric):
         where confusion errors occurred. Each segment is labeled with the language/s
         that occurred within that segment.
         """
+
         # 1. Get the segments where the confusion errors occurred
         confusion_mask = self._timeline_to_annotation(
             self._get_confusion_timeline(), "CONF_MASK"
