@@ -1,19 +1,26 @@
 from typing import Union
-import utils as u
+import test_bench.utils as u
 import matplotlib.pyplot as plt
 from pyannote.core import Annotation, Timeline
 from pyannote.metrics.base import BaseMetric
 from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
+import copy
 
 
 class EnglishSpanishErrorRate(BaseMetric):
     def __init__(self, reference=None, hypothesis=None, language_map=None, uri=None):
         super().__init__(uri=uri)
         self.uri = uri
-        self.ref = reference
-        self.hyp = hypothesis
-        self.lang_map = self._lang_map_extrude_overlap(language_map)
-
+        self.ref = copy.deepcopy(reference)
+        self.hyp = copy.deepcopy(hypothesis)
+        self.overlap_map = None
+        self.lang_map = None
+        if self.ref:
+            self.overlap_map = self.ref.get_overlap()
+        if language_map:
+            self.lang_map = self._extrude_annotation_from_map(
+                copy.deepcopy(language_map), self.overlap_map
+            )
         self.spanish = "SPA"
         self.english = "ENG"
 
@@ -31,23 +38,29 @@ class EnglishSpanishErrorRate(BaseMetric):
         ]
 
     def compute_metric(self, components):
-
-        english_total = components["english_total"]
-        english_error = components["english_error"]
-        spanish_error = components["spanish_error"]
-        spanish_total = components["spanish_total"]
+        eng_total = components["english_total"]
+        eng_conf_error = components["english_conf_error"]
+        eng_miss_error = components["english_miss_error"]
+        spa_conf_error = components["spanish_conf_error"]
+        spa_miss_error = components["spanish_miss_error"]
+        spa_total = components["spanish_total"]
 
         error_rates = {
-            "english_error_rate": english_error / english_total,
-            "spanish_error_rate": spanish_error / spanish_total,
+            "english_conf_error_rate":  eng_conf_error / eng_total,
+            "spanish_conf_error_rate":  spa_conf_error / spa_total,
+            "english_miss_error_rate":  eng_miss_error / eng_total,
+            "spanish_miss_error_rate": spa_miss_error / spa_total,
+            "english_error_rate": (eng_conf_error + eng_miss_error) / eng_total,
+            "spanish_error_rate": (spa_conf_error + spa_miss_error) /  spa_total
         }
         return error_rates
-    
-    def compute_components(self):
-        conf_components = self.compute_conf_components()
-        miss_components = self.compute_miss_components()
 
-        components = {**conf_components, **miss_components}
+    def compute_components(self):
+        conf_comp = self.compute_conf_components()
+        miss_comp = self.compute_miss_components()
+        assert miss_comp["english_total"] == conf_comp["english_total"], "Error"
+        assert miss_comp["spanish_total"] == conf_comp["spanish_total"], "Error"
+        components = {**conf_comp, **miss_comp}
         return components
 
     def compute_conf_components(self):
@@ -120,14 +133,6 @@ class EnglishSpanishErrorRate(BaseMetric):
             self.lang_map, missed_mask
         )
         return language_missed_detection_errors_annotation
-
-    def _extrude_overlap(self, annotation) -> Annotation:
-        """Return the annotation with its overlap segments subtracted"""
-        annotation_extruded_overlap = None
-        if annotation is not None:
-            overlap = annotation.get_overlap()
-            annotation_extruded_overlap = annotation.extrude(overlap)
-        return annotation_extruded_overlap
 
     def _filter_language_annotation(
         self, annotation: Annotation, language: str
@@ -242,17 +247,3 @@ class EnglishSpanishErrorRate(BaseMetric):
         extent_segment = ref_tl.union(hyp_tl).extent()
         uem = Timeline([extent_segment], uri=self.uri)
         return uem
-
-    def _lang_map_extrude_overlap(self, language_map):
-        """
-        Remove overlaps from language map to align with ref and hyp
-        """
-        if language_map is not None:
-            overlap_extruded = self._extrude_overlap(language_map)
-            overlap_same_label_map = overlap_extruded.get_timeline().get_overlap()
-            overlap_extruded = self._extrude_annotation_from_map(
-                overlap_extruded, overlap_same_label_map
-            )
-            return overlap_extruded
-        else:
-            return None

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from pyannote.core import Annotation, Segment, Timeline, notebook
 from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
-import utils 
+import test_bench.utils as utils 
 import metrics as met
 
 
