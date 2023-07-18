@@ -32,10 +32,10 @@ def plot_annotations(annotations_with_legends):
     fig, axs = plt.subplots(num_subplots, 1, figsize=(5, 3 * num_subplots), sharex=True)
     if num_subplots == 1:
         axs = [axs]
+
     for idx, (annotation, legend) in enumerate(annotations_with_legends):
         notebook.plot_annotation(annotation, ax=axs[idx])
         axs[idx].set_title(legend)
-        plt.show()
 
 
 def compute_lang_error_rates(uri, ref, hyp, lang):
@@ -67,6 +67,25 @@ if __name__ == "__main__":
         print(f"{i}: {seg.start:.2f} - {seg.end:.2f}")
         time.sleep(3)
     """
+    ref = Annotation()
+    ref[Segment(0, 10)] = 'Speaker A'
+    hyp = Annotation()
+    hyp[Segment(0, 4)] = 'Speaker A'
+    hyp[Segment(4, 7)] = 'Speaker B'
+    hyp[Segment(7, 10)] = 'Speaker A'
+
+    ref[Segment(0, 4)] = "ENG"
+    ref[Segment(4, 5)] = "SPA"
+    ref[Segment(5, 10)] = "ENG"
+    crop = Annotation()
+    crop[Segment(4, 5)] = "SPA"
+    crop[Segment(5, 7)] = "ENG"
+
+
+
+    plot_annotations([(ref, 'Reference'), (crop, "Confusion Segment"), (hyp, 'Hypothesis'), ])
+    plt.show()
+    sys.exit()
     #conf errors
     play_audio_between(44.16, 44.50, audio_file_path)
     play_audio_between(60.02, 60.78, audio_file_path)
@@ -87,4 +106,4 @@ if __name__ == "__main__":
     play_audio_between(438.66, 439.20, audio_file_path)
     play_audio_between(446.11, 446.46, audio_file_path)
     play_audio_between(472.00, 472.69, audio_file_path) 
-    sys.exit()
+    
