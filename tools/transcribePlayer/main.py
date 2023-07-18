@@ -3,11 +3,11 @@ import tkinter as tk
 import os
 
 
-
 def main():
     root = tk.Tk()
     TranscriptPlayer(root)
     root.mainloop()
+
 
 if __name__ == "__main__":
     current_script_path = os.path.abspath(__file__)
