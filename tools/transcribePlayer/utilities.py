@@ -7,7 +7,7 @@ import glob
 
 class Utilities:
     def __init__(self, session_data):
-        self.save_file = "./.session_save.json"
+        self.save_file = "./tools/transcribePlayer/.session_save.json"
         self.session_data = session_data
         self.create_savefile()
         
