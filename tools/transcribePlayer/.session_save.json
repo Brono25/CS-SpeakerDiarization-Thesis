@@ -2,9 +2,9 @@
     "filename": "/Users/brono/GitHub/katana/tools/whisper_sastre09_1.txt",
     "audio_file": "./wav/sastre09_1.wav",
     "id": "sastre09_1",
-    "curr_index": 10,
-    "curr_start": 19200,
-    "curr_end": 21160,
+    "curr_index": 12,
+    "curr_start": 23400,
+    "curr_end": 24400,
     "content": [
         "AAA  S\u00ed, ah\u00ed un reenje ah\u00ed, donde los polic\u00edas practican y la gente que est\u00e1n los traen\u00eds, 0_6500\n",
         "AAA  los polic\u00eda traen\u00eds, se lo hacen todo el d\u00eda. 6500_8600\n",

@@ -9,7 +9,7 @@ class GUI:
     def __init__(self, window, create_new_session, session_data, util, audio):
         self.create_new_session = create_new_session
         self.window = window
-        self.window.geometry("1400x1100")
+        self.window.geometry("1100x850")
         self.session_data = session_data
         self.util = util
         self.audio = audio
@@ -343,7 +343,7 @@ class GUI:
 
     def init_plot(self):
         # Create a new matplotlib Figure and an Axes which fills it
-        self.fig, self.ax = plt.subplots(figsize=(7, 4))
+        self.fig, self.ax = plt.subplots(figsize=(5, 3))
         self.canvas = FigureCanvasTkAgg(self.fig, master=self.window)  # A tk.DrawingArea
 
         # This will place the matplotlib figure on the GUI
