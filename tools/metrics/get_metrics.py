@@ -1,30 +1,22 @@
+import os
+
 import matplotlib.pyplot as plt
+from english_spanish_error_rate import EnglishSpanishErrorRate
 from pyannote.core import notebook
 from pyannote.database.util import load_rttm
 from pyannote.metrics.diarization import DiarizationErrorRate
-from pyannote.core import Annotation, Segment
-from language_metrics import EnglishSpanishErrorRate
-import time
-from pydub import AudioSegment
-from pydub.playback import play
-import sys
 
 
-audio_file_path = "/Users/brono/GitHub/katana/wav/sastre09_1.wav"
 uri = "sastre09_1"
 
-ref = load_rttm("/Users/brono/GitHub/katana/ref_rttm/ref_sastre09_1.rttm")[uri]
-hyp = load_rttm("/Users/brono/GitHub/katana/hyp_rttm/hyp_sastre09_1.rttm")[uri]
-lang = load_rttm("/Users/brono/GitHub/katana/lang_rttm/lang_sastre09_1.rttm")[uri]
+curr_dir = os.path.realpath(__file__)
+root_dir = curr_dir[: curr_dir.index("katana") + len("katana")]
+error_dir = f"{root_dir}/tools/metrics/error_rttm"
 
-
-def play_audio_between(start_time_sec, end_time_sec, audio_file_path):
-    start_time_ms = start_time_sec * 1000
-    end_time_ms = end_time_sec * 1000
-    audio = AudioSegment.from_file(audio_file_path)
-    segment = audio[start_time_ms:end_time_ms]
-    play(segment)
-    time.sleep(2)
+audio_file_path = f"{root_dir}/wav/{uri}.wav"
+ref = load_rttm(f"{root_dir}/ref_rttm/ref_{uri}.rttm")[uri]
+hyp = load_rttm(f"{root_dir}/hyp_rttm/hyp_{uri}.rttm")[uri]
+lang = load_rttm(f"{root_dir}/lang_rttm/lang_{uri}.rttm")[uri]
 
 
 def plot_annotations(annotations_with_legends):
@@ -57,53 +49,13 @@ def compute_der(ref, hyp):
 
 
 if __name__ == "__main__":
-    # compute_der(ref, hyp)
-    # analysis = compute_lang_error_rates(uri, ref, hyp, lang)
+    compute_der(ref, hyp)
+    analysis = compute_lang_error_rates(uri, ref, hyp, lang)
+    conf_annotation = analysis.language_confusion_annotation()
+    miss_annotation = analysis.language_missed_annotation()
 
-    """
-    for i, seg in enumerate(analysis.lang_conf_error_map.itersegments()):
+    with open(f"{error_dir}/conf_{uri}.rttm", "w") as f:
+        conf_annotation.write_rttm(f)
 
-        play_audio_between(seg.start, seg.end, audio_file_path )
-        print(f"{i}: {seg.start:.2f} - {seg.end:.2f}")
-        time.sleep(3)
-    """
-    ref = Annotation()
-    ref[Segment(0, 10)] = 'Speaker A'
-    hyp = Annotation()
-    hyp[Segment(0, 4)] = 'Speaker A'
-    hyp[Segment(4, 7)] = 'Speaker B'
-    hyp[Segment(7, 10)] = 'Speaker A'
-
-    ref[Segment(0, 4)] = "ENG"
-    ref[Segment(4, 5)] = "SPA"
-    ref[Segment(5, 10)] = "ENG"
-    crop = Annotation()
-    crop[Segment(4, 5)] = "SPA"
-    crop[Segment(5, 7)] = "ENG"
-
-
-
-    plot_annotations([(ref, 'Reference'), (crop, "Confusion Segment"), (hyp, 'Hypothesis'), ])
-    plt.show()
-    sys.exit()
-    #conf errors
-    play_audio_between(44.16, 44.50, audio_file_path)
-    play_audio_between(60.02, 60.78, audio_file_path)
-    play_audio_between(76.96, 77.71, audio_file_path)
-    play_audio_between(105.91, 106.20, audio_file_path)
-    play_audio_between(156.34, 156.88, audio_file_path)
-    play_audio_between(199.66, 200.60, audio_file_path)
-    play_audio_between(202.54, 203.11, audio_file_path)
-    play_audio_between(231.87, 232.92, audio_file_path)
-    play_audio_between(232.92, 233.47, audio_file_path)
-    play_audio_between(238.15, 239.05, audio_file_path)
-    play_audio_between(286.12, 286.65, audio_file_path)
-    play_audio_between(299.92, 300.69, audio_file_path)
-    play_audio_between(387.37, 388.25, audio_file_path)
-    play_audio_between(400.01, 400.86, audio_file_path)
-    play_audio_between(409.53, 411.23, audio_file_path)
-    play_audio_between(437.98, 438.66, audio_file_path)
-    play_audio_between(438.66, 439.20, audio_file_path)
-    play_audio_between(446.11, 446.46, audio_file_path)
-    play_audio_between(472.00, 472.69, audio_file_path) 
-    
+    with open(f"{error_dir}/miss_{uri}.rttm", "w") as f:
+        miss_annotation.write_rttm(f)
