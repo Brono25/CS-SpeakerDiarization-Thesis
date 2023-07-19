@@ -99,7 +99,8 @@ class AudioGUI:
     def load_session(self, rttm_path):
         filename = os.path.basename(rttm_path).split(".")[0]
         id = re.search(r"([a-z]+_)?(.*)", filename).group(2)
-        audio_path = f"../wav/{id}.wav"
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        audio_path = os.path.join(script_dir, f"../wav/{id}.wav")
 
         if os.path.isfile(audio_path):
             annotation = load_rttm(rttm_path)[id]  # assumptions made about id
@@ -162,11 +163,10 @@ class AudioGUI:
                 self.session_state["audio_start"], self.session_state["audio_end"]
             )
             self.draw_audio()
-            
 
     def next_state(self):
         index = self.session_state["curr_index"]
-        
+
         if index < len(self.session_data["segments"]) - 1:
             index += 1
             self.initialise_state(index)
@@ -221,7 +221,7 @@ class AudioGUI:
         if self.session_state["audio_end"] < self.session_state["segment_end"]:
             self.session_state["audio_end"] = self.session_state["segment_end"]
         self.draw_audio()
-    
+
     def update_state_info(self):
         index = self.session_state["curr_index"]
         total_states = len(self.session_data["segments"])
@@ -294,7 +294,7 @@ class AudioGUI:
 
     def init_state_frame(self):
         self.state_frame = tk.Frame(self.window)
-        self.state_frame.grid(row=2, column=0, columnspan=5) 
+        self.state_frame.grid(row=2, column=0, columnspan=5)
         self.state_label = tk.Label(self.state_frame, text="Current Index: ")
         self.state_label.pack(side="left")
         self.state_info_label = tk.Label(self.state_frame, text="No rttm file loaded")
