@@ -103,7 +103,7 @@ class AudioGUI:
         audio_path = os.path.join(script_dir, f"../wav/{id}.wav")
 
         if os.path.isfile(audio_path):
-            annotation = load_rttm(rttm_path)[id]  # assumptions made about id
+            annotation = load_rttm(rttm_path)[id]  #all related rttms must have same uri
             segments = list(annotation.itersegments())
             self.media_player = MediaPlayer(audio_path)
             self.session_data = {
@@ -225,7 +225,7 @@ class AudioGUI:
     def update_state_info(self):
         index = self.session_state["curr_index"]
         total_states = len(self.session_data["segments"])
-        state = f"{index} / {total_states}"
+        state = f"{index + 1} / {total_states}"
         self.state_info_label.config(text=state)
 
     def run(self):
@@ -286,7 +286,7 @@ class AudioGUI:
         self.file_label.pack(side="left")
 
     def init_figure(self):
-        self.fig = Figure(figsize=(7, 3), dpi=100)
+        self.fig = Figure(figsize=(9, 5), dpi=100)
         self.ax = self.fig.add_subplot(111)
         self.canvas = FigureCanvasTkAgg(self.fig, master=self.window)
         self.canvas.draw()
