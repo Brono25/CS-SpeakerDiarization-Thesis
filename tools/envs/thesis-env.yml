@@ -1,0 +1,14 @@
+name: thesis-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - tk
+  - pydub
+  - pip
+  - pip:
+    - pyaudio==0.2.13
+    - pyannote.metrics
