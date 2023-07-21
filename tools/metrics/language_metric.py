@@ -13,6 +13,7 @@ class Mask(Annotation):
     acting as a tool to guide cropping and extruding of annotations.
     The segments of either a Timeline or Annotation can be turned into a Mask.
     """
+
     def __init__(self, obj=None):
         if obj is None:
             return
@@ -30,7 +31,9 @@ class Mask(Annotation):
 
 
 class LanguageMetric(BaseMetric):
-    def __init__(self, reference=None, hypothesis=None, language_annotation=None, uri=None):
+    def __init__(
+        self, reference=None, hypothesis=None, language_annotation=None, uri=None
+    ):
         super().__init__(uri=uri)
         self.uri = uri
         self.ref = copy.deepcopy(reference)
@@ -61,7 +64,7 @@ class LanguageMetric(BaseMetric):
             "spanish_total",
         ]
 
-    def compute_metric(self, components):
+    def compute_metric(self, components: object):
         eng_total = components["english_total"]
         eng_conf_error = components["english_conf_error"]
         eng_miss_error = components["english_miss_error"]
@@ -80,24 +83,21 @@ class LanguageMetric(BaseMetric):
         return error_rates
 
     def compute_components(self):
-        conf_comp = self.compute_conf_components()
+        confusion_components = self.compute_confusion_components()
         miss_comp = self.compute_miss_components()
-        assert miss_comp["english_total"] == conf_comp["english_total"], "Error"
-        assert miss_comp["spanish_total"] == conf_comp["spanish_total"], "Error"
-        components = {**conf_comp, **miss_comp}
+        assert miss_comp["english_total"] == confusion_components["english_total"], "Error"
+        assert miss_comp["spanish_total"] == confusion_components["spanish_total"], "Error"
+        components = {**confusion_components, **miss_comp}
         return components
 
-    def compute_conf_components(self):
-        # 1. Crop the language annotation to the sections where confusion happens
+    def compute_confusion_components(self):
         lang_conf_annotation = self.language_confusion_annotation()
 
-        # 2. Isolate the spanish and english total speaking time and time in confusion
         english_error = self._filter_language_annotation(lang_conf_annotation, "ENG")
         spanish_error = self._filter_language_annotation(lang_conf_annotation, "SPA")
         english_tot = self._filter_language_annotation(self.lang_ann, "ENG")
         spanish_tot = self._filter_language_annotation(self.lang_ann, "SPA")
 
-        # 3. Return the durations in the componants
         components = {
             "english_conf_error": english_error.get_timeline().duration(),
             "english_total": english_tot.get_timeline().duration(),
@@ -107,16 +107,14 @@ class LanguageMetric(BaseMetric):
         return components
 
     def compute_miss_components(self):
-        # 1. Crop the language annotation to the sections where missed detection happens
+
         lang_miss_annotation = self.language_missed_annotation()
 
-        # 2. Isolate the spanish and english total speaking time and time in missed detection
         english_miss = self._filter_language_annotation(lang_miss_annotation, "ENG")
         spanish_miss = self._filter_language_annotation(lang_miss_annotation, "SPA")
         english_tot = self._filter_language_annotation(self.lang_ann, "ENG")
         spanish_tot = self._filter_language_annotation(self.lang_ann, "SPA")
 
-        # 3. Return the durations in the components
         components = {
             "english_miss_error": english_miss.get_timeline().duration(),
             "english_total": english_tot.get_timeline().duration(),
@@ -150,7 +148,8 @@ class LanguageMetric(BaseMetric):
         return language_missed_detection_errors_annotation
 
     def _filter_language_annotation(
-        self, annotation: Annotation, language: str) -> Annotation:
+        self, annotation: Annotation, language: str
+    ) -> Annotation:
         """
         Takes in a language annotation and returns a single language annotation
         """
@@ -190,11 +189,11 @@ class LanguageMetric(BaseMetric):
                 missed_tl.add(segment)
         return missed_tl.support()
 
-
     def _crop_annotation_with_mask(
-        self, annotation: Annotation, mask: Mask) -> Annotation:
+        self, annotation: Annotation, mask: Mask
+    ) -> Annotation:
         """
-        Crop the parts of the annotation dictated by the map. The map is
+        Crop the parts of the annotation dictated by the mask. The mask is
         the segments of either a Timeline or Annotation (labels dont matter).
 
         annotation: |----|  |------|
@@ -208,39 +207,17 @@ class LanguageMetric(BaseMetric):
         return cropped_annotation
 
     def _extrude_annotation_with_mask(
-        self, annotation: Annotation, map: Union[Annotation, Timeline]
+        self, annotation: Annotation, mask: Mask
     ) -> Annotation:
         """
-        Extrude (remove) the parts of the annotation dictated by the map. The map is
+        Extrude (remove) the parts of the annotation dictated by the mask. The mask is
         the segments of either a Timeline or Annotation (labels dont matter).
         annotation: |----|  |------|
-        map:           |-------|
+        mask:           |-------|
         return:     |--|       |---|
         """
-        mask = self._create_mask_annotation(map=map)
         extruded_annotation = annotation.extrude(mask.get_timeline())
         return extruded_annotation
-
-    def _create_mask_annotation(self, map: Union[Annotation, Timeline]) -> Annotation:
-        """
-        Takes in a map and turns it into a mask annotation. A map is either
-        an annotation or timeline consisting of segments you want to use for
-        manipulating annotations or timelines. A mask is these segments turned
-        into an annotation with the label "MASK" for every label. Masks are
-        Annotations so they can use Annotation methods like crop and extrude
-        """
-        mask = Annotation(uri=map.uri)
-        label = "MASK"
-        if isinstance(map, Annotation):
-            for segment in map.itersegments():
-                mask[segment] = label
-            return mask
-        elif isinstance(map, Timeline):
-            for segment in map:
-                mask[segment] = label
-        else:
-            raise ValueError("Must be Timeline or Annotation instances")
-        return mask
 
     def _default_uem(self) -> Timeline:
         """

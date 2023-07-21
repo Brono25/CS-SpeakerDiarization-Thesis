@@ -15,7 +15,7 @@ URI = "test bench"
 
 
 #######################################
-#     met.compute_conf_components
+#     met.compute_confusion_components
 ######################################
 ref = Annotation(uri=URI)
 hyp = Annotation(uri=URI)
@@ -48,7 +48,7 @@ answer = {
 test = LanguageMetric(
     uri=URI, reference=ref, hypothesis=hyp, language_annotation=lang_map
 )
-result = test.compute_conf_components()
+result = test.compute_confusion_components()
 
 
 # u.plot_annotations([(ref, "ref"), (hyp, "hyp"), (lang_map, "lang_map")])
@@ -57,10 +57,10 @@ plt.show()
 
 for k in result.keys():
     if result[k] != answer[k]:
-        print("FAIL: compute_conf_components")
+        print("FAIL: compute_confusion_components")
         print(f"{k}: {result[k]} =/= {answer[k]}")
         sys.exit(1)
         break
 else:
-    print("PASS: compute_conf_components")
+    print("PASS: compute_confusion_components")
     sys.exit(0)

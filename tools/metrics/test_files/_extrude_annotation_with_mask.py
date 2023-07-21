@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment
-from language_metric import LanguageMetric
+from language_metric import LanguageMetric, Mask 
 
 
 URI = "test bench"
@@ -22,9 +22,10 @@ annotation = Annotation(uri=URI)
 annotation[Segment(0, 2)] = "A"
 annotation[Segment(3, 5)] = "A"
 annotation[Segment(3.5, 6)] = "B"
-map = Annotation(uri=URI)
-map[Segment(1, 4)] = "X"
-result = test._extrude_annotation_with_mask(annotation, map)
+tmp = Annotation(uri=URI)
+tmp[Segment(1, 4)] = "X"
+mask = Mask(tmp)
+result = test._extrude_annotation_with_mask(annotation, mask)
 
 answer = Annotation(uri=annotation.uri)
 answer[Segment(0, 1)] = "A"
