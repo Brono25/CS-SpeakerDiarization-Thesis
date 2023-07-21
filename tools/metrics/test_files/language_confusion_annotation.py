@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric
 
 
 URI = "test bench"
@@ -29,8 +29,8 @@ language_annotation = Annotation(uri=URI)
 language_annotation[Segment(0, 4)] = "ENG"
 language_annotation[Segment(4, 7.5)] = "SPA"
 language_annotation[Segment(7.5, 11)] = "ENG"
-test = EnglishSpanishErrorRate(
-    uri=URI, reference=ref, hypothesis=hyp, language_map=language_annotation
+test = LanguageMetric(
+    uri=URI, reference=ref, hypothesis=hyp, language_annotation=language_annotation
 )
 result = test.language_confusion_annotation()
 

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment, Timeline
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric
 
 
 URI = "test bench"
@@ -26,7 +26,7 @@ hyp[Segment(7, 10)] = "A"
 
 answer = Timeline(uri=URI)
 answer.add(Segment(0, 11))
-test = EnglishSpanishErrorRate(uri=URI, reference=ref, hypothesis=hyp)
+test = LanguageMetric(uri=URI, reference=ref, hypothesis=hyp)
 uem = test._default_uem()
 
 

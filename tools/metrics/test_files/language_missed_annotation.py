@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric
 
 
 URI = "test bench"
@@ -34,8 +34,8 @@ language_annotation[Segment(7, 10)] = "ENG"
 language_annotation[Segment(9, 11)] = "SPA"
 language_annotation[Segment(11, 16)] = "ENG"
 language_annotation[Segment(16, 20)] = "SPA"
-test = EnglishSpanishErrorRate(
-    uri=URI, reference=ref, hypothesis=hyp, language_map=language_annotation
+test = LanguageMetric(
+    uri=URI, reference=ref, hypothesis=hyp, language_annotation=language_annotation
 )
 result = test.language_missed_annotation()
 

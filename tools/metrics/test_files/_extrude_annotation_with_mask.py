@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric
 
 
 URI = "test bench"
@@ -17,14 +17,14 @@ URI = "test bench"
 #######################################
 #  met._extrude_annotation_from_map
 ######################################
-test = EnglishSpanishErrorRate(uri=URI)
+test = LanguageMetric(uri=URI)
 annotation = Annotation(uri=URI)
 annotation[Segment(0, 2)] = "A"
 annotation[Segment(3, 5)] = "A"
 annotation[Segment(3.5, 6)] = "B"
 map = Annotation(uri=URI)
 map[Segment(1, 4)] = "X"
-result = test._extrude_annotation_from_map(annotation, map)
+result = test._extrude_annotation_with_mask(annotation, map)
 
 answer = Annotation(uri=annotation.uri)
 answer[Segment(0, 1)] = "A"

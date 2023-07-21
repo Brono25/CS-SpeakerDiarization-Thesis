@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric
 
 
 URI = "test bench"
@@ -41,8 +41,8 @@ answer = {
     "spanish_miss_error": 3,
     "spanish_total": 8,
 }
-test = EnglishSpanishErrorRate(
-    uri=URI, reference=ref, hypothesis=hyp, language_map=language_annotation
+test = LanguageMetric(
+    uri=URI, reference=ref, hypothesis=hyp, language_annotation=language_annotation
 )
 result = test.compute_miss_components()
 

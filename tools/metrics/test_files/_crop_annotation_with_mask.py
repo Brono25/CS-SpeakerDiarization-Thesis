@@ -8,23 +8,24 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment, Timeline
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric, Mask
 
 
 URI = "test bench"
 
 
 #######################################
-#   met._crop_annotation_from_map
+#   met._crop_annotation_with_mask
 ######################################
-test = EnglishSpanishErrorRate(uri=URI)
+test = LanguageMetric(uri=URI)
 annotation = Annotation(uri=URI)
 annotation[Segment(0, 2)] = "A"
 annotation[Segment(3, 5)] = "A"
 annotation[Segment(3.5, 6)] = "B"
-map = Timeline(uri=URI)
-map.add(Segment(1, 4))
-result = test._crop_annotation_from_map(annotation, map)
+tmp = Timeline(uri=URI)
+tmp.add(Segment(1, 4))
+mask = Mask(tmp)
+result = test._crop_annotation_with_mask(annotation, mask)
 
 answer = Annotation(uri=annotation.uri)
 answer[Segment(1, 2)] = "A"

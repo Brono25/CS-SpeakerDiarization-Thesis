@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import test_files.utils as u
 
 from pyannote.core import Annotation, Segment
-from language_metrics import EnglishSpanishErrorRate
+from language_metric import LanguageMetric
 
 
 URI = "test bench"
@@ -17,7 +17,7 @@ URI = "test bench"
 #######################################
 #  met._filter_language_annotation
 ######################################
-test = EnglishSpanishErrorRate(uri=URI)
+test = LanguageMetric(uri=URI)
 language_annotation = Annotation(uri=URI)
 language_annotation[Segment(0, 2)] = "ENG"
 language_annotation[Segment(3, 5)] = "SPA"

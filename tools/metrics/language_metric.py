@@ -1,27 +1,49 @@
 from typing import Union
 import test_files.utils as u
 import matplotlib.pyplot as plt
-from pyannote.core import Annotation, Timeline
+from pyannote.core import Annotation, Timeline, Segment
 from pyannote.metrics.base import BaseMetric
 from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
 import copy
 
 
-class EnglishSpanishErrorRate(BaseMetric):
-    def __init__(self, reference=None, hypothesis=None, language_map=None, uri=None):
+class Mask(Annotation):
+    """
+    A subclass of Annotation for manipulating other Annotation instances,
+    acting as a tool to guide cropping and extruding of annotations.
+    The segments of either a Timeline or Annotation can be turned into a Mask.
+    """
+    def __init__(self, obj=None):
+        if obj is None:
+            return
+        super().__init__(uri=obj.uri)
+        if isinstance(obj, Annotation):
+            for segment in obj.itertracks():
+                self[segment] = "MASK"
+        elif isinstance(obj, Timeline):
+            for segment in obj:
+                self[segment] = "MASK"
+        else:
+            raise TypeError(
+                f"Expected an object of type 'Annotation' or 'Timeline', got {type(obj).__name__}"
+            )
+
+
+class LanguageMetric(BaseMetric):
+    def __init__(self, reference=None, hypothesis=None, language_annotation=None, uri=None):
         super().__init__(uri=uri)
         self.uri = uri
         self.ref = copy.deepcopy(reference)
         self.hyp = copy.deepcopy(hypothesis)
-        self.overlap_map = None
-        self.lang_map = None
+        self.lang_ann = None
+        self.overlap_mask = None
         if self.ref:
-            self.overlap_map = self.ref.get_overlap()
-        if language_map:
-            self.lang_map = self._extrude_annotation_from_map(
-                copy.deepcopy(language_map), self.overlap_map
+            self.overlap_mask = Mask(self.ref.get_overlap())
+        if language_annotation:
+            self.lang_ann = self._extrude_annotation_with_mask(
+                copy.deepcopy(language_annotation), self.overlap_mask
             )
-            self.lang_conf_error_map = self.language_confusion_annotation()
+            
 
         self.spanish = "SPA"
         self.english = "ENG"
@@ -72,8 +94,8 @@ class EnglishSpanishErrorRate(BaseMetric):
         # 2. Isolate the spanish and english total speaking time and time in confusion
         english_error = self._filter_language_annotation(lang_conf_annotation, "ENG")
         spanish_error = self._filter_language_annotation(lang_conf_annotation, "SPA")
-        english_tot = self._filter_language_annotation(self.lang_map, "ENG")
-        spanish_tot = self._filter_language_annotation(self.lang_map, "SPA")
+        english_tot = self._filter_language_annotation(self.lang_ann, "ENG")
+        spanish_tot = self._filter_language_annotation(self.lang_ann, "SPA")
 
         # 3. Return the durations in the componants
         components = {
@@ -91,8 +113,8 @@ class EnglishSpanishErrorRate(BaseMetric):
         # 2. Isolate the spanish and english total speaking time and time in missed detection
         english_miss = self._filter_language_annotation(lang_miss_annotation, "ENG")
         spanish_miss = self._filter_language_annotation(lang_miss_annotation, "SPA")
-        english_tot = self._filter_language_annotation(self.lang_map, "ENG")
-        spanish_tot = self._filter_language_annotation(self.lang_map, "SPA")
+        english_tot = self._filter_language_annotation(self.lang_ann, "ENG")
+        spanish_tot = self._filter_language_annotation(self.lang_ann, "SPA")
 
         # 3. Return the durations in the components
         components = {
@@ -109,14 +131,9 @@ class EnglishSpanishErrorRate(BaseMetric):
         where confusion errors occurred. Each segment is labeled with the language/s
         that occurred within that segment.
         """
-
-        # 1. Get the segments where the confusion errors occurred
-        confusion_mask = self._timeline_to_annotation(
-            self._get_confusion_timeline(), "CONF_MASK"
-        )
-        # 2. Crop the language map using the confusion annotation as a mask
-        language_confusion_errors_annotation = self._crop_annotation_from_map(
-            self.lang_map, confusion_mask
+        confusion_mask = Mask(self._get_confusion_timeline())
+        language_confusion_errors_annotation = self._crop_annotation_with_mask(
+            self.lang_ann, confusion_mask
         )
         return language_confusion_errors_annotation
 
@@ -126,20 +143,14 @@ class EnglishSpanishErrorRate(BaseMetric):
         where missed detection errors occurred. Each segment is labeled with the language/s
         that occurred within that segment.
         """
-        # 1. Get the segments where the missed detection errors occurred
-        missed_mask = self._timeline_to_annotation(
-            self._get_missed_timeline(), "MISS_MASK"
-        )
-
-        # 2. Crop the language map using the missed detection annotation as a mask
-        language_missed_detection_errors_annotation = self._crop_annotation_from_map(
-            self.lang_map, missed_mask
+        missed_mask = Mask(self._get_missed_timeline())
+        language_missed_detection_errors_annotation = self._crop_annotation_with_mask(
+            self.lang_ann, missed_mask
         )
         return language_missed_detection_errors_annotation
 
     def _filter_language_annotation(
-        self, annotation: Annotation, language: str
-    ) -> Annotation:
+        self, annotation: Annotation, language: str) -> Annotation:
         """
         Takes in a language annotation and returns a single language annotation
         """
@@ -171,7 +182,6 @@ class EnglishSpanishErrorRate(BaseMetric):
         """
         missed_tl = Timeline(uri=self.uri)
         uem = self._default_uem()
-        # skip_overlap only skips on reference
         analysis = IdentificationErrorAnalysis(collar=0.0, skip_overlap=True)
         errors = analysis.difference(self.ref, self.hyp, uem=uem)
         for segment, _, label in errors.itertracks(yield_label=True):
@@ -180,16 +190,9 @@ class EnglishSpanishErrorRate(BaseMetric):
                 missed_tl.add(segment)
         return missed_tl.support()
 
-    def _timeline_to_annotation(self, timeline: Timeline, label: str) -> Annotation:
-        """Convert a timeline to an annotation with a specified label."""
-        annotation = Annotation(uri=timeline.uri)
-        for segment in timeline:
-            annotation[segment] = label
-        return annotation
 
-    def _crop_annotation_from_map(
-        self, annotation: Annotation, map: Union[Annotation, Timeline]
-    ) -> Annotation:
+    def _crop_annotation_with_mask(
+        self, annotation: Annotation, mask: Mask) -> Annotation:
         """
         Crop the parts of the annotation dictated by the map. The map is
         the segments of either a Timeline or Annotation (labels dont matter).
@@ -198,14 +201,13 @@ class EnglishSpanishErrorRate(BaseMetric):
         mask:          |-------|
         return:        |-|  |--|
         """
-        mask = self._create_mask_annotation(map=map)
         cropped_annotation = Annotation(uri=annotation.uri)
         for seg in mask.itersegments():
             tmp = annotation.crop(seg, mode="intersection")
             cropped_annotation.update(tmp)
         return cropped_annotation
 
-    def _extrude_annotation_from_map(
+    def _extrude_annotation_with_mask(
         self, annotation: Annotation, map: Union[Annotation, Timeline]
     ) -> Annotation:
         """
