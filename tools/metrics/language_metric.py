@@ -43,8 +43,6 @@ class LanguageMetric(BaseMetric):
             self.lang_ann = self._extrude_annotation_with_mask(
                 copy.deepcopy(language_annotation), self.overlap_mask
             )
-            
-
         self.spanish = "SPA"
         self.english = "ENG"
 
@@ -55,10 +53,12 @@ class LanguageMetric(BaseMetric):
     @classmethod
     def metric_components(cls):
         return [
-            "english error seconds",
-            "spanish error seconds",
-            "total english seconds",
-            "total spanish seconds",
+            "english_total",
+            "english_conf_error",
+            "english_miss_error",
+            "spanish_conf_error",
+            "spanish_miss_error",
+            "spanish_total",
         ]
 
     def compute_metric(self, components):
