@@ -1,10 +1,18 @@
-from typing import Union
 import test_files.utils as u
 import matplotlib.pyplot as plt
 from pyannote.core import Annotation, Timeline, Segment
 from pyannote.metrics.base import BaseMetric
 from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
 import copy
+from pyannote.audio import Pipeline
+
+
+class AnalysisSegment(Segment):
+    def __init__(self, start, end):
+        super().__init__(start, end)
+        self.window_len = 5 #seconds
+        self.window_overlap = 0.5 #seconds
+        self.window1 = 'window'
 
 
 class Mask(Annotation):
@@ -31,6 +39,10 @@ class Mask(Annotation):
 
 
 class LanguageMetric(BaseMetric):
+    """
+    For computing metrics based on language.
+    """
+
     def __init__(
         self, reference=None, hypothesis=None, language_annotation=None, uri=None
     ):
@@ -51,7 +63,7 @@ class LanguageMetric(BaseMetric):
 
     @classmethod
     def metric_name(cls):
-        return "English and Spanish Error Rate"
+        return "English and Spanish Error Rates"
 
     @classmethod
     def metric_components(cls):
@@ -85,8 +97,12 @@ class LanguageMetric(BaseMetric):
     def compute_components(self):
         confusion_components = self.compute_confusion_components()
         miss_comp = self.compute_miss_components()
-        assert miss_comp["english_total"] == confusion_components["english_total"], "Error"
-        assert miss_comp["spanish_total"] == confusion_components["spanish_total"], "Error"
+        assert (
+            miss_comp["english_total"] == confusion_components["english_total"]
+        ), "Error"
+        assert (
+            miss_comp["spanish_total"] == confusion_components["spanish_total"]
+        ), "Error"
         components = {**confusion_components, **miss_comp}
         return components
 
@@ -107,7 +123,6 @@ class LanguageMetric(BaseMetric):
         return components
 
     def compute_miss_components(self):
-
         lang_miss_annotation = self.language_missed_annotation()
 
         english_miss = self._filter_language_annotation(lang_miss_annotation, "ENG")
@@ -229,3 +244,5 @@ class LanguageMetric(BaseMetric):
         extent_segment = ref_tl.union(hyp_tl).extent()
         uem = Timeline([extent_segment], uri=self.uri)
         return uem
+
+
