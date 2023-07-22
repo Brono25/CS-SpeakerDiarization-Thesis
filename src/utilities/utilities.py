@@ -24,37 +24,6 @@ def plot_timelines(timelines_with_legends):
         notebook.plot_timeline(timeline, ax=axs[idx])
         axs[idx].set_title(legend)
 
-
-class LanguageErrorAnalysis:
-    def __init__(self, uri):
-        self.uri = uri
-        self.ref_annotation = Annotation(uri=self.uri)
-        self.lang_segments = Annotation(uri=self.uri)
-        self.hyp_annotation = Annotation(uri=self.uri)
-        self.confused_spa = 0
-        self.confused_eng = 0
-        self.missed_eng = 0
-        self.missed_spa = 0
-
-    def merge_annotations(self):
-        self.merged_annotation = self.ref_annotation.update(self.lang_segments)
-
-    def plot_annotation(self, ref_title="Reference", hyp_title="Hypothesis"):
-        fig, axs = plt.subplots(2, 1, figsize=(12, 8), sharex=True)
-        self.merge_annotations()
-        annotations = [
-            (self.merged_annotation, ref_title),
-            (self.hyp_annotation, hyp_title),
-        ]
-
-        for idx, (annotation, legend) in enumerate(annotations):
-            notebook.plot_annotation(annotation, ax=axs[idx])
-            axs[idx].set_title(legend)
-
-        fig.suptitle("Test Annotation")
-        plt.show()
-
-
 def combine_annotations(*annotations):
     combined_annotation = Annotation()
     offset = 0
