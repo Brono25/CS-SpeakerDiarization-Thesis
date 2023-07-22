@@ -1,4 +1,4 @@
-import test_files.utils as u
+
 import matplotlib.pyplot as plt
 from pyannote.core import Annotation, Timeline, Segment
 from pyannote.metrics.base import BaseMetric
@@ -36,7 +36,7 @@ class Transcript(Annotation):
 
 
 
-a = Transcript()
+""" a = Transcript()
 a[Segment(0, 1)] = ('A', "Hello world", "EN")
 
 # To retrieve the text for a segment
@@ -46,3 +46,4 @@ print(text)  # Outputs: "Hello world"
 # To retrieve the language tag for a segment
 language = a.get_language(Segment(0, 1))
 print(language)  # Outputs: "EN"
+ """

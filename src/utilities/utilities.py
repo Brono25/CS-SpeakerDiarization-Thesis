@@ -1,6 +1,20 @@
 import matplotlib.pylab as plt
 from pyannote.core import notebook
 from pyannote.core import Annotation, Segment
+from pathlib import Path
+import sys
+
+print("\n".join(sys.path))
+
+root_dir_name = "CS-SpeakerDiarization-Thesis"
+root_dir = Path(__file__).parent.parent.parent
+if root_dir not in sys.path:
+    sys.path.append(root_dir)
+
+
+def get_project_root() -> Path:
+    return Path(__file__).parent.parent.parent
+
 
 def plot_annotations(annotations_with_legends):
     num_subplots = len(annotations_with_legends)
@@ -23,6 +37,7 @@ def plot_timelines(timelines_with_legends):
     for idx, (timeline, legend) in enumerate(timelines_with_legends):
         notebook.plot_timeline(timeline, ax=axs[idx])
         axs[idx].set_title(legend)
+
 
 def combine_annotations(*annotations):
     combined_annotation = Annotation()

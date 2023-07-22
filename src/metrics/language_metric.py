@@ -1,18 +1,7 @@
-import test_files.utils as u
-import matplotlib.pyplot as plt
-from pyannote.core import Annotation, Timeline, Segment
+from pyannote.core import Annotation, Timeline
 from pyannote.metrics.base import BaseMetric
 from pyannote.metrics.errors.identification import IdentificationErrorAnalysis
 import copy
-from pyannote.audio import Pipeline
-
-
-class AnalysisSegment(Segment):
-    def __init__(self, start, end):
-        super().__init__(start, end)
-        self.window_len = 5 #seconds
-        self.window_overlap = 0.5 #seconds
-        self.window1 = 'window'
 
 
 class Mask(Annotation):
@@ -244,5 +233,3 @@ class LanguageMetric(BaseMetric):
         extent_segment = ref_tl.union(hyp_tl).extent()
         uem = Timeline([extent_segment], uri=self.uri)
         return uem
-
-

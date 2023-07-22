@@ -1,19 +1,22 @@
-import os
+import pytest
+import math
+
+# Always use CS-SpeakerDiarization-Thesis as root
 import sys
-import math
+import re
 
-script_dir = os.path.dirname(os.path.realpath(__file__))
-sys.path.append(os.path.dirname(script_dir))
+root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
+sys.path.append(root)
 
-import unittest
-import math
+# local imports
+from src.metrics.language_metric import LanguageMetric  # noqa: E402
 
-from pyannote.core import Annotation, Segment
-from language_metric import LanguageMetric
+URI = "test bench"
 
 
-class TestLanguageMetric(unittest.TestCase):
-    def setUp(self):
+class TestLanguageMetric:
+    @pytest.fixture(autouse=True)
+    def setup_class(self):
         """
         Set up anything that needs to be run before each test here.
         """
@@ -42,11 +45,4 @@ class TestLanguageMetric(unittest.TestCase):
         test = LanguageMetric(uri=self.URI)
         result = test.compute_metric(self.components)
         for k, v in result.items():
-            self.assertTrue(
-                math.isclose(result[k], self.answer[k], rel_tol=1e-9),
-                f"FAIL: {k} not equal",
-            )
-
-
-if __name__ == "__main__":
-    unittest.main()
+            assert math.isclose(result[k], self.answer[k], rel_tol=1e-9), f"FAIL: {k} not equal"

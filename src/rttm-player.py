@@ -100,7 +100,7 @@ class AudioGUI:
         filename = os.path.basename(rttm_path).split(".")[0]
         id = re.search(r"([a-z]+_)?(.*)", filename).group(2)
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        audio_path = os.path.join(script_dir, f"../wav/{id}.wav")
+        audio_path = os.path.join(script_dir, f"../wav_files/{id}.wav")
 
         if os.path.isfile(audio_path):
             annotation = load_rttm(rttm_path)[id]  #all related rttms must have same uri
