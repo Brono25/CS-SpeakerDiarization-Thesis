@@ -1,7 +1,7 @@
 import os
 
 import matplotlib.pyplot as plt
-from language_metrics import LanguageMetrics
+from src.metrics.language_metric import LanguageMetric
 from pyannote.core import notebook
 from pyannote.database.util import load_rttm
 from pyannote.metrics.diarization import DiarizationErrorRate
@@ -31,7 +31,7 @@ def plot_annotations(annotations_with_legends):
 
 
 def compute_lang_error_rates(uri, ref, hyp, lang):
-    analysis = LanguageMetrics(
+    analysis = LanguageMetric(
         uri=uri, reference=ref, hypothesis=hyp, language_map=lang
     )
     components = analysis.compute_components()
