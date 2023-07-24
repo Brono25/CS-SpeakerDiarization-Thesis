@@ -85,10 +85,45 @@ def save_dict_to_json(input_dict, filename):
 
 
 
-def print_transcript_comparison(*transcripts: "Transcript"):  # noqa: F821
+def debug_transcript_comparison(*transcripts: "Transcript"):  # noqa: F821
+    """
+    Given one or more transcripts, this function iterates over each transcript segment
+    and prints them line by line in parallel. It also checks if each label, utterance, 
+    and language are equal across all transcripts.
+
+    This function is intended for debugging purposes, where comparing transcripts side by
+    side can help identify discrepancies or anomalies.
+
+    Each printed line includes the transcript number, segment details (start and end time), 
+    language, speaker label, and the spoken text.
+
+    Parameters
+    ----------
+    *transcripts : "Transcript"
+        Variable number of Transcript objects.
+
+    Examples
+    --------
+    >>> debug_transcript_comparison(transcript1, transcript2)
+    Transcript 1 - Segment: [ 00:00:00.470 -->  00:00:02.107], Language: ENG : KAY Hello
+    Transcript 2 - Segment: [ 00:00:00.470 -->  00:00:02.107], Language: ENG : KAY Hello
+    """
+    for i, transcript in enumerate(transcripts):
+        print(f"Transcript {i+1} - URI: {transcript.uri}")
+
     iterators = [transcript.itersegments() for transcript in transcripts]
     for segment_group in zip(*iterators):
+        labels, texts, langs = [], [], []
         for i, segment in enumerate(segment_group):
             label, text, lang = transcripts[i][segment]
+            labels.append(label)
+            texts.append(text)
+            langs.append(lang)
             print(f"Transcript {i+1} - Segment: {segment}, Language: {lang} : {label} {text}")
-            
+        
+        if len(set(labels)) > 1:
+            print(f"Discrepancy detected in labels: {labels}")
+        if len(set(texts)) > 1:
+            print(f"Discrepancy detected in utterances: {texts}")
+        if len(set(langs)) > 1:
+            print(f"Discrepancy detected in languages: {langs}")
