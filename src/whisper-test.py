@@ -4,9 +4,9 @@ import json
 
 uri = "sastre09_1"
 curr_dir = os.path.realpath(__file__)
-root_dir = curr_dir[: curr_dir.index("katana") + len("katana")]
-error_dir = f"{root_dir}/tools/metrics/error_rttm"
-audio_file_path = f"{root_dir}/wav/{uri}.wav"
+ROOT_DIR = curr_dir[: curr_dir.index("katana") + len("katana")]
+error_dir = f"{ROOT_DIR}/tools/metrics/error_rttm"
+audio_file_path = f"{ROOT_DIR}/wav/{uri}.wav"
 output_file = "whisper-result.json"
 
 def run_transcribe(model):
