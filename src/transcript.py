@@ -24,6 +24,10 @@ class Transcript(Annotation):
     """
     Transcript extends the pyannote.metrics.Annotation class by adding support for
     storing the spoken text and language label alongside each annotated segment.
+    Uses pyannote.core Segments.
+    Usage:
+            transcript = Transcript(uri=uri)
+            transcript[Segment(start, end)] = (label, text, language)
     """
 
     def __init__(self, uri=None, modality=None):
