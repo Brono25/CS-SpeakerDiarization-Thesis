@@ -11,13 +11,13 @@ sys.path.append(root)
 # local imports
 from src.transcript import Transcript  # noqa: E402
 
-
 def test_transcript():
-    a = Transcript()
+    a = Transcript(uri="test")
     a[Segment(0, 1)] = ("A", "Hello world", "EN")
+    seg, (label, text, language) = next(a.items())  
 
-    text = a.get_text(Segment(0, 1))
+    assert a.uri == "test"
+    assert label == 'A'
     assert text == "Hello world"
-
-    language = a.get_language(Segment(0, 1))
     assert language == "EN"
+    assert seg == Segment(0, 1)
