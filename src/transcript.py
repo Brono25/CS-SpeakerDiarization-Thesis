@@ -2,6 +2,7 @@ from pyannote.core import Annotation
 from pyannote.core import Segment
 import os
 import time
+from datetime import datetime
 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
@@ -15,6 +16,7 @@ from src.utilities import (  # noqa: E402
     get_uri_of_file,
     get_primary_language_of_file,
     TRANSCRIPTION_FILES_DIR,
+    ROOT_DIR,
 )
 
 
@@ -64,6 +66,21 @@ class Transcript(Annotation):
             self.language_tags[segment],
         )
 
+    def save_as_rttm(self, output_path: str = None):
+        if output_path is None:
+            output_path = f"{ROOT_DIR}/{self.uri}.rttm"
+        if os.path.isfile(output_path):
+            # if exists, add a timestamp to the filename
+            filename, file_extension = os.path.splitext(output_path)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            output_path = f"{filename}_{timestamp}{file_extension}"
+
+        with open(output_path, "w") as f:
+            self.write_rttm(f)
+
+        with open(output_path, "w") as f:
+            self.write_rttm(f)
+
     def items(self):
         for segment in self.transcript:
             yield segment, (
@@ -104,28 +121,31 @@ def save_transcript_to_file(transcript: Transcript, output=None):
             end = seg.end
             line = f"{start:.3f}|{end:.3f}|{language}|{label}|{text}"
             printable_content.append(line)
-    
-    output_content = '\n'.join(printable_content)
-    with open(output, 'w') as file:
+
+    output_content = "\n".join(printable_content)
+    with open(output, "w") as file:
         file.write(output_content)
     return output
 
+
 def load_transcript_from_file(file):
-
     if not os.path.exists(file):
-        raise FileNotFoundError 
+        raise FileNotFoundError
 
-    with open(file, 'r') as f:
+    with open(file, "r") as f:
         content = f.readlines()
 
     uri = get_uri_of_file(file)
     transcript = Transcript(uri=uri)
     for line in content:
-        start, end, language, label, text = line.split('|')
+        start, end, language, label, text = line.split("|")
         transcript[Segment(float(start), float(end))] = (label, text.rstrip(), language)
-        
+
     return transcript
 
+
+def save_transcript_as_rttm(transcript: Transcript, output: str):
+    pass
 
 
 def _build_transcript(content, prim_lang, uri):
