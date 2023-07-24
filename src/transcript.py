@@ -66,13 +66,6 @@ class Transcript(Annotation):
                 self.language_tags[segment],
             )
 
-    def get_text(self, segment):
-        return self.transcript.get(segment, None)
-
-    def get_language(self, segment):
-        return self.language_tags.get(segment, None)
-
-
 def cha_to_transcript(cha_file):
     uri = get_uri_of_file(cha_file)
     prim_lang = get_primary_language_of_file(uri)
@@ -229,7 +222,3 @@ def _filter_content(content):
     return filtered_content
 
 
-""" cha_to_transcript(
-    "/Users/brono/GitHub/CS-SpeakerDiarization-Thesis/cha_files/sastre09.cha"
-) 
- """
