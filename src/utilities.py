@@ -5,27 +5,24 @@ from pyannote.core import Annotation, Segment
 from pathlib import Path
 import sys
 
-root_dir_name = "CS-SpeakerDiarization-Thesis"
-root_dir = Path(__file__).parent.parent
-if root_dir not in sys.path:
-    sys.path.append(root_dir)
+ROOT_DIR_NAME = "CS-SpeakerDiarization-Thesis"
+ROOT_DIR = Path(__file__).parent.parent
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
 
-
-
-cha_files_dir = f"{root_dir}/cha_files"
-transcription_files_dir = f"{root_dir}/transcription_files"
-wav_files_dir = f"{root_dir}/wav_files"
-ref_rttm_dir = f"{root_dir}/rttm_files/ref_rttm"
-hyp_rttm_dir = f"{root_dir}/rttm_files/hyp_rttm"
-lang_rttm_dir = f"{root_dir}/rttm_files/lang_rttm"
-confusion_rttm_dir = f"{root_dir}/rttm_files/confusion_rttm"
-missed_rttm_dir = f"{root_dir}/rttm_files/missed_rttm"
-database_path = f"{root_dir}/src/database.json"
-
+CHA_FILES_DIR = f"{ROOT_DIR}/cha_files"
+TRANSCRIPTION_FILES_DIR = f"{ROOT_DIR}/transcription_files"
+WAV_FILES_DIR = f"{ROOT_DIR}/wav_files"
+REF_RTTM_DIR = f"{ROOT_DIR}/rttm_files/ref_rttm"
+HYP_RTTM_DIR = f"{ROOT_DIR}/rttm_files/hyp_rttm"
+LANG_RTTM_DIR = f"{ROOT_DIR}/rttm_files/lang_rttm"
+CONFUSION_RTTM_DIR = f"{ROOT_DIR}/rttm_files/confusion_rttm"
+MISSED_RTTM_DIR = f"{ROOT_DIR}/rttm_files/missed_rttm"
+DATABASE_PATH = f"{ROOT_DIR}/src/database.json"
 
 
 def get_uri_of_file(filename: str):
-    with open(database_path, 'r') as f:  
+    with open(DATABASE_PATH, 'r') as f:  
         database = json.load(f)
 
     for key in database.keys():
@@ -34,7 +31,7 @@ def get_uri_of_file(filename: str):
     raise ValueError(f"No URI found in filename {filename}")
 
 def get_primary_language_of_file(uri: str):
-    with open(database_path, 'r') as f:  
+    with open(DATABASE_PATH, 'r') as f:  
         database = json.load(f)
         
     if uri not in database:
