@@ -10,7 +10,7 @@ sys.path.append(root)
 
 # local imports
 from src.language_error import LanguageError  # noqa: E402
-
+from src.transcript import Transcript
 URI = "test bench"
 
 
