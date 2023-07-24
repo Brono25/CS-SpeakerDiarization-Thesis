@@ -1,5 +1,7 @@
 from pyannote.core import Annotation
 from pyannote.core import Segment
+import os
+import time
 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
@@ -9,7 +11,11 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.utilities import get_uri_of_file, get_primary_language_of_file  # noqa: E402
+from src.utilities import (  # noqa: E402
+    get_uri_of_file,
+    get_primary_language_of_file,
+    TRANSCRIPTION_FILES_DIR,
+)
 
 
 class Transcript(Annotation):
@@ -47,7 +53,7 @@ class Transcript(Annotation):
             if seg not in other or other[seg] != (speaker, text, language):
                 return False
         return True
-    
+
     def __ne__(self, other):
         return not self.__eq__(other)
 
@@ -66,6 +72,7 @@ class Transcript(Annotation):
                 self.language_tags[segment],
             )
 
+
 def cha_to_transcript(cha_file):
     uri = get_uri_of_file(cha_file)
     prim_lang = get_primary_language_of_file(uri)
@@ -80,6 +87,28 @@ def cha_to_transcript(cha_file):
     transcript = _build_transcript(transcript_content, prim_lang, uri)
 
     return transcript
+
+
+def save_transcript_to_file(transcript: Transcript, output=None):
+    if not output:
+        output = f"{TRANSCRIPTION_FILES_DIR}/{transcript.uri}.tr"
+
+    # if file already exists, append a timestamp to the filename
+    if os.path.exists(output):
+        output = f"{output.rsplit('.', 1)[0]}_{int(time.time())}.tr"
+
+    printable_content = []
+    if transcript:
+        for seg, (label, text, language) in transcript.items():
+            start = seg.start
+            end = seg.end
+            line = f"{start:.3f}|{end:.3f}|{language}|{label}|{text}"
+            printable_content.append(line)
+    
+    output_content = '\n'.join(printable_content)
+    with open(output, 'w') as file:
+        file.write(output_content)
+    return output
 
 
 def _build_transcript(content, prim_lang, uri):
@@ -139,7 +168,6 @@ def _get_speaker_content_from_cha(cha_content):
 
 
 def _seperate_content_languages(speaker_content):
-
     split_language_content = []
     for line in speaker_content:
         label, utterance = line.split(" ", 1)
@@ -160,6 +188,7 @@ def _seperate_content_languages(speaker_content):
 
     return split_language_content
 
+
 def _group_languages(words):
     groups = []
     group = ""
@@ -178,10 +207,11 @@ def _group_languages(words):
         groups.append(group.strip())
     return groups
 
+
 def _split_into_lines(groups, label, timestamp):
     """
-    Segments are used as keys for Transcript hence they need to be unique. 
-    This function duplicates segments when it splits lines based on 
+    Segments are used as keys for Transcript hence they need to be unique.
+    This function duplicates segments when it splits lines based on
     language, hence small changes to timestamps are needed to make
     the segments slightly different.
     """
@@ -194,6 +224,7 @@ def _split_into_lines(groups, label, timestamp):
         new_lines.append(f"{label} ! {group} {new_timestamp}")
         delta += 1
     return new_lines
+
 
 def _fix_timestamps(content):
     corrected_content = []
@@ -220,5 +251,3 @@ def _filter_content(content):
         filtered_line = re.sub(r"[\s]+", " ", filtered_line).rstrip()
         filtered_content.append(filtered_line)
     return filtered_content
-
-
