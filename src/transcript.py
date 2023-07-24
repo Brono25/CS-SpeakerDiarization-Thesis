@@ -84,18 +84,18 @@ def cha_to_transcript(cha_file):
     filtered_content = _filter_content(speaker_content)
     fixed_timestamp_content = _fix_timestamps(filtered_content)
     transcript_content = _seperate_content_languages(fixed_timestamp_content)
-    transcript = _build_transcript(transcript_content, prim_lang)
+    transcript = _build_transcript(transcript_content, prim_lang, uri)
 
     return transcript
 
 
-def _build_transcript(content, prim_lang):
-    transcript = Transcript()
+def _build_transcript(content, prim_lang, uri):
+    transcript = Transcript(uri=uri)
 
     for line in content:
         label = re.match(r"^([A-Z]{3}) ", line).group(1)
         match = re.search(r"(\d+)_(\d+)", line)
-        utterance = re.search(r"^[A-Z]{3}(.*) \d+_\d+$", line).group(1)
+        utterance = re.search(r"^[A-Z]{3} (.*) \d+_\d+$", line).group(1)
         if match:
             start = int(match.group(1)) / 1000
             end = int(match.group(2)) / 1000
