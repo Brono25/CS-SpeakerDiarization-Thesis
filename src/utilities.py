@@ -5,11 +5,12 @@ from pyannote.core import Annotation, Segment
 from pathlib import Path
 import sys
 
-
 root_dir_name = "CS-SpeakerDiarization-Thesis"
 root_dir = Path(__file__).parent.parent
 if root_dir not in sys.path:
     sys.path.append(root_dir)
+
+
 
 cha_files_dir = f"{root_dir}/cha_files"
 transcription_files_dir = f"{root_dir}/transcription_files"
@@ -82,3 +83,12 @@ def save_dict_to_json(input_dict, filename):
     with open(filename, 'w') as f:
         json.dump(input_dict, f, indent=4)
 
+
+
+def print_transcript_comparison(*transcripts: "Transcript"):  # noqa: F821
+    iterators = [transcript.itersegments() for transcript in transcripts]
+    for segment_group in zip(*iterators):
+        for i, segment in enumerate(segment_group):
+            label, text, lang = transcripts[i][segment]
+            print(f"Transcript {i+1} - Segment: {segment}, Language: {lang} : {label} {text}")
+            
