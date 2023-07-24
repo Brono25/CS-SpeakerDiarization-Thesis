@@ -10,10 +10,10 @@ sys.path.append(root)
 
 # local imports
 from src.transcript import cha_to_transcript, Transcript  # noqa: E402
-from src.utilities import root_dir, get_uri_of_file # noqa: E402
+from src.utilities import ROOT_DIR, get_uri_of_file # noqa: E402
 
 def test_cha_to_transcript():
-    test_file = f"{root_dir}/tests/test_files/test_sastre09.cha"
+    test_file = f"{ROOT_DIR}/tests/test_files/test_sastre09.cha"
     uri = get_uri_of_file(test_file)
     expected_output = Transcript(uri=uri)
     expected_output[Segment(0.47, 2.107)] = ("KAY", "! so", "ENG")
