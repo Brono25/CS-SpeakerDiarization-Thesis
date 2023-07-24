@@ -10,12 +10,11 @@ sys.path.append(root)
 
 # local imports
 from src.transcript import cha_to_transcript, Transcript  # noqa: E402
-from src.utilities import root_dir, get_uri_of_file, debug_transcript_comparison # noqa: E402
+from src.utilities import root_dir, get_uri_of_file # noqa: E402
 
 def test_cha_to_transcript():
     test_file = f"{root_dir}/tests/test_files/test_sastre09.cha"
     uri = get_uri_of_file(test_file)
-    print(f"uri = {uri}")
     expected_output = Transcript(uri=uri)
     expected_output[Segment(0.47, 2.107)] = ("KAY", "! so", "ENG")
     expected_output[Segment(0.471, 2.106)] = ("KAY", "! sí@s hay@s un@s", "SPA")
@@ -34,11 +33,4 @@ def test_cha_to_transcript():
 
     output = cha_to_transcript(test_file)
 
-    debug_transcript_comparison(output, expected_output)
-
-
-
     assert output == expected_output
-
-
-test_cha_to_transcript()
