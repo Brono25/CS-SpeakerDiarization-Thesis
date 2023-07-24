@@ -110,6 +110,23 @@ def save_transcript_to_file(transcript: Transcript, output=None):
         file.write(output_content)
     return output
 
+def load_transcript_from_file(file):
+
+    if not os.path.exists(file):
+        raise FileNotFoundError 
+
+    with open(file, 'r') as f:
+        content = f.readlines()
+
+    uri = get_uri_of_file(file)
+    transcript = Transcript(uri=uri)
+    for line in content:
+        start, end, language, label, text = line.split('|')
+        transcript[Segment(float(start), float(end))] = (label, text.rstrip(), language)
+        
+    return transcript
+
+
 
 def _build_transcript(content, prim_lang, uri):
     transcript = Transcript(uri=uri)
