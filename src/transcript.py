@@ -146,29 +146,6 @@ def _get_speaker_content_from_cha(cha_content):
 
 
 def _seperate_content_languages(speaker_content):
-    def group_languages(words):
-        groups = []
-        group = ""
-        for word in words:
-            if re.search(r"@s", word):
-                if group and "@s" not in group:
-                    groups.append(group.strip())
-                    group = ""
-                group += word + " "
-            else:
-                if group and "@s" in group:
-                    groups.append(group.strip())
-                    group = ""
-                group += word + " "
-        if group:
-            groups.append(group.strip())
-        return groups
-
-    def split_into_lines(groups, label, timestamp):
-        new_lines = []
-        for group in groups:
-            new_lines.append(f"{label} ! {group} {timestamp}")
-        return new_lines
 
     split_language_content = []
     for line in speaker_content:
@@ -184,12 +161,46 @@ def _seperate_content_languages(speaker_content):
         if "@s" not in line:
             split_language_content.append(line)
         else:
-            groups = group_languages(words)
-            new_lines = split_into_lines(groups, label, timestamp)
+            groups = _group_languages(words)
+            new_lines = _split_into_lines(groups, label, timestamp)
             split_language_content.extend(new_lines)
 
     return split_language_content
 
+def _group_languages(words):
+    groups = []
+    group = ""
+    for word in words:
+        if re.search(r"@s", word):
+            if group and "@s" not in group:
+                groups.append(group.strip())
+                group = ""
+            group += word + " "
+        else:
+            if group and "@s" in group:
+                groups.append(group.strip())
+                group = ""
+            group += word + " "
+    if group:
+        groups.append(group.strip())
+    return groups
+
+def _split_into_lines(groups, label, timestamp):
+    """
+    Segments are used as keys for Transcript hence they need to be unique. 
+    This function duplicates segments when it splits lines based on 
+    language, hence small changes to timestamps are needed to make
+    the segments slightly different.
+    """
+    new_lines = []
+    delta = 0
+    match = re.search(r"(\d+)_(\d+)", timestamp)
+    start, end = int(match.group(1)), int(match.group(2))
+    for group in groups:
+        new_timestamp = f"{start + delta}_{end - delta}"
+        new_lines.append(f"{label} ! {group} {new_timestamp}")
+        delta += 1
+    return new_lines
 
 def _fix_timestamps(content):
     corrected_content = []
