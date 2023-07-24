@@ -49,8 +49,8 @@ class Transcript(Annotation):
         if len(self) != len(other):
             return False
 
-        for seg, (speaker, text, language) in self.items():
-            if seg not in other or other[seg] != (speaker, text, language):
+        for seg, (language, label, text) in self.items():
+            if seg not in other or other[seg] != (language, label, text):
                 return False
         return True
 
@@ -99,7 +99,7 @@ def save_transcript_to_file(transcript: Transcript, output=None):
 
     printable_content = []
     if transcript:
-        for seg, (label, text, language) in transcript.items():
+        for seg, (language, label, text) in transcript.items():
             start = seg.start
             end = seg.end
             line = f"{start:.3f}|{end:.3f}|{language}|{label}|{text}"
@@ -134,7 +134,7 @@ def _build_transcript(content, prim_lang, uri):
     for line in content:
         label = re.match(r"^([A-Z]{3}) ", line).group(1)
         match = re.search(r"(\d+)_(\d+)", line)
-        utterance = re.search(r"^[A-Z]{3} (.*) \d+_\d+$", line).group(1)
+        text = re.search(r"^[A-Z]{3} (.*) \d+_\d+$", line).group(1)
         if match:
             start = int(match.group(1)) / 1000
             end = int(match.group(2)) / 1000
@@ -153,7 +153,7 @@ def _build_transcript(content, prim_lang, uri):
             else:
                 language = "SPA"
 
-        transcript[Segment(start, end)] = (label, utterance, language)
+        transcript[Segment(start, end)] = (language, label, text)
     return transcript
 
 
@@ -187,15 +187,15 @@ def _get_speaker_content_from_cha(cha_content):
 def _seperate_content_languages(speaker_content):
     split_language_content = []
     for line in speaker_content:
-        label, utterance = line.split(" ", 1)
+        label, test = line.split(" ", 1)
         try:
             timestamp = re.search(r"(\d+_\d+)", line).group(1)
-            utterance = re.sub(r"\d+_\d+", "", utterance).rstrip("\n ")
+            test = re.sub(r"\d+_\d+", "", test).rstrip("\n ")
         except AttributeError:
             print(f"No timestamp found on line: {line}")
             sys.exit(1)
 
-        words = utterance.split()
+        words = test.split()
         if "@s" not in line:
             split_language_content.append(line)
         else:
