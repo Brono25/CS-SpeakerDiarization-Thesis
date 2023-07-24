@@ -9,13 +9,13 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.metrics.language_metric import LanguageMetric  # noqa: E402
+from src.language_error import LanguageError  # noqa: E402
 
 URI = "test bench"
 
 
 class TestLanguageMetric:
-    def test_compute_miss_components(self):
+    def test_language_missed_annotation(self):
         ref = Annotation(uri=URI)
         ref[Segment(0, 10)] = "A"
         ref[Segment(5, 6)] = "B"
@@ -33,16 +33,21 @@ class TestLanguageMetric:
         language_annotation[Segment(9, 11)] = "SPA"
         language_annotation[Segment(11, 16)] = "ENG"
         language_annotation[Segment(16, 20)] = "SPA"
-
-        answer = {
-            "english_miss_error": 5,
-            "english_total": 10,
-            "spanish_miss_error": 3,
-            "spanish_total": 8,
-        }
-        test = LanguageMetric(
-            uri=URI, reference=ref, hypothesis=hyp, language_annotation=language_annotation
+        test = LanguageError(
+            uri=URI,
+            reference=ref,
+            hypothesis=hyp,
+            language_annotation=language_annotation,
         )
-        result = test.compute_miss_components()
+        result = test.language_missed_annotation()
 
-        assert result == answer, "FAIL: compute_miss_components"
+        answer = Annotation(uri=URI)
+        answer[Segment(2, 3)] = "ENG"
+        answer[Segment(3, 5)] = "SPA"
+        answer[Segment(6, 7)] = "SPA"
+        answer[Segment(7, 8)] = "ENG"
+        answer[Segment(12, 15)] = "ENG"
+
+        assert isinstance(result, Annotation), "Result is not an Annotation instance."
+        assert result == answer, "Mismatch in Annotation."
+        assert result.uri == ref.uri, "URI mismatch."

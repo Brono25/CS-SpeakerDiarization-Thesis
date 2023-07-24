@@ -9,13 +9,13 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.metrics.language_metric import LanguageMetric, Mask  # noqa: E402
+from src.language_error import LanguageError, Mask  # noqa: E402
 
 URI = "test bench"
 
 
 def test_crop_annotation_with_mask():
-    test = LanguageMetric(uri=URI)
+    test = LanguageError(uri=URI)
     annotation = Annotation(uri=URI)
     annotation[Segment(0, 2)] = "A"
     annotation[Segment(3, 5)] = "A"
@@ -35,5 +35,6 @@ def test_crop_annotation_with_mask():
         and result == answer
         and result.uri == annotation.uri
     ), "Test failed: _keep_annotation_sections"
+
 
 test_crop_annotation_with_mask()

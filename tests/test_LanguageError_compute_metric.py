@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.metrics.language_metric import LanguageMetric  # noqa: E402
+from src.language_error import LanguageError  # noqa: E402
 
 URI = "test bench"
 
@@ -40,9 +40,9 @@ class TestLanguageMetric:
 
     def test_compute_metric(self):
         """
-        Test the compute_metric method of the LanguageMetric class.
+        Test the compute_metric method of the LanguageError class.
         """
-        test = LanguageMetric(uri=self.URI)
+        test = LanguageError(uri=self.URI)
         result = test.compute_metric(self.components)
         for k, v in result.items():
             assert math.isclose(result[k], self.answer[k], rel_tol=1e-9), f"FAIL: {k} not equal"

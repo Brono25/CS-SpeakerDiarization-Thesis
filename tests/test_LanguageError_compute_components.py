@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.metrics.language_metric import LanguageMetric  # noqa: E402
+from src.language_error import LanguageError  # noqa: E402
 
 URI = "test bench"
 
@@ -61,7 +61,7 @@ def test_compute_components():
         "spanish_miss_error": 3,
     }
 
-    test = LanguageMetric(
+    test = LanguageError(
         uri=URI, reference=ref, hypothesis=hyp, language_annotation=lang_map
     )
     result = test.compute_components()

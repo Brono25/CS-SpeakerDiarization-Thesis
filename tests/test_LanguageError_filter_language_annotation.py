@@ -9,13 +9,13 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.metrics.language_metric import LanguageMetric  # noqa: E402
+from src.language_error import LanguageError  # noqa: E402
 
 URI = "test bench"
 
 
 def test_filter_language_annotation():
-    test = LanguageMetric(uri=URI)
+    test = LanguageError(uri=URI)
     language_annotation = Annotation(uri=URI)
     language_annotation[Segment(0, 2)] = "ENG"
     language_annotation[Segment(3, 5)] = "SPA"
