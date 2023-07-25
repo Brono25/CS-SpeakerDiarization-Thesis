@@ -9,6 +9,7 @@ dependencies:
   - tk
   - pydub
   - pytest
+  - jupyter
   - pip
   - pip:
     - git+https://github.com/openai/whisper.git

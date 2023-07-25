@@ -20,6 +20,7 @@ CONFUSION_RTTM_DIR = f"{ROOT_DIR}/rttm_files/confusion_rttm"
 MISSED_RTTM_DIR = f"{ROOT_DIR}/rttm_files/missed_rttm"
 DATABASE_PATH = f"{ROOT_DIR}/src/database.json"
 TEST_FILES = f"{ROOT_DIR}/tests/test_files"
+LOG_FILES = f"{ROOT_DIR}/logs"
 
 
 def get_uri_of_file(filename: str):

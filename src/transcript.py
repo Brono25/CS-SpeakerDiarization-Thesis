@@ -18,6 +18,7 @@ from src.utilities import (  # noqa: E402
     TRANSCRIPTION_FILES_DIR,
     REF_RTTM_DIR,
     LANG_RTTM_DIR,
+    LOG_FILES,
 )
 
 
@@ -28,7 +29,7 @@ class Transcript(Annotation):
     Uses pyannote.core Segments.
     Usage:
             transcript = Transcript(uri=uri)
-            transcript[Segment(start, end)] = (label, text, language)
+            transcript[Segment(start, end)] = (label, language, text)
     """
 
     def __init__(self, uri=None, modality=None):
@@ -126,9 +127,13 @@ def cha_to_transcript(cha_file: str):
         cha_content = f.readlines()
 
     speaker_content = _get_speaker_content_from_cha(cha_content)
+    output_logfile(f"1_{uri}_speaker_content_output", speaker_content)
     filtered_content = _filter_content(speaker_content)
+    output_logfile(f"2_{uri}_filtered_content_output", filtered_content)
     fixed_timestamp_content = _fix_timestamps(filtered_content)
+    output_logfile(f"3_{uri}_fixed_timestamp_output", fixed_timestamp_content)
     transcript_content = _seperate_content_languages(fixed_timestamp_content)
+    output_logfile(f"4_{uri}_transcript_content", transcript_content)
     transcript = _build_transcript(transcript_content, prim_lang, uri)
 
     return transcript
@@ -173,16 +178,21 @@ def load_transcript_from_file(file):
 
 def _build_transcript(content, prim_lang, uri):
     transcript = Transcript(uri=uri)
-
+    skipped_lines_timestamps = []
     for line in content:
-        label = re.match(r"^([A-Z]{3}) ", line).group(1)
-        match = re.search(r"(\d+)_(\d+)", line)
-        text = re.search(r"^[A-Z]{3} (.*) \d+_\d+$", line).group(1)
-        if match:
-            start = int(match.group(1)) / 1000
-            end = int(match.group(2)) / 1000
-        else:
-            raise ValueError(f"No timestamp found in'{line}'")
+        match = re.match(r"^([A-Z]{3}) (.*) (\d+)_(\d+$)", line)
+        if not match:
+            match = re.match(r"^([A-Z]{3}).*?(\d+)_(\d+$)", line)
+            if match:
+                _, start, end = match.groups()
+                line_id = f"{start}_{end}"
+                skipped_lines_timestamps.append(line_id)
+                continue
+
+        label, text, start, end = match.groups()
+        start = int(start) / 1000
+        end = int(end) / 1000
+
         language = None
         if prim_lang == "ENG":
             if re.search(r"_SPA", line) or re.search(r"@s", line):
@@ -197,6 +207,7 @@ def _build_transcript(content, prim_lang, uri):
                 language = "SPA"
 
         transcript[Segment(start, end)] = (label, language, text)
+        log_skipped_summary(uri, skipped_lines_timestamps)
     return transcript
 
 
@@ -275,6 +286,7 @@ def _split_into_lines(groups, label, timestamp):
     language, hence small changes to timestamps are needed to make
     the segments slightly different.
     """
+    log_timestamps = []
     new_lines = []
     delta = 0
     match = re.search(r"(\d+)_(\d+)", timestamp)
@@ -283,6 +295,7 @@ def _split_into_lines(groups, label, timestamp):
         new_timestamp = f"{start + delta}_{end - delta}"
         new_lines.append(f"{label} ! {group} {new_timestamp}")
         delta += 1
+        log_timestamps.append(new_timestamp)
     return new_lines
 
 
@@ -311,3 +324,40 @@ def _filter_content(content):
         filtered_line = re.sub(r"[\s]+", " ", filtered_line).rstrip()
         filtered_content.append(filtered_line)
     return filtered_content
+
+
+def output_logfile(log_name: str, content: list):
+    log_path = f"{LOG_FILES}/{log_name}.log"
+    with open(log_path, "w") as f:
+        f.writelines("\n".join(content))
+
+
+def log_skipped_summary(uri:str , timestamps: list):
+
+    steps = {
+        '1': f"{LOG_FILES}/1_{uri}_speaker_content_output.log",
+        '2': f"{LOG_FILES}/2_{uri}_filtered_content_output.log",
+        '3': f"{LOG_FILES}/3_{uri}_fixed_timestamp_output.log",
+        '4': f"{LOG_FILES}/4_{uri}_transcript_content.log"
+    }
+
+    content = {}
+    for step, file in steps.items():
+        with open(file, "r") as f:
+            content[step] = f.readlines()
+
+    log_summary_file = f"{LOG_FILES}/{uri}_skipped_summary.log"
+    with open(log_summary_file, 'w') as f:
+        for i, timestamp in enumerate(timestamps):
+            print(f"--------SKIPPED SECTION {i}--------", file=f)
+            for step, lines in content.items():
+                for line in lines:
+                    if timestamp in line:
+                        print(f"step {step}: {line}", file=f)
+            print("", file=f)
+
+
+
+
+
+
