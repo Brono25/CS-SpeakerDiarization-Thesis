@@ -43,7 +43,7 @@ class CSMetrics:
         spanish_total = 0
         english_total = 0
         total = 0
-        for _, (_, text, language) in self.transcript.items():
+        for _, (_, language, text) in self.transcript.items():
             words = [word for word in text.split(" ") if word]
             if language == self.english:
                 english_total += len(words)
@@ -78,7 +78,7 @@ class CSMetrics:
         total_words = 0
         prev_language = None
 
-        for _, (_, text, language) in self.transcript.items():
+        for _, (_, language, text) in self.transcript.items():
             words = [word for word in text.split(" ") if word]
             total_words += len(words)
             if prev_language is not None and prev_language != language:
@@ -104,7 +104,7 @@ class CSMetrics:
         span_lengths = []
         span_length = 0
         prev_language = None
-        for _, (_, text, language) in self.transcript.items():
+        for _, (_, language, text) in self.transcript.items():
             words = [word for word in text.split(" ") if word]
 
             if prev_language is not None and prev_language != language:

@@ -13,34 +13,44 @@ sys.path.append(root)
 from src.transcript import Transcript  # noqa: E402
 from src.cs_metrics import CSMetrics  # noqa: E402
 
-@pytest.mark.parametrize("segments, expected_spans", [
-    ([
-        (Segment(0, 1), "A", "1 2 3 4", "ENG"),
-        (Segment(1, 2), "B", "1 2 3", "SPA"),
-        (Segment(2, 3), "A", "1 2 3 4 5 6 7", "ENG"),
-        (Segment(3, 4), "A", "1", "SPA"),
-        (Segment(4, 5), "B", "2 3 4 5 6", "SPA"),
-        (Segment(5, 6), "B", "1 2 3 4", "ENG"),
-        (Segment(6, 7), "B", "1 2", "SPA"),
-        (Segment(7, 8), "A", "1 2", "ENG"),
-        (Segment(8, 9), "A", "3 4 5 6", "ENG"),
-        (Segment(9, 10), "A", "7 8 9 10 11 12", "ENG"),
-        (Segment(10, 11), "B", "1 2 3 4 5 6", "SPA")
-    ], np.array([4, 3, 7, 6, 4, 2, 12, 6])),
-    ([
-        (Segment(0, 1), "A", "1 2 3 4", "ENG"),
-        (Segment(1, 2), "B", "1 2 3", "SPA"),
-        (Segment(2, 3), "A", "1 2 3 4 5 6 7", "ENG"),
-        (Segment(3, 4), "A", "1", "SPA"),
-        (Segment(4, 5), "B", "2 3 4 5 6", "SPA"),
-        (Segment(5, 6), "B", "1 2 3 4", "ENG"),
-        (Segment(6, 7), "B", "1 2", "SPA"),
-        (Segment(7, 8), "A", "1 2", "ENG"),
-        (Segment(8, 9), "A", "3 4 5 6", "ENG"),
-        (Segment(9, 10), "A", "7 8 9 10 11 12", "ENG"),
-        (Segment(10, 11), "B", "13 14 15 16 17 18", "ENG")
-    ], np.array([4, 3, 7, 6, 4, 2, 18]))
-])
+
+@pytest.mark.parametrize(
+    "segments, expected_spans",
+    [
+        (
+            [
+                (Segment(0, 1), "A", "ENG", "1 2 3 4"),
+                (Segment(1, 2), "B", "SPA", "1 2 3"),
+                (Segment(2, 3), "A", "ENG", "1 2 3 4 5 6 7"),
+                (Segment(3, 4), "A", "SPA", "1"),
+                (Segment(4, 5), "B", "SPA", "2 3 4 5 6"),
+                (Segment(5, 6), "B", "ENG", "1 2 3 4"),
+                (Segment(6, 7), "B", "SPA", "1 2"),
+                (Segment(7, 8), "A", "ENG", "1 2"),
+                (Segment(8, 9), "A", "ENG", "3 4 5 6"),
+                (Segment(9, 10), "A", "ENG", "7 8 9 10 11 12"),
+                (Segment(10, 11), "B", "SPA", "1 2 3 4 5 6"),
+            ],
+            np.array([4, 3, 7, 6, 4, 2, 12, 6]),
+        ),
+        (
+            [
+                (Segment(0, 1), "A", "ENG", "1 2 3 4"),
+                (Segment(1, 2), "B", "SPA", "1 2 3"),
+                (Segment(2, 3), "A", "ENG", "1 2 3 4 5 6 7"),
+                (Segment(3, 4), "A", "SPA", "1"),
+                (Segment(4, 5), "B", "SPA", "2 3 4 5 6"),
+                (Segment(5, 6), "B", "ENG", "1 2 3 4"),
+                (Segment(6, 7), "B", "SPA", "1 2"),
+                (Segment(7, 8), "A", "ENG", "1 2"),
+                (Segment(8, 9), "A", "ENG", "3 4 5 6"),
+                (Segment(9, 10), "A", "ENG", "7 8 9 10 11 12"),
+                (Segment(10, 11), "B", "ENG", "13 14 15 16 17 18"),
+            ],
+            np.array([4, 3, 7, 6, 4, 2, 18]),
+        ),
+    ],
+)
 def test_burstiness(segments, expected_spans):
     transcript = Transcript(uri="burstiness test")
     for segment in segments:

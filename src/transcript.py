@@ -42,7 +42,7 @@ class Transcript(Annotation):
             self.language_tags[segment] = value[2]
         else:
             raise ValueError(
-                "Value must be a tuple with length 3: (label, text, language_tag)"
+                "Value must be a tuple with length 3: (label, language_tag, text)"
             )
 
     def __eq__(self, other):
@@ -55,8 +55,8 @@ class Transcript(Annotation):
         if len(self) != len(other):
             return False
 
-        for seg, (language, label, text) in self.items():
-            if seg not in other or other[seg] != (language, label, text):
+        for seg, (label, language, text) in self.items():
+            if seg not in other or other[seg] != (label, language, text):
                 return False
         return True
 
@@ -94,7 +94,7 @@ class Transcript(Annotation):
             )
 
 
-def cha_to_transcript(cha_file):
+def cha_to_transcript(cha_file: str):
     uri = get_uri_of_file(cha_file)
     prim_lang = get_primary_language_of_file(uri)
 
@@ -120,10 +120,10 @@ def save_transcript_to_file(transcript: Transcript, output=None):
 
     printable_content = []
     if transcript:
-        for seg, (language, label, text) in transcript.items():
+        for seg, (label, language, text) in transcript.items():
             start = seg.start
             end = seg.end
-            line = f"{start:.3f}|{end:.3f}|{language}|{label}|{text}"
+            line = f"{start:.3f}|{end:.3f}|{label}|{language}|{text}"
             printable_content.append(line)
 
     output_content = "\n".join(printable_content)
@@ -142,9 +142,8 @@ def load_transcript_from_file(file):
     uri = get_uri_of_file(file)
     transcript = Transcript(uri=uri)
     for line in content:
-        start, end, language, label, text = line.split("|")
-        transcript[Segment(float(start), float(end))] = (label, text.rstrip(), language)
-
+        start, end, label, language, text = line.split("|")
+        transcript[Segment(float(start), float(end))] = (label,language, text.rstrip())
     return transcript
 
 
@@ -177,7 +176,7 @@ def _build_transcript(content, prim_lang, uri):
             else:
                 language = "SPA"
 
-        transcript[Segment(start, end)] = (language, label, text)
+        transcript[Segment(start, end)] = (label, language, text)
     return transcript
 
 

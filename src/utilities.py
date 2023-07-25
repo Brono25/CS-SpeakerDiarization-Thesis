@@ -21,8 +21,9 @@ MISSED_RTTM_DIR = f"{ROOT_DIR}/rttm_files/missed_rttm"
 DATABASE_PATH = f"{ROOT_DIR}/src/database.json"
 TEST_FILES = f"{ROOT_DIR}/tests/test_files"
 
+
 def get_uri_of_file(filename: str):
-    with open(DATABASE_PATH, 'r') as f:  
+    with open(DATABASE_PATH, "r") as f:
         database = json.load(f)
 
     for key in database.keys():
@@ -30,10 +31,11 @@ def get_uri_of_file(filename: str):
             return key
     raise ValueError(f"No URI found in filename {filename}")
 
+
 def get_primary_language_of_file(uri: str):
-    with open(DATABASE_PATH, 'r') as f:  
+    with open(DATABASE_PATH, "r") as f:
         database = json.load(f)
-        
+
     if uri not in database:
         raise KeyError(f"URI '{uri}' not found in database")
     return database[uri]["primary_language"]
@@ -77,21 +79,20 @@ def combine_annotations(*annotations):
 
 
 def save_dict_to_json(input_dict, filename):
-    with open(filename, 'w') as f:
+    with open(filename, "w") as f:
         json.dump(input_dict, f, indent=4)
-
 
 
 def debug_transcript_comparison(*transcripts: "Transcript"):  # noqa: F821
     """
     Given one or more transcripts, this function iterates over each transcript segment
-    and prints them line by line in parallel. It also checks if each label, utterance, 
+    and prints them line by line in parallel. It also checks if each label, utterance,
     and language are equal across all transcripts.
 
     This function is intended for debugging purposes, where comparing transcripts side by
     side can help identify discrepancies or anomalies.
 
-    Each printed line includes the transcript number, segment details (start and end time), 
+    Each printed line includes the transcript number, segment details (start and end time),
     language, speaker label, and the spoken text.
 
     Parameters
@@ -110,14 +111,16 @@ def debug_transcript_comparison(*transcripts: "Transcript"):  # noqa: F821
 
     iterators = [transcript.itersegments() for transcript in transcripts]
     for segment_group in zip(*iterators):
-        labels, texts, langs = [], [], []
+        labels, langs, texts = [], [], []
         for i, segment in enumerate(segment_group):
-            label, text, lang = transcripts[i][segment]
+            label, lang, text = transcripts[i][segment]
             labels.append(label)
             texts.append(text)
             langs.append(lang)
-            print(f"Transcript {i+1} - Segment: {segment}, Language: {lang} : {label} {text}")
-        
+            print(
+                f"Transcript {i+1} - Segment: {segment} = ({label} : {lang} : {text})"
+            )
+
         if len(set(labels)) > 1:
             print(f"Discrepancy detected in labels: {labels}")
         if len(set(texts)) > 1:

@@ -4,6 +4,8 @@
 - [ ] consolidate metrics
 - [x] m-index metric
 - [x] i-index metric
-- [ ] Burstiness metric
+- [x] Burstiness metric
 - [ ] Convert LanguageError to handle Transcripts
 - [ ] Convert Transcript Player to handle Transcripts, rename to Transcript Editor 
+- [ ] switch point density plots (see CS metrics)
+- [ ] language span distributions (see CS metrics)

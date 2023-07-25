@@ -16,17 +16,18 @@ from src.cs_metrics import CSMetrics  # noqa: E402
 
 def test_i_index():
     transcript = Transcript(uri="i-index test")
-    transcript[Segment(0, 1)] = ("A", "1 2 3 4", "ENG")
-    transcript[Segment(1, 2)] = ("B", "5 6 7", "SPA")
-    transcript[Segment(2, 3)] = ("A", "8 9 10 11 12", "ENG")
-    transcript[Segment(3, 4)] = ("A", "13", "SPA")
-    transcript[Segment(4, 5)] = ("B", "14 15", "SPA")
-    transcript[Segment(5, 6)] = ("B", "16 17", "ENG")
-    transcript[Segment(6, 7)] = ("B", "18 19 20", "SPA")
-    transcript[Segment(7, 8)] = ("A", "21", "ENG")
-    transcript[Segment(8, 9)] = ("A", "22 23", "SPA")
-    transcript[Segment(9, 10)] = ("A", "24 25 26 27", "ENG")
-    transcript[Segment(10, 11)] = ("B", "28 29 30", "SPA")
+    transcript[Segment(0, 1)] = ("A", "ENG", "1 2 3 4")
+    transcript[Segment(1, 2)] = ("B", "SPA", "5 6 7")
+    transcript[Segment(2, 3)] = ("A", "ENG", "8 9 10 11 12")
+    transcript[Segment(3, 4)] = ("A", "SPA", "13")
+    transcript[Segment(4, 5)] = ("B", "SPA", "14 15")
+    transcript[Segment(5, 6)] = ("B", "ENG", "16 17")
+    transcript[Segment(6, 7)] = ("B", "SPA", "18 19 20")
+    transcript[Segment(7, 8)] = ("A", "ENG", "21")
+    transcript[Segment(8, 9)] = ("A", "SPA", "22 23")
+    transcript[Segment(9, 10)] = ("A", "ENG", "24 25 26 27")
+    transcript[Segment(10, 11)] = ("B", "SPA", "28 29 30")
+
 
     num_switch_point = 9
     total_words = 30

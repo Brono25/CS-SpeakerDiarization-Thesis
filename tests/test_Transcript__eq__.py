@@ -13,38 +13,63 @@ from src.transcript import Transcript  # noqa: E402
 
 
 def test_transcript_equality():
+    spkr1 = "A"
+    spkr2 = "B"
     # Creating two transcripts with identical content
     a = Transcript(uri="test")
-    a[Segment(0, 1)] = ("A", "Hello World!", "ENG")
-    a[Segment(1, 2)] = ("B", "Hola mundo", "SPA")
+    a[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    a[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
 
     b = Transcript(uri="test")
-    b[Segment(0, 1)] = ("A", "Hello World!", "ENG")
-    b[Segment(1, 2)] = ("B", "Hola mundo", "SPA")
+    b[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    b[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
 
-    # Test that they are considered equal
+    label, lang, text = a[Segment(0, 1)]
+    assert label == spkr1
+    assert lang == "ENG"
+    assert text == "Hello World!"
     assert a == b
 
     # Creating two transcripts with different uri's but same content
-    a = Transcript(uri="")
-    a[Segment(0, 1)] = ("A", "Hello World!", "ENG")
-    a[Segment(1, 2)] = ("B", "Hola mundo", "SPA")
+    a = Transcript(uri="test")
+    a[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    a[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
 
-    b = Transcript(uri="test")
-    b[Segment(0, 1)] = ("A", "Hello World!", "ENG")
-    b[Segment(1, 2)] = ("B", "Hola mundo", "SPA")
+    b = Transcript(uri="test different")
+    b[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    b[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
 
-    # Test that they are considered unequal
     assert a != b
 
-    # Creating two transcripts with same uri's but different content
+    # Creating two transcripts with same uri's but different text
     a = Transcript(uri="test")
-    a[Segment(0, 1)] = ("A", "Hello World!", "ENG")
-    a[Segment(1, 2)] = ("B", "Hola mundo", "SPA")
+    a[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    a[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
 
     b = Transcript(uri="test")
-    b[Segment(0, 1)] = ("B", "Hello World!", "ENG")
-    b[Segment(1, 2)] = ("B", "Hola mundo", "SPA")
+    b[Segment(0, 1)] = (spkr1, "ENG", "-")
+    b[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
 
-    # Test that they are considered unequal
+    assert a != b
+
+    # Creating two transcripts with different labels
+    a = Transcript(uri="test")
+    a[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    a[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
+
+    b = Transcript(uri="test")
+    b[Segment(0, 1)] = (spkr1, "ENG", "-")
+    b[Segment(1, 2)] = (spkr1, "SPA", "Hola mundo")
+
+    assert a != b
+
+    # Creating two transcripts with different languages
+    a = Transcript(uri="test")
+    a[Segment(0, 1)] = (spkr1, "ENG", "Hello World!")
+    a[Segment(1, 2)] = (spkr2, "SPA", "Hola mundo")
+
+    b = Transcript(uri="test")
+    b[Segment(0, 1)] = (spkr1, "ENG", "-")
+    b[Segment(1, 2)] = (spkr1, "ENG", "Hola mundo")
+
     assert a != b
