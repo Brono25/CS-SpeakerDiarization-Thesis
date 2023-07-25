@@ -16,7 +16,8 @@ from src.utilities import (  # noqa: E402
     get_uri_of_file,
     get_primary_language_of_file,
     TRANSCRIPTION_FILES_DIR,
-    ROOT_DIR,
+    REF_RTTM_DIR,
+    LANG_RTTM_DIR,
 )
 
 
@@ -70,9 +71,15 @@ class Transcript(Annotation):
             self.language_tags[segment],
         )
 
-    def save_as_rttm(self, output_path: str = None):
-        if output_path is None:
-            output_path = f"{ROOT_DIR}/{self.uri}.rttm"
+    def export_ref_rttm(self, support=True) -> str:
+        output_path = f"{REF_RTTM_DIR}/{self.uri}.rttm"
+        ref_rttm = Annotation(uri=self.uri)
+        for seg, (label, _, _) in self.items():
+            ref_rttm[seg] = label
+
+        if support:
+            ref_rttm = ref_rttm.support(collar=0.0)
+
         if os.path.isfile(output_path):
             # if exists, add a timestamp to the filename
             filename, file_extension = os.path.splitext(output_path)
@@ -80,10 +87,27 @@ class Transcript(Annotation):
             output_path = f"{filename}_{timestamp}{file_extension}"
 
         with open(output_path, "w") as f:
-            self.write_rttm(f)
+            ref_rttm.write_rttm(f)
+        return output_path
+
+    def export_lang_rttm(self, support=True) -> str:
+        output_path = f"{LANG_RTTM_DIR}/{self.uri}.rttm"
+        lang_rttm = Annotation(uri=self.uri)
+        for seg, (_, language, _) in self.items():
+            lang_rttm[seg] = language
+
+        if support:
+            lang_rttm = lang_rttm.support(collar=0.0)
+
+        if os.path.isfile(output_path):
+            # if exists, add a timestamp to the filename
+            filename, file_extension = os.path.splitext(output_path)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            output_path = f"{filename}_{timestamp}{file_extension}"
 
         with open(output_path, "w") as f:
-            self.write_rttm(f)
+            lang_rttm.write_rttm(f)
+        return output_path
 
     def items(self):
         for segment in self.transcript:
@@ -143,12 +167,8 @@ def load_transcript_from_file(file):
     transcript = Transcript(uri=uri)
     for line in content:
         start, end, label, language, text = line.split("|")
-        transcript[Segment(float(start), float(end))] = (label,language, text.rstrip())
+        transcript[Segment(float(start), float(end))] = (label, language, text.rstrip())
     return transcript
-
-
-def save_transcript_as_rttm(transcript: Transcript, output: str):
-    pass
 
 
 def _build_transcript(content, prim_lang, uri):
