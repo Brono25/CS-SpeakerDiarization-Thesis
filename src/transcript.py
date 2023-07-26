@@ -21,6 +21,16 @@ from src.utilities import (  # noqa: E402
     LOG_FILES,
 )
 
+LABEL_REMOVAL_PATTERN = re.compile(r"^\*([A-Z]{3}): ")
+LABEL_REPLACE_PATTERN = re.compile(r"\*([A-Z]{3}):")
+SPA_PATTERN = re.compile(r"\[- spa\]")
+ENG_PATTERN = re.compile(r"\[- eng\]")
+PUNCTUATION_PATTERN = re.compile(r"[!?+<>.\"[\]:&()\~,\'-/]")
+NON_SPEECH_PATTERN = re.compile(r"= ?[a-z]+")
+TIMESTAMP_PATTERN = re.compile(r"\d+_\d+")
+SPACE_PATTERN = re.compile(r"[\s]+")
+
+
 
 class Transcript(Annotation):
     """
@@ -118,246 +128,158 @@ class Transcript(Annotation):
                 self.language_tags[segment],
             )
 
+    
+    def save_transcript_to_file(self, output=None):
+        if not output:
+            output = f"{TRANSCRIPTION_FILES_DIR}/{self.uri}.tr"
 
-def cha_to_transcript(cha_file: str):
+        # if file already exists, append a timestamp to the filename
+        if os.path.exists(output):
+            output = f"{output.rsplit('.', 1)[0]}_{int(time.time())}.tr"
+
+        printable_content = []
+        if self.transcript:
+            for seg, (label, language, text) in self.items():
+                start = seg.start
+                end = seg.end
+                line = f"{start:.3f}|{end:.3f}|{label}|{language}|{text}"
+                printable_content.append(line)
+
+        output_content = "\n".join(printable_content)
+        with open(output, "w") as file:
+            file.write(output_content)
+        return output
+
+def convert_cha_to_transcript(cha_file):
+    """
+    Converts CHAT (.cha) formatted file into a Transcript.
+
+    Args:
+        cha_file (str): The path to the CHAT (.cha) file to be converted.
+
+    Returns:
+        Transcript: The generated Transcript object containing labels, text and language.
+
+    Note:
+        A log indicating the steps involved in conversion is created for debugging purposes.
+    """
+    #iterator over labeled cha lines only
+    def _get_labeled_lines(cha_file):
+        with open(cha_file, "r") as f:
+            cha_content = f.readlines()
+        label_flag = False
+        tab_flag = False
+        capture_flag = False
+        speaker_line = None
+        for line in cha_content:
+            label_flag = bool(re.match(r"^\*[A-Z]{3}:", line))
+            tab_flag = bool(re.match(r"^[\s]", line))
+            if label_flag:
+                capture_flag = True
+            if not label_flag and not tab_flag:
+                capture_flag = False
+            if capture_flag and label_flag:
+                line = re.sub(r"\s+", " ", line)
+                line = re.sub(r"\x15+", "", line)
+                if speaker_line:
+                    yield speaker_line
+                speaker_line = line
+            if capture_flag and tab_flag:
+                line = re.sub(r"\x15+", "", line)
+                line = re.sub(r"\s+", " ", line).lstrip()
+                speaker_line = speaker_line.rstrip() + " " + line
+        if speaker_line:
+            yield speaker_line
+
+    def _group_languages(line):
+        groups = []
+        group = ""
+        for word in line.split(' '):
+            if re.search(r"@s", word):
+                if group and "@s" not in group:
+                    groups.append(group.strip())
+                    group = ""
+                group += word + " "
+            else:
+                if group and "@s" in group:
+                    groups.append(group.strip())
+                    group = ""
+                group += word + " "
+        if group:
+            groups.append(group.strip())
+        groups = [x for x in groups if x != '']
+        return groups
+
+    def _detect_language(line, prim_lang):
+        if "_SPA" in line:
+            language = "SPA"
+        elif "_ENG" in line:
+            language = "ENG"
+        elif "@s" in line and prim_lang == "ENG":
+            language = "SPA"
+        elif "@s" in line and prim_lang == "SPA":
+            language = "ENG"
+        else:
+            language = prim_lang
+        return language
+
+    def _filter_line(line):
+        filtered_line = LABEL_REMOVAL_PATTERN.sub("", line)
+        filtered_line = SPA_PATTERN.sub("_SPA", filtered_line)
+        filtered_line = ENG_PATTERN.sub("_ENG", filtered_line)
+        filtered_line = LABEL_REPLACE_PATTERN.sub(r"\g<1>", filtered_line)
+        filtered_line = PUNCTUATION_PATTERN.sub("", filtered_line)
+        filtered_line = NON_SPEECH_PATTERN.sub("", filtered_line)
+        filtered_line = TIMESTAMP_PATTERN.sub("", filtered_line)
+        filtered_line = SPACE_PATTERN.sub(" ", filtered_line).rstrip()
+        return filtered_line
+
+    def _output_debug_log(uri, line):
+        log_file =f"{LOG_FILES}/{uri}_debug.log"
+        with open(log_file, 'a') as f:
+            f.write(line + '\n')
+
+    
     uri = get_uri_of_file(cha_file)
+    with open(f"{LOG_FILES}/{uri}_debug.log", 'w') as f:
+        pass
     prim_lang = get_primary_language_of_file(uri)
-
-    with open(cha_file, "r") as f:
-        cha_content = f.readlines()
-
-    speaker_content = _get_speaker_content_from_cha(cha_content)
-    output_logfile(f"1_{uri}_speaker_content_output", speaker_content)
-    filtered_content = _filter_content(speaker_content)
-    output_logfile(f"2_{uri}_filtered_content_output", filtered_content)
-    fixed_timestamp_content = _fix_timestamps(filtered_content)
-    output_logfile(f"3_{uri}_fixed_timestamp_output", fixed_timestamp_content)
-    transcript_content = _seperate_content_languages(fixed_timestamp_content)
-    output_logfile(f"4_{uri}_transcript_content", transcript_content)
-    transcript = _build_transcript(transcript_content, prim_lang, uri)
-
-    return transcript
-
-
-def save_transcript_to_file(transcript: Transcript, output=None):
-    if not output:
-        output = f"{TRANSCRIPTION_FILES_DIR}/{transcript.uri}.tr"
-
-    # if file already exists, append a timestamp to the filename
-    if os.path.exists(output):
-        output = f"{output.rsplit('.', 1)[0]}_{int(time.time())}.tr"
-
-    printable_content = []
-    if transcript:
-        for seg, (label, language, text) in transcript.items():
-            start = seg.start
-            end = seg.end
-            line = f"{start:.3f}|{end:.3f}|{label}|{language}|{text}"
-            printable_content.append(line)
-
-    output_content = "\n".join(printable_content)
-    with open(output, "w") as file:
-        file.write(output_content)
-    return output
-
-
-def load_transcript_from_file(file):
-    if not os.path.exists(file):
-        raise FileNotFoundError
-
-    with open(file, "r") as f:
-        content = f.readlines()
-
-    uri = get_uri_of_file(file)
     transcript = Transcript(uri=uri)
-    for line in content:
-        start, end, label, language, text = line.split("|")
-        transcript[Segment(float(start), float(end))] = (label, language, text.rstrip())
-    return transcript
-
-
-def _build_transcript(content, prim_lang, uri):
-    transcript = Transcript(uri=uri)
-    skipped_lines_timestamps = []
-    for line in content:
-        match = re.match(r"^([A-Z]{3}) (.*) (\d+)_(\d+$)", line)
-        if not match:
-            match = re.match(r"^([A-Z]{3}).*?(\d+)_(\d+$)", line)
-            if match:
-                _, start, end = match.groups()
-                line_id = f"{start}_{end}"
-                skipped_lines_timestamps.append(line_id)
-                continue
-
-        label, text, start, end = match.groups()
-        start = int(start) / 1000
-        end = int(end) / 1000
-
-        language = None
-        if prim_lang == "ENG":
-            if re.search(r"_SPA", line) or re.search(r"@s", line):
-                language = "SPA"
-            else:
-                language = "ENG"
-
-        if prim_lang == "SPA":
-            if re.search(r"_ENG", line) or re.search(r"@s", line):
-                language = "ENG"
-            else:
-                language = "SPA"
-
-        transcript[Segment(start, end)] = (label, language, text)
-        log_skipped_summary(uri, skipped_lines_timestamps)
-    return transcript
-
-
-def _get_speaker_content_from_cha(cha_content):
-    speaker_content = []
-    label_flag = False
-    tab_flag = False
-    capture_flag = False
-    for line in cha_content:
-        label_flag = bool(re.match(r"^\*[A-Z]{3}:", line))
-        tab_flag = bool(re.match(r"^[\s]", line))
-
-        if label_flag:
-            capture_flag = True
-
-        if not label_flag and not tab_flag:
-            capture_flag = False
-
-        if capture_flag and label_flag:
-            line = re.sub(r"\s+", " ", line)
-            line = re.sub(r"\x15+", "", line)
-            speaker_content.append(line)
-        if capture_flag and tab_flag:
-            line = re.sub(r"\x15+", "", line)
-            line = re.sub(r"\s+", " ", line).lstrip()
-            speaker_content[-1] = speaker_content[-1].rstrip() + " " + line
-
-    return speaker_content
-
-
-def _seperate_content_languages(speaker_content):
-    split_language_content = []
-    for line in speaker_content:
-        label, test = line.split(" ", 1)
-        try:
-            timestamp = re.search(r"(\d+_\d+)", line).group(1)
-            test = re.sub(r"\d+_\d+", "", test).rstrip("\n ")
-        except AttributeError:
-            print(f"No timestamp found on line: {line}")
-            sys.exit(1)
-
-        words = test.split()
-        if "@s" not in line:
-            split_language_content.append(line)
-        else:
-            groups = _group_languages(words)
-            new_lines = _split_into_lines(groups, label, timestamp)
-            split_language_content.extend(new_lines)
-
-    return split_language_content
-
-
-def _group_languages(words):
-    groups = []
-    group = ""
-    for word in words:
-        if re.search(r"@s", word):
-            if group and "@s" not in group:
-                groups.append(group.strip())
-                group = ""
-            group += word + " "
-        else:
-            if group and "@s" in group:
-                groups.append(group.strip())
-                group = ""
-            group += word + " "
-    if group:
-        groups.append(group.strip())
-    return groups
-
-
-def _split_into_lines(groups, label, timestamp):
-    """
-    Segments are used as keys for Transcript hence they need to be unique.
-    This function duplicates segments when it splits lines based on
-    language, hence small changes to timestamps are needed to make
-    the segments slightly different.
-    """
-    log_timestamps = []
-    new_lines = []
-    delta = 0
-    match = re.search(r"(\d+)_(\d+)", timestamp)
-    start, end = int(match.group(1)), int(match.group(2))
-    for group in groups:
-        new_timestamp = f"{start + delta}_{end - delta}"
-        new_lines.append(f"{label} ! {group} {new_timestamp}")
-        delta += 1
-        log_timestamps.append(new_timestamp)
-    return new_lines
-
-
-def _fix_timestamps(content):
-    corrected_content = []
-    timestamp = None
-    for line in content:
-        match = re.search(r"(\d+_\d+)", line)
+    timestamp_pattern = re.compile(r"(\d+)_(\d+)")
+    label_pattern = re.compile(r"^\*([A-Z]{3}):")
+    missing_timestamp_flag = False
+    start, end = 0, 0
+    for i, line in enumerate(_get_labeled_lines(cha_file)):
+        
+        label = label_pattern.search(line).group(1)
+        match = timestamp_pattern.search(line)
         if match:
-            timestamp = match.group(1)
-            corrected_content.append(line)
+            start, end = [float(x) for x in match.groups()]
         else:
-            corrected_line = line + " ! " + timestamp
-            corrected_content.append(corrected_line)
-    return corrected_content
+            start += 1
+            end -= 1
+            missing_timestamp_flag = True
 
+        _output_debug_log(uri, f"URI:{uri}---------------SECTION:{i}---------------")
+        _output_debug_log(uri, "ORIGINAL:\n" + '\t\t\t' + line + "\nEDITED:")
+        filtered_line = _filter_line(line)
+        monolingual_lines = _group_languages(filtered_line)
+        delta = 0
+        for mono_line in monolingual_lines:
+            language = _detect_language(mono_line, prim_lang)
+            text = re.sub(r"_SPA|_ENG", "", mono_line).lstrip().rstrip()
+            start_sec, end_sec  = (start + delta) / 1000.0, (end - delta)  / 1000.0
+            
+            #tag lines which have been split or timestamps added with a '!'
+            if len(monolingual_lines) > 1 or missing_timestamp_flag:
+                text = f"!{text}"
+                missing_timestamp_flag = False
+            delta += 1
 
-def _filter_content(content):
-    filtered_content = []
-    for line in content:
-        filtered_line = re.sub(r"\[- spa\]", "_SPA", line)
-        filtered_line = re.sub(r"\[- eng\]", "_ENG", filtered_line)
-        filtered_line = re.sub(r"\*([A-Z]{3}):", r"\g<1>", filtered_line)
-        filtered_line = re.sub(r"[!?+<>.\"[\]:&()\~,\'-/]", "", filtered_line)
-        filtered_line = re.sub(r"= ?[a-z]+", "", filtered_line)
-        filtered_line = re.sub(r"[\s]+", " ", filtered_line).rstrip()
-        filtered_content.append(filtered_line)
-    return filtered_content
+            transcript[Segment(start_sec, end_sec )] = (label, language, text)
+            _output_debug_log(uri, f"\t\t\t({start_sec:.3f}, {end_sec:.3f})\t{label} {language} {text} ")
 
-
-def output_logfile(log_name: str, content: list):
-    log_path = f"{LOG_FILES}/{log_name}.log"
-    with open(log_path, "w") as f:
-        f.writelines("\n".join(content))
-
-
-def log_skipped_summary(uri:str , timestamps: list):
-
-    steps = {
-        '1': f"{LOG_FILES}/1_{uri}_speaker_content_output.log",
-        '2': f"{LOG_FILES}/2_{uri}_filtered_content_output.log",
-        '3': f"{LOG_FILES}/3_{uri}_fixed_timestamp_output.log",
-        '4': f"{LOG_FILES}/4_{uri}_transcript_content.log"
-    }
-
-    content = {}
-    for step, file in steps.items():
-        with open(file, "r") as f:
-            content[step] = f.readlines()
-
-    log_summary_file = f"{LOG_FILES}/{uri}_skipped_summary.log"
-    with open(log_summary_file, 'w') as f:
-        for i, timestamp in enumerate(timestamps):
-            print(f"--------SKIPPED SECTION {i}--------", file=f)
-            for step, lines in content.items():
-                for line in lines:
-                    if timestamp in line:
-                        print(f"step {step}: {line}", file=f)
-            print("", file=f)
-
-
-
-
-
+        _output_debug_log(uri, '\n')
+    
+    return transcript
 

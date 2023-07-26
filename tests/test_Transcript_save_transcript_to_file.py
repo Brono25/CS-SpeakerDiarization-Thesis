@@ -11,7 +11,7 @@ sys.path.append(root)
 
 
 # local imports
-from src.transcript import save_transcript_to_file, Transcript
+from src.transcript import Transcript
 from src.utilities import ROOT_DIR, get_uri_of_file
 
 @pytest.fixture
@@ -36,7 +36,7 @@ def sample_transcript():
     return transcript
 
 def test_save_transcript_to_file(sample_transcript):
-    output_file = save_transcript_to_file(sample_transcript)
+    output_file = sample_transcript.save_transcript_to_file()
     
     # path to expected output
     expected_output_file = f"{ROOT_DIR}/tests/test_files/test_sastre09.tr"
@@ -50,7 +50,7 @@ def test_save_transcript_to_file(sample_transcript):
         expected_content = file.readlines()
     
     assert output_content == expected_content, "Output content does not match the expected content"
-    #os.remove(output_file)
+    os.remove(output_file)
 
 
 

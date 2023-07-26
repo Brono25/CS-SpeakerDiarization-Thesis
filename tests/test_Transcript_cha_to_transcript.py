@@ -1,5 +1,7 @@
 import pytest
 from pyannote.core import Segment
+import tempfile
+import os
 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
@@ -9,30 +11,115 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import cha_to_transcript, Transcript  # noqa: E402
-from src.utilities import ROOT_DIR, get_uri_of_file # noqa: E402
+from src.transcript import convert_cha_to_transcript, Transcript # noqa: E402
+from src.utilities import ROOT_DIR, get_uri_of_file, debug_transcript_comparison # noqa: E402
 
-def test_cha_to_transcript():
-    test_file = f"{ROOT_DIR}/tests/test_files/test_sastre09.cha"
-    uri = get_uri_of_file(test_file)
+
+
+# Test data
+tests = [
+    (
+        '\n'.join([
+            "@Convert chafile to Transcript Test 1",
+            "@Comment: Cha file in matrix language English",
+            "@Primary Langugae: English"
+            "@begin",
+            "*AAA: Speaker A talking in English 0_1000",
+            "*BBB: [- spa] Speaker B talking in Spanish 1000_2000",
+            "*AAA: Using@s interswitching@s markers@s 2000_3000",
+            "@end"
+        ]),
+        "tmp_eng",
+        [(0, 1, "AAA", "ENG", "Speaker A talking in English"), 
+         (1, 2, "BBB", "SPA", "Speaker B talking in Spanish"), 
+         (2, 3, "AAA", "SPA", "Using@s interswitching@s markers@s")]
+    ),
+    (
+        '\n'.join([
+            "@Convert chafile to Transcript Test 2",
+            "@Comment: Cha file in matrix language Spanish",
+            "@Primary Langugae: Spanish"
+            "@begin",
+            "*AAA: [- eng] Speaker A talking in English 0_1000",
+            "*BBB: Speaker B talking in Spanish 1000_2000",
+            "*AAA: Using@s interswitching@s markers@s 2000_3000",
+            "@end"
+        ]),
+        "tmp_spa",
+        [(0, 1, "AAA", "ENG", "Speaker A talking in English"), 
+         (1, 2, "BBB", "SPA", "Speaker B talking in Spanish"), 
+         (2, 3, "AAA", "ENG", "Using@s interswitching@s markers@s")]
+    ),
+    (
+        '\n'.join([
+            "@Convert chafile to Transcript Test 3",
+            "@Comment: Code-Swithching min sentence ",
+            "@Primary Langugae: Spanish"
+            "@begin",
+            "*BBB: [- eng] some English 0_1000",
+            "*AAA: Speaker@s A talking in code@s switched speech@s 1000_2000",
+            "@end"
+        ]),
+        "tmp_spa",
+        [(0.000, 1.000, "BBB", "ENG", "some English"), 
+         (1.000, 2.000, "AAA", "ENG", "!Speaker@s"), 
+         (1.001, 1.999, "AAA", "SPA", "!A talking in"), 
+         (1.002, 1.998, "AAA", "ENG", "!code@s"), 
+         (1.003, 1.997, "AAA", "SPA", "!switched"), 
+         (1.004, 1.996, "AAA", "ENG", "!speech@s")]
+    ),
+        (
+        '\n'.join([
+            "@Convert chafile to Transcript Test 4",
+            "@Comment: Code-Swithching min sentence ",
+            "@Primary Langugae: English"
+            "@begin",
+            "*BBB: [- spa] some Spanish 0_1000",
+            "*AAA: Speaker@s A talking in code@s switched@s speech@s 1000_2000",
+            "@end"
+        ]),
+        "tmp_eng",
+        [(0.000, 1.000, "BBB", "SPA", "some Spanish"), 
+         (1.000, 2.000, "AAA", "SPA", "!Speaker@s"), 
+         (1.001, 1.999, "AAA", "ENG", "!A talking in"), 
+         (1.002, 1.998, "AAA", "SPA", "!code@s switched@s speech@s")]
+    ),
+        (
+        '\n'.join([
+            "@Convert chafile to Transcript Test 5",
+            "@Comment: Missing timestamps",
+            "@Primary Langugae: English"
+            "@begin",
+            "*BBB: [- spa] some Spanish 0_1000",
+            "*AAA: This line doesnt have a timestamp",
+            "*BBB: [- spa] Neither does this one",
+            "*AAA: This one does tho 2000_3000",
+            "@end"
+        ]),
+        "tmp_eng",
+        [(0.000, 1.000, "BBB", "SPA", "some Spanish"), 
+         (0.001, 0.999, "AAA", "ENG", "!This line doesnt have a timestamp"), 
+         (0.002, 0.998, "BBB", "SPA", "!Neither does this one"), 
+         (2.000, 3.000, "AAA", "ENG", "This one does tho")]
+    ),
+    
+]
+
+def create_temp_file(test_data, uri):
+    with tempfile.NamedTemporaryFile(suffix=f'_{uri}.cha', delete=False) as temp:
+        temp.writelines(line.encode() for line in test_data)
+    return temp.name
+
+@pytest.mark.parametrize("test_data,uri,expected_segments", tests)
+def test_cha_to_transcript(test_data, uri, expected_segments):
+    test_file = create_temp_file(test_data, uri)
+    output = convert_cha_to_transcript(test_file)
+
     expected_output = Transcript(uri=uri)
-    expected_output[Segment(0.47, 2.107)] = ("KAY", "ENG", "! so")
-    expected_output[Segment(0.471, 2.106)] = ("KAY", "SPA", "! sí@s hay@s un@s")
-    expected_output[Segment(0.472, 2.105)] = ("KAY", "ENG", "! range")
-    expected_output[Segment(0.473, 2.104)] = ("KAY", "SPA", "! ahí@s")
-    expected_output[Segment(2.180, 2.490)] = ("VAL", "ENG", "mhm")
-    expected_output[Segment(2.181, 4.321)] = ("KAY", "SPA", "_SPA donde los policías e practican")
-    expected_output[Segment(4.293, 7.486)] = ("KAY", "SPA", "! y@s y@s la@s gente@s que@s están@s los@s")
-    expected_output[Segment(4.294, 7.485)] = ("KAY", "ENG", "! trainees the police trainees")
-    expected_output[Segment(7.387, 8.618)] = ("KAY", "ENG", "they do it every day")
-    expected_output[Segment(8.575, 10.783)] = ("KAY", "ENG", "so when you come here dont be afraid if you hear it")
-    expected_output[Segment(11.095, 12.193)] = ("KAY", "ENG", "because you know theyre practicing")
-    expected_output[Segment(12.064, 14.786)] = ("VAL", "ENG", "yeah yeah they have to put these earphones")
-    expected_output[Segment(14.900, 16.643)] = ("VAL", "SPA", "_SPA porque si no se puede quedar uno sordo")
-    expected_output[Segment(16.433, 16.794)] = ("KAY", "ENG", "really")
+    for start, end, speaker, lang, text in expected_segments:
+        expected_output[Segment(start, end)] = (speaker, lang, text)
 
-
-
-    output = cha_to_transcript(test_file)
-
+    # debug_transcript_comparison(output, expected_output)
     assert output == expected_output
+    # Cleanup after the test
+    os.remove(test_file)

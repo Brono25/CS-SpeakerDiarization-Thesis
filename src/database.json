@@ -202,5 +202,17 @@
         "comment": null,
         "i-index": null,
         "m-index": null
+    },
+    "tmp_eng": {
+        "primary_language": "ENG",
+        "comment": "Temp file uri for running tests",
+        "i-index": null,
+        "m-index": null
+    },
+    "tmp_spa": {
+        "primary_language": "SPA",
+        "comment": "Temp file uri for running tests",
+        "i-index": null,
+        "m-index": null
     }
 }
