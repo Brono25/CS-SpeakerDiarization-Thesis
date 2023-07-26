@@ -31,7 +31,6 @@ TIMESTAMP_PATTERN = re.compile(r"\d+_\d+")
 SPACE_PATTERN = re.compile(r"[\s]+")
 
 
-
 class Transcript(Annotation):
     """
     Transcript extends the pyannote.metrics.Annotation class by adding support for
@@ -73,6 +72,8 @@ class Transcript(Annotation):
         return True
 
     def __ne__(self, other):
+        if isinstance(other, Annotation):
+            return True
         return not self.__eq__(other)
 
     def __getitem__(self, segment):
@@ -119,6 +120,23 @@ class Transcript(Annotation):
         with open(output_path, "w") as f:
             lang_rttm.write_rttm(f)
         return output_path
+    
+    def get_ref_annotation(self, support=True):
+        annotation = Annotation(uri=self.uri)
+        for seg, (label, _, _) in self.items():
+            annotation[seg] = label
+        if support:
+            annotation = annotation.support(collar=0.0)
+        return annotation
+    
+    def get_language_annotation(self, support=True):
+        annotation = Annotation(uri=self.uri)
+        for seg, (_, language, _) in self.items():
+            annotation[seg] = language
+        if support:
+            annotation = annotation.support(collar=0.0)
+        return annotation
+
 
     def items(self):
         for segment in self.transcript:
@@ -128,7 +146,6 @@ class Transcript(Annotation):
                 self.language_tags[segment],
             )
 
-    
     def save_transcript_to_file(self, output=None):
         if not output:
             output = f"{TRANSCRIPTION_FILES_DIR}/{self.uri}.tr"
@@ -150,6 +167,7 @@ class Transcript(Annotation):
             file.write(output_content)
         return output
 
+
 def convert_cha_to_transcript(cha_file):
     """
     Converts CHAT (.cha) formatted file into a Transcript.
@@ -163,7 +181,8 @@ def convert_cha_to_transcript(cha_file):
     Note:
         A log indicating the steps involved in conversion is created for debugging purposes.
     """
-    #iterator over labeled cha lines only
+
+    # iterator over labeled cha lines only
     def _get_labeled_lines(cha_file):
         with open(cha_file, "r") as f:
             cha_content = f.readlines()
@@ -194,7 +213,7 @@ def convert_cha_to_transcript(cha_file):
     def _group_languages(line):
         groups = []
         group = ""
-        for word in line.split(' '):
+        for word in line.split(" "):
             if re.search(r"@s", word):
                 if group and "@s" not in group:
                     groups.append(group.strip())
@@ -207,7 +226,7 @@ def convert_cha_to_transcript(cha_file):
                 group += word + " "
         if group:
             groups.append(group.strip())
-        groups = [x for x in groups if x != '']
+        groups = [x for x in groups if x != ""]
         return groups
 
     def _detect_language(line, prim_lang):
@@ -235,13 +254,12 @@ def convert_cha_to_transcript(cha_file):
         return filtered_line
 
     def _output_debug_log(uri, line):
-        log_file =f"{LOG_FILES}/{uri}_debug.log"
-        with open(log_file, 'a') as f:
-            f.write(line + '\n')
+        log_file = f"{LOG_FILES}/{uri}_debug.log"
+        with open(log_file, "a") as f:
+            f.write(line + "\n")
 
-    
     uri = get_uri_of_file(cha_file)
-    with open(f"{LOG_FILES}/{uri}_debug.log", 'w') as f:
+    with open(f"{LOG_FILES}/{uri}_debug.log", "w") as f:
         pass
     prim_lang = get_primary_language_of_file(uri)
     transcript = Transcript(uri=uri)
@@ -250,7 +268,6 @@ def convert_cha_to_transcript(cha_file):
     missing_timestamp_flag = False
     start, end = 0, 0
     for i, line in enumerate(_get_labeled_lines(cha_file)):
-        
         label = label_pattern.search(line).group(1)
         match = timestamp_pattern.search(line)
         if match:
@@ -261,25 +278,42 @@ def convert_cha_to_transcript(cha_file):
             missing_timestamp_flag = True
 
         _output_debug_log(uri, f"URI:{uri}---------------SECTION:{i}---------------")
-        _output_debug_log(uri, "ORIGINAL:\n" + '\t\t\t' + line + "\nEDITED:")
+        _output_debug_log(uri, "ORIGINAL:\n" + "\t\t\t" + line + "\nEDITED:")
         filtered_line = _filter_line(line)
         monolingual_lines = _group_languages(filtered_line)
         delta = 0
         for mono_line in monolingual_lines:
             language = _detect_language(mono_line, prim_lang)
             text = re.sub(r"_SPA|_ENG", "", mono_line).lstrip().rstrip()
-            start_sec, end_sec  = (start + delta) / 1000.0, (end - delta)  / 1000.0
-            
-            #tag lines which have been split or timestamps added with a '!'
+            start_sec, end_sec = (start + delta) / 1000.0, (end - delta) / 1000.0
+
+            # tag lines which have been split or timestamps added with a '!'
             if len(monolingual_lines) > 1 or missing_timestamp_flag:
                 text = f"!{text}"
                 missing_timestamp_flag = False
             delta += 1
 
-            transcript[Segment(start_sec, end_sec )] = (label, language, text)
-            _output_debug_log(uri, f"\t\t\t({start_sec:.3f}, {end_sec:.3f})\t{label} {language} {text} ")
+            transcript[Segment(start_sec, end_sec)] = (label, language, text)
+            _output_debug_log(
+                uri,
+                f"\t\t\t({start_sec:.3f}, {end_sec:.3f})\t{label} {language} {text} ",
+            )
 
-        _output_debug_log(uri, '\n')
-    
+        _output_debug_log(uri, "\n")
+
     return transcript
 
+
+def load_transcript_from_file(file):
+    if not os.path.exists(file):
+        raise FileNotFoundError
+
+    with open(file, "r") as f:
+        content = f.readlines()
+
+    uri = get_uri_of_file(file)
+    transcript = Transcript(uri=uri)
+    for line in content:
+        start, end, label, language, text = line.split("|")
+        transcript[Segment(float(start), float(end))] = (label, language, text.rstrip())
+    return transcript
