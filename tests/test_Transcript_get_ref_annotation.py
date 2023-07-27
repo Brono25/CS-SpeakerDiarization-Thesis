@@ -9,14 +9,14 @@ sys.path.append(root)
 
 from src.transcript import Transcript  # noqa: E402
 
-
+#The 'A' is needed as when support() is called in pyannote it defaults to track = 'A'
 def test_get_ref_annotation():
     extpected_output = Annotation(uri="test")
-    extpected_output[Segment(0, 1)] = "A"
+    extpected_output[Segment(0, 1), 'A'] = "Tom" 
 
     input = Transcript(uri="test")
-    input[Segment(0, 1)] = ("A", "ENG", "Text")
-    result = input.get_ref_annotation()
+    input[Segment(0, 1)] = ("Tom", "ENG", "Text")
+    result = input.get_ref_annotation(support=True)
 
     assert extpected_output == result
     assert input != extpected_output

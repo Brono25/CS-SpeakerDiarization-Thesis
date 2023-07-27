@@ -8,15 +8,25 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 from src.transcript import Transcript  # noqa: E402
+from src.utilities import debug_transcript_comparison
 
 
 def test_get_language_annotation():
-    extpected_output = Annotation(uri="test")
-    extpected_output[Segment(0, 1)] = "ENG"
+    expected_output = Annotation(uri="test")
+    expected_output[Segment(0, 1), 'A'] = "ENG"
 
     input = Transcript(uri="test")
-    input[Segment(0, 1)] = ("A", "ENG", "Text")
+    input[Segment(0, 1)] = ("B", "ENG", "Text")
     result = input.get_language_annotation()
 
-    assert extpected_output == result
-    assert input != extpected_output
+    for track in input.itertracks(yield_label=True):
+        print(track)
+
+    for track in expected_output.itertracks(yield_label=True):
+        print(track)
+
+    assert isinstance(result, Annotation)
+
+    assert result == expected_output
+    assert input != expected_output
+
