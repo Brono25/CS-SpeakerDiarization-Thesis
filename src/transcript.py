@@ -120,7 +120,7 @@ class Transcript(Annotation):
         with open(output_path, "w") as f:
             lang_rttm.write_rttm(f)
         return output_path
-    
+
     def get_ref_annotation(self, support=True):
         annotation = Annotation(uri=self.uri)
         for seg, (label, _, _) in self.items():
@@ -128,7 +128,7 @@ class Transcript(Annotation):
         if support:
             annotation = annotation.support(collar=0.0)
         return annotation
-    
+
     def get_language_annotation(self, support=True):
         annotation = Annotation(uri=self.uri)
         for seg, (_, language, _) in self.items():
