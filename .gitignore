@@ -1,3 +1,7 @@
+#Dont ignore
+!*debug.log
+
+
 # Project specific
 .session_save.json
 .backups
