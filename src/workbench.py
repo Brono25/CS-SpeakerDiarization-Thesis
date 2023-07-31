@@ -1,6 +1,9 @@
 from pyannote.core import Annotation, Segment
 import os
 from pyannote.database.util import load_rttm
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
@@ -21,10 +24,14 @@ from src.utilities import (  # noqa: E402
     debug_transcript_comparison,
 )
 from src.cs_metrics import CSMetrics
-from src.language_error import LanguageError
+from cs_error import CSError
 
 # Process files one at a time
 uri = "sastre09"
+
+
+
+#--------------
 cha_file = f"{CHA_FILES_DIR}/{uri}.cha"
 if not os.path.isfile(cha_file):
     print(f"{cha_file} not found.")
@@ -45,6 +52,15 @@ metrics = CSMetrics(transcript=transcript)
 print(f"I-Index: {metrics.i_index() * 100:.2f}%")
 print(f"M-Index: {metrics.m_index()* 100:.2f}%")
 print(f"Burstiness: {metrics.burstiness()* 100:.2f}%")
+#--plot
+span, density = metrics.get_switchpoint_span_density()
+data = pd.DataFrame({
+    'span_lengths': span,
+    'counts': density
+})
+sns.kdeplot(data=data, x="span_lengths")
+plt.show()
+sys.exit()
 
 
 # --------------Language Errors-------------- #
