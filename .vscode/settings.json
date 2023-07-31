@@ -5,5 +5,8 @@
     "python.analysis.enablePytestSupport": true,
     "python.analysis.inlayHints.pytestParameters": true,
     "python.testing.autoTestDiscoverOnSaveEnabled": false,
-    "debug.inlineValues": "on"
+    "debug.inlineValues": "on",
+    "cSpell.words": [
+        "pyannote"
+    ]
 }
