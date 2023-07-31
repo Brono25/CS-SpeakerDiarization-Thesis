@@ -13,8 +13,8 @@ from src.transcript import Transcript  # noqa: E402
 
 def test_transcript():
     a = Transcript(uri="test")
-    a[Segment(0, 1)] = ("A", "Hello world", "EN")
-    seg, (label, text, language) = next(a.items())  
+    a[Segment(0, 1)] = ("A", "EN", "Hello world")
+    seg, (label, language, text) = next(a.items())  
 
     assert a.uri == "test"
     assert label == 'A'
