@@ -22,6 +22,55 @@ DATABASE_PATH = f"{ROOT_DIR}/src/database.json"
 TEST_FILES = f"{ROOT_DIR}/tests/test_files"
 LOG_FILES = f"{ROOT_DIR}/logs"
 
+HERRING_LIST = [
+    "herring06",
+    "herring07",
+    "herring08",
+    "herring09",
+    "herring10",
+    "herring13",
+    "herring15",
+    "herring16",
+    "herring17",
+]
+SASTRE_LIST = [
+    "sastre01",
+    "sastre02",
+    "sastre03",
+    "sastre04",
+    "sastre05",
+    "sastre06",
+    "sastre07",
+    "sastre08",
+    "sastre09",
+    "sastre10",
+    "sastre11",
+    "sastre12",
+    "sastre13",
+]
+ZELEDON_LIST = [
+    "zeledon01",
+    "zeledon02",
+    "zeledon03",
+    "zeledon04",
+    "zeledon05",
+    "zeledon06",
+    "zeledon07",
+    "zeledon08",
+    "zeledon09",
+    "zeledon11",
+    "zeledon13",
+    "zeledon14",
+]
+
+
+def get_uri_list():
+    with open(DATABASE_PATH, "r") as f:
+        database = json.load(f)
+
+    uri_list = [x for x in list(database.keys()) if "tmp" not in x]
+    return uri_list
+
 
 def get_uri_of_file(filename: str):
     with open(DATABASE_PATH, "r") as f:
