@@ -1,6 +1,7 @@
 from pyannote.core import Segment
 import copy
 import numpy as np
+from collections import defaultdict
 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
@@ -101,6 +102,14 @@ class CSMetrics:
             corpora with less predictable code-switching patterns, the
             value tends to be closer to 1.
         """
+        span_lengths = self.get_spans_between_switchpoints()
+        mean_spans = np.mean(span_lengths)
+        std_spans = np.std(span_lengths)
+
+        burstiness = (std_spans - mean_spans) / (std_spans + mean_spans)
+        return burstiness
+
+    def get_spans_between_switchpoints(self):
         span_lengths = []
         span_length = 0
         prev_language = None
@@ -116,12 +125,31 @@ class CSMetrics:
             prev_language = language
 
         span_lengths.append(span_length)
+        return span_lengths
 
-        mean_spans = np.mean(span_lengths)
-        std_spans = np.std(span_lengths)
 
-        burstiness = (std_spans - mean_spans) / (std_spans + mean_spans)
-        return burstiness
+    def get_switchpoint_span_density(self):
+        spans = self.get_spans_between_switchpoints()
+
+        span_freq = defaultdict(int)
+        for span in spans:
+            span_freq[span] += 1
+
+        total_counts = sum(span_freq.values())
+        
+        spans = list(span_freq.items())
+        spans.sort(key=lambda x: x[0])
+        span_lengths, counts = zip(*spans)
+        
+        # Normalize the counts
+        counts = [count / total_counts for count in counts]
+        
+        return span_lengths, counts
+
+
+
+        
+
 
     def span_entropy(self):
         pass
