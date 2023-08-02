@@ -103,7 +103,7 @@ Due to their versatility in managing speaker numbers, modular design often excel
 in diarization challenges, including the gold-standard benchmark for diarization 
 performance, the DIHARD challenges \cite{heoNAVERCLOVASUBMISSION}. 
 Consequently, a survey of available systems reveals a tendency towards this architecture, 
-particularly in the Pyannote diarisation system. The competitive results achieved by 
+particularly in the Pyannote diarization system. The competitive results achieved by 
 this open-source system's pre-trained model on the demanding DIHARD benchmark 
 \cite{PyannoteSpeakerdiarizationHugging2023} reflect contemporary SD capabilities, 
 making it a viable choice for this thesis.
@@ -179,14 +179,20 @@ has a large variation in language switching frequency distributed evenly from
 the highest being 50 times more frequent than the lowest audio track.  In terms 
 of burstiness, the speech patterns display a uniform distribution of values 
 from low to moderate, reflecting varying degrees of cluster-based language 
-switching behaviour within the tracks. This information may help identify 
-what parts of CS give the most trouble?????
+switching behaviour within the tracks. 
 
 \vspace*{10pt}
-
-% work understanding diarization systems
-% selecting pyannote as its open source
-% 
+The Pyannote diarization system was set up on the Katana servers and a 
+trial was conducted using a fully converted audio segment from the MIAMI 
+set. This trial run resulted in a 16\% diarization error rate when 
+evaluated using the Pyannote Metrics library.
+Subsequent work focused on gaining a deeper understanding of Pyannote Metrics' 
+inner workings, which aided in the development of tools for in-depth 
+analysis of diarization output. A Python program was created to isolate 
+the errors in the SD system's output, enabling an examination of the 
+language being used and the speaker during the occurrence of these errors. 
+This tool will be useful in exploring the impact of language switching 
+on SD systems.
 
 \begin{figure}[h]
   \centering
@@ -215,6 +221,20 @@ what parts of CS give the most trouble?????
 %Plan (about 1/4 page): Discuss progress in relation to existing project 
 %plan and spell out a clear view of what will be done in Thesis/Term C.
 \subsection*{Plans}
+Despite the manual corrections of timestamps being incomplete, analysis on the CS 
+characteristics can still be performed on the word level. A separate Python program 
+was made to measure the words between language switch points, as seen in 
+figure \ref*{densities}. The distributions in the figure give an indication to 
+how long, or short utterances per language tend to be per audio transcription.
+This information helps in the selection of audio files to convert into monolingual 
+tracks. Tracks with flatter peaks generally consist of longer utterances in a 
+particular language, which eases their conversion to monolingual tracks. 
+Approximately 2 hours of Spanish and 3.5 hours of English content 
+have been marked for this conversion process leaving 12 hours of CS speech.
+
+
+
+
 
 \newpage
 \section*{Meeting Log}
