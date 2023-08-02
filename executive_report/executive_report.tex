@@ -3,6 +3,17 @@
 \include{latexdefs}
 
 
+%The end of term 3 page report is an exercise in writing an 
+%executive summary. You have to describe the thesis and all work 
+%accomplished on it in terms A and B. You should start working on 
+%this executive summary at the start of term B, by beginning to work 
+%out how you can condense the A-report to 2-3 pages! You’ll find it 
+%challenging and therefore need to develop it over the whole term. 
+%The seminar is a good starting point since that already required you 
+%to condense things into a 20 minute talk.
+%The executive summary is expected to cover five aspects:
+
+
 \begin{document}
 \begin{center}
     \large\textbf{\textcolor{unswred2}{Investigating Speaker Diarization on Code-Switching 
@@ -10,6 +21,10 @@
     {\textcolor{unswred2}{Bronston Ashford z5146619}}
   \end{center}
 
+
+%Justification (about 2/3 page): 
+% State why the project is worth doing 
+% and where it fits in a bigger picture.
 \subsection*{Justification for Thesis}
 
 Code-switching (CS) speech, the act of alternating between two or more languages 
@@ -30,6 +45,7 @@ introduced by CS in audio would contribute to  better accessibility and understa
 in multilingual societies.
 
 \vspace*{10pt}
+
 However, developing robust SD systems that can effectively handle CS speech 
 requires an understanding of how much and to what extent CS speech impacts these 
 systems. Yet, due to a notable lack of research in this domain, the question 
@@ -50,13 +66,172 @@ developed and made freely accessible.
 
 \vspace*{10pt}
 
+% Objective (about 1/4 page): 
+% Clear statement of 2-3 goals and 1-2 tasks for each goal.
 \subsection*{Objectives}
 
+The primary objectives of this thesis are to curate a dataset for CS and to study the 
+impact of CS on modern SD systems. To achieve these objectives, the MIAMI corpus 
+\cite{deucharMiamiCorpusDocumentation}, a resource not initially designed for speech 
+processing, will be adapted. This adaptation requires a conversion from the original \textit{Codes for the 
+Human Analysis of Transcripts} (CHAT) format to \textit{Rich Transcription Time Marked} (RTTM) format for 
+SD evaluation. Since no software provides this conversion a custom program will need to be made 
+using python. Additionally, CHAT transcriptions frequently present CS speech within 
+single timestamp segments. For simplifying analysis, these will be manually divided
+to ensure each segment contains only monolingual speech. The final dataset will be 
+categorised into sections of English, Spanish, and English-Spanish code-switched speech.
+
+\vspace*{10pt}
+The SD system will first be tested on the dataset's monolingual files to establish a
+baseline, followed by a comparative analysis of the error rate on the CS section.
+A requirement for conducting these tests is some foundational machine learning theory.
+Subsequently, a software tool will be developed to compute CS characteristics within the 
+dataset. These metrics will then be correlated with diarization errors to understand the 
+influence of CS on SD performance.
+
+
+%Literature Review (about 2/3 page ~350 words): Cite pertinent literature
+%and analyse what has been done and indicate where this project fits in.
 \subsection*{Literature Review}
+
+Speaker Diarization (SD) systems primarily utilise two key architectures: a
+modular approach or an end-to-end strategy. The modular approach segments 
+the diarization task, initially extracting embeddings followed by 
+clustering to assign speaker labels. Conversely, the end-to-end strategy 
+amalgamates these steps into one process \cite{parkReviewSpeakerDiarization2021}. 
+Due to their versatility in managing speaker numbers, modular design often excels 
+in diarization challenges, including the gold-standard benchmark for diarization 
+performance, the DIHARD challenges \cite{heoNAVERCLOVASUBMISSION}. 
+Consequently, a survey of available systems reveals a tendency towards this architecture, 
+particularly in the Pyannote diarisation system. The competitive results achieved by 
+this open-source system's pre-trained model on the demanding DIHARD benchmark 
+\cite{PyannoteSpeakerdiarizationHugging2023} reflect contemporary SD capabilities, 
+making it a viable choice for this thesis.
+
+\vspace*{10pt}
+The performance of SD systems on CS speech is a field that is largely under-researched.
+The only literature found directly addressing this issue is that of the inaugural 
+2023 DISPLACE challenge. The paper introducing the challenge implies that SD systems 
+perform poorly during CS speech, highlighting the need for further research. Their 
+aim is to draw attention to this issue by developing a CS dataset and establishing a benchmark 
+\cite{baghelDISPLACEChallengeDIarization2023b}.
+Despite this, some evidence suggests that SD systems might not be significantly 
+affected by CS speech. Investigations into the MFCC characteristics during a speaker's language 
+switch show a consistent formant structure \cite{mishraChallengesSpokenLanguage2023}, 
+which are often used by SD systems for input embedding. This could imply that the issue 
+is less severe than anticipated. However, due to the limited research in this area, the 
+proficiency of SD systems on CS speech remains unclear.
+
+\vspace*{10pt}
+A significant barrier to exploring diarization on CS speech is the lack of CS datasets. 
+As the vast majority of datasets curated for speech processing tasks are strictly 
+monolingual, the number of CS datasets is severely limited. Moreover, many of the 
+existing datasets are not publicly available \cite[9]{sitaramSurveyCodeswitchedSpeech2020}.
+To effectively analyse SD system performance on CS data, it's important to understand 
+the nature of the CS in the dataset. Metrics such as the I-index, for quantifying 
+language switching frequency, and burstiness, for irregularities, play an important 
+role in this process \cite{guzmanMetricsModelingCodeSwitching2017}.
+
+%Preliminary Results (about 1 page or 600 words): Discuss significant experimental or 
+%computational results obtained and summarize new skills acquired.
 \subsection*{Preliminary Work}
+For the task of developing a new dataset suitable for testing and evaluating SD 
+systems, the \textit{Corpus: MIAMI}, a CS corpus originally designed for linguistic 
+studies were identified to form the basis of the new dataset. 
+For this dataset to be utilised for the purpose of the thesis, it needed to 
+contain both English-only and Spanish-only audio tracks. This would 
+enable the establishment of a diarization baseline. In addition, 
+speaker labels and timestamps were required for the creation of RTTM files, 
+and timestamps marking language change points were necessary to carry out 
+CS metrics assessments. The MIAMI corpus contained the relevant information but 
+in a CHAT file format. As there is no software that can make the conversion from
+CHAT to RTTM a program had to be designed to automate this.
+
+\vspace*{10pt}
+In the creation of this software, the \lstinline{Annotate} data structure from 
+the \textit{Pyannote Metrics} Python library was used as the foundational 
+structure. This choice was driven by its alignment with RTTM file formats 
+and its built-in methods for manipulating audio file annotations. This structure 
+was extended to handle language labels along with speaker labels, which required 
+a deeper understanding of Python class structures. The software was designed to 
+perform several tasks: extract timestamp information and speaker labels from CHAT 
+transcriptions, identify missing timestamp segments, split multilingual segments 
+into monolingual ones, and output RTTM files. However, manual correction of modified
+ timestamps from splitting multilingual segments is necessary, creating a significant 
+bottleneck in the process. 
+
+\vspace*{10pt}
+Despite the manual corrections of timestamps being incomplete, analysis on the CS 
+characteristics can still be performed on the word level. A separate Python program 
+was made to measure the words between language switch points, as seen in 
+figure \ref*{densities}. The distributions in the figure give an indication to 
+how long, or short utterances per language tend to be per audio transcription.
+This information helps in the selection of audio files to convert into monolingual 
+tracks. Tracks with flatter peaks generally consist of longer utterances in a 
+particular language, which eases their conversion to monolingual tracks. 
+Approximately 2 hours of Spanish and 3.5 hours of English content 
+have been marked for this conversion process leaving 12 hours of CS speech.
+
+\vspace*{10pt}
+In addition, the CS metrics i-index and burstiness were calculated for each 
+audio track, as seen in figure \ref*{metrics}. The i-index of the corpus 
+has a large variation in language switching frequency distributed evenly from 
+the highest being 50 times more frequent than the lowest audio track.  In terms 
+of burstiness, the speech patterns display a uniform distribution of values 
+from low to moderate, reflecting varying degrees of cluster-based language 
+switching behaviour within the tracks. This information may help identify 
+what parts of CS give the most trouble?????
+
+\vspace*{10pt}
+
+% work understanding diarization systems
+% selecting pyannote as its open source
+% 
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{images/density_spans.png}
+    \caption{Span length distributions per transcription.}
+    \label{densities}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{images/metrics.png}
+    \caption{I-index and Burstiness for each audio track.}
+    \label{metrics}
+  \end{subfigure}
+  \caption{Characteristics of the dataset.}
+  \label{fig:two_figs}
+\end{figure}
+
+
+
+% 1. identified what needs to happen to convert chat to rttm 
+% 2. createed a workflow to make this conversion, pyannote metrics, python classes/OOP
+% 4. ran CS metrics
+% 5. Identified which tracks can be modified for the baseline
+
+%Plan (about 1/4 page): Discuss progress in relation to existing project 
+%plan and spell out a clear view of what will be done in Thesis/Term C.
 \subsection*{Plans}
 
+\newpage
 \section*{Meeting Log}
 \bibliographystyle{IEEEtran}
 \bibliography{pubs}
 \end{document}
+
+
+
+
+
+
+
+
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{images/density_spans.png}
+%  \caption{A caption for the figure}
+%\end{wrapfigure}
+
