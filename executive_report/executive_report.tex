@@ -75,9 +75,9 @@ impact of CS on modern SD systems. To achieve these objectives, the MIAMI corpus
 \cite{deucharMiamiCorpusDocumentation}, a resource not initially designed for speech 
 processing, will be adapted. This adaptation requires a conversion from the original \textit{Codes for the 
 Human Analysis of Transcripts} (CHAT) format to \textit{Rich Transcription Time Marked} (RTTM) format for 
-SD evaluation. Since no software provides this conversion a custom program will need to be made 
+SD evaluation. Since no software provides this conversion, a custom program will need to be made 
 using python. Additionally, CHAT transcriptions frequently present CS speech within 
-single timestamp segments. For simplifying analysis, these will be manually divided
+single timestamp segments. For simplified analysis, these timestamps will be manually edited
 to ensure each segment contains only monolingual speech. The final dataset will be 
 categorised into sections of English, Spanish, and English-Spanish code-switched speech.
 
@@ -94,16 +94,16 @@ influence of CS on SD performance.
 %and analyse what has been done and indicate where this project fits in.
 \subsection*{Literature Review}
 
-Speaker Diarization (SD) systems primarily utilise two key architectures: a
+SD systems primarily come in two key architectures: a
 modular approach or an end-to-end strategy. The modular approach segments 
-the diarization task, initially extracting embeddings followed by 
+the diarization task, initially extracting embeddings, followed by 
 clustering to assign speaker labels. Conversely, the end-to-end strategy 
-amalgamates these steps into one process \cite{parkReviewSpeakerDiarization2021}. 
-Due to their versatility in managing speaker numbers, modular design often excels 
-in diarization challenges, including the gold-standard benchmark for diarization 
+combines these steps into one process \cite{parkReviewSpeakerDiarization2021}. 
+Because of their ability to handle varying numbers of speakers, modular 
+design tends to outperform in diarization tasks, including the gold-standard benchmark for diarization 
 performance, the DIHARD challenges \cite{heoNAVERCLOVASUBMISSION}. 
-Consequently, a survey of available systems reveals a tendency towards this architecture, 
-particularly in the Pyannote diarization system. The competitive results achieved by 
+Consequently, a survey of available systems reveals a tendency towards this architecture.
+In particular the Pyannote diarization system. The competitive results achieved by 
 this open-source system's pre-trained model on the demanding DIHARD benchmark 
 \cite{PyannoteSpeakerdiarizationHugging2023} reflect contemporary SD capabilities, 
 making it a viable choice for this thesis.
@@ -117,13 +117,13 @@ aim is to draw attention to this issue by developing a CS dataset and establishi
 \cite{baghelDISPLACEChallengeDIarization2023b}.
 Despite this, some evidence suggests that SD systems might not be significantly 
 affected by CS speech. Investigations into the MFCC characteristics during a speaker's language 
-switch show a consistent formant structure \cite{mishraChallengesSpokenLanguage2023}, 
+switch shows a consistent formant structure \cite{mishraChallengesSpokenLanguage2023}, 
 which are often used by SD systems for input embedding. This could imply that the issue 
 is less severe than anticipated. However, due to the limited research in this area, the 
-proficiency of SD systems on CS speech remains unclear.
+proficiency of SD systems in CS speech remains unclear.
 
 \vspace*{10pt}
-A significant barrier to exploring diarization on CS speech is the lack of CS datasets. 
+A significant barrier to exploring diarization in CS speech is the lack of CS datasets. 
 As the vast majority of datasets curated for speech processing tasks are strictly 
 monolingual, the number of CS datasets is severely limited. Moreover, many of the 
 existing datasets are not publicly available \cite[9]{sitaramSurveyCodeswitchedSpeech2020}.
@@ -138,7 +138,7 @@ role in this process \cite{guzmanMetricsModelingCodeSwitching2017}.
 For the task of developing a new dataset suitable for testing and evaluating SD 
 systems, the \textit{Corpus: MIAMI}, a CS corpus originally designed for linguistic 
 studies were identified to form the basis of the new dataset. 
-For this dataset to be utilised for the purpose of the thesis, it needed to 
+For this dataset to be used for the purpose of the thesis, it needed to 
 contain both English-only and Spanish-only audio tracks. This would 
 enable the establishment of a diarization baseline. In addition, 
 speaker labels and timestamps were required for the creation of RTTM files, 
@@ -162,7 +162,7 @@ bottleneck in the process.
 
 \vspace*{10pt}
 Despite the manual corrections of timestamps being incomplete, analysis on the CS 
-characteristics can still be performed on the word level. A separate Python program 
+characteristics can still be performed at the word level. A separate Python program 
 was made to measure the words between language switch points, as seen in 
 figure \ref*{densities}. The distributions in the figure give an indication to 
 how long, or short utterances per language tend to be per audio transcription.
@@ -170,7 +170,7 @@ This information helps in the selection of audio files to convert into monolingu
 tracks. Tracks with flatter peaks generally consist of longer utterances in a 
 particular language, which eases their conversion to monolingual tracks. 
 Approximately 2 hours of Spanish and 3.5 hours of English content 
-have been marked for this conversion process leaving 12 hours of CS speech.
+have been marked for this conversion process, leaving 12 hours of CS speech.
 
 \vspace*{10pt}
 In addition, the CS metrics i-index and burstiness were calculated for each 
@@ -182,7 +182,7 @@ from low to moderate, reflecting varying degrees of cluster-based language
 switching behaviour within the tracks. 
 
 \vspace*{10pt}
-The Pyannote diarization system was set up on the Katana servers and a 
+The Pyannote diarization system was set up on the Katana servers, and a 
 trial was conducted using a fully converted audio segment from the MIAMI 
 set. This trial run resulted in a 16\% diarization error rate when 
 evaluated using the Pyannote Metrics library.
@@ -221,18 +221,24 @@ on SD systems.
 %Plan (about 1/4 page): Discuss progress in relation to existing project 
 %plan and spell out a clear view of what will be done in Thesis/Term C.
 \subsection*{Plans}
-Despite the manual corrections of timestamps being incomplete, analysis on the CS 
-characteristics can still be performed on the word level. A separate Python program 
-was made to measure the words between language switch points, as seen in 
-figure \ref*{densities}. The distributions in the figure give an indication to 
-how long, or short utterances per language tend to be per audio transcription.
-This information helps in the selection of audio files to convert into monolingual 
-tracks. Tracks with flatter peaks generally consist of longer utterances in a 
-particular language, which eases their conversion to monolingual tracks. 
-Approximately 2 hours of Spanish and 3.5 hours of English content 
-have been marked for this conversion process leaving 12 hours of CS speech.
+Building upon the tools developed in thesis B, the conversion of the MIAMI 
+corpus into a dataset suitable for SD can now commence. The immediate next 
+step is to carry out the manual timestamp corrections required to complete 
+the conversion. A 20-minute segment took approximately 1 hour to convert.
+Therefore, the conversion of a 16-hour dataset is projected to take around 
+50 hours. This work will be undertaken during the term break, prior to 
+Thesis C. Once the dataset is ready, the diarization will be performed 
+on the monolingual audio tracks to establish a baseline, then applied to 
+the CS dataset to understand the impacts of CS on diarization.
 
-
+\vspace*{10pt}
+The diarization error rates can then be compared with the i-index and 
+burstiness of the tracks to identify potential correlations between 
+language switching frequency and error rates. Lastly, a specially developed
+tool will be used to examine the precise points of error in the audio to
+determine whether errors predominantly occur during a language switch.
+The findings and any conclusions will be documented and presented in the final 
+poster and report.
 
 
 
