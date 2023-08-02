@@ -128,7 +128,7 @@ class CSMetrics:
         return span_lengths
 
 
-    def get_switchpoint_span_density(self):
+    def get_switchpoint_span_density(self, normalise=False):
         spans = self.get_spans_between_switchpoints()
 
         span_freq = defaultdict(int)
@@ -142,13 +142,10 @@ class CSMetrics:
         span_lengths, counts = zip(*spans)
         
         # Normalize the counts
-        counts = [count / total_counts for count in counts]
+        if normalise:
+            counts = [count / total_counts for count in counts]
         
         return span_lengths, counts
-
-
-
-        
 
 
     def span_entropy(self):
@@ -156,3 +153,24 @@ class CSMetrics:
 
     def memory(self):
         pass
+
+    
+    def get_spans_between_switchpoints_seconds(self):
+        span_lengths = {"language": [], "time": []}
+        span_length = 0
+        prev_language = None
+        for seg, (_, language, text) in self.transcript.items():
+            segment_duration = seg.end - seg.start  
+
+            if prev_language is not None and prev_language != language:
+                span_lengths["language"].append(prev_language)
+                span_lengths["time"].append(span_length)
+                span_length = segment_duration
+            else:
+                span_length += segment_duration
+
+            prev_language = language
+
+        span_lengths["language"].append(prev_language)
+        span_lengths["time"].append(span_length)
+        return span_lengths

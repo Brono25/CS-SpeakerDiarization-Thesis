@@ -18,7 +18,7 @@ HYP_RTTM_DIR = f"{ROOT_DIR}/rttm_files/hyp_rttm"
 LANG_RTTM_DIR = f"{ROOT_DIR}/rttm_files/lang_rttm"
 CONFUSION_RTTM_DIR = f"{ROOT_DIR}/rttm_files/confusion_rttm"
 MISSED_RTTM_DIR = f"{ROOT_DIR}/rttm_files/missed_rttm"
-DATABASE_PATH = f"{ROOT_DIR}/src/database.json"
+DATABASE_PATH = f"{ROOT_DIR}/src/data/database.json"
 TEST_FILES = f"{ROOT_DIR}/tests/test_files"
 LOG_FILES = f"{ROOT_DIR}/logs"
 
