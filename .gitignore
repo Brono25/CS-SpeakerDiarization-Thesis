@@ -1,6 +1,11 @@
+
+
+
 #Dont ignore
 !*debug.log
 
+#word
+~$*.docx
 
 # Project specific
 .session_save.json
