@@ -50,6 +50,8 @@ class DatasetMetrics:
                 english_total += len(words)
             elif language == self.spanish:
                 spanish_total += len(words)
+            elif language == "NA":
+                pass
             else:
                 raise ValueError(f"Invalid language: {language}")
             total += len(words)
