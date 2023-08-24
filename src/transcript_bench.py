@@ -1,4 +1,3 @@
-# Always use CS-SpeakerDiarization-Thesis as root
 import sys
 import re
 import os
@@ -6,23 +5,19 @@ import os
 root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
-# local imports
-from functions.transcript import (  # noqa: E402
-    Transcript,
-    convert_cha_to_transcript,
+from functions.transcript import Transcript, load_transcript_from_file
+from functions.cha_conversion import (
+    convert_cha_to_transcript_str_format,
     reduce_transcript,
-    load_transcript_from_file
+    write_transcript_format_to_file,
 )
+from functions.cs_dataset_metrics import DatasetMetrics
 
+# --------------------SETUP--------------------
 ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/sastre01"
 uri = "sastre01"
 prim_lang = "SPA"
-
-
-"""
-For converting CHA files to transcripts
-"""
-
+# ---------------------------------------------
 
 info = {
     "uri": uri,
@@ -38,25 +33,45 @@ info = {
 
 
 def convert_cha_to_transcript(info):
-    transcript = convert_cha_to_transcript(
+    transcript = convert_cha_to_transcript_str_format(
         uri=info["uri"], cha_file=info["cha_file"], prim_lang=info["prim_lang"]
     )
-    transcript.save_transcript_to_file(info["output_transcript"])
-    transcript = reduce_transcript(transcript, support=0.25)
-    transcript.save_transcript_to_file(info["output_reduced_tr"])
+    reduced_tr = reduce_transcript(transcript, support=0.25)
+    write_transcript_format_to_file(
+        trancript=reduced_tr, output=info["output_transcript"]
+    )
 
 
 def create_rttm_files(info):
-
     if not os.path.exists(info["transcript_file"]):
         print("File not found")
         return
-    transcript = load_transcript_from_file(uri=info["uri"], file=info["transcript_file"])
+    transcript = load_transcript_from_file(
+        uri=info["uri"], file=info["transcript_file"]
+    )
     transcript.export_ref_rttm(info["ref_rttm"])
     transcript.export_lang_rttm(info["lang_rttm"])
 
 
-if __name__ == "__main__":
+def get_dataset_metrics(info):
+    tr = load_transcript_from_file(uri=info["uri"], file=info["transcript_file"])
+    metrics = DatasetMetrics(transcript=tr)
 
-    #convert_cha_to_transcript(info)
-    create_rttm_files(info)
+    m_index = metrics.m_index()
+    i_index = metrics.i_index()
+    burstiness = metrics.burstiness()
+
+    metrics_file_path = os.path.join(info["root"], f"{info['uri']}_metrics.txt")
+
+    with open(metrics_file_path, "w") as file:
+        file.write(f"M-Index: {m_index:.3f}\n")
+        file.write(f"I-Index: {i_index:.3f}\n")
+        file.write(f"Burstiness: {burstiness:.3f}\n")
+
+    print(f"Metrics have been saved to {metrics_file_path}")
+
+
+if __name__ == "__main__":
+    #convert_cha_to_transcript_str_format(info)
+    #create_rttm_files(info)
+    #get_dataset_metrics(info)
