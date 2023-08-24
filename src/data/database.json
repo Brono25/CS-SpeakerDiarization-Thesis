@@ -18,21 +18,21 @@
         }
     },
     "herring07": {
-        "duration_sec": null,
-        "speakers": [],
-        "primary_language": null,
-        "comment": null,
-        "category": null,
+        "duration_sec": 1471,
+        "speakers": ["SEB", "NIC"],
+        "primary_language": "ENG",
+        "comment": "Pyannote has 2 labels",
+        "category": "code-switching", 
         "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
+            "i-index": 0.039,
+            "m-index": 0.426,
+            "burstiness": 0.380
         },
         "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+            "der_pc": 40.4,
+            "confusion_sec": 282.6,
+            "missed_sec": 40.5,
+            "false_sec": 9.7
         }
     },
     "herring08": {},

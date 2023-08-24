@@ -23,8 +23,8 @@ info = {
     "uri": uri,
     "root": ROOT,
     "cha_file": f"{ROOT}/other_files/{uri}.cha",
-    "output_transcript": f"{ROOT}/{uri}2.tr",
-    "output_reduced_tr": f"{ROOT}/reduced_{uri}2.tr",
+    "output_transcript": f"{ROOT}/{uri}.tr",
+    "output_reduced_tr": f"{ROOT}/reduced_{uri}.tr",
     "prim_lang": prim_lang,
     "ref_rttm": f"{ROOT}/ref_{uri}.rttm",
     "lang_rttm": f"{ROOT}/lang_{uri}.rttm",
@@ -75,6 +75,6 @@ def get_dataset_metrics(info):
 
 
 if __name__ == "__main__":
-    convert_cha_to_transcript(info)
+    #convert_cha_to_transcript(info)
     #create_rttm_files(info)
-    #get_dataset_metrics(info)
+    get_dataset_metrics(info)
