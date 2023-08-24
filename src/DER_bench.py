@@ -4,6 +4,7 @@ import re
 from pyannote.database.util import load_rttm
 from pyannote.metrics.diarization import DiarizationErrorRate
 import matplotlib.pyplot as plt
+import json 
 
 root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
@@ -15,11 +16,11 @@ from functions.cs_diarization_metrics import (
 )
 
 # --------------------SETUP--------------------
-ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/sastre01"
-uri = "sastre01"
-ref_rttm_path = f"{ROOT}/ref_sastre01.rttm"
-lang_rttm_path = f"{ROOT}/lang_sastre01.rttm"
-hyp_rttm_path = f"{ROOT}/pyannote/sastre01_pyannote.rttm"
+ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/herring06"
+uri = "herring06"
+ref_rttm_path = "/Users/brono/GitHub/cs-dataset/code-switched/herring06/ref_herring06.rttm"
+lang_rttm_path = None
+hyp_rttm_path = "/Users/brono/GitHub/cs-dataset/code-switched/herring06/pyannote/herring06_pyannote.rttm"
 
 
 # ---------------------------------------------
@@ -28,7 +29,7 @@ info = {
     "uri": uri,
     "root": ROOT,
     "ref_rttm": load_rttm(ref_rttm_path)[uri],
-    "lang_rttm": load_rttm(lang_rttm_path)[uri],
+    "lang_rttm": load_rttm(lang_rttm_path)[uri] if lang_rttm_path else None,
     "hyp_rttm": load_rttm(hyp_rttm_path)[uri],
 }
 
@@ -82,21 +83,30 @@ def plot_ref_vs_hyp(ref, hyp):
     plot_annotations([(ref, "Reference"), (hyp, "Hypothesis")])
 
 
+
 def detailed_der(info):
     ref = info["ref_rttm"]
     hyp = info["hyp_rttm"]
-    output = f'{info["root"]}/der_{info["uri"]}.txt'
-    metric = DiarizationErrorRate(uriskip_overlap=True, collar=0.5)
+    output = f'{info["root"]}/der_{info["uri"]}.json'
+    metric = DiarizationErrorRate(skip_overlap=True, collar=0.5)
     components = metric.compute_components(ref, hyp)
+    der = metric(ref, hyp)
+
+    der_details = {
+        "diarization": {
+            "der_pc": round(der * 100, 1),
+            "confusion_sec": round(components['confusion'], 1),
+            "missed_sec": round(components['missed detection'], 1),
+            "false_sec": round(components['false alarm'], 1)
+        }
+    }
 
     with open(output, "w") as file:
-        file.write(f"Missed Detection: {components['missed detection']:.1f}\n")
-        file.write(f"False Alarm: {components['false alarm']:.1f}\n")
-        file.write(f"Confusion: {components['confusion']:.1f}\n")
-        der = metric(ref, hyp)
-        file.write(f"Overall DER %: {der * 100:.1f}\n")
+        file.write(json.dumps(der_details, indent=4))
 
     print(f"DER details have been saved to {output}")
+
+
 
 
 
@@ -105,8 +115,8 @@ def detailed_der(info):
 
 if __name__ == "__main__":
     
-    #detailed_der(info)
+    detailed_der(info)
 
-    perform_language_error_rates(info)
-    perform_confusion_analysis(info)
-    perform_missed_analysis(info)
+    #perform_language_error_rates(info)
+    #perform_confusion_analysis(info)
+    #perform_missed_analysis(info)

@@ -1,39 +1,53 @@
 {
     "herring06": {
-        "duration_sec": null,
-        "primary_language": "SPA",
-        "comment": null,
+        "duration_sec": 1642,
+        "speakers": ["JES", "NIC"],
+        "primary_language": "ENG",
+        "comment": "Pyannote has 4 labels",
+        "category": "code-switching",
         "cs_metrics": {
-            "i-index": 0.061,
-            "m-index": 1.00,
-            "burstiness": 0.196
+            "i-index": 0.039,
+            "m-index": 0.568,
+            "burstiness": 0.355
         },
         "diarization": {
-            "der": null, 
+            "der_pc": 11.5,
+            "confusion_sec": 32.0,
+            "missed_sec": 67.0,
+            "false_sec": 11.2
+        }
+    },
+    "herring07": {
+        "duration_sec": null,
+        "speakers": [],
+        "primary_language": null,
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
             "confusion_sec": null,
             "missed_sec": null,
             "false_sec": null
         }
     },
-    "herring07": {
-    },
-    "herring08": {
-    },
-    "herring09": {
-    },
-    "herring10": {
-    },
-    "herring13": {
-    },
-    "herring15": {
-    },
-    "herring16": {
-    },
-    "herring17": {
-    },
+    "herring08": {},
+    "herring09": {},
+    "herring10": {},
+    "herring13": {},
+    "herring15": {},
+    "herring16": {},
+    "herring17": {},
     "sastre01": {
         "duration_sec": 1914,
-        "speakers":["KEV", "SOF"],
+        "speakers": [
+            "KEV",
+            "SOF"
+        ],
         "primary_language": "SPA",
         "comment": "pyannote correct number of speakers",
         "category": "code-switching",
@@ -43,60 +57,34 @@
             "burstiness": 0.196
         },
         "diarization": {
-            "der_pc": 11.3, 
+            "der_pc": 8.9,
             "confusion_sec": 7.1,
-            "missed_sec": 135.7,
+            "missed_sec": 87.5,
             "false_sec": 18.5
         }
     },
-    "sastre02": {
-    },
-    "sastre03": {
-    },
-    "sastre04": {
-    },
-    "sastre05": {
-    },
-    "sastre06": {
-    },
-    "sastre07": {
-    },
-    "sastre08": {
-    },
-    "sastre09": {
-    },
-    "sastre10": {
-    },
-    "sastre11": {
-    },
-    "sastre12": {
-    },
-    "sastre13": {
-    },
-    "zeledon01": {
-    },
-    "zeledon02": {
-    },
-    "zeledon03": {
-    },
-    "zeledon04": {
-    },
-    "zeledon05": {
-    },
-    "zeledon06": {
-    },
-    "zeledon07": {
-    },
-    "zeledon08": {
-    },
-    "zeledon09": {
-    },
-    "zeledon11": {
-    },
-    "zeledon13": {
-
-    },
-    "zeledon14": {
-
-    }
+    "sastre02": {},
+    "sastre03": {},
+    "sastre04": {},
+    "sastre05": {},
+    "sastre06": {},
+    "sastre07": {},
+    "sastre08": {},
+    "sastre09": {},
+    "sastre10": {},
+    "sastre11": {},
+    "sastre12": {},
+    "sastre13": {},
+    "zeledon01": {},
+    "zeledon02": {},
+    "zeledon03": {},
+    "zeledon04": {},
+    "zeledon05": {},
+    "zeledon06": {},
+    "zeledon07": {},
+    "zeledon08": {},
+    "zeledon09": {},
+    "zeledon11": {},
+    "zeledon13": {},
+    "zeledon14": {}
 }

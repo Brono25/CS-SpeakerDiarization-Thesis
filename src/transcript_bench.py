@@ -14,9 +14,9 @@ from functions.cha_conversion import (
 from functions.cs_dataset_metrics import DatasetMetrics
 
 # --------------------SETUP--------------------
-ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/sastre01"
-uri = "sastre01"
-prim_lang = "SPA"
+ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/herring06"
+uri = "herring06"
+prim_lang = "ENG"
 # ---------------------------------------------
 
 info = {
@@ -74,4 +74,4 @@ def get_dataset_metrics(info):
 if __name__ == "__main__":
     #convert_cha_to_transcript_str_format(info)
     #create_rttm_files(info)
-    #get_dataset_metrics(info)
+    get_dataset_metrics(info)
