@@ -14,17 +14,17 @@ from functions.cha_conversion import (
 from functions.cs_dataset_metrics import DatasetMetrics
 
 # --------------------SETUP--------------------
-ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/herring06"
-uri = "herring06"
+ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/herring07"
+uri = "herring07"
 prim_lang = "ENG"
 # ---------------------------------------------
 
 info = {
     "uri": uri,
     "root": ROOT,
-    "cha_file": f"{ROOT}/{uri}.cha",
-    "output_transcript": f"{ROOT}/{uri}.tr",
-    "output_reduced_tr": f"{ROOT}/reduced_{uri}.tr",
+    "cha_file": f"{ROOT}/other_files/{uri}.cha",
+    "output_transcript": f"{ROOT}/{uri}2.tr",
+    "output_reduced_tr": f"{ROOT}/reduced_{uri}2.tr",
     "prim_lang": prim_lang,
     "ref_rttm": f"{ROOT}/ref_{uri}.rttm",
     "lang_rttm": f"{ROOT}/lang_{uri}.rttm",
@@ -35,6 +35,9 @@ info = {
 def convert_cha_to_transcript(info):
     transcript = convert_cha_to_transcript_str_format(
         uri=info["uri"], cha_file=info["cha_file"], prim_lang=info["prim_lang"]
+    )
+    write_transcript_format_to_file(
+        trancript=transcript, output=f"{info['root']}/unreduced_transcript.tr"
     )
     reduced_tr = reduce_transcript(transcript, support=0.25)
     write_transcript_format_to_file(
@@ -72,6 +75,6 @@ def get_dataset_metrics(info):
 
 
 if __name__ == "__main__":
-    #convert_cha_to_transcript_str_format(info)
+    convert_cha_to_transcript(info)
     #create_rttm_files(info)
-    get_dataset_metrics(info)
+    #get_dataset_metrics(info)

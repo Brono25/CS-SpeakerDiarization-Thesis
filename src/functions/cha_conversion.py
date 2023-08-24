@@ -1,7 +1,7 @@
 import os
 import copy
 import re
-
+import sys
 
 LABEL_REMOVAL_PATTERN = re.compile(r"^\*([A-Z]{3}): ")
 LABEL_REPLACE_PATTERN = re.compile(r"\*([A-Z]{3}):")
@@ -138,18 +138,27 @@ def convert_cha_to_transcript_str_format(cha_file: str, uri: str, prim_lang: str
         groups = [x for x in groups if x != ""]
         return groups
 
-    def _detect_language(line, prim_lang):
+    def _detect_language(line, prim_lang, unfiltered_line=None):
         if "_SPA" in line:
-            language = "SPA"
-        elif "_ENG" in line:
-            language = "ENG"
-        elif "@s" in line and prim_lang == "ENG":
-            language = "SPA"
-        elif "@s" in line and prim_lang == "SPA":
-            language = "ENG"
-        else:
-            language = prim_lang
-        return language
+            return "SPA"
+        if "_ENG" in line:
+            return "ENG"
+        if "@s" in line and "[- spa]" in unfiltered_line:
+            return "ENG"
+        if "@s" in line and "[- eng]" in unfiltered_line:
+            return "SPA"
+
+        if "@s" in line and prim_lang == "ENG":
+            return "SPA"
+        if "@s" in line and prim_lang == "SPA":
+            return "ENG"
+        if "[- spa]" in unfiltered_line:
+            return "SPA"
+        if "[- eng]" in unfiltered_line:
+            return "ENG"
+        return prim_lang
+
+
 
     def _filter_line(line):
         filtered_line = LABEL_REMOVAL_PATTERN.sub("", line)
@@ -191,7 +200,8 @@ def convert_cha_to_transcript_str_format(cha_file: str, uri: str, prim_lang: str
         monolingual_lines = _group_languages(filtered_line)
         delta = 0
         for mono_line in monolingual_lines:
-            language = _detect_language(mono_line, prim_lang)
+        
+            language = _detect_language(mono_line, prim_lang, unfiltered_line=line)
             text = re.sub(r"_SPA|_ENG", "", mono_line).lstrip().rstrip()
             start_sec, end_sec = (start + delta) / 1000.0, (end - delta) / 1000.0
 
