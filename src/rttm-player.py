@@ -79,7 +79,7 @@ class AudioGUI:
             "segment_end": 0,
         }
         self.session_data = {
-            "id": None,
+            "uri": None,
             "rttm_path": None,
             "audio_path": None,
             "annotation": None,
@@ -94,18 +94,27 @@ class AudioGUI:
     def open_button_file(self):
         rttm_path = filedialog.askopenfilename(filetypes=[("RTTM files", "*.rttm")])
         self.load_rttm_file(rttm_path)
-        self.file_label.config(text=self.session_data["id"])
+        self.file_label.config(text=self.session_data["uri"])
 
     def load_rttm_file(self, rttm_path):
         filename = os.path.basename(rttm_path).split(".")[0]
-        id = re.search(r"([a-z]+_)?(.*)", filename).group(2)
-        annotation = load_rttm(rttm_path)[id]  #all related rttms must have same uri
-        segments = list(annotation.itersegments())
-            
-        self.session_data["id"] = id
+
+        with open(rttm_path, 'r') as file:
+            uri = file.readline().strip().split(' ')[1]
+
+
+
+        
+        annotation = load_rttm(rttm_path)[uri]  #all related rttms must have same uri
+
+        segments_with_labels = [
+            (segment, label) for segment, _, label in annotation.itertracks(yield_label=True)
+        ]
+
+        self.session_data["uri"] = uri
         self.session_data["rttm_path"] = rttm_path
-        self.session_data["segments"] = segments
-        segment = self.session_data["segments"][0]
+        self.session_data["segments_with_labels"] = segments_with_labels
+        segment, label = segments_with_labels[0]
 
         self.session_state = {
             "curr_index": 0,
@@ -113,11 +122,14 @@ class AudioGUI:
             "audio_end": segment.end,
             "segment_start": segment.start,
             "segment_end": segment.end,
+            "label": label
         }
         if self.session_data["rttm_path"] and self.session_data["audio_path"]:
             self.activate_buttons()
             self.draw_audio()
         self.update_state_info()
+
+
 
 
 
@@ -154,12 +166,17 @@ class AudioGUI:
         audio_start = self.session_state["audio_start"]
         audio_end = self.session_state["audio_end"]
         time, amplitude = self.media_player.get_audio_array(audio_start, audio_end)
-        self.ax.plot(time, amplitude)
+        self.ax.plot(time, amplitude) 
         segment_start = self.session_state["segment_start"]
         segment_end = self.session_state["segment_end"]
-        self.ax.axvline(segment_start, color="r")
-        self.ax.axvline(segment_end, color="r")
+        label = self.session_state["label"]  
+        self.ax.axvline(segment_start, color="r", label=label)  
+        self.ax.axvline(segment_end, color="r")  
+        self.ax.legend(loc='best') 
+        self.ax.legend(loc='upper right') 
         self.canvas.draw()
+
+
 
     def play_audio(self):
         self.media_player.stop_playback()
@@ -184,7 +201,7 @@ class AudioGUI:
     def next_state(self):
         index = self.session_state["curr_index"]
 
-        if index < len(self.session_data["segments"]) - 1:
+        if index < len(self.session_data["segments_with_labels"]) - 1:
             index += 1
             self.initialise_state(index)
             self.media_player.stop_playback()
@@ -198,7 +215,7 @@ class AudioGUI:
             return
         try:
             index = int(self.state_entry.get())
-            if index <= len(self.session_data["segments"]) and index >= 0:
+            if index <= len(self.session_data["segments_with_labels"]) and index >= 0:
                 self.initialise_state(index)
                 self.media_player.stop_playback()
                 self.media_player.play_segment(
@@ -211,15 +228,19 @@ class AudioGUI:
             print("Error: invalid index")
 
     def initialise_state(self, index):
-        segment = self.session_data["segments"][index]
+        segment, label = self.session_data["segments_with_labels"][index]
+
         self.session_state = {
             "curr_index": index,
             "audio_start": segment.start,
             "audio_end": segment.end,
             "segment_start": segment.start,
             "segment_end": segment.end,
+            "label": label
         }
         self.update_state_info()
+
+
 
     def extend_audio(self):
         self.session_state["audio_start"] -= 0.1
@@ -241,7 +262,7 @@ class AudioGUI:
 
     def update_state_info(self):
         index = self.session_state["curr_index"]
-        total_states = len(self.session_data["segments"])
+        total_states = len(self.session_data["segments_with_labels"])
         state = f"{index + 1} / {total_states}"
         self.state_info_label.config(text=state)
 
