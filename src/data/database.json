@@ -1,218 +1,100 @@
 {
     "herring06": {
-        "primary_language": "ENG",
+        "duration_sec": null,
+        "primary_language": "SPA",
         "comment": null,
-        "i-index": null,
-        "m-index": null
+        "cs_metrics": {
+            "i-index": 0.061,
+            "m-index": 1.00,
+            "burstiness": 0.196
+        },
+        "diarization": {
+            "der": null, 
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
     },
     "herring07": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring08": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring09": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring10": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring13": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring15": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring16": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "herring17": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre01": {
+        "duration_sec": 1914,
         "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
+        "comment": ,
+        "cs_metrics": {
+            "i-index": 0.061,
+            "m-index": 1.00,
+            "burstiness": 0.196
+        },
+        "diarization": {
+            "der": null, 
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
     },
     "sastre02": {
-        "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre03": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre04": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre05": {
-        "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre06": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre07": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre08": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre09": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre10": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre11": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre12": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "sastre13": {
-        "primary_language": "ENG",
-        "comment": "English only",
-        "i-index": null,
-        "m-index": null
     },
     "zeledon01": {
-        "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon02": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon03": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon04": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon05": {
-        "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon06": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon07": {
-        "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon08": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon09": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon11": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
     },
     "zeledon13": {
-        "primary_language": "ENG",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
+
     },
     "zeledon14": {
-        "primary_language": "SPA",
-        "comment": null,
-        "i-index": null,
-        "m-index": null
-    },
-    "tmp_eng": {
-        "primary_language": "ENG",
-        "comment": "Temp file uri for running tests",
-        "i-index": null,
-        "m-index": null
-    },
-    "tmp_spa": {
-        "primary_language": "SPA",
-        "comment": "Temp file uri for running tests",
-        "i-index": null,
-        "m-index": null
+
     }
 }
