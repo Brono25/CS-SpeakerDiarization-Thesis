@@ -33,18 +33,20 @@
     },
     "sastre01": {
         "duration_sec": 1914,
+        "speakers":["KEV", "SOF"],
         "primary_language": "SPA",
-        "comment": ,
+        "comment": "pyannote correct number of speakers",
+        "category": "code-switching",
         "cs_metrics": {
             "i-index": 0.061,
             "m-index": 1.00,
             "burstiness": 0.196
         },
         "diarization": {
-            "der": null, 
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+            "der_pc": 11.3, 
+            "confusion_sec": 7.1,
+            "missed_sec": 135.7,
+            "false_sec": 18.5
         }
     },
     "sastre02": {

@@ -97,18 +97,15 @@ class AudioGUI:
         self.file_label.config(text=self.session_data["uri"])
 
     def load_rttm_file(self, rttm_path):
-        filename = os.path.basename(rttm_path).split(".")[0]
-
-        with open(rttm_path, 'r') as file:
-            uri = file.readline().strip().split(' ')[1]
-
-
-
         
-        annotation = load_rttm(rttm_path)[uri]  #all related rttms must have same uri
+        with open(rttm_path, "r") as file:
+            uri = file.readline().strip().split(" ")[1]
+
+        annotation = load_rttm(rttm_path)[uri]  # all related rttms must have same uri
 
         segments_with_labels = [
-            (segment, label) for segment, _, label in annotation.itertracks(yield_label=True)
+            (segment, label)
+            for segment, _, label in annotation.itertracks(yield_label=True)
         ]
 
         self.session_data["uri"] = uri
@@ -122,16 +119,12 @@ class AudioGUI:
             "audio_end": segment.end,
             "segment_start": segment.start,
             "segment_end": segment.end,
-            "label": label
+            "label": label,
         }
         if self.session_data["rttm_path"] and self.session_data["audio_path"]:
             self.activate_buttons()
             self.draw_audio()
         self.update_state_info()
-
-
-
-
 
     def activate_buttons(self):
         self.play_button["state"] = tk.NORMAL
@@ -140,7 +133,7 @@ class AudioGUI:
         self.next_button["state"] = tk.NORMAL
         self.extend_button["state"] = tk.NORMAL
         self.decrease_button["state"] = tk.NORMAL
- 
+
     def deactivate_buttons(self):
         self.play_button["state"] = tk.DISABLED
         self.stop_button["state"] = tk.DISABLED
@@ -149,9 +142,8 @@ class AudioGUI:
         self.extend_button["state"] = tk.DISABLED
         self.decrease_button["state"] = tk.DISABLED
 
-
     def open_audio_file(self):
-        audio_path = filedialog.askopenfilename(filetypes=[("Audio files", "*.wav")]) 
+        audio_path = filedialog.askopenfilename(filetypes=[("Audio files", "*.wav")])
         self.audio_file_label.config(text=os.path.basename(audio_path))
         self.media_player = MediaPlayer(audio_path)
 
@@ -159,24 +151,21 @@ class AudioGUI:
         if self.session_data["rttm_path"] and self.session_data["audio_path"]:
             self.activate_buttons()
             self.draw_audio()
-   
 
     def draw_audio(self):
         self.ax.clear()
         audio_start = self.session_state["audio_start"]
         audio_end = self.session_state["audio_end"]
         time, amplitude = self.media_player.get_audio_array(audio_start, audio_end)
-        self.ax.plot(time, amplitude) 
+        self.ax.plot(time, amplitude)
         segment_start = self.session_state["segment_start"]
         segment_end = self.session_state["segment_end"]
-        label = self.session_state["label"]  
-        self.ax.axvline(segment_start, color="r", label=label)  
-        self.ax.axvline(segment_end, color="r")  
-        self.ax.legend(loc='best') 
-        self.ax.legend(loc='upper right') 
+        label = self.session_state["label"]
+        self.ax.axvline(segment_start, color="r", label=label)
+        self.ax.axvline(segment_end, color="r")
+        self.ax.legend(loc="best")
+        self.ax.legend(loc="upper right")
         self.canvas.draw()
-
-
 
     def play_audio(self):
         self.media_player.stop_playback()
@@ -236,11 +225,9 @@ class AudioGUI:
             "audio_end": segment.end,
             "segment_start": segment.start,
             "segment_end": segment.end,
-            "label": label
+            "label": label,
         }
         self.update_state_info()
-
-
 
     def extend_audio(self):
         self.session_state["audio_start"] -= 0.1
@@ -313,21 +300,24 @@ class AudioGUI:
     def init_open(self):
         self.open_frame = tk.Frame(self.window)
         self.open_frame.grid(row=0, column=0, columnspan=5, sticky="w")
-        
+
         # Open RTTM File Button
-        self.open_button = tk.Button(self.open_frame, text="Open RTTM", command=self.open_button_file)
+        self.open_button = tk.Button(
+            self.open_frame, text="Open RTTM", command=self.open_button_file
+        )
         self.open_button.pack(side="left")
         self.file_label = tk.Label(self.open_frame, text="No RTTM file selected")
         self.file_label.pack(side="left")
 
         # Open Audio File Button
-        self.open_audio_button = tk.Button(self.open_frame, text="Open Audio", command=self.open_audio_file)
+        self.open_audio_button = tk.Button(
+            self.open_frame, text="Open Audio", command=self.open_audio_file
+        )
         self.open_audio_button.pack(side="left")
-        
+
         # Audio File Label
         self.audio_file_label = tk.Label(self.open_frame, text="No audio file selected")
         self.audio_file_label.pack(side="left")
-
 
     def init_figure(self):
         self.fig = Figure(figsize=(9, 5), dpi=100)

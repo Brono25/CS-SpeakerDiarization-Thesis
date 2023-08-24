@@ -72,7 +72,7 @@ def perform_missed_analysis(info):  # ref and hyp need matching labels
     cs_metrics = CSDiarizationMetrics(
         reference=ref, hypothesis=hyp, language_annotation=lang, uri=uri
     )
-    miss_tl = cs_metrics._get_confusion_timeline()
+    miss_tl = cs_metrics._get_missed_timeline()
     miss_ann = timeline_to_annotation(uri, miss_tl, "MISS")
     with open(f"{info['root']}/miss_{info['uri']}.rttm", "w") as file:
         miss_ann.write_rttm(file)
@@ -90,11 +90,11 @@ def detailed_der(info):
     components = metric.compute_components(ref, hyp)
 
     with open(output, "w") as file:
-        file.write(f"Missed Detection: {components['missed detection']}\n")
-        file.write(f"False Alarm: {components['false alarm']}\n")
-        file.write(f"Confusion: {components['confusion']}\n")
+        file.write(f"Missed Detection: {components['missed detection']:.1f}\n")
+        file.write(f"False Alarm: {components['false alarm']:.1f}\n")
+        file.write(f"Confusion: {components['confusion']:.1f}\n")
         der = metric(ref, hyp)
-        file.write(f"Overall DER: {der}\n")
+        file.write(f"Overall DER %: {der * 100:.1f}\n")
 
     print(f"DER details have been saved to {output}")
 
@@ -104,4 +104,9 @@ def detailed_der(info):
 
 
 if __name__ == "__main__":
-    detailed_der(info)
+    
+    #detailed_der(info)
+
+    perform_language_error_rates(info)
+    perform_confusion_analysis(info)
+    perform_missed_analysis(info)
