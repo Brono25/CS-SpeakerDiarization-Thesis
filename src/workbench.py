@@ -23,8 +23,8 @@ from src.utilities import (  # noqa: E402
     HYP_RTTM_DIR,
     debug_transcript_comparison,
 )
-from src.cs_metrics import CSMetrics
-from cs_error import CSError
+from functions.cs_metrics import CSMetrics
+from functions.cs_error import CSError
 
 # Process files one at a time
 uri = "sastre09"

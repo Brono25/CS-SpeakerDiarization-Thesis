@@ -1,7 +1,10 @@
 {
     "herring06": {
         "duration_sec": 1642,
-        "speakers": ["JES", "NIC"],
+        "speakers": {
+            "JES": "F",
+            "NIC": "M"
+        },
         "primary_language": "ENG",
         "comment": "Pyannote has 4 labels",
         "category": "code-switching",
@@ -19,10 +22,13 @@
     },
     "herring07": {
         "duration_sec": 1471,
-        "speakers": ["SEB", "NIC"],
+        "speakers": {
+            "RIC": "M",
+            "SEB": "M"
+        },
         "primary_language": "ENG",
         "comment": "Pyannote has 2 labels",
-        "category": "code-switching", 
+        "category": "code-switching",
         "cs_metrics": {
             "i-index": 0.039,
             "m-index": 0.426,
@@ -44,10 +50,10 @@
     "herring17": {},
     "sastre01": {
         "duration_sec": 1914,
-        "speakers": [
-            "KEV",
-            "SOF"
-        ],
+        "speakers": {
+            "KEV": "M",
+            "SOF": "F"
+        },
         "primary_language": "SPA",
         "comment": "pyannote correct number of speakers",
         "category": "code-switching",
@@ -74,17 +80,57 @@
     "sastre10": {},
     "sastre11": {},
     "sastre12": {},
-    "sastre13": {},
+    "sastre13": {
+        "duration_sec": 1350,
+        "speakers": {
+            "ELI": "F",
+            "COL": "M"
+        },
+        "primary_language": "ENG",
+        "comment": "pyannote correct number of speakers",
+        "category": "english",
+        "cs_metrics": {
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1.000
+        },
+        "diarization": {
+            "der_pc": 10.6,
+            "confusion_sec": 15.0,
+            "missed_sec": 76.5,
+            "false_sec": 15.6
+        }
+    },
     "zeledon01": {},
     "zeledon02": {},
     "zeledon03": {},
-    "zeledon04": {},
-    "zeledon05": {},
-    "zeledon06": {},
-    "zeledon07": {},
-    "zeledon08": {},
-    "zeledon09": {},
-    "zeledon11": {},
-    "zeledon13": {},
-    "zeledon14": {}
+    "zeledon04": {
+        "duration_sec": 1134,
+        "speakers": {
+            "ETH": "M",
+            "HEN": "M"
+        },
+        "primary_language": "ENG",
+        "comment": "pyannote has two labels",
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.048,
+            "m-index": 0.934,
+            "burstiness": 0.268
+        },
+        "diarization": {
+            "der_pc": 14.4,
+            "confusion_sec": 24.9,
+            "missed_sec": 44.3,
+            "false_sec": 24.2
+        },
+        "zeledon05": {},
+        "zeledon06": {},
+        "zeledon07": {},
+        "zeledon08": {},
+        "zeledon09": {},
+        "zeledon11": {},
+        "zeledon13": {},
+        "zeledon14": {}
+    }
 }

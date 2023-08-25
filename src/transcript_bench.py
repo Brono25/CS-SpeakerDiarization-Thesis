@@ -14,8 +14,8 @@ from functions.cha_conversion import (
 from functions.cs_dataset_metrics import DatasetMetrics
 
 # --------------------SETUP--------------------
-ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/herring07"
-uri = "herring07"
+ROOT = "/Users/brono/GitHub/cs-dataset/english/sastre13"
+uri = "sastre13"
 prim_lang = "ENG"
 # ---------------------------------------------
 

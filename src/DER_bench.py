@@ -16,11 +16,11 @@ from functions.cs_diarization_metrics import (
 )
 
 # --------------------SETUP--------------------
-ROOT = "/Users/brono/GitHub/cs-dataset/code-switched/herring07"
-uri = "herring07"
-ref_rttm_path = "/Users/brono/GitHub/cs-dataset/code-switched/herring07/ref_herring07.rttm"
-lang_rttm_path = "/Users/brono/GitHub/cs-dataset/code-switched/herring07/lang_herring07.rttm"
-hyp_rttm_path = "/Users/brono/GitHub/cs-dataset/code-switched/herring07/pyannote/herring07_pyannote.rttm"
+ROOT = "/Users/brono/GitHub/cs-dataset/english/sastre13/"
+uri = "sastre13"
+ref_rttm_path = "/Users/brono/GitHub/cs-dataset/english/sastre13/ref_sastre13.rttm"
+lang_rttm_path = None
+hyp_rttm_path = "/Users/brono/GitHub/cs-dataset/english/sastre13/pyannote/sastre13_pyannote.rttm"
 
 
 # ---------------------------------------------

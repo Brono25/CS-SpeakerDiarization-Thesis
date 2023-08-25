@@ -23,7 +23,7 @@ from src.utilities import (
     HERRING_LIST,
     SASTRE_LIST,
 )
-from src.cs_metrics import CSMetrics
+from functions.cs_metrics import CSMetrics
 
 
 with open("src/data/density_data.json", "r") as file:

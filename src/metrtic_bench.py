@@ -23,7 +23,7 @@ from src.utilities import (
     HERRING_LIST,
     SASTRE_LIST,
 )
-from src.cs_metrics import CSMetrics
+from functions.cs_metrics import CSMetrics
 
 
 uri_list = get_uri_list()

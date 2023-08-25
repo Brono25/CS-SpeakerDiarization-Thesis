@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.cs_error import CSError  # noqa: E402
+from functions.cs_error import CSError  # noqa: E402
 from src.transcript import Transcript
 URI = "test bench"
 

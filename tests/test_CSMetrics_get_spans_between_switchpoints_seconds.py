@@ -10,7 +10,7 @@ sys.path.append(root)
 
 # local imports
 from src.transcript import Transcript  # local import
-from src.cs_metrics import CSMetrics  # local import
+from functions.cs_metrics import CSMetrics  # local import
 
 
 

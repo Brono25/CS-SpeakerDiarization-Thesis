@@ -11,7 +11,7 @@ sys.path.append(root)
 
 # local imports
 from src.transcript import Transcript  # noqa: E402
-from src.cs_metrics import CSMetrics  # noqa: E402
+from functions.cs_metrics import CSMetrics  # noqa: E402
 
 
 def test_i_index():
