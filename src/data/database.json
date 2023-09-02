@@ -41,13 +41,138 @@
             "false_sec": 9.7
         }
     },
-    "herring08": {},
-    "herring09": {},
-    "herring10": {},
-    "herring13": {},
-    "herring15": {},
-    "herring16": {},
-    "herring17": {},
+    "herring08": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "herring09": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "herring10": {
+        "duration_sec": 939,
+        "speakers": {
+            "PAI": "F",
+            "SAR": "F"
+        },
+        "primary_language": "ENG",
+        "comment": "pyannote had trouble telling the speakers apart",
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.092,
+            "m-index": 0.552,
+            "burstiness": 0.238
+        },
+        "diarization": {
+            "der_pc": 76.8,
+            "confusion_sec": 173.5,
+            "missed_sec": 707.2,
+            "false_sec": 20.6
+        }
+    },
+    "herring13": {
+        "duration_sec": 528,
+        "speakers": {
+            "VAN": "F",
+            "LEA": "F"
+        },
+        "primary_language": "ENG",
+        "comment": null,
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.082,
+            "m-index": 0.711,
+            "burstiness": 0.085
+        },
+        "diarization": {
+            "der_pc": 8.7,
+            "confusion_sec": 15.5,
+            "missed_sec": 1.7,
+            "false_sec": 7.1
+        }
+    },
+    "herring15": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "herring16": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "herring17": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
     "sastre01": {
         "duration_sec": 1914,
         "speakers": {
@@ -69,17 +194,204 @@
             "false_sec": 18.5
         }
     },
-    "sastre02": {},
-    "sastre03": {},
-    "sastre04": {},
-    "sastre05": {},
-    "sastre06": {},
-    "sastre07": {},
-    "sastre08": {},
-    "sastre09": {},
-    "sastre10": {},
-    "sastre11": {},
-    "sastre12": {},
+    "sastre02": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre03": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre04": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre05": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre06": {
+        "duration_sec": 1636,
+        "speakers": {"AAR": "M", "ALY":"F"},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.044,
+            "m-index": 0.278,
+            "burstiness": 0.400
+        },
+        "diarisation": {
+            "der_pc": 9.2,
+            "confusion_sec": 45.7,
+            "missed_sec": 49.0,
+            "false_sec": 12.0
+        }
+    },
+    "sastre07": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre08": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre09": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre10": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre11": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre12": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
     "sastre13": {
         "duration_sec": 1350,
         "speakers": {
@@ -101,9 +413,60 @@
             "false_sec": 15.6
         }
     },
-    "zeledon01": {},
-    "zeledon02": {},
-    "zeledon03": {},
+    "zeledon01": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "zeledon02": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "zeledon03": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
     "zeledon04": {
         "duration_sec": 1134,
         "speakers": {
@@ -124,13 +487,149 @@
             "missed_sec": 44.3,
             "false_sec": 24.2
         },
-        "zeledon05": {},
-        "zeledon06": {},
-        "zeledon07": {},
-        "zeledon08": {},
-        "zeledon09": {},
-        "zeledon11": {},
-        "zeledon13": {},
-        "zeledon14": {}
+        "zeledon05": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "SPA",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon06": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "ENG",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon07": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "SPA",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon08": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "ENG",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon09": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "ENG",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon11": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "ENG",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon13": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "ENG",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        },
+        "zeledon14": {
+            "duration_sec": null,
+            "speakers": {},
+            "primary_language": "SPA",
+            "comment": null,
+            "category": null,
+            "cs_metrics": {
+                "i-index": null,
+                "m-index": null,
+                "burstiness": null
+            },
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
+        }
     }
 }
