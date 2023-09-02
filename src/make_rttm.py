@@ -6,12 +6,6 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 from functions.transcript import Transcript, load_transcript_from_file
-from functions.cha_conversion import (
-    convert_cha_to_transcript_str_format,
-    reduce_transcript,
-    write_transcript_format_to_file,
-)
-from functions.cs_dataset_metrics import DatasetMetrics
 
 
 def get_uri():
@@ -22,7 +16,6 @@ def get_uri():
         sys.exit(1)
     uri = match.group(1)
     return uri
-
 
 
 def create_ref_rttm(info):
@@ -51,8 +44,8 @@ def get_root_dir():
             root = os.path.dirname(file)
             return root
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     ref_opt = bool(int(sys.argv[2]))
     lang_opt = bool(int(sys.argv[3]))
     uri = get_uri()
@@ -65,7 +58,6 @@ if __name__ == "__main__":
         "lang_rttm": f"{root}/lang_{uri}.rttm",
         "transcript_file": transcript_file,
     }
-
 
     if ref_opt:
         print("Creating reference rttm")

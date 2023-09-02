@@ -13,11 +13,21 @@
             "m-index": 0.568,
             "burstiness": 0.355
         },
-        "diarization": {
-            "der_pc": 11.5,
-            "confusion_sec": 32.0,
-            "missed_sec": 67.0,
-            "false_sec": 11.2
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 11.5,
+                "confusion_sec": 32.0,
+                "missed_sec": 67.0,
+                "false_sec": 11.2
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "herring07": {
@@ -34,11 +44,21 @@
             "m-index": 0.426,
             "burstiness": 0.380
         },
-        "diarization": {
-            "der_pc": 40.4,
-            "confusion_sec": 282.6,
-            "missed_sec": 40.5,
-            "false_sec": 9.7
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "herring08": {
@@ -52,11 +72,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "herring09": {
@@ -70,11 +100,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "herring10": {
@@ -91,11 +131,21 @@
             "m-index": 0.552,
             "burstiness": 0.238
         },
-        "diarization": {
-            "der_pc": 76.8,
-            "confusion_sec": 173.5,
-            "missed_sec": 707.2,
-            "false_sec": 20.6
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 76.8,
+                "confusion_sec": 173.5,
+                "missed_sec": 707.2,
+                "false_sec": 20.6
+            },
+            "error_rates": {
+                "english_conf_error_rate": 24.6,
+                "spanish_conf_error_rate": 12.2,
+                "english_miss_error_rate": 49.7,
+                "spanish_miss_error_rate": 42.8,
+                "english_error_rate": 74.3,
+                "spanish_error_rate": 55.0
+            }
         }
     },
     "herring13": {
@@ -112,11 +162,21 @@
             "m-index": 0.711,
             "burstiness": 0.085
         },
-        "diarization": {
-            "der_pc": 8.7,
-            "confusion_sec": 15.5,
-            "missed_sec": 1.7,
-            "false_sec": 7.1
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 8.7,
+                "confusion_sec": 15.5,
+                "missed_sec": 1.7,
+                "false_sec": 7.1
+            },
+            "error_rates": {
+                "english_conf_error_rate": 64.5,
+                "spanish_conf_error_rate": 29.7,
+                "english_miss_error_rate": 1.0,
+                "spanish_miss_error_rate": 0.3,
+                "english_error_rate": 65.5,
+                "spanish_error_rate": 30.0
+            }
         }
     },
     "herring15": {
@@ -130,11 +190,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "herring16": {
@@ -148,11 +218,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "herring17": {
@@ -166,11 +246,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre01": {
@@ -187,11 +277,21 @@
             "m-index": 1.00,
             "burstiness": 0.196
         },
-        "diarization": {
-            "der_pc": 8.9,
-            "confusion_sec": 7.1,
-            "missed_sec": 87.5,
-            "false_sec": 18.5
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 8.9,
+                "confusion_sec": 7.1,
+                "missed_sec": 87.5,
+                "false_sec": 18.5
+            },
+            "error_rates": {
+                "english_conf_error_rate": 1.9,
+                "spanish_conf_error_rate": 1.7,
+                "english_miss_error_rate": 7.8,
+                "spanish_miss_error_rate": 8.1,
+                "english_error_rate": 9.7,
+                "spanish_error_rate": 9.8
+            }
         }
     },
     "sastre02": {
@@ -205,11 +305,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre03": {
@@ -223,11 +333,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre04": {
@@ -241,11 +361,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre05": {
@@ -268,7 +398,10 @@
     },
     "sastre06": {
         "duration_sec": 1636,
-        "speakers": {"AAR": "M", "ALY":"F"},
+        "speakers": {
+            "AAR": "M",
+            "ALY": "F"
+        },
         "primary_language": "ENG",
         "comment": null,
         "category": "code-switching",
@@ -277,11 +410,21 @@
             "m-index": 0.278,
             "burstiness": 0.400
         },
-        "diarisation": {
-            "der_pc": 9.2,
-            "confusion_sec": 45.7,
-            "missed_sec": 49.0,
-            "false_sec": 12.0
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 9.2,
+                "confusion_sec": 45.7,
+                "missed_sec": 49.0,
+                "false_sec": 12.0
+            },
+            "error_rates": {
+                "english_conf_error_rate": 1.4,
+                "spanish_conf_error_rate": 29.0,
+                "english_miss_error_rate": 4.9,
+                "spanish_miss_error_rate": 3.0,
+                "english_error_rate": 6.4,
+                "spanish_error_rate": 32.0
+            }
         }
     },
     "sastre07": {
@@ -295,11 +438,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre08": {
@@ -313,11 +466,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre09": {
@@ -331,11 +494,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre10": {
@@ -349,11 +522,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre11": {
@@ -367,11 +550,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre12": {
@@ -385,11 +578,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "sastre13": {
@@ -406,11 +609,21 @@
             "m-index": 0.000,
             "burstiness": -1.000
         },
-        "diarization": {
-            "der_pc": 10.6,
-            "confusion_sec": 15.0,
-            "missed_sec": 76.5,
-            "false_sec": 15.6
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 10.6,
+                "confusion_sec": 15.0,
+                "missed_sec": 76.5,
+                "false_sec": 15.6
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "zeledon01": {
@@ -424,11 +637,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "zeledon02": {
@@ -442,11 +665,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "zeledon03": {
@@ -460,11 +693,21 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
         }
     },
     "zeledon04": {
@@ -481,11 +724,21 @@
             "m-index": 0.934,
             "burstiness": 0.268
         },
-        "diarization": {
-            "der_pc": 14.4,
-            "confusion_sec": 24.9,
-            "missed_sec": 44.3,
-            "false_sec": 24.2
+        "pyannote": {
+            "diarization": {
+                "der_pc": 14.4,
+                "confusion_sec": 24.9,
+                "missed_sec": 44.3,
+                "false_sec": 24.2
+            },
+            "error_rates": {
+                "english_conf_error_rate": 7.1,
+                "spanish_conf_error_rate": 6.7,
+                "english_miss_error_rate": 8.5,
+                "spanish_miss_error_rate": 7.0,
+                "english_error_rate": 15.6,
+                "spanish_error_rate": 13.6
+            }
         },
         "zeledon05": {
             "duration_sec": null,
@@ -498,11 +751,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon06": {
@@ -516,11 +779,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon07": {
@@ -534,11 +807,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon08": {
@@ -552,11 +835,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon09": {
@@ -570,11 +863,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon11": {
@@ -588,11 +891,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon13": {
@@ -606,11 +919,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         },
         "zeledon14": {
@@ -624,11 +947,21 @@
                 "m-index": null,
                 "burstiness": null
             },
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "pyannote": {
+                "diarization": {
+                    "der_pc": null,
+                    "confusion_sec": null,
+                    "missed_sec": null,
+                    "false_sec": null
+                },
+                "error_rates": {
+                    "english_conf_error_rate": null,
+                    "spanish_conf_error_rate": null,
+                    "english_miss_error_rate": null,
+                    "spanish_miss_error_rate": null,
+                    "english_error_rate": null,
+                    "spanish_error_rate": null
+                }
             }
         }
     }

@@ -15,7 +15,7 @@ from functions.cs_diarization_metrics import (
     CSDiarizationMetrics,
     timeline_to_annotation,
 )
-from functions.transcript import  load_transcript_from_file
+from functions.transcript import load_transcript_from_file
 from functions.cs_dataset_metrics import DatasetMetrics
 
 
@@ -41,8 +41,8 @@ def get_root_dir():
             root = os.path.dirname(file)
             return root
 
-def load_info_from_args(ref, hyp, lang, transcript):
 
+def load_info_from_args(ref, hyp, lang, transcript):
     root = get_root_dir()
     uri = get_uri()
     if ref != "None":
@@ -148,9 +148,27 @@ def perform_language_error_rates(info):
     components = cs_metrics.compute_components()
     metric = cs_metrics.compute_metric(components)
 
-    with open(f"{info['root']}/eer_{info['uri']}.txt", "w") as file:
-        for k, v in metric.items():
-            file.write(f"{k} = {v * 100:.3f}" + "\n")
+    # Convert metric to percentages and round to 3 decimal places
+    metric_percentage = {k: round(v * 100, 1) for k, v in metric.items()}
+
+    # Predefined keys for both languages
+    error_rates = {
+        "error_rates": {
+            "english_conf_error_rate": None,
+            "spanish_conf_error_rate": None,
+            "english_miss_error_rate": None,
+            "spanish_miss_error_rate": None,
+            "english_error_rate": None,
+            "spanish_error_rate": None,
+        }
+    }
+
+    # Populate error_rates with values from metric_percentage
+    for key in error_rates["error_rates"].keys():
+        error_rates["error_rates"][key] = metric_percentage.get(key, None)
+
+    with open(f"{info['root']}/eer_{info['uri']}.json", "w") as file:
+        json.dump(error_rates, file, indent=4)
 
 
 def get_dataset_metrics(info):
