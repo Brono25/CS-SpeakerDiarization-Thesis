@@ -826,30 +826,33 @@
         }
     },
     "zeledon08": {
-        "duration_sec": null,
-        "speakers": {},
+        "duration_sec": 1405,
+        "speakers": {
+            "FLA": "F",
+            "MAR": "F"
+        },
         "primary_language": "ENG",
-        "comment": null,
-        "category": null,
+        "comment": "3 labels detected",
+        "category": "code-switching",
         "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
+            "i-index": 0.071,
+            "m-index": 0.985,
+            "burstiness": 0.044
         },
         "pyannote": {
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "diarisation": {
+                "der_pc": 10.2,
+                "confusion_sec": 46.3,
+                "missed_sec": 10.4,
+                "false_sec": 19.8
             },
             "error_rates": {
-                "english_conf_error_rate": null,
-                "spanish_conf_error_rate": null,
-                "english_miss_error_rate": null,
-                "spanish_miss_error_rate": null,
-                "english_error_rate": null,
-                "spanish_error_rate": null
+                "english_conf_error_rate": 12.3,
+                "spanish_conf_error_rate": 8.6,
+                "english_miss_error_rate": 2.9,
+                "spanish_miss_error_rate": 1.6,
+                "english_error_rate": 15.2,
+                "spanish_error_rate": 10.1
             }
         }
     },
