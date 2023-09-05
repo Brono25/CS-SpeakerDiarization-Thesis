@@ -654,23 +654,23 @@
             }
         }
     },
-    "zeledon02": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
-        "category": null,
+        "zeledon02": {
+            "duration_sec": 1287,
+            "speakers": {"MAT": "M", "REB": "F"},
+            "primary_language": "ENG",
+            "comment": null,
+            "category": "english",
         "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0
         },
         "pyannote": {
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "diarisation": {
+                "der_pc": 10.2,
+                "confusion_sec": 11.6,
+                "missed_sec": 61.0,
+                "false_sec": 13.2
             },
             "error_rates": {
                 "english_conf_error_rate": null,
