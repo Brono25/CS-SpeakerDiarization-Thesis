@@ -295,22 +295,25 @@
         }
     },
     "sastre02": {
-        "duration_sec": null,
-        "speakers": {},
+        "duration_sec": 1960,
+        "speakers": {
+            "LUI": "M",
+            "AVA": "M"
+        },
         "primary_language": "SPA",
-        "comment": null,
-        "category": null,
+        "comment": "Good qaulity",
+        "category": "spanish",
         "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1
         },
         "pyannote": {
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "diarisation": {
+                "der_pc": 6.4,
+                "confusion_sec": 33.7,
+                "missed_sec": 25.0,
+                "false_sec": 26.7
             },
             "error_rates": {
                 "english_conf_error_rate": null,
