@@ -37,7 +37,7 @@
             "SEB": "M"
         },
         "primary_language": "ENG",
-        "comment": "Pyannote has 2 labels",
+        "comment": "The two male voices sound similiar",
         "category": "code-switching",
         "cs_metrics": {
             "i-index": 0.039,
@@ -45,19 +45,19 @@
             "burstiness": 0.380
         },
         "pyannote": {
-            "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+            "diarisation": {
+                "der_pc": 39.8,
+                "confusion_sec": 282.0,
+                "missed_sec": 41.1,
+                "false_sec": 6.1
             },
             "error_rates": {
-                "english_conf_error_rate": null,
-                "spanish_conf_error_rate": null,
-                "english_miss_error_rate": null,
-                "spanish_miss_error_rate": null,
-                "english_error_rate": null,
-                "spanish_error_rate": null
+                "english_conf_error_rate": 40.1,
+                "spanish_conf_error_rate": 17.8,
+                "english_miss_error_rate": 5.4,
+                "spanish_miss_error_rate": 5.6,
+                "english_error_rate": 45.5,
+                "spanish_error_rate": 23.3
             }
         }
     },
