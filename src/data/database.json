@@ -1,32 +1,32 @@
 {
     "herring06": {
-        "duration_sec": 1642,
+        "duration_sec": 1627,
         "speakers": {
             "JES": "F",
             "NIC": "M"
         },
         "primary_language": "ENG",
-        "comment": "Pyannote has 4 labels",
+        "comment": "Lots of examples of confusion",
         "category": "code-switching",
         "cs_metrics": {
             "i-index": 0.039,
-            "m-index": 0.568,
-            "burstiness": 0.355
+            "m-index": 0.557,
+            "burstiness": 0.353
         },
         "pyannote": {
             "diarisation": {
-                "der_pc": 11.5,
-                "confusion_sec": 32.0,
-                "missed_sec": 67.0,
-                "false_sec": 11.2
+                "der_pc": 11.1,
+                "confusion_sec": 31.3,
+                "missed_sec": 64.2,
+                "false_sec": 10.8
             },
             "error_rates": {
-                "english_conf_error_rate": null,
-                "spanish_conf_error_rate": null,
-                "english_miss_error_rate": null,
-                "spanish_miss_error_rate": null,
-                "english_error_rate": null,
-                "spanish_error_rate": null
+                "english_conf_error_rate": 2.1,
+                "spanish_conf_error_rate": 9.9,
+                "english_miss_error_rate": 9.5,
+                "spanish_miss_error_rate": 10.2,
+                "english_error_rate": 11.6,
+                "spanish_error_rate": 20.2
             }
         }
     },
