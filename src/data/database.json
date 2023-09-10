@@ -724,7 +724,7 @@
             }
         },
         "zeledon04": {
-            "duration_sec": 1134,
+            "duration_sec": 1125,
             "speakers": {
                 "ETH": "M",
                 "HEN": "M"
@@ -734,23 +734,23 @@
             "category": "code-switching",
             "cs_metrics": {
                 "i-index": 0.048,
-                "m-index": 0.934,
+                "m-index": 0.933,
                 "burstiness": 0.268
             },
             "pyannote": {
-                "diarization": {
-                    "der_pc": 14.4,
-                    "confusion_sec": 24.9,
+                "diarisation": {
+                    "der_pc": 13.4,
+                    "confusion_sec": 25.7,
                     "missed_sec": 44.3,
-                    "false_sec": 24.2
+                    "false_sec": 17.2
                 },
                 "error_rates": {
-                    "english_conf_error_rate": 7.1,
-                    "spanish_conf_error_rate": 6.7,
+                    "english_conf_error_rate": 7.2,
+                    "spanish_conf_error_rate": 6.5,
                     "english_miss_error_rate": 8.5,
                     "spanish_miss_error_rate": 7.0,
-                    "english_error_rate": 15.6,
-                    "spanish_error_rate": 13.6
+                    "english_error_rate": 15.7,
+                    "spanish_error_rate": 13.4
                 }
             }
         },
