@@ -121,33 +121,33 @@
         }
     },
     "herring10": {
-        "duration_sec": 939,
+        "duration_sec": 919,
         "speakers": {
             "PAI": "F",
             "SAR": "F"
         },
         "primary_language": "ENG",
-        "comment": "pyannote had trouble telling the speakers apart",
+        "comment": "both voices sound similiar, kinda poor qaulity",
         "category": "code-switching",
         "cs_metrics": {
-            "i-index": 0.092,
-            "m-index": 0.552,
-            "burstiness": 0.238
+            "i-index": 0.074,
+            "m-index": 0.48,
+            "burstiness": 0.228
         },
         "pyannote": {
             "diarisation": {
-                "der_pc": 76.8,
-                "confusion_sec": 173.5,
-                "missed_sec": 707.2,
-                "false_sec": 20.6
+                "der_pc": 30.0,
+                "confusion_sec": 118.9,
+                "missed_sec": 24.0,
+                "false_sec": 6.9
             },
             "error_rates": {
-                "english_conf_error_rate": 24.6,
-                "spanish_conf_error_rate": 12.2,
-                "english_miss_error_rate": 49.7,
-                "spanish_miss_error_rate": 42.8,
-                "english_error_rate": 74.3,
-                "spanish_error_rate": 55.0
+                "english_conf_error_rate": 71.1,
+                "spanish_conf_error_rate": 51.9,
+                "english_miss_error_rate": 5.7,
+                "spanish_miss_error_rate": 5.3,
+                "english_error_rate": 76.8,
+                "spanish_error_rate": 57.2
             }
         }
     },
