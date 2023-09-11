@@ -297,688 +297,692 @@
                     "spanish_error_rate": 9.3
                 }
             }
+        }
+    },
+    "sastre02": {
+        "duration_sec": 1960,
+        "speakers": {
+            "LUI": "M",
+            "AVA": "M"
         },
-        "sastre02": {
-            "duration_sec": 1960,
-            "speakers": {
-                "LUI": "M",
-                "AVA": "M"
+        "primary_language": "SPA",
+        "comment": "Good qaulity",
+        "category": "spanish",
+        "cs_metrics": {
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 6.4,
+                "confusion_sec": 33.7,
+                "missed_sec": 25.0,
+                "false_sec": 26.7
             },
-            "primary_language": "SPA",
-            "comment": "Good qaulity",
-            "category": "spanish",
-            "cs_metrics": {
-                "i-index": 0.000,
-                "m-index": 0.000,
-                "burstiness": -1
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 6.4,
-                    "confusion_sec": 33.7,
-                    "missed_sec": 25.0,
-                    "false_sec": 26.7
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre03": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre03": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
-            },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
-            }
-        },
-        "sastre04": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
-            },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
-            }
-        },
-        "sastre05": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "SPA",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
-            },
+        "pyannote": {
             "diarization": {
                 "der_pc": null,
                 "confusion_sec": null,
                 "missed_sec": null,
                 "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre04": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre06": {
-            "duration_sec": 1636,
-            "speakers": {
-                "AAR": "M",
-                "ALY": "F"
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "primary_language": "ENG",
-            "comment": null,
-            "category": "code-switching",
-            "cs_metrics": {
-                "i-index": 0.044,
-                "m-index": 0.278,
-                "burstiness": 0.400
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 9.2,
-                    "confusion_sec": 45.7,
-                    "missed_sec": 49.0,
-                    "false_sec": 12.0
-                },
-                "error_rates": {
-                    "english_conf_error_rate": 1.4,
-                    "spanish_conf_error_rate": 29.0,
-                    "english_miss_error_rate": 4.9,
-                    "spanish_miss_error_rate": 3.0,
-                    "english_error_rate": 6.4,
-                    "spanish_error_rate": 32.0
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre05": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre07": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "diarization": {
+            "der_pc": null,
+            "confusion_sec": null,
+            "missed_sec": null,
+            "false_sec": null
+        }
+    },
+    "sastre06": {
+        "duration_sec": 1636,
+        "speakers": {
+            "AAR": "M",
+            "ALY": "F"
+        },
+        "primary_language": "ENG",
+        "comment": null,
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.044,
+            "m-index": 0.278,
+            "burstiness": 0.400
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 9.2,
+                "confusion_sec": 45.7,
+                "missed_sec": 49.0,
+                "false_sec": 12.0
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": 1.4,
+                "spanish_conf_error_rate": 29.0,
+                "english_miss_error_rate": 4.9,
+                "spanish_miss_error_rate": 3.0,
+                "english_error_rate": 6.4,
+                "spanish_error_rate": 32.0
             }
+        }
+    },
+    "sastre07": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre08": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre08": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre09": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre09": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre10": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre10": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre11": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre11": {
+        "duration_sec": 2151,
+        "speakers": {
+            "DIE": "M",
+            "EVE": "F"
         },
-        "sastre12": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "primary_language": "ENG",
+        "comment": null,
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.051,
+            "m-index": 0.908,
+            "burstiness": 0.17
+        },
+        "pyannote": {
+            "diarization": {
+                "der_pc": 9.8,
+                "confusion_sec": 49.1,
+                "missed_sec": 87.3,
+                "false_sec": 14.4
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": 1.7,
+                "spanish_conf_error_rate": 8.4,
+                "english_miss_error_rate": 6.5,
+                "spanish_miss_error_rate": 4.2,
+                "english_error_rate": 8.1,
+                "spanish_error_rate": 12.6
             }
+        }
+    },
+    "sastre12": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "sastre13": {
-            "duration_sec": 1350,
-            "speakers": {
-                "ELI": "F",
-                "COL": "M"
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "primary_language": "ENG",
-            "comment": "pyannote correct number of speakers",
-            "category": "english",
-            "cs_metrics": {
-                "i-index": 0.000,
-                "m-index": 0.000,
-                "burstiness": -1.000
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 10.6,
-                    "confusion_sec": 15.0,
-                    "missed_sec": 76.5,
-                    "false_sec": 15.6
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "sastre13": {
+        "duration_sec": 1350,
+        "speakers": {
+            "ELI": "F",
+            "COL": "M"
         },
-        "zeledon01": {
-            "duration_sec": 1149,
-            "speakers": {
-                "CAR": "F",
-                "AME": "F"
+        "primary_language": "ENG",
+        "comment": "pyannote correct number of speakers",
+        "category": "english",
+        "cs_metrics": {
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1.000
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 10.6,
+                "confusion_sec": 15.0,
+                "missed_sec": 76.5,
+                "false_sec": 15.6
             },
-            "primary_language": "SPA",
-            "comment": "good quality recording",
-            "category": "spanish",
-            "cs_metrics": {
-                "i-index": 0.0,
-                "m-index": 0.0,
-                "burstiness": -1.0
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 5.1,
-                    "confusion_sec": 19.3,
-                    "missed_sec": 8.8,
-                    "false_sec": 9.2
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon01": {
+        "duration_sec": 1149,
+        "speakers": {
+            "CAR": "F",
+            "AME": "F"
         },
-        "zeledon02": {
-            "duration_sec": 1287,
-            "speakers": {
-                "MAT": "M",
-                "REB": "F"
+        "primary_language": "SPA",
+        "comment": "good quality recording",
+        "category": "spanish",
+        "cs_metrics": {
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 5.1,
+                "confusion_sec": 19.3,
+                "missed_sec": 8.8,
+                "false_sec": 9.2
             },
-            "primary_language": "ENG",
-            "comment": null,
-            "category": "english",
-            "cs_metrics": {
-                "i-index": 0.0,
-                "m-index": 0.0,
-                "burstiness": -1.0
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 10.2,
-                    "confusion_sec": 11.6,
-                    "missed_sec": 61.0,
-                    "false_sec": 13.2
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon02": {
+        "duration_sec": 1287,
+        "speakers": {
+            "MAT": "M",
+            "REB": "F"
         },
-        "zeledon03": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "primary_language": "ENG",
+        "comment": null,
+        "category": "english",
+        "cs_metrics": {
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 10.2,
+                "confusion_sec": 11.6,
+                "missed_sec": 61.0,
+                "false_sec": 13.2
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon03": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon04": {
-            "duration_sec": 1125,
-            "speakers": {
-                "ETH": "M",
-                "HEN": "M"
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "primary_language": "ENG",
-            "comment": "pyannote has two labels",
-            "category": "code-switching",
-            "cs_metrics": {
-                "i-index": 0.048,
-                "m-index": 0.933,
-                "burstiness": 0.268
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 13.4,
-                    "confusion_sec": 25.7,
-                    "missed_sec": 44.3,
-                    "false_sec": 17.2
-                },
-                "error_rates": {
-                    "english_conf_error_rate": 7.2,
-                    "spanish_conf_error_rate": 6.5,
-                    "english_miss_error_rate": 8.5,
-                    "spanish_miss_error_rate": 7.0,
-                    "english_error_rate": 15.7,
-                    "spanish_error_rate": 13.4
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon04": {
+        "duration_sec": 1125,
+        "speakers": {
+            "ETH": "M",
+            "HEN": "M"
         },
-        "zeledon05": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "SPA",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "primary_language": "ENG",
+        "comment": "pyannote has two labels",
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.048,
+            "m-index": 0.933,
+            "burstiness": 0.268
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 13.4,
+                "confusion_sec": 25.7,
+                "missed_sec": 44.3,
+                "false_sec": 17.2
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": 7.2,
+                "spanish_conf_error_rate": 6.5,
+                "english_miss_error_rate": 8.5,
+                "spanish_miss_error_rate": 7.0,
+                "english_error_rate": 15.7,
+                "spanish_error_rate": 13.4
             }
+        }
+    },
+    "zeledon05": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon06": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon06": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon07": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "SPA",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon07": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon08": {
-            "duration_sec": 1405,
-            "speakers": {
-                "FLA": "F",
-                "MAR": "F"
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "primary_language": "ENG",
-            "comment": "3 labels detected",
-            "category": "code-switching",
-            "cs_metrics": {
-                "i-index": 0.071,
-                "m-index": 0.985,
-                "burstiness": 0.044
-            },
-            "pyannote": {
-                "diarisation": {
-                    "der_pc": 10.2,
-                    "confusion_sec": 46.3,
-                    "missed_sec": 10.4,
-                    "false_sec": 19.8
-                },
-                "error_rates": {
-                    "english_conf_error_rate": 12.3,
-                    "spanish_conf_error_rate": 8.6,
-                    "english_miss_error_rate": 2.9,
-                    "spanish_miss_error_rate": 1.6,
-                    "english_error_rate": 15.2,
-                    "spanish_error_rate": 10.1
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon08": {
+        "duration_sec": 1405,
+        "speakers": {
+            "FLA": "F",
+            "MAR": "F"
         },
-        "zeledon09": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "primary_language": "ENG",
+        "comment": "3 labels detected",
+        "category": "code-switching",
+        "cs_metrics": {
+            "i-index": 0.071,
+            "m-index": 0.985,
+            "burstiness": 0.044
+        },
+        "pyannote": {
+            "diarisation": {
+                "der_pc": 10.2,
+                "confusion_sec": 46.3,
+                "missed_sec": 10.4,
+                "false_sec": 19.8
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": 12.3,
+                "spanish_conf_error_rate": 8.6,
+                "english_miss_error_rate": 2.9,
+                "spanish_miss_error_rate": 1.6,
+                "english_error_rate": 15.2,
+                "spanish_error_rate": 10.1
             }
+        }
+    },
+    "zeledon09": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon11": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon11": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon13": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "ENG",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
+        }
+    },
+    "zeledon13": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "ENG",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
         },
-        "zeledon14": {
-            "duration_sec": null,
-            "speakers": {},
-            "primary_language": "SPA",
-            "comment": null,
-            "category": null,
-            "cs_metrics": {
-                "i-index": null,
-                "m-index": null,
-                "burstiness": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
             },
-            "pyannote": {
-                "diarization": {
-                    "der_pc": null,
-                    "confusion_sec": null,
-                    "missed_sec": null,
-                    "false_sec": null
-                },
-                "error_rates": {
-                    "english_conf_error_rate": null,
-                    "spanish_conf_error_rate": null,
-                    "english_miss_error_rate": null,
-                    "spanish_miss_error_rate": null,
-                    "english_error_rate": null,
-                    "spanish_error_rate": null
-                }
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
+        }
+    },
+    "zeledon14": {
+        "duration_sec": null,
+        "speakers": {},
+        "primary_language": "SPA",
+        "comment": null,
+        "category": null,
+        "cs_metrics": {
+            "i-index": null,
+            "m-index": null,
+            "burstiness": null
+        },
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
         }
     }
+}
