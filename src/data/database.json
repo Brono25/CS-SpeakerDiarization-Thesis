@@ -14,7 +14,7 @@
             "burstiness": 0.353
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 11.1,
                 "confusion_sec": 31.3,
                 "missed_sec": 64.2,
@@ -45,7 +45,7 @@
             "burstiness": 0.380
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 39.8,
                 "confusion_sec": 282.0,
                 "missed_sec": 41.1,
@@ -76,7 +76,7 @@
             "burstiness": 0.262
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 6.6,
                 "confusion_sec": 16.2,
                 "missed_sec": 3.8,
@@ -135,7 +135,7 @@
             "burstiness": 0.228
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 30.0,
                 "confusion_sec": 118.9,
                 "missed_sec": 24.0,
@@ -166,7 +166,7 @@
             "burstiness": 0.085
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 8.7,
                 "confusion_sec": 15.5,
                 "missed_sec": 1.7,
@@ -281,21 +281,19 @@
             "burstiness": 0.197
         },
         "pyannote": {
-            "diarisation": {
-                "diarisation": {
-                    "der_pc": 8.2,
-                    "confusion_sec": 6.4,
-                    "missed_sec": 85.4,
-                    "false_sec": 11.6
-                },
-                "error_rates": {
-                    "english_conf_error_rate": 1.8,
-                    "spanish_conf_error_rate": 1.7,
-                    "english_miss_error_rate": 7.1,
-                    "spanish_miss_error_rate": 7.6,
-                    "english_error_rate": 8.9,
-                    "spanish_error_rate": 9.3
-                }
+            "diarization": {
+                "der_pc": 8.2,
+                "confusion_sec": 6.4,
+                "missed_sec": 85.4,
+                "false_sec": 11.6
+            },
+            "error_rates": {
+                "english_conf_error_rate": 1.8,
+                "spanish_conf_error_rate": 1.7,
+                "english_miss_error_rate": 7.1,
+                "spanish_miss_error_rate": 7.6,
+                "english_error_rate": 8.9,
+                "spanish_error_rate": 9.3
             }
         }
     },
@@ -314,7 +312,7 @@
             "burstiness": -1
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 6.4,
                 "confusion_sec": 33.7,
                 "missed_sec": 25.0,
@@ -397,11 +395,13 @@
             "m-index": null,
             "burstiness": null
         },
-        "diarization": {
-            "der_pc": null,
-            "confusion_sec": null,
-            "missed_sec": null,
-            "false_sec": null
+        "pyannote": {
+            "diarization": {
+                "der_pc": null,
+                "confusion_sec": null,
+                "missed_sec": null,
+                "false_sec": null
+            }
         }
     },
     "sastre06": {
@@ -419,7 +419,7 @@
             "burstiness": 0.400
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 9.2,
                 "confusion_sec": 45.7,
                 "missed_sec": 49.0,
@@ -607,13 +607,13 @@
         }
     },
     "sastre13": {
-        "duration_sec": 1350,
+        "duration_sec": 1319,
         "speakers": {
             "ELI": "F",
             "COL": "M"
         },
         "primary_language": "ENG",
-        "comment": "pyannote correct number of speakers",
+        "comment": "lots of laughing and dynamic speech",
         "category": "english",
         "cs_metrics": {
             "i-index": 0.000,
@@ -622,10 +622,10 @@
         },
         "pyannote": {
             "diarisation": {
-                "der_pc": 10.6,
-                "confusion_sec": 15.0,
-                "missed_sec": 76.5,
-                "false_sec": 15.6
+                "der_pc": 9.3,
+                "confusion_sec": 8.3,
+                "missed_sec": 76.2,
+                "false_sec": 7.5
             },
             "error_rates": {
                 "english_conf_error_rate": null,
@@ -652,7 +652,7 @@
             "burstiness": -1.0
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 5.1,
                 "confusion_sec": 19.3,
                 "missed_sec": 8.8,
@@ -683,7 +683,7 @@
             "burstiness": -1.0
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 10.2,
                 "confusion_sec": 11.6,
                 "missed_sec": 61.0,
@@ -742,7 +742,7 @@
             "burstiness": 0.268
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 13.4,
                 "confusion_sec": 25.7,
                 "missed_sec": 44.3,
@@ -857,7 +857,7 @@
             "burstiness": 0.044
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 10.2,
                 "confusion_sec": 46.3,
                 "missed_sec": 10.4,
