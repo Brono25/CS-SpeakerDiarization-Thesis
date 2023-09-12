@@ -93,7 +93,7 @@ def detailed_der(info):
     der = metric(ref, hyp)
 
     der_details = {
-        "diarisation": {
+        "diarization": {
             "der_pc": round(der * 100, 1),
             "confusion_sec": round(components["confusion"], 1),
             "missed_sec": round(components["missed detection"], 1),

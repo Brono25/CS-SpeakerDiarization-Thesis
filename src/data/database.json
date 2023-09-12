@@ -621,7 +621,7 @@
             "burstiness": -1.000
         },
         "pyannote": {
-            "diarisation": {
+            "diarization": {
                 "der_pc": 9.3,
                 "confusion_sec": 8.3,
                 "missed_sec": 76.2,
@@ -669,7 +669,7 @@
         }
     },
     "zeledon02": {
-        "duration_sec": 1287,
+        "duration_sec": 1263,
         "speakers": {
             "MAT": "M",
             "REB": "F"
@@ -684,10 +684,10 @@
         },
         "pyannote": {
             "diarization": {
-                "der_pc": 10.2,
-                "confusion_sec": 11.6,
-                "missed_sec": 61.0,
-                "false_sec": 13.2
+                "der_pc": 9.6,
+                "confusion_sec": 8.7,
+                "missed_sec": 57.5,
+                "false_sec": 13.4
             },
             "error_rates": {
                 "english_conf_error_rate": null,
