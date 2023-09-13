@@ -93,22 +93,25 @@
         }
     },
     "herring09": {
-        "duration_sec": null,
-        "speakers": {},
+        "duration_sec": 1486,
+        "speakers": {
+            "LUK": "M",
+            "CLA": "F"
+        },
         "primary_language": "ENG",
-        "comment": null,
-        "category": null,
+        "comment": "good qaulity mostly",
+        "category": "english",
         "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0
         },
         "pyannote": {
             "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+                "der_pc": 4.8,
+                "confusion_sec": 6.8,
+                "missed_sec": 24.1,
+                "false_sec": 15.8
             },
             "error_rates": {
                 "english_conf_error_rate": null,
