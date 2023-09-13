@@ -43,6 +43,7 @@ def get_root_dir():
 
 
 def load_info_from_args(ref, hyp, lang, transcript):
+    
     root = get_root_dir()
     uri = get_uri()
     if ref != "None":
@@ -51,6 +52,7 @@ def load_info_from_args(ref, hyp, lang, transcript):
         ref = None
     if hyp != "None":
         hyp = load_rttm(hyp)[uri]
+        
     else:
         hyp = None
     if lang != "None":
@@ -84,6 +86,7 @@ def get_output_filename(root, uri, suffix):
 
 
 def detailed_der(info):
+    print("running detailed der...")
     ref = info["ref"]
     hyp = info["hyp"]
     output = get_output_filename(info["root"], info["uri"], ".json")
@@ -199,8 +202,12 @@ if __name__ == "__main__":
     if len(sys.argv) != 5:
         print("Invalid arguments")
         sys.exit(1)
+    
+  
+    print(sys.argv[2])
 
     if info["ref"] and info["hyp"]:
+        
         detailed_der(info)
         if info["lang"]:
             perform_missed_analysis(info)

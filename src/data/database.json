@@ -610,7 +610,7 @@
         }
     },
     "sastre13": {
-        "duration_sec": 1319,
+        "duration_sec": 1237,
         "speakers": {
             "ELI": "F",
             "COL": "M"
@@ -625,10 +625,10 @@
         },
         "pyannote": {
             "diarization": {
-                "der_pc": 9.3,
-                "confusion_sec": 8.3,
-                "missed_sec": 76.2,
-                "false_sec": 7.5
+                "der_pc": 8.3,
+                "confusion_sec": 5.0,
+                "missed_sec": 69.5,
+                "false_sec": 6.3
             },
             "error_rates": {
                 "english_conf_error_rate": null,
@@ -672,7 +672,7 @@
         }
     },
     "zeledon02": {
-        "duration_sec": 1263,
+        "duration_sec": 1187,
         "speakers": {
             "MAT": "M",
             "REB": "F"
@@ -687,10 +687,10 @@
         },
         "pyannote": {
             "diarization": {
-                "der_pc": 9.6,
-                "confusion_sec": 8.7,
-                "missed_sec": 57.5,
-                "false_sec": 13.4
+                "der_pc": 8.5,
+                "confusion_sec": 7.8,
+                "missed_sec": 49.2,
+                "false_sec": 9.5
             },
             "error_rates": {
                 "english_conf_error_rate": null,
