@@ -10,8 +10,8 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import load_transcript_from_file, Transcript  # noqa: E402
-from src.utilities import TEST_FILES, get_uri_of_file, debug_transcript_comparison
+from src.functions.transcript import load_transcript_from_file, Transcript  # noqa: E402
+from src.functions.utilities import TEST_FILES
 
 @pytest.fixture
 def expected_transcript():
@@ -35,5 +35,5 @@ def expected_transcript():
 
 def test_load_transcript_from_file(expected_transcript):
     file = f"{TEST_FILES}/test_sastre09.tr"
-    transcript = load_transcript_from_file(file)
+    transcript = load_transcript_from_file(file, 'sastre09')
     assert transcript == expected_transcript, "Loaded transcript does not match the expected transcript"

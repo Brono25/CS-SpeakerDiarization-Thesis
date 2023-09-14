@@ -7,7 +7,7 @@ import re
 root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
-from src.transcript import Transcript  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
 
 #The 'A' is needed as when support() is called in pyannote it defaults to track = 'A'
 def test_get_ref_annotation():

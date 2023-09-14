@@ -10,8 +10,8 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import Transcript  # noqa: E402
-from functions.cs_metrics import CSMetrics  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
+from src.functions.cs_dataset_metrics import DatasetMetrics  # noqa: E402
 
 def test_m_index():
     transcript = Transcript(uri="CS test")
@@ -36,7 +36,7 @@ def test_m_index():
     p2 = spanish_total_wrods / total_words
     m_index_expected = (1 - (p1**2 + p2**2)) / ((k - 1) * (p1**2 + p2**2))
 
-    analysis = CSMetrics(transcript=transcript)
+    analysis = DatasetMetrics(transcript=transcript)
     m_index_result = analysis.m_index()
 
     assert np.isclose(m_index_expected, m_index_result, rtol=1e-05, atol=1e-08)

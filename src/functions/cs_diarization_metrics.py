@@ -226,7 +226,7 @@ class CSDiarizationMetrics(BaseMetric):
     def _default_uem(self) -> Timeline:
         """
         Creates a uem covering the extent of ref and hyp.
-        Not required, it just to suppress the no uem warning.
+        Not required, it just to suppress the no uem warning in pyannote.
         """
         ref_tl = self.ref.get_timeline()
         hyp_tl = self.hyp.get_timeline()

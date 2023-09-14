@@ -7,7 +7,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.utilities import get_primary_language_of_file  # noqa: E402
+from src.functions.utilities import get_primary_language_of_file  # noqa: E402
 
 def test_get_primary_language_of_file():
     input_data = ["herring06", "sastre01", "zeledon14"]

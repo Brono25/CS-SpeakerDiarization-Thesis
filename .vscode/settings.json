@@ -4,9 +4,12 @@
     "python.testing.cwd": "${workspaceFolder}",
     "python.analysis.enablePytestSupport": true,
     "python.analysis.inlayHints.pytestParameters": true,
-    "python.testing.autoTestDiscoverOnSaveEnabled": false,
     "debug.inlineValues": "on",
     "cSpell.words": [
         "pyannote"
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true
 }

@@ -2,7 +2,7 @@ import pytest
 from pyannote.core import Segment
 import tempfile
 import os
-
+from pprint import pformat 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
 import re
@@ -11,8 +11,9 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import convert_cha_to_transcript, Transcript # noqa: E402
-from src.utilities import ROOT_DIR, get_uri_of_file, debug_transcript_comparison # noqa: E402
+from src.functions.cha_conversion import convert_cha_to_transcript_str_format
+from src.functions.transcript import Transcript # noqa: E402
+from src.functions.utilities import ROOT_DIR, get_uri_of_file, debug_transcript_comparison # noqa: E402
 
 
 
@@ -110,16 +111,13 @@ def create_temp_file(test_data, uri):
         temp.writelines(line.encode() for line in test_data)
     return temp.name
 
-@pytest.mark.parametrize("test_data,uri,expected_segments", tests)
+@pytest.mark.parametrize("test_data, uri, expected_segments", tests)
 def test_cha_to_transcript(test_data, uri, expected_segments):
-    test_file = create_temp_file(test_data, uri)
-    output = convert_cha_to_transcript(test_file)
+    test_file_path = create_temp_file(test_data, uri)
+    actual_output = convert_cha_to_transcript_str_format(test_file_path, uri='test', prim_lang='ENG')
 
-    expected_output = Transcript(uri=uri)
-    for start, end, speaker, lang, text in expected_segments:
-        expected_output[Segment(start, end)] = (speaker, lang, text)
+    expected_output = [[start, end, speaker, language, text] for start, end, speaker, language, text in expected_segments]
 
-    # debug_transcript_comparison(output, expected_output)
-    assert output == expected_output
-    # Cleanup after the test
-    os.remove(test_file)
+    assert actual_output == expected_output, f"Expected:\n{pformat(expected_output)}\nGot:\n{pformat(actual_output)}"
+
+    os.remove(test_file_path)

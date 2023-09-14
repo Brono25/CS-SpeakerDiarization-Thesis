@@ -9,8 +9,8 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import Transcript  # local import
-from functions.cs_metrics import CSMetrics  # local import
+from src.functions.transcript import Transcript  # local import
+from src.functions.cs_dataset_metrics import DatasetMetrics  # local import
 
 
 
@@ -27,7 +27,7 @@ from functions.cs_metrics import CSMetrics  # local import
     (Segment(15, 20), ("A", "ENG", "5 6 7 8 9")),
     (Segment(20, 30), ("A", "ENG", "10 11 12 13 14 15"))
     ], 
-    {"language": ["ENG"], "time": [25]})
+    {"language": ["ENG"], "time": [25]}),
 
     # ENG ENG SPA SPA
     ([
@@ -76,7 +76,7 @@ def test_get_spans_between_switchpoints_seconds(segments, expected_spans):
     for seg, (speaker, lang, text) in segments:
         ts[seg] = (speaker, lang, text)
 
-    cs = CSMetrics(ts)
+    cs = DatasetMetrics(ts)
 
     spans = cs.get_spans_between_switchpoints_seconds()
     assert spans == expected_spans

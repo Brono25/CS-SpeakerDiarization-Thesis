@@ -10,8 +10,8 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import Transcript  # noqa: E402
-from functions.cs_metrics import CSMetrics  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
+from src.functions.cs_dataset_metrics import DatasetMetrics  # noqa: E402
 
 
 @pytest.mark.parametrize(
@@ -58,6 +58,6 @@ def test_burstiness(segments, expected_spans):
     mean_spans = np.mean(expected_spans)
     std_spans = np.std(expected_spans)
     burstiness_expected = (std_spans - mean_spans) / (std_spans + mean_spans)
-    analysis = CSMetrics(transcript=transcript)
+    analysis = DatasetMetrics(transcript=transcript)
     burstiness_result = analysis.burstiness()
     assert np.isclose(burstiness_expected, burstiness_result, rtol=1e-05, atol=1e-08)

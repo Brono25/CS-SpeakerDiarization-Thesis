@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from functions.cs_error import CSError   # noqa: E402
+from src.functions.cs_diarization_metrics import CSDiarizationMetrics   # noqa: E402
 
 URI = "test bench"
 
@@ -43,7 +43,7 @@ def test_compute_confusion_components():
         "spanish_total": 5,
     }
 
-    test = CSError(
+    test = CSDiarizationMetrics(
         uri=URI, reference=ref, hypothesis=hyp, language_annotation=lang_map
     )
     result = test.compute_confusion_components()

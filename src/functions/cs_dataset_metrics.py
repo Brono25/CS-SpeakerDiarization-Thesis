@@ -11,7 +11,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from functions.transcript import Transcript  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
 
 
 class DatasetMetrics:

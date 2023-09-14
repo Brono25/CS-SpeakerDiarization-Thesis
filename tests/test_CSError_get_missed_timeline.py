@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from functions.cs_error import CSError  # noqa: E402
+from src.functions.cs_diarization_metrics import CSDiarizationMetrics  # noqa: E402
 
 URI = "test bench"
 
@@ -24,7 +24,7 @@ def test_get_missed_timeline():
     hyp[Segment(0, 4)] = "A"
     hyp[Segment(7, 11)] = "A"
 
-    test = CSError(uri=URI, reference=ref, hypothesis=hyp)
+    test = CSDiarizationMetrics(uri=URI, reference=ref, hypothesis=hyp)
     answer = Timeline(uri=URI)
     answer.add(Segment(4, 7))
     result = test._get_missed_timeline()

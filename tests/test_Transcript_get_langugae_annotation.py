@@ -7,16 +7,15 @@ import re
 root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
-from src.transcript import Transcript  # noqa: E402
-from src.utilities import debug_transcript_comparison
+from src.functions.transcript import Transcript  # noqa: E402
 
 
 def test_get_language_annotation():
     expected_output = Annotation(uri="test")
-    expected_output[Segment(0, 1), 'A'] = "ENG"
+    expected_output[Segment(0, 1)] = "ENG"
 
     input = Transcript(uri="test")
-    input[Segment(0, 1)] = ("B", "ENG", "Text")
+    input[Segment(0, 1)] = ("A", "ENG", "Text")
     result = input.get_language_annotation()
 
     for track in input.itertracks(yield_label=True):
@@ -29,4 +28,3 @@ def test_get_language_annotation():
 
     assert result == expected_output
     assert input != expected_output
-

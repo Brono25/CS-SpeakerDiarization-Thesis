@@ -11,8 +11,8 @@ sys.path.append(root)
 
 
 # local imports
-from src.transcript import Transcript
-from src.utilities import ROOT_DIR, get_uri_of_file
+from src.functions.transcript import Transcript
+from src.functions.utilities import ROOT_DIR
 
 @pytest.fixture
 def sample_transcript():
@@ -36,7 +36,7 @@ def sample_transcript():
     return transcript
 
 def test_save_transcript_to_file(sample_transcript):
-    output_file = sample_transcript.save_transcript_to_file()
+    output_file = sample_transcript.save_transcript_to_file('./test')
     
     # path to expected output
     expected_output_file = f"{ROOT_DIR}/tests/test_files/test_sastre09.tr"

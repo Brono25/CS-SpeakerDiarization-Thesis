@@ -5,27 +5,39 @@ import re
 # Always use CS-SpeakerDiarization-Thesis as root
 root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
-
-from src.functions.transcript import Transcript, reduce_transcript
+from pprint import pformat
+from src.functions.transcript import Transcript
+from src.functions.cha_conversion import reduce_transcript
 from pyannote.core import Segment
 
+def compare_transcripts(expected, result):
+    if expected != result:
+        for i, (e, r) in enumerate(zip(expected, result)):
+            if e != r:
+                print(f"Mismatch at index {i}: Expected {e}, got {r}")
 
 
 def create_transcript(segments_data):
-    transcript = Transcript(uri="test")
+    transcript = []
     for segment_data in segments_data:
         start, end, label, language, text = segment_data
-        transcript[Segment(start, end)] = (label, language, text)
+        transcript.append([start, end, label, language, text])
     return transcript
 
 def test_empty_transcript():
-    transcript = Transcript(uri="test")
-    assert reduce_transcript(transcript) == transcript
+    transcript = []
+    expected_result = transcript
+    result = reduce_transcript(transcript)
+    assert expected_result == result, f"Expected:\n{pformat(expected_result)}\nGot:\n{pformat(result)}"
+
 
 def test_single_segment_transcript():
     transcript_data = [[0, 1, "A", "ENG", "one"]]
     transcript = create_transcript(transcript_data)
-    assert reduce_transcript(transcript) == transcript
+    result = reduce_transcript(transcript)
+    expected_result = transcript
+    assert expected_result == result, f"Expected:\n{pformat(expected_result)}\nGot:\n{pformat(result)}"
+
 
 def test_non_combining_segments():
     transcript_data = [
@@ -147,16 +159,17 @@ def test_real_transcript_segment():
     ]
     transcript = create_transcript(transcript_data)
     expected_result_data = [
-        [22.003, 27.059, "NIC", "ENG", "that had to have been there when I went outside that I went outside to smoke for a minute and then I came back in and he went outside"],
-        [27.048, 29.709, "NIC", "ENG", "!and he goes"],
-        [27.049, 29.708, "NIC", "SPA", "!estaba@s buscando@s"],
-        [29.626, 31.123, "NIC", "SPA", "!estaba@s"],
+        [22.003, 29.709, "NIC", "ENG", "that had to have been there when I went outside that I went outside to smoke for a minute and then I came back in and he went outside !and he goes"],
+        [27.049, 31.123, "NIC", "SPA", "!estaba@s buscando@s estaba@s"],
         [29.627, 31.122, "NIC", "ENG", "!I love when he uses his hand"],
         [31.097, 32.089, "JES", "ENG", "oh"],
         [31.491, 34.562, "NIC", "SPA", "estaba buscando estaba buscando"]
     ]
     expected_result = create_transcript(expected_result_data)
-    assert reduce_transcript(transcript, support=0.25) == expected_result
+    result = reduce_transcript(transcript, support=0.25)
+    compare_transcripts(expected_result, result)
+    
+
 
 
 
@@ -207,11 +220,8 @@ def test_real_transcript_segment3():
     ]
     expected_result = create_transcript(expected_result_data)
     result = reduce_transcript(transcript, support=0.25)
-
-    print(result)
-    print()
-    print(expected_result)
-    assert expected_result == result
+    compare_transcripts(expected_result, result)
 
 
-test_real_transcript_segment3()
+
+

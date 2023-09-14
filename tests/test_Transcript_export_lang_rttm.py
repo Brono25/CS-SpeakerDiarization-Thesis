@@ -10,8 +10,8 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import Transcript  # noqa: E402
-from src.utilities import TEST_FILES  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
+from src.functions.utilities import TEST_FILES  # noqa: E402
 
 
 def read_file_content(file_path):
@@ -25,7 +25,7 @@ def test_export_lang_rttm():
     transcript[Segment(1, 2)] = ("B", "SPA", "Hola")
     transcript[Segment(2, 3)] = ("A", "ENG", "How are you")
     transcript[Segment(3, 4)] = ("A", "ENG", "going?")
-    result_file = transcript.export_lang_rttm(support=False)
+    result_file = transcript.export_lang_rttm(support=False, output_path='./test')
     expected_output_file = f"{TEST_FILES}/export_lang_no_support.rttm"
 
     try:
@@ -40,7 +40,7 @@ def test_export_lang_rttm():
     transcript[Segment(1, 2)] = ("B", "SPA", "Hola")
     transcript[Segment(2, 3)] = ("A", "ENG", "How are you")
     transcript[Segment(3, 4)] = ("A", "ENG", "going?")
-    result_file = transcript.export_lang_rttm(support=True)
+    result_file = transcript.export_lang_rttm(support=True, output_path='./test')
     expected_output_file = f"{TEST_FILES}/export_lang_support.rttm"
     try:
         assert read_file_content(result_file) == read_file_content(

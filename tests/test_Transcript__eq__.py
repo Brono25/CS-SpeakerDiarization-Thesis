@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local import
-from src.transcript import Transcript  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
 
 
 def test_transcript_equality():

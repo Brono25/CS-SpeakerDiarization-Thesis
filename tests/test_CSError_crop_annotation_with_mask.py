@@ -9,13 +9,13 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from functions.cs_error import CSError, Mask  # noqa: E402
+from src.functions.cs_diarization_metrics import CSDiarizationMetrics, Mask  # noqa: E402
 
 URI = "test bench"
 
 
 def test_crop_annotation_with_mask():
-    test = CSError(uri=URI)
+    test = CSDiarizationMetrics(uri=URI)
     annotation = Annotation(uri=URI)
     annotation[Segment(0, 2)] = "A"
     annotation[Segment(3, 5)] = "A"

@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from functions.cs_error import CSError  # noqa: E402
+from src.functions.cs_diarization_metrics import CSDiarizationMetrics  # noqa: E402
 
 URI = "test bench"
 
@@ -40,7 +40,7 @@ class TestLanguageMetric:
             "spanish_miss_error": 3,
             "spanish_total": 8,
         }
-        test = CSError(
+        test = CSDiarizationMetrics(
             uri=URI, reference=ref, hypothesis=hyp, language_annotation=language_annotation
         )
         result = test.compute_miss_components()

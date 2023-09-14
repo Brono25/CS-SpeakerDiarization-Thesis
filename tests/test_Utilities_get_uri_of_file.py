@@ -8,7 +8,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.utilities import get_uri_of_file  # noqa: E402
+from src.functions.utilities import get_uri_of_file  # noqa: E402
 
 
 def test_get_uri_of_file():

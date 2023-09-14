@@ -9,7 +9,7 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from functions.cs_error import CSError  # noqa: E402
+from src.functions.cs_diarization_metrics import CSDiarizationMetrics  # noqa: E402
 
 URI = "test bench"
 
@@ -24,7 +24,7 @@ def test_default_uem():
 
     answer = Timeline(uri=URI)
     answer.add(Segment(0, 11))
-    test = CSError(uri=URI, reference=ref, hypothesis=hyp)
+    test = CSDiarizationMetrics(uri=URI, reference=ref, hypothesis=hyp)
     uem = test._default_uem()
 
     assert uem.uri == ref.uri and answer == uem, "Test failed: _default_uem"

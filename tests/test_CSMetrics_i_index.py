@@ -10,8 +10,8 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 # local imports
-from src.transcript import Transcript  # noqa: E402
-from functions.cs_metrics import CSMetrics  # noqa: E402
+from src.functions.transcript import Transcript  # noqa: E402
+from src.functions.cs_dataset_metrics import DatasetMetrics  # noqa: E402
 
 
 def test_i_index():
@@ -32,7 +32,7 @@ def test_i_index():
     num_switch_point = 9
     total_words = 30
     i_index_expected = num_switch_point / (total_words - 1)
-    analysis = CSMetrics(transcript=transcript)
+    analysis = DatasetMetrics(transcript=transcript)
     i_index_result = analysis.i_index()
 
     assert np.isclose(i_index_expected, i_index_result, rtol=1e-05, atol=1e-08)

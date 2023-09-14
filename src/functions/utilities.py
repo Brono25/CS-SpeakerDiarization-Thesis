@@ -6,7 +6,7 @@ from pathlib import Path
 import sys
 
 ROOT_DIR_NAME = "CS-SpeakerDiarization-Thesis"
-ROOT_DIR = Path(__file__).parent.parent
+ROOT_DIR = Path(__file__).parent.parent.parent
 if ROOT_DIR not in sys.path:
     sys.path.append(ROOT_DIR)
 
@@ -75,7 +75,7 @@ def get_uri_list():
 def get_uri_of_file(filename: str):
     with open(DATABASE_PATH, "r") as f:
         database = json.load(f)
-
+    print(ROOT_DIR)
     for key in database.keys():
         if key in filename:
             return key
