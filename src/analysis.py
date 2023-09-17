@@ -203,9 +203,6 @@ if __name__ == "__main__":
         print("Invalid arguments")
         sys.exit(1)
     
-  
-    print(sys.argv[2])
-
     if info["ref"] and info["hyp"]:
         
         detailed_der(info)

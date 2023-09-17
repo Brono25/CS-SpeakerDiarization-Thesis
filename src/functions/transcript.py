@@ -1,5 +1,5 @@
 from pyannote.core import Annotation
-from pyannote.core import Segment
+from pyannote.core import Segment, Timeline
 import os
 import time
 from datetime import datetime
@@ -88,6 +88,16 @@ class Transcript(Annotation):
             lines.append(line)
         return "\n".join(lines)
 
+    def itertr(self):
+        for segment in self.transcript:
+            yield (
+                segment.start, 
+                segment.end,
+                super().__getitem__(segment),
+                self.transcript[segment],
+                self.language_tags[segment]
+            )
+
 
     def export_ref_rttm(self, output_path: str, support=False) -> str:
         ref_rttm = Annotation(uri=self.uri)
@@ -140,6 +150,14 @@ class Transcript(Annotation):
         if support:
             annotation = annotation.support(collar=0.0)
         return annotation
+    
+    def get_text_annotation(self, support=False) -> Annotation:
+        annotation = Annotation(uri=self.uri)
+        for seg, (_, _, text) in self.items():
+            annotation[seg] = text
+        if support:
+            annotation = annotation.support(collar=0.0)
+        return annotation
 
     def items(self):
         for segment in self.transcript:
@@ -167,6 +185,48 @@ class Transcript(Annotation):
         with open(output, "w") as file:
             file.write(output_content)
         return output
+
+
+    def crop_transcript_from_uem(self, uem: Timeline) -> 'Transcript':
+        # Create a pyannote annotation for label, language and text so
+        # pyannote extrude method can be used to do the cropping. 
+        # after each seperate annotation is processed they are pieced
+        # back together into a Transcript.
+
+        language_annotation = self.get_language_annotation()
+        label_annotation = self.get_ref_annotation()
+        text_annotation = self.get_text_annotation()
+        extruded_label_annotation = label_annotation.extrude(uem)
+        extruded_language_annotation = language_annotation.extrude(uem)
+        extruded_text_annotation = text_annotation.extrude(uem)
+
+        new_transcript = Transcript(uri=self.uri, modality=self.modality)
+        
+        for segment in extruded_label_annotation.itersegments():
+            label = extruded_label_annotation[segment]
+            language = extruded_language_annotation[segment]
+            text = extruded_text_annotation[segment]
+            new_transcript[segment] = (label, language, text)
+        return new_transcript
+
+
+    def get_transcript_speaker_overlap_timeline(self):
+        ref_ann = self.get_ref_annotation()
+        return ref_ann.get_overlap()
+
+
+    def duration(self):
+        total_duration = self._total_duration()
+        ol_duration = self.get_transcript_speaker_overlap_timeline().duration()
+        duration_exclude_overlap = total_duration - ol_duration
+        return total_duration, duration_exclude_overlap
+
+    def _total_duration(self):
+            all_segments = [segment for segment in self.get_ref_annotation().itersegments()]
+            if not all_segments:
+                return 0
+            end_time = max(segment.end for segment in all_segments)
+            return end_time  
 
 
 def load_transcript_from_file(file, uri):

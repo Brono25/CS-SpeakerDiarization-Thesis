@@ -28,18 +28,11 @@ def test_i_index():
     transcript[Segment(9, 10)] = ("A", "ENG", "24 25 26 27")
     transcript[Segment(10, 11)] = ("B", "SPA", "28 29 30")
 
-    # Number of switch points based on language change
+
     num_switch_point = 9
-
-    # Total time duration for this transcript is 11 seconds (from 0 to 11)
-    total_time = 11
-
-    # Calculate I-index based on time
-    i_index_expected = num_switch_point / total_time
-    
+    total_words = 30
+    i_index_expected = num_switch_point / (total_words - 1)
     analysis = DatasetMetrics(transcript=transcript)
-
-    # Use i_index() function instead of i_index_token()
-    i_index_result = analysis.i_index()
+    i_index_result = analysis.i_index_token()
 
     assert np.isclose(i_index_expected, i_index_result, rtol=1e-05, atol=1e-08)

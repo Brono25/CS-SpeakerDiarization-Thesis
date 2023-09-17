@@ -65,7 +65,7 @@ class DatasetMetrics:
     def language_entropy(self):
         pass
 
-    def i_index(self):
+    def i_index_token(self):
         """
         Calculates the I-index of the conversation transcript.
         The I-index is a measure of the frequency of code-switching within the
@@ -89,6 +89,39 @@ class DatasetMetrics:
             prev_language = language
         i_index = num_switch_points / (total_words - 1)
         return i_index
+    
+
+    def i_index(self):
+        """
+        Calculates the I-index of the conversation transcript based on time.
+        The I-index is a measure of the frequency of code-switching within the
+        conversation and is computed using the formula:
+
+                    I-index = num_switch_points / total_time
+
+        Returns:
+            float: The I-index value representing the frequency of code-switching within
+            the conversation transcript.
+        """
+        num_switch_points = 0
+        total_time = 0.0
+        prev_language = None
+
+        for start, end, _, language, _ in self.transcript.itertr():
+            segment_time = end - start  
+            total_time += segment_time  
+
+            if prev_language is not None and prev_language != language:
+                num_switch_points += 1 
+
+            prev_language = language
+
+        if total_time == 0:  
+            return 0.0
+
+        i_index = num_switch_points / total_time
+        return i_index
+
 
     def burstiness(self):
         """
