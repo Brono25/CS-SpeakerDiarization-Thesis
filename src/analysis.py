@@ -74,9 +74,6 @@ def load_info_from_args(ref, hyp, lang, transcript):
     return info
 
 
-# --------------------SETUP--------------------
-
-
 def get_output_filename(root, uri, suffix):
     output_path = f"{root}/der_{uri}{suffix}"
     if os.path.exists(output_path):
@@ -174,25 +171,42 @@ def perform_language_error_rates(info):
         json.dump(error_rates, file, indent=4)
 
 
+
+
 def get_dataset_metrics(info):
     tr = info["transcript"]
     metrics = DatasetMetrics(transcript=tr)
-
+    total_duration, duration_no_ol = tr.duration()
     m_index = metrics.m_index()
     i_index = metrics.i_index()
     burstiness = metrics.burstiness()
+    cpf = metrics.change_point_frequency()
+    scf = metrics.speaker_change_frequency()
+    labels = tr.get_speaker_labels_dict()
+    # Check for existing files and get the next index
+    index = 0
     output = f'{info["root"]}/metric_{info["uri"]}.json'
+    while os.path.exists(output):
+        output = f'{info["root"]}/metric_{info["uri"]}_{index}.json'
+        index += 1
 
     with open(output, "w") as file:
         metric = {
+            "speakers": labels,
+            "duration_sec": total_duration,
+            "coverage": round(duration_no_ol / total_duration, 3),
             "cs_metrics": {
                 "i-index": float(f"{i_index:.3f}"),
                 "m-index": float(f"{m_index:.3f}"),
                 "burstiness": float(f"{burstiness:.3f}"),
+                "change-point-freq": float(f"{cpf:.3f}"),
+                "speaker-change-freq": float(f"{scf:.3f}"),
             }
         }
         file.write(json.dumps(metric, indent=4))
+
     print(f"Metrics have been saved to {output}")
+
 
 
 if __name__ == "__main__":

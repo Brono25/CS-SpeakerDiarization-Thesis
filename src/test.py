@@ -15,17 +15,14 @@ sys.path.append(root)
 
 
 
-from src.functions.transcript import Transcript, transcript_duration
-tr = Transcript(uri='test')
+from src.functions.transcript import Transcript, load_transcript_from_file
+tr = Transcript(uri='herring06')
 
-tr[Segment(0, 10)] = ('A', 'ENG', 'Hello world.')
-tr[Segment(3, 5)] = ('B', 'ENG', 'Hello again.')
-tr[Segment(8, 11)] = ('C', 'SPA', 'goodbye.')
+file = "/Users/brono/GitHub/cs-dataset/code-switched/herring06/herring06.tr"
+tr = load_transcript_from_file(uri='herring06', file=file)
 
-ol = tr.get_transcript_speaker_overlap_timeline()
-cropped_tr = tr.crop_transcript_from_uem(ol)
-print(ol)
+uem = tr.get_transcript_speaker_overlap_timeline()
+tr_no_ol = tr.crop_transcript_from_uem(uem)
 
-
-for start, end, label, lang, text in cropped_tr.itertr():
-    print(start, end, label, lang, text)
+a,b = tr.duration()
+print(a, b)
