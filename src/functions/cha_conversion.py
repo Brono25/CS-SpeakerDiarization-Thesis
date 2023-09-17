@@ -203,13 +203,13 @@ def convert_cha_to_transcript_str_format(cha_file: str, uri: str, prim_lang: str
         
             language = _detect_language(mono_line, prim_lang, unfiltered_line=line)
             text = re.sub(r"_SPA|_ENG", "", mono_line).lstrip().rstrip()
-            start_sec, end_sec = (start + delta) / 1000.0, (end - delta) / 1000.0
+            start_sec, end_sec = (start + delta) / 1000.0, (end + delta) / 1000.0
 
             # tag lines which have been split or timestamps added with a '!'
             if len(monolingual_lines) > 1 or missing_timestamp_flag:
                 text = f"!{text}"
                 missing_timestamp_flag = False
-            delta += 1
+            delta += 10
 
 
             transcript.append([start_sec,end_sec,label,language, text])
