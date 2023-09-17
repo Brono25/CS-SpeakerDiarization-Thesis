@@ -495,30 +495,33 @@
         }
     },
     "sastre09": {
-        "duration_sec": null,
-        "speakers": {},
+        "duration_sec": 2200,
+        "speakers": {
+            "VAL": "F",
+            "KAY": "F"
+        },
         "primary_language": "ENG",
-        "comment": null,
-        "category": null,
+        "comment": "high qaultiy audio",
+        "category": "code-switching",
         "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
+            "i-index": 0.057,
+            "m-index": 0.672,
+            "burstiness": 0.213
         },
         "pyannote": {
             "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+                "der_pc": 9.5,
+                "confusion_sec": 79.8,
+                "missed_sec": 23.6,
+                "false_sec": 26.6
             },
             "error_rates": {
-                "english_conf_error_rate": null,
-                "spanish_conf_error_rate": null,
-                "english_miss_error_rate": null,
-                "spanish_miss_error_rate": null,
-                "english_error_rate": null,
-                "spanish_error_rate": null
+                "english_conf_error_rate": 9.9,
+                "spanish_conf_error_rate": 7.9,
+                "english_miss_error_rate": 1.5,
+                "spanish_miss_error_rate": 1.4,
+                "english_error_rate": 11.4,
+                "spanish_error_rate": 9.4
             }
         }
     },
