@@ -1,17 +1,20 @@
 {
     "herring06": {
-        "duration_sec": 1627,
+        "primary_language": "ENG",
+        "comment": "Lots of examples of confusion",
+        "category": "code-switching",
         "speakers": {
             "JES": "F",
             "NIC": "M"
         },
-        "primary_language": "ENG",
-        "comment": "Lots of examples of confusion",
-        "category": "code-switching",
+        "duration_sec": 1628,
+        "coverage": 0.971,
         "cs_metrics": {
-            "i-index": 0.039,
-            "m-index": 0.557,
-            "burstiness": 0.353
+            "i-index": 0.133,
+            "m-index": 0.646,
+            "burstiness": 0.339,
+            "change-point-freq": 0.252,
+            "speaker-change-freq": 0.154
         },
         "pyannote": {
             "diarization": {
@@ -31,18 +34,21 @@
         }
     },
     "herring07": {
-        "duration_sec": 1471,
+        "primary_language": "ENG",
+        "comment": "The two male voices sound similiar",
+        "category": "code-switching",
         "speakers": {
             "RIC": "M",
             "SEB": "M"
         },
-        "primary_language": "ENG",
-        "comment": "The two male voices sound similiar",
-        "category": "code-switching",
+        "duration_sec": 1471,
+        "coverage": 0.942,
         "cs_metrics": {
-            "i-index": 0.039,
-            "m-index": 0.426,
-            "burstiness": 0.380
+            "i-index": 0.139,
+            "m-index": 0.423,
+            "burstiness": 0.376,
+            "change-point-freq": 0.416,
+            "speaker-change-freq": 0.35
         },
         "pyannote": {
             "diarization": {
@@ -62,18 +68,21 @@
         }
     },
     "herring08": {
-        "duration_sec": 1075,
-        "speakers": {
-            "ROB": "M",
-            "MEL": "F"
-        },
         "primary_language": "ENG",
         "comment": "Good quality track, a couple of good spanish confusion",
         "category": "code-switching",
+        "speakers": {
+            "MEL": "F",
+            "ROB": "M"
+        },
+        "duration_sec": 1076,
+        "coverage": 0.96,
         "cs_metrics": {
-            "i-index": 0.031,
-            "m-index": 0.142,
-            "burstiness": 0.262
+            "i-index": 0.124,
+            "m-index": 0.155,
+            "burstiness": 0.269,
+            "change-point-freq": 0.398,
+            "speaker-change-freq": 0.319
         },
         "pyannote": {
             "diarization": {
