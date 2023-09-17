@@ -37,6 +37,6 @@ def test_m_index():
     m_index_expected = (1 - (p1**2 + p2**2)) / ((k - 1) * (p1**2 + p2**2))
 
     analysis = DatasetMetrics(transcript=transcript)
-    m_index_result = analysis.m_index()
+    m_index_result = analysis.m_index_token()
 
     assert np.isclose(m_index_expected, m_index_result, rtol=1e-05, atol=1e-08)

@@ -31,7 +31,7 @@ from src.functions.cs_dataset_metrics import DatasetMetrics  # noqa: E402
                 (Segment(9, 10), "A", "ENG", "7 8 9 10 11 12"),
                 (Segment(10, 11), "B", "SPA", "1 2 3 4 5 6"),
             ],
-            np.array([4, 3, 7, 6, 4, 2, 12, 6]),
+            np.array([1, 1, 1, 2, 1, 1, 3, 1]),
         ),
         (
             [
@@ -47,7 +47,7 @@ from src.functions.cs_dataset_metrics import DatasetMetrics  # noqa: E402
                 (Segment(9, 10), "A", "ENG", "7 8 9 10 11 12"),
                 (Segment(10, 11), "B", "ENG", "13 14 15 16 17 18"),
             ],
-            np.array([4, 3, 7, 6, 4, 2, 18]),
+            np.array([1, 1, 1, 2, 1, 1, 4]),
         ),
     ],
 )
