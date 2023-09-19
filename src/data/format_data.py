@@ -1,40 +1,61 @@
 
 import json
 
-
-with open("database.json", 'r') as f:
+database_path = "src/data/database.json"
+with open(database_path, 'r') as f:
     data = json.load(f)
 
 
 
 def update_structure(data, template):
     for main_key in data.keys():
+        new_data = {}
         for key, value in template.items():
-            if key not in data[main_key]:
-                data[main_key][key] = None
-            elif isinstance(value, dict):
+            if key == "speakers":
+                # Get existing speaker labels or create an empty dictionary
+                existing_speakers = data[main_key].get(key, {})
+                # Initialize with template if needed
+                new_speakers = template[key].copy()
+                # Update with existing values
+                new_speakers.update(existing_speakers)
+                new_data[key] = new_speakers
+                continue
+
+            if key in data[main_key]:
+                new_data[key] = data[main_key][key]
+            else:
+                new_data[key] = None
+
+            if isinstance(value, dict):
+                if new_data[key] is None:
+                    new_data[key] = {}
                 for sub_key in value.keys():
-                    if sub_key not in data[main_key][key]:
-                        data[main_key][key][sub_key] = None
+                    if key in data[main_key] and sub_key in data[main_key][key]:
+                        new_data[key][sub_key] = data[main_key][key][sub_key]
+                    else:
+                        new_data[key][sub_key] = None
+
+        data[main_key] = new_data
+
+
+
 
 
 template = {
-    "primary_language": None,
-    "comment": None,
     "category": None,
-    "speakers": {
-        "JES": None,
-        "NIC": None,
-    },
     "duration_sec": None,
     "coverage": None,
-    "cs_metrics": {
+    "speakers": {},
+        "cs_metrics": {
         "i-index": None,
         "m-index": None,
         "burstiness": None,
         "change-point-freq": None,
         "speaker-change-freq": None,
     },
+    "primary_language": None,
+    "comment": None,
+
     "pyannote": {
         "diarization": {
             "der_pc": None,
@@ -57,5 +78,5 @@ template = {
 update_structure(data, template)
 
 # Save the updated data back to the JSON file
-with open("database.json", "w") as f:
+with open(database_path, "w") as f:
     json.dump(data, f, indent=4)

@@ -43,7 +43,6 @@ def get_root_dir():
 
 
 def load_info_from_args(ref, hyp, lang, transcript):
-    
     root = get_root_dir()
     uri = get_uri()
     if ref != "None":
@@ -52,7 +51,7 @@ def load_info_from_args(ref, hyp, lang, transcript):
         ref = None
     if hyp != "None":
         hyp = load_rttm(hyp)[uri]
-        
+
     else:
         hyp = None
     if lang != "None":
@@ -171,8 +170,6 @@ def perform_language_error_rates(info):
         json.dump(error_rates, file, indent=4)
 
 
-
-
 def get_dataset_metrics(info):
     tr = info["transcript"]
     metrics = DatasetMetrics(transcript=tr)
@@ -192,21 +189,23 @@ def get_dataset_metrics(info):
 
     with open(output, "w") as file:
         metric = {
-            "speakers": labels,
-            "duration_sec": total_duration,
-            "coverage": round(duration_no_ol / total_duration, 3),
-            "cs_metrics": {
-                "i-index": float(f"{i_index:.3f}"),
-                "m-index": float(f"{m_index:.3f}"),
-                "burstiness": float(f"{burstiness:.3f}"),
-                "change-point-freq": float(f"{cpf:.3f}"),
-                "speaker-change-freq": float(f"{scf:.3f}"),
+            "metrics": {
+                "duration_sec": total_duration,
+                "coverage": round(duration_no_ol / total_duration, 3),
+                "speakers": labels,
+                "cs_metrics": {
+                    "i-index": float(f"{i_index:.3f}"),
+                    "m-index": float(f"{m_index:.3f}"),
+                    "burstiness": float(f"{burstiness:.3f}"),
+                    "change-point-freq": float(f"{cpf:.3f}"),
+                    "speaker-change-freq": float(f"{scf:.3f}"),
+                },
             }
         }
         file.write(json.dumps(metric, indent=4))
 
-    print(f"Metrics have been saved to {output}")
 
+    print(f"Metrics have been saved to {output}")
 
 
 if __name__ == "__main__":
@@ -216,9 +215,8 @@ if __name__ == "__main__":
     if len(sys.argv) != 5:
         print("Invalid arguments")
         sys.exit(1)
-    
+
     if info["ref"] and info["hyp"]:
-        
         detailed_der(info)
         if info["lang"]:
             perform_missed_analysis(info)

@@ -1,14 +1,12 @@
 {
     "herring06": {
-        "primary_language": "ENG",
-        "comment": "Lots of examples of confusion",
         "category": "code-switching",
+        "duration_sec": 1628,
+        "coverage": 0.971,
         "speakers": {
             "JES": "F",
             "NIC": "M"
         },
-        "duration_sec": 1628,
-        "coverage": 0.971,
         "cs_metrics": {
             "i-index": 0.133,
             "m-index": 0.646,
@@ -16,6 +14,8 @@
             "change-point-freq": 0.252,
             "speaker-change-freq": 0.154
         },
+        "primary_language": "ENG",
+        "comment": "Lots of examples of confusion",
         "pyannote": {
             "diarization": {
                 "der_pc": 11.1,
@@ -34,15 +34,13 @@
         }
     },
     "herring07": {
-        "primary_language": "ENG",
-        "comment": "The two male voices sound similiar",
         "category": "code-switching",
+        "duration_sec": 1471,
+        "coverage": 0.942,
         "speakers": {
             "RIC": "M",
             "SEB": "M"
         },
-        "duration_sec": 1471,
-        "coverage": 0.942,
         "cs_metrics": {
             "i-index": 0.139,
             "m-index": 0.423,
@@ -50,6 +48,8 @@
             "change-point-freq": 0.416,
             "speaker-change-freq": 0.35
         },
+        "primary_language": "ENG",
+        "comment": "The two male voices sound similiar",
         "pyannote": {
             "diarization": {
                 "der_pc": 39.8,
@@ -68,15 +68,13 @@
         }
     },
     "herring08": {
-        "primary_language": "ENG",
-        "comment": "Good quality track, a couple of good spanish confusion",
         "category": "code-switching",
+        "duration_sec": 1076,
+        "coverage": 0.96,
         "speakers": {
             "MEL": "F",
             "ROB": "M"
         },
-        "duration_sec": 1076,
-        "coverage": 0.96,
         "cs_metrics": {
             "i-index": 0.124,
             "m-index": 0.155,
@@ -84,6 +82,8 @@
             "change-point-freq": 0.398,
             "speaker-change-freq": 0.319
         },
+        "primary_language": "ENG",
+        "comment": "Good quality track, a couple of good spanish confusion",
         "pyannote": {
             "diarization": {
                 "der_pc": 6.6,
@@ -102,19 +102,22 @@
         }
     },
     "herring09": {
+        "category": "english",
         "duration_sec": 1486,
+        "coverage": 0.944,
         "speakers": {
             "LUK": "M",
             "CLA": "F"
         },
-        "primary_language": "ENG",
-        "comment": "good qaulity mostly",
-        "category": "english",
         "cs_metrics": {
             "i-index": 0.0,
             "m-index": 0.0,
-            "burstiness": -1.0
+            "burstiness": -1.0,
+            "change-point-freq": 0.234,
+            "speaker-change-freq": 0.234
         },
+        "primary_language": "ENG",
+        "comment": "good qaulity mostly",
         "pyannote": {
             "diarization": {
                 "der_pc": 4.8,
@@ -133,19 +136,22 @@
         }
     },
     "herring10": {
-        "duration_sec": 919,
+        "category": "code-switching",
+        "duration_sec": 920,
+        "coverage": 0.945,
         "speakers": {
             "PAI": "F",
             "SAR": "F"
         },
-        "primary_language": "ENG",
-        "comment": "both voices sound similiar, kinda poor qaulity",
-        "category": "code-switching",
         "cs_metrics": {
-            "i-index": 0.074,
-            "m-index": 0.48,
-            "burstiness": 0.228
+            "i-index": 0.253,
+            "m-index": 0.49,
+            "burstiness": 0.208,
+            "change-point-freq": 0.435,
+            "speaker-change-freq": 0.284
         },
+        "primary_language": "ENG",
+        "comment": "both voices sound similar, kinda poor quality",
         "pyannote": {
             "diarization": {
                 "der_pc": 30.0,
@@ -164,19 +170,22 @@
         }
     },
     "herring13": {
+        "category": "code-switching",
         "duration_sec": 528,
+        "coverage": 0.915,
         "speakers": {
             "VAN": "F",
             "LEA": "F"
         },
+        "cs_metrics": {
+            "i-index": 0.317,
+            "m-index": 0.67,
+            "burstiness": 0.093,
+            "change-point-freq": 0.51,
+            "speaker-change-freq": 0.291
+        },
         "primary_language": "ENG",
         "comment": null,
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.082,
-            "m-index": 0.711,
-            "burstiness": 0.085
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 8.7,
@@ -195,16 +204,19 @@
         }
     },
     "herring15": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -223,16 +235,19 @@
         }
     },
     "herring16": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -251,16 +266,19 @@
         }
     },
     "herring17": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -279,19 +297,22 @@
         }
     },
     "sastre01": {
+        "category": "code-switching",
         "duration_sec": 1912,
+        "coverage": 0.921,
         "speakers": {
             "KEV": "M",
             "SOF": "F"
         },
+        "cs_metrics": {
+            "i-index": 0.196,
+            "m-index": 1.001,
+            "burstiness": 0.181,
+            "change-point-freq": 0.345,
+            "speaker-change-freq": 0.211
+        },
         "primary_language": "SPA",
         "comment": "pyannote correct number of speakers",
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.062,
-            "m-index": 1.0,
-            "burstiness": 0.197
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 8.2,
@@ -310,19 +331,22 @@
         }
     },
     "sastre02": {
+        "category": "spanish",
         "duration_sec": 1960,
+        "coverage": 0.956,
         "speakers": {
             "LUI": "M",
             "AVA": "M"
         },
+        "cs_metrics": {
+            "i-index": 0.00,
+            "m-index": 0.00,
+            "burstiness": -1.0,
+            "change-point-freq": 0.166,
+            "speaker-change-freq": 0.165
+        },
         "primary_language": "SPA",
         "comment": "Good qaulity",
-        "category": "spanish",
-        "cs_metrics": {
-            "i-index": 0.000,
-            "m-index": 0.000,
-            "burstiness": -1
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 6.4,
@@ -341,16 +365,19 @@
         }
     },
     "sastre03": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -369,16 +396,19 @@
         }
     },
     "sastre04": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -397,39 +427,46 @@
         }
     },
     "sastre05": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "SPA",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "SPA",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
                 "confusion_sec": null,
                 "missed_sec": null,
                 "false_sec": null
-            }
+            },
+            "error_rates": null
         }
     },
     "sastre06": {
+        "category": "code-switching",
         "duration_sec": 1636,
+        "coverage": 0.904,
         "speakers": {
             "AAR": "M",
             "ALY": "F"
         },
+        "cs_metrics": {
+            "i-index": 0.133,
+            "m-index": 0.301,
+            "burstiness": 0.41,
+            "change-point-freq": 0.228,
+            "speaker-change-freq": 0.13
+        },
         "primary_language": "ENG",
         "comment": null,
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.044,
-            "m-index": 0.278,
-            "burstiness": 0.400
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 9.2,
@@ -448,16 +485,19 @@
         }
     },
     "sastre07": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -476,16 +516,19 @@
         }
     },
     "sastre08": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -504,19 +547,22 @@
         }
     },
     "sastre09": {
-        "duration_sec": 2200,
+        "category": "code-switching",
+        "duration_sec": 2201,
+        "coverage": 0.923,
         "speakers": {
             "VAL": "F",
             "KAY": "F"
         },
+        "cs_metrics": {
+            "i-index": 0.207,
+            "m-index": 0.652,
+            "burstiness": 0.205,
+            "change-point-freq": 0.419,
+            "speaker-change-freq": 0.293
+        },
         "primary_language": "ENG",
         "comment": "high qaultiy audio",
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.057,
-            "m-index": 0.672,
-            "burstiness": 0.213
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 9.5,
@@ -535,16 +581,19 @@
         }
     },
     "sastre10": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -563,19 +612,22 @@
         }
     },
     "sastre11": {
+        "category": "code-switching",
         "duration_sec": 2151,
+        "coverage": 0.966,
         "speakers": {
             "DIE": "M",
             "EVE": "F"
         },
+        "cs_metrics": {
+            "i-index": 0.166,
+            "m-index": 0.916,
+            "burstiness": 0.182,
+            "change-point-freq": 0.217,
+            "speaker-change-freq": 0.137
+        },
         "primary_language": "ENG",
         "comment": null,
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.051,
-            "m-index": 0.908,
-            "burstiness": 0.17
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 9.8,
@@ -594,16 +646,19 @@
         }
     },
     "sastre12": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -622,19 +677,22 @@
         }
     },
     "sastre13": {
+        "category": "english",
         "duration_sec": 1237,
+        "coverage": 0.934,
         "speakers": {
             "ELI": "F",
             "COL": "M"
         },
+        "cs_metrics": {
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0,
+            "change-point-freq": 0.175,
+            "speaker-change-freq": 0.175
+        },
         "primary_language": "ENG",
         "comment": "lots of laughing and dynamic speech",
-        "category": "english",
-        "cs_metrics": {
-            "i-index": 0.000,
-            "m-index": 0.000,
-            "burstiness": -1.000
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 8.3,
@@ -653,19 +711,22 @@
         }
     },
     "zeledon01": {
+        "category": "spanish",
         "duration_sec": 1149,
+        "coverage": 0.83,
         "speakers": {
             "CAR": "F",
             "AME": "F"
         },
-        "primary_language": "SPA",
-        "comment": "good quality recording",
-        "category": "spanish",
         "cs_metrics": {
             "i-index": 0.0,
             "m-index": 0.0,
-            "burstiness": -1.0
+            "burstiness": -1.0,
+            "change-point-freq": 0.213,
+            "speaker-change-freq": 0.213
         },
+        "primary_language": "SPA",
+        "comment": "good quality recording",
         "pyannote": {
             "diarization": {
                 "der_pc": 5.1,
@@ -684,19 +745,22 @@
         }
     },
     "zeledon02": {
+        "category": "english",
         "duration_sec": 1187,
+        "coverage": 0.88,
         "speakers": {
             "MAT": "M",
             "REB": "F"
         },
-        "primary_language": "ENG",
-        "comment": null,
-        "category": "english",
         "cs_metrics": {
             "i-index": 0.0,
             "m-index": 0.0,
-            "burstiness": -1.0
+            "burstiness": -1.0,
+            "change-point-freq": 0.222,
+            "speaker-change-freq": 0.221
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": 8.5,
@@ -715,16 +779,19 @@
         }
     },
     "zeledon03": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -743,19 +810,22 @@
         }
     },
     "zeledon04": {
+        "category": "code-switching",
         "duration_sec": 1125,
+        "coverage": 0.876,
         "speakers": {
             "ETH": "M",
             "HEN": "M"
         },
+        "cs_metrics": {
+            "i-index": 0.166,
+            "m-index": 0.969,
+            "burstiness": 0.252,
+            "change-point-freq": 0.37,
+            "speaker-change-freq": 0.291
+        },
         "primary_language": "ENG",
         "comment": "pyannote has two labels",
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.048,
-            "m-index": 0.933,
-            "burstiness": 0.268
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 13.4,
@@ -774,16 +844,19 @@
         }
     },
     "zeledon05": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "SPA",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "SPA",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -802,16 +875,19 @@
         }
     },
     "zeledon06": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -830,16 +906,19 @@
         }
     },
     "zeledon07": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "SPA",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "SPA",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -858,19 +937,22 @@
         }
     },
     "zeledon08": {
-        "duration_sec": 1405,
+        "category": "code-switching",
+        "duration_sec": 1404,
+        "coverage": 0.848,
         "speakers": {
             "FLA": "F",
             "MAR": "F"
         },
+        "cs_metrics": {
+            "i-index": 0.23,
+            "m-index": 0.994,
+            "burstiness": 0.031,
+            "change-point-freq": 0.413,
+            "speaker-change-freq": 0.281
+        },
         "primary_language": "ENG",
         "comment": "3 labels detected",
-        "category": "code-switching",
-        "cs_metrics": {
-            "i-index": 0.071,
-            "m-index": 0.985,
-            "burstiness": 0.044
-        },
         "pyannote": {
             "diarization": {
                 "der_pc": 10.2,
@@ -889,16 +971,19 @@
         }
     },
     "zeledon09": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -917,16 +1002,19 @@
         }
     },
     "zeledon11": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -945,16 +1033,19 @@
         }
     },
     "zeledon13": {
-        "duration_sec": null,
-        "speakers": {},
-        "primary_language": "ENG",
-        "comment": null,
         "category": null,
+        "duration_sec": null,
+        "coverage": null,
+        "speakers": {},
         "cs_metrics": {
             "i-index": null,
             "m-index": null,
-            "burstiness": null
+            "burstiness": null,
+            "change-point-freq": null,
+            "speaker-change-freq": null
         },
+        "primary_language": "ENG",
+        "comment": null,
         "pyannote": {
             "diarization": {
                 "der_pc": null,
@@ -973,30 +1064,36 @@
         }
     },
     "zeledon14": {
-        "duration_sec": null,
-        "speakers": {},
+        "category": "code-switching",
+        "duration_sec": 1675,
+        "coverage": 0.976,
+        "speakers": {
+            "HER": "F",
+            "LAR": "F"
+        },
+        "cs_metrics": {
+            "i-index": 0.243,
+            "m-index": 0.439,
+            "burstiness": 0.264,
+            "change-point-freq": 0.34,
+            "speaker-change-freq": 0.137
+        },
         "primary_language": "SPA",
         "comment": null,
-        "category": null,
-        "cs_metrics": {
-            "i-index": null,
-            "m-index": null,
-            "burstiness": null
-        },
         "pyannote": {
             "diarization": {
-                "der_pc": null,
-                "confusion_sec": null,
-                "missed_sec": null,
-                "false_sec": null
+                "der_pc": 9.1,
+                "confusion_sec": 20.5,
+                "missed_sec": 72.7,
+                "false_sec": 13.2
             },
             "error_rates": {
-                "english_conf_error_rate": null,
-                "spanish_conf_error_rate": null,
-                "english_miss_error_rate": null,
-                "spanish_miss_error_rate": null,
-                "english_error_rate": null,
-                "spanish_error_rate": null
+                "english_conf_error_rate": 4.2,
+                "spanish_conf_error_rate": 3.5,
+                "english_miss_error_rate": 2.2,
+                "spanish_miss_error_rate": 6.0,
+                "english_error_rate": 6.4,
+                "spanish_error_rate": 9.5
             }
         }
     }
