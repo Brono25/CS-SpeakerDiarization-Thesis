@@ -200,7 +200,7 @@
                 "spanish_miss_error_rate": 0.3,
                 "english_error_rate": 12.7,
                 "spanish_error_rate": 6.0
-            }   
+            }
         }
     },
     "herring15": {
@@ -1094,6 +1094,108 @@
                 "spanish_miss_error_rate": 6.0,
                 "english_error_rate": 6.4,
                 "spanish_error_rate": 9.5
+            }
+        }
+    },
+    "eherring08": {
+        "category": "english",
+        "duration_sec": 982,
+        "coverage": 1.0,
+        "speakers": {
+            "MEL": "F",
+            "ROB": "M"
+        },
+        "cs_metrics": {
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1.00,
+            "change-point-freq": 0.315,
+            "speaker-change-freq": 0.315
+        },
+        "primary_language": "ENG",
+        "comment": null,
+        "pyannote": {
+            "diarization": {
+                "der_pc": 4.1,
+                "confusion_sec": 1.7,
+                "missed_sec": 3.9,
+                "false_sec": 13.5
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
+        }
+    },
+    "esastre06": {
+        "category": "english",
+        "duration_sec": 1395,
+        "coverage": 1.0,
+        "speakers": {
+            "AAR": "M",
+            "ALY": "F"
+        },
+        "cs_metrics": {
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0,
+            "change-point-freq": 0.122,
+            "speaker-change-freq": 0.122
+        },
+        "primary_language": "ENG",
+        "comment": null,
+        "pyannote": {
+            "diarization": {
+                "der_pc": 5.5,
+                "confusion_sec": 0.9,
+                "missed_sec": 47.5,
+                "false_sec": 9.4
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
+        }
+    },
+    "eherring06": {
+        "category": "english",
+        "duration_sec": 1180,
+        "coverage": 0.969,
+        "speakers": {
+            "JES": "F",
+            "NIC": "M"
+        },
+        "cs_metrics": {
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1.0,
+            "change-point-freq": 0.17,
+            "speaker-change-freq": 0.17
+        },
+        "primary_language": "ENG",
+        "comment": null,
+        "pyannote": {
+            "diarization": {
+                "der_pc": 7.7,
+                "confusion_sec": 2.8,
+                "missed_sec": 42.5,
+                "false_sec": 8.2
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
             }
         }
     }
