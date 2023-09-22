@@ -1198,5 +1198,39 @@
                 "spanish_error_rate": null
             }
         }
+    },
+    "eherring10": {
+        "category": "english",
+        "duration_sec": 694,
+        "coverage": 0.954,
+        "speakers": {
+            "PAI": "F",
+            "SAR": "F"
+        },
+        "cs_metrics": {
+            "i-index": 0.000,
+            "m-index": 0.000,
+            "burstiness": -1.0,
+            "change-point-freq": 0.252,
+            "speaker-change-freq": 0.252
+        },
+        "primary_language": "ENG",
+        "comment": null,
+        "pyannote": {
+            "diarization": {
+                "der_pc": 25.6,
+                "confusion_sec": 76.8,
+                "missed_sec": 20.1,
+                "false_sec": 5.1
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
+        }
     }
 }
