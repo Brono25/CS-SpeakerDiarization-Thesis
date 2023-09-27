@@ -7,7 +7,7 @@ import sys
 import os
 from pyannote.database.util import load_rttm
 import matplotlib.pyplot as plt
-from typing import Union, List
+from typing import Union, List, Dict
 
 root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
@@ -20,6 +20,7 @@ from src.functions.transcript import (
     load_transcript_from_file,
 )
 
+MIN_SEG = 0.1
 
 class ConfusionAnalysisData:
     def __init__(self, tr_file, hyp_file):
@@ -41,15 +42,32 @@ class ConfusionAnalysisData:
         self.conf_label: Annotation = self.hyp.crop(self.get_confusion_timeline())
         self.conf_tl: Timeline = self.conf_label.get_timeline()
 
-        self.test_confusion_eqaulity()
-
-    def test_confusion_eqaulity(self):
-        if self.conf_label.get_timeline() != self.conf_lang.get_timeline():
-            print(
-                "Confusion label timeline and language timeline has differing segments",
-                file=sys.stderr,
-            )
+        if len(self.ref.get_timeline()) != len(self.lang.get_timeline()):
+            print(f"len(ref) = {len(self.ref.get_timeline())} & len(lan) = {len(self.lang.get_timeline())}")
             sys.exit(1)
+
+        self.align_conf_lang_annotation()
+
+
+    def align_conf_lang_annotation(self):
+        align_conf_lang = Annotation(uri=self.uri)
+        
+        for (seg1, _), (seg2, _) in self.conf_label.co_iter(self.conf_lang):
+            align_conf_lang[seg1] = self.conf_lang[seg2]
+            
+            threshold = 10
+            if abs(seg1.start -  seg2.start) > threshold or abs(seg1.end -  seg2.end) > threshold:
+                print(
+                    "Confusion label timeline and language timeline has differing segments",
+                    file=sys.stderr,
+                )
+                print(abs(seg1.start -  seg2.start))
+                print(abs(seg1.end -  seg2.end))
+                sys.exit(1)
+            
+        self.conf_lang = align_conf_lang
+
+            
 
     def get_uri(self):
         file_name = os.path.basename(self.tr_file)
@@ -278,7 +296,6 @@ class WindowFrame:
 class ConfusionTimelineAnalyser:
     def __init__(
         self,
-        confusion_matrix: ConfusionMatrix,
         data: ConfusionAnalysisData,
         window_len=5,
         min_dur=0.0,
@@ -296,6 +313,27 @@ class ConfusionTimelineAnalyser:
         self.window = None
         self.conf_label = data.conf_label
         self.conf_lang = data.conf_lang
+        self.step_results: Dict[str, Union[Annotation, None, str]] = {
+            "conf_label": None,
+            "conf_lang": None,
+            "ref_label": None,
+            "ref_lang": None,
+            "lag_label": None,
+            "lag_lang": None,
+            "lead_label": None,
+            "lead_lang": None
+        }
+        
+
+    def reset(self):
+            self.step_results["lag_label"] = None
+            self.step_results["lag_lang"] = None
+            self.step_results["lead_label"] = None
+            self.step_results["lead_lang"] = None
+            self.step_results["conf_label"] = None
+            self.step_results["conf_lang"] = None
+            self.step_results["ref_label"] = None
+            self.step_results["ref_lang"] =  None
 
     def __iter__(self):
         return self
@@ -307,30 +345,77 @@ class ConfusionTimelineAnalyser:
             
             if segment.end - segment.start <= self.min_dur:
                 continue
-                
+            
             self.window_frame = WindowFrame(segment=segment, extent=self.extent)
-            self.ref_speaker_window = self.ref.crop(self.window_frame.lead_lag_mask)
-            self.ref_language_window = self.lang.crop(self.window_frame.lead_lag_mask)
+            frame_mask  = self.window_frame.frame_mask
+            lead_mask = self.window_frame.leading_mask
+            lag_mask = self.window_frame.lagging_mask
+            lead_lag_mask = self.window_frame.lead_lag_mask
+
+            
+            self.ref_label_window = self.ref.crop(lead_lag_mask)
+            self.ref_lang_window = self.lang.crop(lead_lag_mask)
             self.conf_label_window = self.conf_label.crop(segment)
             self.conf_lang_window = self.conf_lang.crop(segment)
+
+        
+            assert self.ref_lang_window.get_timeline() == self.ref_label_window.get_timeline()
+
+            lag_seg = self.get_least_lagging_segment(self.ref_label_window.crop(lag_mask))
+            lead_seg = self.get_least_leading_segment(self.ref_label_window.crop(lead_mask))
+
+            self.reset()
+            self.step_results["lag_label"] = self.ref_label_window[lag_seg] if lag_seg else None
+            self.step_results["lag_lang"] = self.ref_lang_window[lag_seg] if lag_seg else None
+            self.step_results["lead_label"] = self.ref_label_window[lead_seg] if lead_seg else None
+            self.step_results["lead_lang"] = self.ref_lang_window[lead_seg] if lead_seg else None
+            self.step_results["conf_label"] = list(self.conf_label_window.get_labels(segment))[0]
+            self.step_results["conf_lang"] = list(self.conf_lang_window.get_labels(segment))[0]
+            self.step_results["ref_label"] = self.get_label_under_mask(self.ref, segment)
+            self.step_results["ref_lang"] =  self.get_label_under_mask(self.lang, segment)
+
             
-            print(f"idx = {self.current_idx}")
-            if self.current_idx <= len(self.segments):
-                self.inspect_window()
+            
+            
+            if not self.step_results["lag_label"] or not self.step_results["lead_label"]:
+                #print(self.current_idx)
+                #print(self.step_results)
+                #self.inspect_window()
+                pass
 
                 
-            return self.window_frame
+            return self.step_results
     
         raise StopIteration
 
+    def get_least_lagging_segment(self, lagging_window: Annotation, min_seg=MIN_SEG ) -> Segment:
+
+        seg_list = list(lagging_window.itersegments())
+        for seg in reversed(seg_list):
+            if seg.end - seg.start < min_seg:
+                continue
+            return seg   
+        return None
+
+    def get_least_leading_segment(self, leading_window: Annotation, min_seg=MIN_SEG ) -> Segment:
+        for seg in leading_window.itersegments():
+            if seg.end - seg.start < min_seg:
+                continue
+            return seg
+        return None
+
+    def get_label_under_mask(self, base_ann: Annotation,  mask: Segment):
+        reduced_ann = base_ann.crop(mask)
+        _, _, label = next(reduced_ann.itertracks(yield_label=True))
+        return label
 
     def inspect_window(self):
         annotations = [
             (self.convert_to_annotation(self.window_frame.frame_mask), "Frame Mask"),
             (self.conf_label_window, "Confusion Label"),
             (self.conf_lang_window, "Confusion Language"),
-            (self.ref_language_window, "Reference Language"),
-            (self.ref_speaker_window, "Reference Labels"),
+            (self.ref_lang_window, "Reference Language"),
+            (self.ref_label_window, "Reference Labels"),
         ]
         plot_annotations(annotations, self.window_frame.start, self.window_frame.end)
         
@@ -350,9 +435,10 @@ class ConfusionTimelineAnalyser:
         return annotation
 
 
+
+
+
+
 if __name__ == "__main__":
     # Create an instance
-    cm = ConfusionMatrix()
-    x = ConfusionMatrix().from_json("/Users/brono/Desktop/cm.json")
-    w = WindowFrame()
-    non, sssl, ssdl, dssl, dsdl = cm.keys
+    pass

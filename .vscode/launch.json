@@ -13,7 +13,9 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
+                "/Users/brono/GitHub/cs-dataset/code-switched/herring06/herring06.tr",
                 "/Users/brono/GitHub/cs-dataset/code-switched/sastre01/sastre01.tr",
+                "/Users/brono/GitHub/cs-dataset/code-switched/zeledon04/zeledon04.tr"
             ]
         }
     ]

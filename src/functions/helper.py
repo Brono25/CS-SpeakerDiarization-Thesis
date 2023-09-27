@@ -22,7 +22,7 @@ def image_timeline(timeline, legend):
 
 def plot_annotations(annotations_with_legends, start, end):
     num_subplots = len(annotations_with_legends)
-    fig, axs = plt.subplots(num_subplots, 1, figsize=(5, 3 * num_subplots), sharex=True)
+    fig, axs = plt.subplots(num_subplots, 1, figsize=(10, 2 * num_subplots), sharex=True)
     nb = Notebook()
     if num_subplots == 1:
         axs = [axs]
