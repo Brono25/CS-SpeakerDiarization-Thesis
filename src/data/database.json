@@ -1,6 +1,7 @@
 {
     "herring06": {
         "category": "code-switching",
+        "perceived_similarity_score": 2,
         "duration_sec": 1628,
         "coverage": 0.971,
         "speakers": {
@@ -35,6 +36,7 @@
     },
     "herring07": {
         "category": "code-switching",
+        "perceived_similarity_score": 8,
         "duration_sec": 1471,
         "coverage": 0.942,
         "speakers": {
@@ -69,6 +71,7 @@
     },
     "herring08": {
         "category": "code-switching",
+        "perceived_similarity_score": 2,
         "duration_sec": 1076,
         "coverage": 0.96,
         "speakers": {
@@ -103,6 +106,7 @@
     },
     "herring09": {
         "category": "english",
+        "perceived_similarity_score": 3,
         "duration_sec": 1486,
         "coverage": 0.944,
         "speakers": {
@@ -137,6 +141,7 @@
     },
     "herring10": {
         "category": "code-switching",
+        "perceived_similarity_score": 9,
         "duration_sec": 920,
         "coverage": 0.945,
         "speakers": {
@@ -171,6 +176,7 @@
     },
     "herring13": {
         "category": "code-switching",
+        "perceived_similarity_score": 8,
         "duration_sec": 528,
         "coverage": 0.915,
         "speakers": {
@@ -205,6 +211,7 @@
     },
     "herring15": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -236,6 +243,7 @@
     },
     "herring16": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -267,6 +275,7 @@
     },
     "herring17": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -298,6 +307,7 @@
     },
     "sastre01": {
         "category": "code-switching",
+        "perceived_similarity_score": 1,
         "duration_sec": 1912,
         "coverage": 0.921,
         "speakers": {
@@ -332,6 +342,7 @@
     },
     "sastre02": {
         "category": "spanish",
+        "perceived_similarity_score": 4,
         "duration_sec": 1960,
         "coverage": 0.956,
         "speakers": {
@@ -339,8 +350,8 @@
             "AVA": "M"
         },
         "cs_metrics": {
-            "i-index": 0.00,
-            "m-index": 0.00,
+            "i-index": 0.0,
+            "m-index": 0.0,
             "burstiness": -1.0,
             "change-point-freq": 0.166,
             "speaker-change-freq": 0.165
@@ -366,6 +377,7 @@
     },
     "sastre03": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -397,6 +409,7 @@
     },
     "sastre04": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -428,6 +441,7 @@
     },
     "sastre05": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -452,6 +466,7 @@
     },
     "sastre06": {
         "category": "code-switching",
+        "perceived_similarity_score": 3,
         "duration_sec": 1636,
         "coverage": 0.904,
         "speakers": {
@@ -486,6 +501,7 @@
     },
     "sastre07": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -517,6 +533,7 @@
     },
     "sastre08": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -548,6 +565,7 @@
     },
     "sastre09": {
         "category": "code-switching",
+        "perceived_similarity_score": 4,
         "duration_sec": 2201,
         "coverage": 0.923,
         "speakers": {
@@ -582,6 +600,7 @@
     },
     "sastre10": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -613,6 +632,7 @@
     },
     "sastre11": {
         "category": "code-switching",
+        "perceived_similarity_score": 2,
         "duration_sec": 2151,
         "coverage": 0.966,
         "speakers": {
@@ -647,6 +667,7 @@
     },
     "sastre12": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -678,6 +699,7 @@
     },
     "sastre13": {
         "category": "english",
+        "perceived_similarity_score": 2,
         "duration_sec": 1237,
         "coverage": 0.934,
         "speakers": {
@@ -712,6 +734,7 @@
     },
     "zeledon01": {
         "category": "spanish",
+        "perceived_similarity_score": 7,
         "duration_sec": 1149,
         "coverage": 0.83,
         "speakers": {
@@ -746,6 +769,7 @@
     },
     "zeledon02": {
         "category": "english",
+        "perceived_similarity_score": 2,
         "duration_sec": 1187,
         "coverage": 0.88,
         "speakers": {
@@ -780,6 +804,7 @@
     },
     "zeledon03": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -811,6 +836,7 @@
     },
     "zeledon04": {
         "category": "code-switching",
+        "perceived_similarity_score": 3,
         "duration_sec": 1125,
         "coverage": 0.876,
         "speakers": {
@@ -845,6 +871,7 @@
     },
     "zeledon05": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -876,6 +903,7 @@
     },
     "zeledon06": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -907,6 +935,7 @@
     },
     "zeledon07": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -938,6 +967,7 @@
     },
     "zeledon08": {
         "category": "code-switching",
+        "perceived_similarity_score": 5,
         "duration_sec": 1404,
         "coverage": 0.848,
         "speakers": {
@@ -972,6 +1002,7 @@
     },
     "zeledon09": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -1003,6 +1034,7 @@
     },
     "zeledon11": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -1034,6 +1066,7 @@
     },
     "zeledon13": {
         "category": null,
+        "perceived_similarity_score": null,
         "duration_sec": null,
         "coverage": null,
         "speakers": {},
@@ -1065,6 +1098,7 @@
     },
     "zeledon14": {
         "category": "code-switching",
+        "perceived_similarity_score": 6,
         "duration_sec": 1675,
         "coverage": 0.976,
         "speakers": {
@@ -1099,6 +1133,7 @@
     },
     "eherring08": {
         "category": "english",
+        "perceived_similarity_score": 2,
         "duration_sec": 982,
         "coverage": 1.0,
         "speakers": {
@@ -1106,9 +1141,9 @@
             "ROB": "M"
         },
         "cs_metrics": {
-            "i-index": 0.000,
-            "m-index": 0.000,
-            "burstiness": -1.00,
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0,
             "change-point-freq": 0.315,
             "speaker-change-freq": 0.315
         },
@@ -1133,6 +1168,7 @@
     },
     "esastre06": {
         "category": "english",
+        "perceived_similarity_score": 3,
         "duration_sec": 1395,
         "coverage": 1.0,
         "speakers": {
@@ -1167,6 +1203,7 @@
     },
     "eherring06": {
         "category": "english",
+        "perceived_similarity_score": 2,
         "duration_sec": 1180,
         "coverage": 0.969,
         "speakers": {
@@ -1174,8 +1211,8 @@
             "NIC": "M"
         },
         "cs_metrics": {
-            "i-index": 0.000,
-            "m-index": 0.000,
+            "i-index": 0.0,
+            "m-index": 0.0,
             "burstiness": -1.0,
             "change-point-freq": 0.17,
             "speaker-change-freq": 0.17
@@ -1201,6 +1238,7 @@
     },
     "eherring10": {
         "category": "english",
+        "perceived_similarity_score": 9,
         "duration_sec": 694,
         "coverage": 0.954,
         "speakers": {
@@ -1208,8 +1246,8 @@
             "SAR": "F"
         },
         "cs_metrics": {
-            "i-index": 0.000,
-            "m-index": 0.000,
+            "i-index": 0.0,
+            "m-index": 0.0,
             "burstiness": -1.0,
             "change-point-freq": 0.252,
             "speaker-change-freq": 0.252
