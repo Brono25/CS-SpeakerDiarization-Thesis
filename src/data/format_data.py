@@ -43,6 +43,7 @@ def update_structure(data, template):
 
 template = {
     "category": None,
+    "perceived_similarity_score": None,
     "duration_sec": None,
     "coverage": None,
     "speakers": {},
