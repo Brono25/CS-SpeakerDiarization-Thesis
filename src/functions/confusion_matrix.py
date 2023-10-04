@@ -46,7 +46,8 @@ class ConfusionAnalysisData:
             print(f"len(ref) = {len(self.ref.get_timeline())} & len(lan) = {len(self.lang.get_timeline())}")
             sys.exit(1)
 
-        self.align_conf_lang_annotation()
+        
+        #self.align_conf_lang_annotation()
 
 
     def align_conf_lang_annotation(self):
@@ -357,9 +358,12 @@ class ConfusionTimelineAnalyser:
             self.ref_lang_window = self.lang.crop(lead_lag_mask)
             self.conf_label_window = self.conf_label.crop(segment)
             self.conf_lang_window = self.conf_lang.crop(segment)
-
+            
+            
         
-            assert self.ref_lang_window.get_timeline() == self.ref_label_window.get_timeline()
+            if self.ref_lang_window.get_timeline() != self.ref_label_window.get_timeline():
+                print(self.ref_lang_window.get_timeline().duration, self.ref_label_window.get_timeline().duration)
+                self.inspect_window()
 
             lag_seg = self.get_least_lagging_segment(self.ref_label_window.crop(lag_mask))
             lead_seg = self.get_least_leading_segment(self.ref_label_window.crop(lead_mask))
@@ -375,8 +379,6 @@ class ConfusionTimelineAnalyser:
             self.step_results["ref_lang"] =  self.get_label_under_mask(self.lang, segment)
 
             
-            
-            
             if not self.step_results["lag_label"] or not self.step_results["lead_label"]:
                 #print(self.current_idx)
                 #print(self.step_results)
@@ -385,7 +387,7 @@ class ConfusionTimelineAnalyser:
 
                 
             return self.step_results
-    
+        print(self.current_idx)
         raise StopIteration
 
     def get_least_lagging_segment(self, lagging_window: Annotation, min_seg=MIN_SEG ) -> Segment:
