@@ -1270,5 +1270,75 @@
                 "spanish_error_rate": null
             }
         }
+    },
+    "ssastre01": {
+        "category": "spanish",
+        "perceived_similarity_score": 2,
+                "duration_sec": 921,
+        "coverage": 0.94,
+        "speakers": {
+            "KEV": "M",
+            "SOF": "F"
+        },
+        "cs_metrics": {
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0,
+            "change-point-freq": 0.186,
+            "speaker-change-freq": 0.186
+        },
+        "primary_language": "SPA",
+        "comment": null,
+        "pyannote": {
+            "diarization": {
+                "der_pc": 8.0,
+                "confusion_sec": 2.9,
+                "missed_sec": 39.9,
+                "false_sec": 8.0
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
+        }
+    },
+"szeledon08": {
+        "category": "spanish",
+        "perceived_similarity_score": 5,
+        "duration_sec": 613,
+        "coverage": 0.889,
+        "speakers": {
+            "FLA": "F",
+            "MAR": "F"
+        },
+        "cs_metrics": {
+            "i-index": 0.0,
+            "m-index": 0.0,
+            "burstiness": -1.0,
+            "change-point-freq": 0.313,
+            "speaker-change-freq": 0.313
+        },
+        "primary_language": "SPA",
+        "comment": null,
+        "pyannote": {
+            "diarization": {
+                "der_pc": 8.2,
+                "confusion_sec": 17.7,
+                "missed_sec": 3.0,
+                "false_sec": 6.3
+            },
+            "error_rates": {
+                "english_conf_error_rate": null,
+                "spanish_conf_error_rate": null,
+                "english_miss_error_rate": null,
+                "spanish_miss_error_rate": null,
+                "english_error_rate": null,
+                "spanish_error_rate": null
+            }
+        }
     }
 }

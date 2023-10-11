@@ -3,6 +3,7 @@ from pyannote.core import Segment, Timeline
 import os
 import time
 from datetime import datetime
+from pyannote.database.util import load_rttm
 
 # Always use CS-SpeakerDiarization-Thesis as root
 import sys
@@ -73,12 +74,38 @@ class Transcript(Annotation):
             return True
         return not self.__eq__(other)
 
-    def __getitem__(self, segment):
-        return (
-            super().__getitem__(segment),
-            self.transcript[segment],
-            self.language_tags[segment],
-        )
+    def __getitem__(self, key):
+        if isinstance(key, slice):
+            sliced_tr = Transcript(uri=self.uri)
+
+            # Index-based slicing
+            if isinstance(key.start, int) and isinstance(key.stop, int):
+                segments_list = list(self.items())[key.start:key.stop]
+                for segment, (label, lang, text) in segments_list:
+                    sliced_tr[segment] = (label, lang, text)
+                return sliced_tr
+
+            # Time-based slicing
+            elif isinstance(key.start, float) and isinstance(key.stop, float):
+                start_time, end_time = key.start, key.stop
+                for segment, (label, lang, text) in self.items():
+                    # Check if the segment intersects the slicing range
+                    if segment.end >= start_time and segment.start <= end_time:
+                        sliced_tr[segment] = (label, lang, text)
+                return sliced_tr
+
+            else:
+                raise ValueError("Invalid slicing values.")
+
+        elif isinstance(key, Segment):
+            return (
+                super().__getitem__(key),
+                self.transcript[key],
+                self.language_tags[key]
+            )
+        else:
+            raise TypeError("Invalid argument type.")
+
 
     def __str__(self):
         lines = []
@@ -216,6 +243,7 @@ class Transcript(Annotation):
         ref_ann = self.get_ref_annotation()
         return ref_ann.get_overlap()
 
+ 
     def duration(self):
         total_duration = round(self._total_duration(), 0 )
         ol_duration = round(
@@ -224,6 +252,14 @@ class Transcript(Annotation):
         duration_exclude_overlap = round(total_duration - ol_duration, 0)
         return int(total_duration), int(duration_exclude_overlap)
 
+    @property
+    def length_time(self):
+        all_segments = [segment for segment in self.get_ref_annotation().itersegments()]
+        if not all_segments:
+            return 0
+        return max(segment.end for segment in all_segments)
+
+
     def _total_duration(self):
         all_segments = [segment for segment in self.get_ref_annotation().itersegments()]
         if not all_segments:
@@ -231,16 +267,57 @@ class Transcript(Annotation):
         end_time = max(segment.end for segment in all_segments)
         return end_time
 
+    @staticmethod
+    def load_transcript_from_file(file, uri):
+        if not os.path.exists(file):
+            raise FileNotFoundError
 
-def load_transcript_from_file(file, uri):
-    if not os.path.exists(file):
-        raise FileNotFoundError
+        with open(file, "r") as f:
+            content = f.readlines()
 
-    with open(file, "r") as f:
-        content = f.readlines()
+        transcript = Transcript(uri=uri)
+        for line in content:
+            start, end, label, language, text = line.split("|")
+            transcript[Segment(float(start), float(end))] = (label, language, text.rstrip())
+        return transcript
 
-    transcript = Transcript(uri=uri)
-    for line in content:
-        start, end, label, language, text = line.split("|")
-        transcript[Segment(float(start), float(end))] = (label, language, text.rstrip())
-    return transcript
+    def get_tr_list(self):
+        tr_list = []
+        for segment, (label, lang, text) in self.items():
+            tr_list.append([segment.start, segment.end, label, lang, text])
+        return tr_list
+
+    def create_tr_from_list(self, list, uri):
+        tr = Transcript(uri=uri)
+        for start, end, label, lang, text in list:
+            tr[Segment(start, end)] = (label, lang, text)
+        return tr
+
+    def slice_transcript(self, start_index, end_index):
+        sliced_tr = Transcript(uri=self.uri)
+
+        segments = list(self.items())
+        for segment, (label, lang, text) in segments[start_index:end_index + 1]:
+            sliced_tr[segment] = (label, lang, text)
+
+        return sliced_tr
+
+    def __delitem__(self, segment):
+        if segment in self.transcript:
+            del self.transcript[segment]
+        if segment in self.language_tags:
+            del self.language_tags[segment]
+        super().__delitem__(segment)
+
+
+
+
+
+def create_tr_from_rttm(rttm_file, uri):
+
+    rttm = load_rttm(rttm_file)[uri]
+    tr = Transcript(uri=uri)
+    for seg, _, label in rttm.itertracks(yield_label=True):
+        tr[seg] = (label, '', '')
+    
+    return tr

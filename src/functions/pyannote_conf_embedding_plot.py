@@ -49,18 +49,18 @@ root = re.search(r"(.*/CS-SpeakerDiarization-Thesis)", __file__).group(1)
 sys.path.append(root)
 
 file_list = [
-"embeddings/herring08_embedding.pkl", 
-"embeddings/sastre01_embedding.pkl",
-"embeddings/herring13_embedding.pkl",
-"embeddings/zeledon14_embedding.pkl",
-"embeddings/sastre06_embedding.pkl",
-"embeddings/sastre09_embedding.pkl",
-"embeddings/sastre11_embedding.pkl",
-"embeddings/zeledon08_embedding.pkl",
-"embeddings/herring06_embedding.pkl",
-"embeddings/zeledon04_embedding.pkl",
-"embeddings/herring10_embedding.pkl",
-"embeddings/herring07_embedding.pkl",
+"embeddings/conf_herring08_embedding.pkl", 
+"embeddings/conf_sastre01_embedding.pkl",
+"embeddings/conf_herring13_embedding.pkl",
+"embeddings/conf_zeledon14_embedding.pkl",
+"embeddings/conf_sastre06_embedding.pkl",
+"embeddings/conf_sastre09_embedding.pkl",
+"embeddings/conf_sastre11_embedding.pkl",
+"embeddings/conf_zeledon08_embedding.pkl",
+"embeddings/conf_herring06_embedding.pkl",
+"embeddings/conf_zeledon04_embedding.pkl",
+"embeddings/conf_herring10_embedding.pkl",
+"embeddings/conf_herring07_embedding.pkl",
 ]
 
 
@@ -87,42 +87,45 @@ def get_colours(data):
     colour_map[data["speaker1"]]["ENG"] = SPEAKER1_ENG
     colour_map[data["speaker2"]]["SPA"] = SPEAKER2_SPA
     colour_map[data["speaker2"]]["ENG"] = SPEAKER2_ENG
+    colour_map["CONF"]["CONF"] = 'lightgreen'
     colours = []
     for label, lang in data["label_map"]:
         colours.append(colour_map[label][lang])
     return colours
 
 
-fig, axes = plt.subplots(3, 4, figsize=(15, 10)) 
+if __name__ == "__main__":
 
-for idx, file in enumerate(file_list):
-    data = load_embedding(file)
-    colours = get_colours(data)
+    fig, axes = plt.subplots(3, 4, figsize=(15, 10)) 
 
-    ax = axes[idx // 4, idx % 4]
+    for idx, file in enumerate(file_list):
+        data = load_embedding(file)
+        colours = get_colours(data)
 
-    tsne = TSNE(n_components=2, random_state=1)
-    X_tsne = tsne.fit_transform(data["embeddings"])
+        ax = axes[idx // 4, idx % 4]
 
-    for i, (x, y) in enumerate(X_tsne):
-        ax.scatter(x, y, c=colours[i], marker='x')
+        tsne = TSNE(n_components=2, random_state=1)
+        X_tsne = tsne.fit_transform(data["embeddings"])
 
-    ax.set_title(file.split('/')[-1].replace('_embedding.pkl', ''), fontsize=12)
-    ax.tick_params(axis='both', which='major', labelsize=8)
+        for i, (x, y) in enumerate(X_tsne):
+            ax.scatter(x, y, c=colours[i], marker='x')
 
-legend_labels = {
-    SPEAKER1_SPA: f"\nSpeaker 1\n Spanish\n",
-    SPEAKER1_ENG: f"\nSpeaker 1\n English\n",
-    SPEAKER2_SPA: f"\nSpeaker 2\n Spanish\n",
-    SPEAKER2_ENG: f"\nSpeaker 2\n English\n"
-}
-handles = [plt.Line2D([0], [0], marker='o', color='w', label=legend_labels[color], markersize=11, markerfacecolor=color) for color in legend_labels]
-fig.legend(handles=handles, loc='lower center', fontsize=12, labelspacing=0.5, ncol=len(legend_labels), frameon=False)  # Set ncol and turned off frame
+        ax.set_title(file.split('/')[-1].replace('_embedding.pkl', ''), fontsize=12)
+        ax.tick_params(axis='both', which='major', labelsize=8)
 
-fig.suptitle("Code-Switching Speech Embeddings", fontsize=30, y=0.99)  # Increase font size and adjust y value
+    legend_labels = {
+        SPEAKER1_SPA: f"\nSpeaker 1\n Spanish\n",
+        SPEAKER1_ENG: f"\nSpeaker 1\n English\n",
+        SPEAKER2_SPA: f"\nSpeaker 2\n Spanish\n",
+        SPEAKER2_ENG: f"\nSpeaker 2\n English\n"
+    }
+    handles = [plt.Line2D([0], [0], marker='o', color='w', label=legend_labels[color], markersize=11, markerfacecolor=color) for color in legend_labels]
+    fig.legend(handles=handles, loc='lower center', fontsize=12, labelspacing=0.5, ncol=len(legend_labels), frameon=False)  # Set ncol and turned off frame
 
-fig.subplots_adjust(top=0.9)  # Adjust the top margin to push subplots down
+    fig.suptitle("Code-Switching Speech Embeddings", fontsize=30, y=0.99)  # Increase font size and adjust y value
 
-plt.show()
+    fig.subplots_adjust(top=0.9)  # Adjust the top margin to push subplots down
+
+    plt.show()
 
 

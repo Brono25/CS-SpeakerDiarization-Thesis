@@ -99,8 +99,14 @@ class DatasetMetrics:
 
         p_1 = english_total / total_time
         p_2 = spanish_total / total_time
+        sum_of_squares = p_1**2 + p_2**2
+
+
         k = 2
-        m_index = (1 - (p_1**2 + p_2**2)) / ((k - 1) * (p_1**2 + p_2**2))
+        m_index = (1 - sum_of_squares) / ((k - 1) *  sum_of_squares)
+
+        if m_index > 1:
+            m_index = 1.0
         return m_index
 
     def language_entropy(self):

@@ -38,18 +38,13 @@ uri_list = ['sastre01', 'herring06', 'herring07', 'herring08', 'herring10', 'her
 model = Model.from_pretrained("pyannote/embedding", use_auth_token=ACCESS_TOKEN)
 inference = Inference(model, window="whole")
 
-for uri in uri_list:
+def process_ref_embeddings(ref, lang_rttm):
+
     embeddings = []  
     label_map = []
-    audio = f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/{uri}.wav"
-    lang_rttm = load_rttm(f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/lang_{uri}.rttm")[uri]
-    ref = load_rttm(f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/ref_{uri}.rttm")[uri]
-
     overlaps = ref.get_overlap()
     ref = ref.extrude(overlaps)
     lang_rttm = lang_rttm.extrude(overlaps)
-    speaker1, speaker2 = [x for x in ref.labels() if isinstance(x, str) and re.match(r"[A-Z]{3}", x)]
-    lang1, lang2 = [x for x in lang_rttm.labels() if isinstance(x, str) and re.match(r"SPA|ENG", x)]
 
     ref_list = [(segment, label) for segment, _, label in ref.itertracks(yield_label=True)]
     lang_list = [(segment, lang) for segment, _, lang in lang_rttm.itertracks(yield_label=True)]
@@ -65,8 +60,40 @@ for uri in uri_list:
                 label_map.append((label, lang))
                 embedding = inference.crop(audio, segment)
                 embeddings.append(embedding)
-            
+    return embeddings, label_map
+
+def process_conf_embeddings(conf):
+    embeddings = []  
+    label_map = []
+    conf_list = [(segment, label) for segment, _, label in conf.itertracks(yield_label=True)]
+    min_length = 1.0  
+    for i, (segment, label) in enumerate(conf_list):
+
+        if segment.end - segment.start >= min_length:
+            if label is not np.nan:
+                label_map.append((label, label))
+                embedding = inference.crop(audio, segment)
+                embeddings.append(embedding)
+    return embeddings, label_map
+
+
+
+for uri in uri_list:
+
+    audio = f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/{uri}.wav"
+    lang_rttm = load_rttm(f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/lang_{uri}.rttm")[uri]
+    ref = load_rttm(f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/ref_{uri}.rttm")[uri]
+    conf = load_rttm(f"/Users/brono/GitHub/cs-dataset/code-switched/{uri}/pyannote/conf_{uri}.rttm")[uri]
+    
+    speaker1, speaker2 = [x for x in ref.labels() if isinstance(x, str) and re.match(r"[A-Z]{3}", x)]
+    lang1, lang2 = [x for x in lang_rttm.labels() if isinstance(x, str) and re.match(r"SPA|ENG", x)]
+
+    embeddings, label_map = process_ref_embeddings(ref, lang_rttm)
+    a, b = process_conf_embeddings(conf)
+    embeddings.extend(a)
+    label_map.extend(b)
     embeddings_array = np.vstack(embeddings)
+
 
     bundle = {
         'embeddings': embeddings_array,
@@ -75,5 +102,5 @@ for uri in uri_list:
         'speaker2': speaker2
     }
 
-    with open(f"embeddings/{uri}_embedding.pkl", 'wb') as f:
+    with open(f"embeddings/conf_{uri}_embedding.pkl", 'wb') as f:
        pickle.dump(bundle, f)
