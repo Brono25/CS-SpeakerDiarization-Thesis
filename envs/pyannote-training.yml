@@ -1,0 +1,12 @@
+name: pyannote-training
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+    - pyannote.metrics
+    - /Users/brono/GitHub/pyannote-audio
